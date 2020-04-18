@@ -1,7 +1,6 @@
 # Framester's FrameNet to WordNet mappings
 
-This repository contains the Framester's FrameNet 1.5 to WordNet 3.0 mappings.
-We provide three mapping profiles:
+This repository contains the Framester's FrameNet 1.5 to WordNet 3.0 mappings organized in three mapping profiles:
 
 1. *Base Profile (B).*  A set of base-mappings was produced by deeply revising existing FrameNet-WordNet mappings (i.e. [eXtended WordFrameNet](https://adimen.si.ehu.es/web/WordFrameNet)),  enriching them with new ones, and manually curating to rectify mapping errors and evocations.
 2. *Direct Profile(D).* The Base Profile plus extensions were automatically added based on:
