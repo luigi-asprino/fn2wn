@@ -468,7 +468,7 @@ frame:Clothing  skos:closeMatch  wn30instances:synset-overgarment-noun-1 .
 
 frame:Chemical-sense_description
         skos:closeMatch  wn30instances:synset-fresh-adjective-6 ,
-        synset-purity-noun-1 . # added
+         wn30instances:synset-purity-noun-1 . # added
 
 frame:Ambient_temperature
         skos:closeMatch  wn30instances:synset-hotness-noun-1 .

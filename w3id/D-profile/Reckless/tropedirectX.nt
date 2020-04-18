@@ -12431,4 +12431,16 @@
 <https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-plaster-verb-4> .
 <https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-mire-verb-4> .
 <https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-glass-verb-3> .
-<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-glass-verb-1> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-purify-verb-1> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-calcify-verb-3> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-nickel-verb-1> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-waste-verb-3> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-buffer-verb-1> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-alkalize-verb-1> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-distill-verb-2> .
+<https://w3id.org/framester/framenet/abox/frame/Substance> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-compound-verb-4> .
+<https://w3id.org/framester/framenet/abox/frame/Existence> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-riskiness-noun-1> .
+<https://w3id.org/framester/framenet/abox/frame/Existence> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-lie-noun-3> .
+<https://w3id.org/framester/framenet/abox/frame/Existence> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-menace-noun-1> .
+<https://w3id.org/framester/framenet/abox/frame/Existence> <http://www.w3.org/2004/02/skos/core#closeMatch> <https://w3id.org/framester/wn/wn30/instances/synset-hazard-noun-1> .
