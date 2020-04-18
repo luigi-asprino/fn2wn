@@ -1,0 +1,109 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/attributebasefn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/attributebasefn2wn.ttl#> .
+@prefix fntbox:  <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/attributebasefn2wn.ttl> a owl:Ontology .
+
+frame:Posture  skos:closeMatch  wn30instances:synset-erect-adjective-1 , wn30instances:synset-unerect-adjective-1 .
+
+frame:Color  skos:closeMatch  wn30instances:synset-colored-adjective-1 , wn30instances:synset-uncolored-adjective-1 .
+
+frame:Speed  skos:closeMatch  wn30instances:synset-slow-adjective-1 .
+
+frame:Commerce_scenario
+        skos:closeMatch  wn30instances:synset-commercial-adjective-1 , wn30instances:synset-noncommercial-adjective-1 .
+
+frame:Usefulness  skos:closeMatch  wn30instances:synset-useless-adjective-1 .
+
+frame:Locative_relation
+        skos:closeMatch  wn30instances:synset-left-adjective-1 , wn30instances:synset-right-adjective-1 .
+
+frame:Stimulus_focus  skos:closeMatch  wn30instances:synset-colorful-adjective-1 , wn30instances:synset-colorless-adjective-2 .
+
+frame:Age  skos:closeMatch  wn30instances:synset-immature-adjective-4 , wn30instances:synset-mature-adjective-3 , wn30instances:synset-new-adjective-1 .
+
+frame:Fame  skos:closeMatch  wn30instances:synset-disreputable-adjective-1 , wn30instances:synset-reputable-adjective-1 .
+
+frame:Fear  skos:closeMatch  wn30instances:synset-unafraid-adjective-1 .
+
+frame:Grant_permission
+        skos:closeMatch  wn30instances:synset-authorized-adjective-1 , wn30instances:synset-unauthorized-adjective-1 .
+
+frame:Part_orientational
+        skos:closeMatch  wn30instances:synset-southern-adjective-3 , wn30instances:synset-northern-adjective-4 .
+
+frame:Chemical-sense_description
+        skos:closeMatch  wn30instances:synset-odorless-adjective-1 , wn30instances:synset-odorous-adjective-1 .
+
+frame:Health_response
+        skos:closeMatch  wn30instances:synset-unsusceptible-adjective-1 , wn30instances:synset-insensitive-adjective-1 .
+
+frame:Range  skos:closeMatch  wn30instances:synset-close-adjective-1 , wn30instances:synset-distant-adjective-1 , wn30instances:synset-far-adjective-1 , wn30instances:synset-near-adjective-1 .
+
+frame:Social_connection
+        skos:closeMatch  wn30instances:synset-connected-adjective-2 , wn30instances:synset-unconnected-adjective-1 .
+
+frame:Medical_conditions
+        skos:closeMatch  wn30instances:synset-unhealthy-adjective-1 .
+
+frame:Catastrophe  skos:closeMatch  wn30instances:synset-critical-adjective-6 , wn30instances:synset-noncritical-adjective-2 .
+
+frame:Capability  skos:closeMatch  wn30instances:synset-incapable-adjective-1 , wn30instances:synset-able-adjective-1 .
+
+frame:Activity_prepare
+        skos:closeMatch  wn30instances:synset-ready-adjective-1 , wn30instances:synset-unready-adjective-1 .
+
+frame:Mental_property
+        skos:closeMatch  wn30instances:synset-able-adjective-1 .
+
+frame:Occupy_rank  skos:closeMatch  wn30instances:synset-dominant-adjective-1 , wn30instances:synset-lower-class-adjective-1 , wn30instances:synset-middle-class-adjective-1 , wn30instances:synset-subordinate-adjective-1 , wn30instances:synset-upper-class-adjective-1 .
+
+frame:Diversity  skos:closeMatch  wn30instances:synset-unvaried-adjective-1 , wn30instances:synset-few-adjective-1 , wn30instances:synset-many-adjective-1 .
+
+frame:Sufficiency  skos:closeMatch  wn30instances:synset-adequate-adjective-1 .
+
+frame:Aggregate  skos:closeMatch  wn30instances:synset-few-adjective-1 , wn30instances:synset-many-adjective-1 .
+
+frame:Awareness  skos:closeMatch  wn30instances:synset-unaware-adjective-1 .
+
+frame:Dimension  skos:closeMatch  wn30instances:synset-light-adjective-1 , wn30instances:synset-short-adjective-2 , wn30instances:synset-deep-adjective-1 , wn30instances:synset-deep-adjective-3 , wn30instances:synset-shallow-adjective-1 , wn30instances:synset-shallow-adjective-2 , wn30instances:synset-short-adjective-3 .
+
+frame:Growing_food  skos:closeMatch  wn30instances:synset-immature-adjective-4 , wn30instances:synset-mature-adjective-3 .
+
+frame:Importance  skos:closeMatch  wn30instances:synset-insignificant-adjective-4 , wn30instances:synset-unimportant-adjective-1 .
+
+frame:Reassuring  skos:closeMatch  wn30instances:synset-reassuring-adjective-1 , wn30instances:synset-unreassuring-adjective-1 .
+
+frame:Presence  skos:closeMatch  wn30instances:synset-absent-adjective-1 .
+
+frame:People_along_political_spectrum
+        skos:closeMatch  wn30instances:synset-conservative-adjective-1 , wn30instances:synset-liberal-adjective-3 .
+
+frame:Rank  skos:closeMatch  wn30instances:synset-high-adjective-1 , wn30instances:synset-intense-adjective-1 , wn30instances:synset-low-adjective-1 , wn30instances:synset-mild-adjective-1 .
+
+frame:Existence  skos:closeMatch  wn30instances:synset-existent-adjective-1 , wn30instances:synset-nonexistent-adjective-1 .
+
+frame:Likelihood  skos:closeMatch  wn30instances:synset-impossible-adjective-1 , wn30instances:synset-possible-adjective-1 , wn30instances:synset-uncertain-adjective-1 .
+
+frame:Probability  skos:closeMatch  wn30instances:synset-likely-adjective-1 , wn30instances:synset-unlikely-adjective-2 , wn30instances:synset-insignificant-adjective-4 , wn30instances:synset-significant-adjective-1 .
+
+frame:Change_of_leadership
+        skos:closeMatch  wn30instances:synset-dependent-adjective-1 , wn30instances:synset-independent-adjective-1 .
+
+frame:Differentiation
+        skos:closeMatch  wn30instances:synset-bad-adjective-1 , wn30instances:synset-good-adjective-1 , wn30instances:synset-negative-adjective-1 , wn30instances:synset-positive-adjective-1 .
+
+frame:Candidness  skos:closeMatch  wn30instances:synset-crooked-adjective-2 .
+
+frame:Quantity  skos:closeMatch  wn30instances:synset-nonstandard-adjective-2 , wn30instances:synset-standard-adjective-1 , wn30instances:synset-high-adjective-1 , wn30instances:synset-intense-adjective-1 , wn30instances:synset-low-adjective-1 , wn30instances:synset-mild-adjective-1 .

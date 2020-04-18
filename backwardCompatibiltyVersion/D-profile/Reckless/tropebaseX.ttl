@@ -1,0 +1,1503 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/tropesbasefn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/tropesbasefn2wn.ttl#> .
+@prefix fntbox:  <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/tropesbasefn2wn.ttl>
+      rdf:type owl:Ontology ;
+      rdfs:comment """An extension of synset-evoking through all trope relations between synsets. This dataset is based on base mappings."""^^xsd:string .
+
+frame:Thwarting  skos:closeMatch  wn30instances:synset-frustration-noun-1 , wn30instances:synset-frustration-noun-3 , wn30instances:synset-hindrance-noun-1 , wn30instances:synset-anticipator-noun-1 , wn30instances:synset-obstructionist-noun-1 .
+
+frame:Abusing  skos:closeMatch  wn30instances:synset-abuser-noun-1 .
+
+frame:Breaking_apart  skos:closeMatch  wn30instances:synset-fragmentation-noun-3 , wn30instances:synset-fragment-noun-1 , wn30instances:synset-shard-noun-1 , wn30instances:synset-fragment-noun-3 , wn30instances:synset-fault-noun-4 , wn30instances:synset-splinter-noun-1 .
+
+frame:Storing  skos:closeMatch  wn30instances:synset-reserve-noun-2 , wn30instances:synset-stockpile-noun-2 , wn30instances:synset-store-noun-2 , wn30instances:synset-stock-noun-2 , wn30instances:synset-hoard-noun-1 , wn30instances:synset-hoarder-noun-1 , wn30instances:synset-warehouser-noun-1 .
+
+frame:Temporal_pattern
+        skos:closeMatch  wn30instances:synset-beat-verb-16 , wn30instances:synset-drum-verb-1 , wn30instances:synset-beat-verb-4 , wn30instances:synset-beat-verb-19 .
+
+frame:Sequence  skos:closeMatch  wn30instances:synset-sequence-verb-2 .
+
+frame:Locale_by_use  skos:closeMatch  wn30instances:synset-ranch-verb-1 , wn30instances:synset-canal-verb-1 , wn30instances:synset-port-verb-3 , wn30instances:synset-shop-verb-3 , wn30instances:synset-channel-verb-2 , wn30instances:synset-garden-verb-1 , wn30instances:synset-grow-verb-7 , wn30instances:synset-park-verb-2 , wn30instances:synset-install-verb-3 , wn30instances:synset-farm-verb-1 , wn30instances:synset-port-verb-2 , wn30instances:synset-locate-verb-3 , wn30instances:synset-patronize-verb-2 , wn30instances:synset-school-verb-1 , wn30instances:synset-park-verb-1 , wn30instances:synset-shop-verb-1 .
+
+frame:Creating  skos:closeMatch  wn30instances:synset-creation-noun-2 , wn30instances:synset-yield-noun-3 , wn30instances:synset-piece-noun-1 , wn30instances:synset-output-noun-2 , wn30instances:synset-manufacturer-noun-2 , wn30instances:synset-output-noun-4 , wn30instances:synset-return-noun-6 , wn30instances:synset-maker-noun-1 , wn30instances:synset-producer-noun-3 , wn30instances:synset-manufacturer-noun-1 , wn30instances:synset-brand-noun-2 .
+
+frame:Forging  skos:closeMatch  wn30instances:synset-falsity-noun-1 , wn30instances:synset-talk_through_one_s_hat-verb-1 , wn30instances:synset-feign-verb-1 , wn30instances:synset-forger-noun-2 , wn30instances:synset-falsifier-noun-1 , wn30instances:synset-finagler-noun-1 , wn30instances:synset-imposter-noun-1 .
+
+frame:Cause_to_be_wet
+        skos:closeMatch  wn30instances:synset-dampener-noun-1 , wn30instances:synset-humidity-noun-1 , wn30instances:synset-downpour-noun-1 , wn30instances:synset-wetter-noun-2 .
+
+frame:Waking_up  skos:closeMatch  wn30instances:synset-waker-noun-2 .
+
+frame:Attempt_suasion
+        skos:closeMatch  wn30instances:synset-temptation-noun-1 , wn30instances:synset-recommendation-noun-1 , wn30instances:synset-force-noun-1 , wn30instances:synset-solicitor-noun-1 , wn30instances:synset-bait-noun-1 , wn30instances:synset-imperativeness-noun-1 , wn30instances:synset-admonition-noun-1 , wn30instances:synset-heckler-noun-1 , wn30instances:synset-pest-noun-3 , wn30instances:synset-advocate-noun-2 , wn30instances:synset-blandishment-noun-1 , wn30instances:synset-counselor-noun-1 , wn30instances:synset-tempter-noun-1 , wn30instances:synset-lure-noun-1 , wn30instances:synset-bait-noun-2 , wn30instances:synset-goad-noun-2 , wn30instances:synset-wheedler-noun-1 , wn30instances:synset-blarney-noun-1 , wn30instances:synset-swindler-noun-1 , wn30instances:synset-admonisher-noun-1 , wn30instances:synset-power-noun-5 , wn30instances:synset-adviser-noun-1 , wn30instances:synset-encouragement-noun-3 , wn30instances:synset-guidance-noun-1 , wn30instances:synset-advisee-noun-1 , wn30instances:synset-blackmail-verb-1 , wn30instances:synset-tease-noun-1 .
+
+frame:Explaining_the_facts
+        skos:closeMatch  wn30instances:synset-report-verb-1 , wn30instances:synset-account-verb-4 .
+
+frame:Organization  skos:closeMatch  wn30instances:synset-unionize-verb-1 , wn30instances:synset-govern-verb-3 , wn30instances:synset-club-verb-1 , wn30instances:synset-delegate-verb-1 , wn30instances:synset-league-verb-1 , wn30instances:synset-unionize-verb-2 , wn30instances:synset-club-verb-2 , wn30instances:synset-group-verb-1 , wn30instances:synset-organize-verb-5 , wn30instances:synset-entrust-verb-1 , wn30instances:synset-group-verb-2 , wn30instances:synset-combine-verb-5 , wn30instances:synset-consociate-verb-1 .
+
+frame:Suasion  skos:closeMatch  wn30instances:synset-motivation-noun-2 , wn30instances:synset-dissuasion-noun-1 , wn30instances:synset-determent-noun-1 , wn30instances:synset-provocation-noun-3 , wn30instances:synset-incitement-noun-3 , wn30instances:synset-motivation-noun-1 , wn30instances:synset-incentive-noun-1 , wn30instances:synset-sway-noun-1 .
+
+frame:Corroding_caused
+        skos:closeMatch  wn30instances:synset-rust-noun-1 , wn30instances:synset-oxidant-noun-1 .
+
+frame:Forgoing  skos:closeMatch  wn30instances:synset-abstain-verb-2 , wn30instances:synset-skipper-noun-1 .
+
+frame:Experiencer_focus
+        skos:closeMatch  wn30instances:synset-enjoyer-noun-1 , wn30instances:synset-delight-noun-1 , wn30instances:synset-apprehend-verb-3 , wn30instances:synset-lover-noun-1 , wn30instances:synset-hater-noun-1 , wn30instances:synset-fan-noun-3 , wn30instances:synset-execration-noun-3 , wn30instances:synset-joy-noun-2 , wn30instances:synset-mourner-noun-1 , wn30instances:synset-love-noun-2 , wn30instances:synset-abomination-noun-1 , wn30instances:synset-commiseration-noun-1 , wn30instances:synset-despair-noun-2 , wn30instances:synset-despisal-noun-1 , wn30instances:synset-abominator-noun-1 , wn30instances:synset-contempt-noun-3 , wn30instances:synset-envy-verb-2 , wn30instances:synset-grief-noun-2 , wn30instances:synset-regret-verb-4 , wn30instances:synset-contempt-noun-1 , wn30instances:synset-compassion-noun-1 , wn30instances:synset-pleaser-noun-1 , wn30instances:synset-meet-verb-4 , wn30instances:synset-sneerer-noun-1 , wn30instances:synset-sadness-noun-2 , wn30instances:synset-comfort-verb-1 , wn30instances:synset-regret-verb-2 .
+
+frame:Memorization  skos:closeMatch  wn30instances:synset-memorizer-noun-1 .
+
+frame:Carry_goods  skos:closeMatch  wn30instances:synset-aircraft_carrier-noun-1 , wn30instances:synset-conveyer_belt-noun-1 , wn30instances:synset-carrier-noun-2 , wn30instances:synset-transporter-noun-1 , wn30instances:synset-carrier-noun-1 , wn30instances:synset-carrier-noun-5 .
+
+frame:Inclination  skos:closeMatch  wn30instances:synset-dispose-verb-3 , wn30instances:synset-tend-verb-1 , wn30instances:synset-predispose-verb-1 .
+
+frame:Trust  skos:closeMatch  wn30instances:synset-accept-verb-1 , wn30instances:synset-believer-noun-1 .
+
+frame:Motion_directional
+        skos:closeMatch  wn30instances:synset-dip-noun-1 , wn30instances:synset-angle-noun-1 , wn30instances:synset-pitch-noun-5 , wn30instances:synset-tilt-noun-4 , wn30instances:synset-faller-noun-2 .
+
+frame:Change_posture  skos:closeMatch  wn30instances:synset-stooper-noun-2 , wn30instances:synset-slouch-noun-2 , wn30instances:synset-bulge-noun-1 , wn30instances:synset-huddler-noun-2 , wn30instances:synset-kneeler-noun-2 , wn30instances:synset-kneeler-noun-1 , wn30instances:synset-sprawler-noun-1 , wn30instances:synset-angle-noun-1 , wn30instances:synset-pitch-noun-5 , wn30instances:synset-sloucher-noun-1 , wn30instances:synset-tilt-noun-4 .
+
+frame:Cogitation  skos:closeMatch  wn30instances:synset-doubt-noun-2 , wn30instances:synset-deliberation-noun-5 , wn30instances:synset-circumstance-noun-3 , wn30instances:synset-survey-noun-1 , wn30instances:synset-cogitation-noun-2 , wn30instances:synset-thinker-noun-1 , wn30instances:synset-thinker-noun-2 , wn30instances:synset-muser-noun-1 .
+
+frame:Releasing  skos:closeMatch  wn30instances:synset-free-noun-1 , wn30instances:synset-liberator-noun-1 .
+
+frame:Control  skos:closeMatch  wn30instances:synset-discovery-noun-3 .
+
+frame:Resolve_problem
+        skos:closeMatch  wn30instances:synset-clarification-noun-1 , wn30instances:synset-problem_solver-noun-1 , wn30instances:synset-handler-noun-2 .
+
+frame:Part_inner_outer
+        skos:closeMatch  wn30instances:synset-internalize-verb-1 , wn30instances:synset-bound-verb-2 , wn30instances:synset-surface-verb-1 , wn30instances:synset-middle-verb-1 , wn30instances:synset-skin-verb-4 .
+
+frame:Deny_permission
+        skos:closeMatch  wn30instances:synset-criminal-noun-1 , wn30instances:synset-prohibition-noun-2 , wn30instances:synset-veto-noun-1 .
+
+frame:Compliance  skos:closeMatch  wn30instances:synset-scoffer-noun-2 , wn30instances:synset-obedience-noun-2 , wn30instances:synset-transgressor-noun-1 , wn30instances:synset-esteem-noun-1 , wn30instances:synset-custodian-noun-1 , wn30instances:synset-keeper-noun-1 , wn30instances:synset-wrongdoer-noun-1 , wn30instances:synset-preserve-noun-2 , wn30instances:synset-violator-noun-1 , wn30instances:synset-deference-noun-2 , wn30instances:synset-respecter-noun-1 , wn30instances:synset-preserver-noun-3 , wn30instances:synset-conflict-noun-4 , wn30instances:synset-respect-noun-3 , wn30instances:synset-regard-noun-6 , wn30instances:synset-deference-noun-1 .
+
+frame:Motion_noise  skos:closeMatch  wn30instances:synset-doorbell-noun-1 , wn30instances:synset-buzzer-noun-2 , wn30instances:synset-boom-noun-1 , wn30instances:synset-thunderer-noun-2 , wn30instances:synset-squeaker-noun-1 , wn30instances:synset-hisser-noun-1 .
+
+frame:Project  skos:closeMatch  wn30instances:synset-scheme-verb-2 , wn30instances:synset-draft-verb-1 , wn30instances:synset-program-verb-1 , wn30instances:synset-plan-verb-2 , wn30instances:synset-plan-verb-3 .
+
+frame:Bungling  skos:closeMatch  wn30instances:synset-lurch-noun-1 , wn30instances:synset-drop_the_ball-verb-1 , wn30instances:synset-bungle-verb-2 .
+
+frame:Law  skos:closeMatch  wn30instances:synset-codify-verb-1 , wn30instances:synset-govern-verb-3 .
+
+frame:Instance  skos:closeMatch  wn30instances:synset-instantiate-verb-2 , wn30instances:synset-instantiate-verb-1 , wn30instances:synset-exemplify-verb-1 , wn30instances:synset-exemplify-verb-2 .
+
+frame:Verification  skos:closeMatch  wn30instances:synset-check-verb-2 , wn30instances:synset-documentation-noun-1 , wn30instances:synset-identification-noun-3 , wn30instances:synset-identity-noun-2 , wn30instances:synset-identity-noun-1 , wn30instances:synset-confirm-verb-2 , wn30instances:synset-evidence-noun-2 , wn30instances:synset-attestation-noun-2 , wn30instances:synset-voucher-noun-1 .
+
+frame:Needing  skos:closeMatch  wn30instances:synset-want-verb-2 , wn30instances:synset-need-noun-2 , wn30instances:synset-requirement-noun-1 .
+
+frame:Opinion  skos:closeMatch  wn30instances:synset-expectation-noun-3 , wn30instances:synset-expectation-noun-1 , wn30instances:synset-guesser-noun-1 , wn30instances:synset-calculator-noun-1 , wn30instances:synset-forecaster-noun-1 .
+
+frame:Win_prize  skos:closeMatch  wn30instances:synset-winner-noun-1 , wn30instances:synset-winner-noun-2 .
+
+frame:Bearing_arms  skos:closeMatch  wn30instances:synset-drawer-noun-1 , wn30instances:synset-pack-noun-9 , wn30instances:synset-gun-verb-1 , wn30instances:synset-shoot-verb-2 .
+
+frame:Undergo_change  skos:closeMatch  wn30instances:synset-change-noun-6 , wn30instances:synset-bend-noun-3 , wn30instances:synset-course-noun-3 , wn30instances:synset-processor-noun-1 , wn30instances:synset-processor-noun-2 .
+
+frame:Experience_bodily_harm
+        skos:closeMatch  wn30instances:synset-sick_person-noun-1 , wn30instances:synset-abrader-noun-1 , wn30instances:synset-abrasion-noun-1 , wn30instances:synset-burn-noun-4 , wn30instances:synset-suffering-noun-4 , wn30instances:synset-rip-noun-2 , wn30instances:synset-graze-noun-2 , wn30instances:synset-tan-noun-1 , wn30instances:synset-fault-noun-4 , wn30instances:synset-skin-noun-1 , wn30instances:synset-graze-noun-1 , wn30instances:synset-hide-noun-2 .
+
+frame:Encoding  skos:closeMatch  wn30instances:synset-phrase-noun-1 , wn30instances:synset-idiom-noun-4 , wn30instances:synset-word-noun-2 , wn30instances:synset-cast-noun-3 , wn30instances:synset-word-noun-1 .
+
+frame:Cause_change_of_consistency
+        skos:closeMatch  wn30instances:synset-clot-noun-1 , wn30instances:synset-softener-noun-1 , wn30instances:synset-coagulant-noun-1 , wn30instances:synset-thickening-noun-1 .
+
+frame:Render_nonfunctional
+        skos:closeMatch  wn30instances:synset-disability-noun-1 , wn30instances:synset-hose-noun-3 .
+
+frame:Text  skos:closeMatch  wn30instances:synset-bulletin-verb-1 , wn30instances:synset-verse-verb-1 , wn30instances:synset-list-verb-1 , wn30instances:synset-editorialize-verb-1 , wn30instances:synset-publish-verb-2 , wn30instances:synset-lament-verb-1 , wn30instances:synset-rhyme-verb-1 , wn30instances:synset-fictionalize-verb-1 , wn30instances:synset-script-verb-1 .
+
+frame:Activity_ongoing
+        skos:closeMatch  wn30instances:synset-preservation-noun-2 , wn30instances:synset-lengthiness-noun-2 , wn30instances:synset-sustain-verb-4 , wn30instances:synset-upholder-noun-1 .
+
+frame:Friction  skos:closeMatch  wn30instances:synset-scraper-noun-1 , wn30instances:synset-rasp-noun-2 , wn30instances:synset-abrasion-noun-1 , wn30instances:synset-scratch-noun-10 .
+
+frame:Terms_of_agreement
+        skos:closeMatch  wn30instances:synset-provide-verb-3 , wn30instances:synset-stipulate-verb-1 .
+
+frame:Adopt_selection
+        skos:closeMatch  wn30instances:synset-given-noun-1 , wn30instances:synset-presumption-noun-2 .
+
+frame:Recovery  skos:closeMatch  wn30instances:synset-remedy-noun-2 , wn30instances:synset-therapist-noun-1 .
+
+frame:Prison  skos:closeMatch  wn30instances:synset-imprison-verb-1 , wn30instances:synset-stockade-verb-1 .
+
+frame:Inspecting  skos:closeMatch  wn30instances:synset-analyzer-noun-1 , wn30instances:synset-checker-noun-2 , wn30instances:synset-scout-noun-4 , wn30instances:synset-rover-noun-2 , wn30instances:synset-scout-noun-3 .
+
+frame:Path_traveled  skos:closeMatch  wn30instances:synset-traverse-verb-1 , wn30instances:synset-course-verb-1 , wn30instances:synset-track-verb-2 , wn30instances:synset-route-verb-2 , wn30instances:synset-route-verb-3 .
+
+frame:Transfer  skos:closeMatch  wn30instances:synset-transmit-verb-4 , wn30instances:synset-transferer-noun-1 .
+
+frame:Weapon  skos:closeMatch  wn30instances:synset-club-verb-3 , wn30instances:synset-gun-verb-1 , wn30instances:synset-lance-verb-2 , wn30instances:synset-garrote-verb-1 , wn30instances:synset-mine-verb-2 , wn30instances:synset-shoot-verb-1 , wn30instances:synset-cannon-verb-2 , wn30instances:synset-arm-verb-2 , wn30instances:synset-dynamite-verb-1 , wn30instances:synset-arm-verb-1 , wn30instances:synset-munition-verb-1 , wn30instances:synset-blast-verb-3 , wn30instances:synset-knife-verb-1 , wn30instances:synset-load-verb-2 , wn30instances:synset-blast-verb-7 , wn30instances:synset-spear-verb-1 , wn30instances:synset-bombard-verb-2 , wn30instances:synset-shoot-verb-2 .
+
+frame:Roadways  skos:closeMatch  wn30instances:synset-pave-verb-1 , wn30instances:synset-railroad-verb-3 , wn30instances:synset-route-verb-1 , wn30instances:synset-rail-verb-7 , wn30instances:synset-traverse-verb-1 , wn30instances:synset-course-verb-1 , wn30instances:synset-bridge-verb-2 , wn30instances:synset-rail-verb-5 , wn30instances:synset-burrow-verb-1 , wn30instances:synset-route-verb-2 , wn30instances:synset-bypass-verb-1 , wn30instances:synset-railroad-verb-2 , wn30instances:synset-bridge-verb-3 , wn30instances:synset-track-verb-2 , wn30instances:synset-train-verb-10 .
+
+frame:Change_event_duration
+        skos:closeMatch  wn30instances:synset-lengthiness-noun-2 , wn30instances:synset-condensation-noun-5 , wn30instances:synset-curtailment-noun-1 , wn30instances:synset-extension-noun-9 , wn30instances:synset-shortener-noun-1 , wn30instances:synset-abridger-noun-1 .
+
+frame:Prevent_from_having
+        skos:closeMatch  wn30instances:synset-denier-noun-3 .
+
+frame:Intercepting  skos:closeMatch  wn30instances:synset-interceptor-noun-1 , wn30instances:synset-catch-noun-6 .
+
+frame:Adding_up  skos:closeMatch  wn30instances:synset-sum-noun-3 , wn30instances:synset-sum-noun-5 , wn30instances:synset-sum-noun-2 , wn30instances:synset-summation-noun-4 , wn30instances:synset-adder-noun-2 .
+
+frame:Adducing  skos:closeMatch  wn30instances:synset-quotation-noun-2 , wn30instances:synset-mention-noun-1 , wn30instances:synset-citation-noun-3 , wn30instances:synset-mentioner-noun-1 .
+
+frame:Tolerating  skos:closeMatch  wn30instances:synset-accept-verb-7 , wn30instances:synset-endurance-noun-1 .
+
+frame:Success_or_failure
+        skos:closeMatch  wn30instances:synset-negligence-noun-2 , wn30instances:synset-achiever-noun-1 .
+
+frame:Attending  skos:closeMatch  wn30instances:synset-attendant-noun-2 .
+
+frame:Activity_finish
+        skos:closeMatch  wn30instances:synset-closer-noun-2 .
+
+frame:Causation  skos:closeMatch  wn30instances:synset-output-noun-2 , wn30instances:synset-magician-noun-1 , wn30instances:synset-cause-noun-1 , wn30instances:synset-output-noun-4 , wn30instances:synset-placement-noun-1 , wn30instances:synset-invocation-noun-2 , wn30instances:synset-incentive-noun-1 , wn30instances:synset-deduction-noun-3 , wn30instances:synset-force-noun-1 , wn30instances:synset-conjuring-noun-1 , wn30instances:synset-yield-noun-3 , wn30instances:synset-rotary_actuator-noun-1 , wn30instances:synset-persuader-noun-1 , wn30instances:synset-drift-noun-1 , wn30instances:synset-return-noun-6 .
+
+frame:Protecting  skos:closeMatch  wn30instances:synset-insulating_material-noun-1 , wn30instances:synset-screen_door-noun-1 , wn30instances:synset-guard-noun-6 , wn30instances:synset-blind-noun-3 , wn30instances:synset-wall-verb-1 , wn30instances:synset-protective_covering-noun-1 , wn30instances:synset-insulator-noun-1 , wn30instances:synset-screen-noun-9 , wn30instances:synset-warder-noun-1 , wn30instances:synset-defender-noun-1 , wn30instances:synset-ward-noun-1 , wn30instances:synset-shield-noun-2 , wn30instances:synset-bulwark-verb-1 .
+
+frame:Being_named  skos:closeMatch  wn30instances:synset-name-verb-5 , wn30instances:synset-identify-verb-5 , wn30instances:synset-dub-verb-1 , wn30instances:synset-namer-noun-1 .
+
+frame:Hunting  skos:closeMatch  wn30instances:synset-seal-noun-9 , wn30instances:synset-hunter-noun-1 .
+
+frame:Change_of_phase
+        skos:closeMatch  wn30instances:synset-solid-noun-3 , wn30instances:synset-gas-noun-2 , wn30instances:synset-condenser-noun-2 , wn30instances:synset-defroster-noun-1 , wn30instances:synset-sublimate-noun-1 , wn30instances:synset-solid-noun-1 , wn30instances:synset-liquid-noun-2 , wn30instances:synset-condenser-noun-3 , wn30instances:synset-vapor-noun-1 , wn30instances:synset-solid-noun-2 , wn30instances:synset-natural_gas-noun-1 , wn30instances:synset-condensation-noun-3 , wn30instances:synset-gas-noun-1 , wn30instances:synset-liquid-noun-3 , wn30instances:synset-melter-noun-1 .
+
+frame:Natural_features
+        skos:closeMatch  wn30instances:synset-beach-verb-1 , wn30instances:synset-mound-verb-1 , wn30instances:synset-land-verb-2 , wn30instances:synset-cavern-verb-1 , wn30instances:synset-decline-verb-5 , wn30instances:synset-glaciate-verb-2 , wn30instances:synset-ground-verb-6 , wn30instances:synset-ground-verb-3 , wn30instances:synset-land-verb-4 , wn30instances:synset-stream-verb-5 , wn30instances:synset-land-verb-6 , wn30instances:synset-ground-verb-5 , wn30instances:synset-ground-verb-7 , wn30instances:synset-cap-verb-1 , wn30instances:synset-separate-verb-1 , wn30instances:synset-summit-verb-1 , wn30instances:synset-outcrop-verb-1 , wn30instances:synset-cave-verb-2 , wn30instances:synset-glaciate-verb-1 , wn30instances:synset-hill-verb-1 , wn30instances:synset-ground-verb-9 , wn30instances:synset-ridge-verb-1 , wn30instances:synset-top-verb-6 , wn30instances:synset-clear-verb-9 , wn30instances:synset-ground-verb-2 .
+
+frame:Accoutrements  skos:closeMatch  wn30instances:synset-belt-verb-3 , wn30instances:synset-bonnet-verb-1 , wn30instances:synset-choke-verb-2 , wn30instances:synset-miter-verb-2 , wn30instances:synset-mask-verb-2 , wn30instances:synset-coif-verb-1 , wn30instances:synset-tick-verb-2 , wn30instances:synset-brooch-verb-1 , wn30instances:synset-hat-verb-1 , wn30instances:synset-chain-verb-2 , wn30instances:synset-badge-verb-1 , wn30instances:synset-collar-verb-3 , wn30instances:synset-hat-verb-2 , wn30instances:synset-veil-verb-1 .
+
+frame:Amalgamation  skos:closeMatch  wn30instances:synset-coalition-noun-2 , wn30instances:synset-mixer-noun-4 , wn30instances:synset-blender-noun-1 , wn30instances:synset-combination-noun-1 , wn30instances:synset-whole-noun-2 , wn30instances:synset-amalgamator-noun-1 .
+
+frame:Cause_emotion  skos:closeMatch  wn30instances:synset-malice-noun-1 , wn30instances:synset-cattiness-noun-1 .
+
+frame:Daring  skos:closeMatch  wn30instances:synset-stake-noun-4 , wn30instances:synset-venture-noun-3 , wn30instances:synset-speculation-noun-3 , wn30instances:synset-hazard-noun-1 , wn30instances:synset-gambler-noun-2 , wn30instances:synset-adventurer-noun-1 .
+
+frame:Predicting  skos:closeMatch  wn30instances:synset-prophet-noun-1 , wn30instances:synset-forecaster-noun-1 .
+
+frame:Execute_plan  skos:closeMatch  wn30instances:synset-implement-noun-1 , wn30instances:synset-founder-noun-2 .
+
+frame:Noise_makers  skos:closeMatch  wn30instances:synset-drum-verb-2 , wn30instances:synset-rattle-verb-2 , wn30instances:synset-alarm-verb-2 , wn30instances:synset-bell-verb-1 .
+
+frame:Renting  skos:closeMatch  wn30instances:synset-charter-noun-2 , wn30instances:synset-lease-noun-2 , wn30instances:synset-leaseholder-noun-1 , wn30instances:synset-tenant-noun-1 .
+
+frame:Be_in_control  skos:closeMatch  wn30instances:synset-control-verb-1 .
+
+frame:Be_translation_equivalent
+        skos:closeMatch  wn30instances:synset-interpreter-noun-4 , wn30instances:synset-translator-noun-1 , wn30instances:synset-interpreter-noun-1 .
+
+frame:Personal_relationship
+        skos:closeMatch  wn30instances:synset-consort-verb-1 , wn30instances:synset-date-noun-2 , wn30instances:synset-love-verb-2 , wn30instances:synset-bachelor-verb-1 , wn30instances:synset-woo-verb-1 , wn30instances:synset-pair-verb-1 , wn30instances:synset-company-verb-1 , wn30instances:synset-love-verb-3 , wn30instances:synset-pal-verb-1 , wn30instances:synset-divorce-verb-2 .
+
+frame:Shapes  skos:closeMatch  wn30instances:synset-solidify-verb-2 , wn30instances:synset-coil-verb-3 , wn30instances:synset-arch-verb-1 , wn30instances:synset-wind-verb-2 , wn30instances:synset-wedge-verb-2 , wn30instances:synset-roll-verb-8 , wn30instances:synset-curl-verb-1 , wn30instances:synset-stretch-verb-1 , wn30instances:synset-block-verb-14 , wn30instances:synset-gyrate-verb-1 , wn30instances:synset-cube-verb-2 .
+
+frame:Importance  skos:closeMatch  wn30instances:synset-topic-noun-2 , wn30instances:synset-matter-noun-5 .
+
+frame:Contrition  skos:closeMatch  wn30instances:synset-sorrow-noun-2 .
+
+frame:Frugality  skos:closeMatch  wn30instances:synset-thriftlessness-noun-1 , wn30instances:synset-wastrel-noun-1 , wn30instances:synset-prodigal-noun-1 , wn30instances:synset-spend-verb-3 , wn30instances:synset-stinter-noun-1 , wn30instances:synset-economizer-noun-1 .
+
+frame:Planting  skos:closeMatch  wn30instances:synset-seeder-noun-2 , wn30instances:synset-planter-noun-3 , wn30instances:synset-plant-noun-2 , wn30instances:synset-seed-noun-2 , wn30instances:synset-seed-noun-1 , wn30instances:synset-sower-noun-1 .
+
+frame:Perception  skos:closeMatch  wn30instances:synset-comprehension-noun-1 , wn30instances:synset-perceiver-noun-1 .
+
+frame:Satisfying  skos:closeMatch  wn30instances:synset-satisfier-noun-1 .
+
+frame:Coming_to_believe
+        skos:closeMatch  wn30instances:synset-learner-noun-1 , wn30instances:synset-observation-noun-4 , wn30instances:synset-reason-noun-3 , wn30instances:synset-discovery-noun-3 , wn30instances:synset-reasoner-noun-1 , wn30instances:synset-detector-noun-1 , wn30instances:synset-derivation-noun-3 , wn30instances:synset-rationality-noun-1 , wn30instances:synset-guesser-noun-1 , wn30instances:synset-apprentice-noun-1 , wn30instances:synset-speculator-noun-1 , wn30instances:synset-observation-noun-3 , wn30instances:synset-skill-noun-1 , wn30instances:synset-deduction-noun-4 , wn30instances:synset-determine-verb-3 , wn30instances:synset-entail-verb-1 , wn30instances:synset-perceiver-noun-1 , wn30instances:synset-detector-noun-3 , wn30instances:synset-settle-verb-3 , wn30instances:synset-decide-verb-1 , wn30instances:synset-reason-noun-1 , wn30instances:synset-finder-noun-2 , wn30instances:synset-suppose-verb-1 , wn30instances:synset-realize-verb-3 , wn30instances:synset-problem_solver-noun-1 .
+
+frame:Amounting_to  skos:closeMatch  wn30instances:synset-sum-noun-2 , wn30instances:synset-total-verb-2 , wn30instances:synset-census_taker-noun-1 , wn30instances:synset-aggregate-verb-2 , wn30instances:synset-aggregate-verb-1 , wn30instances:synset-counter-noun-3 , wn30instances:synset-counter-noun-7 , wn30instances:synset-number-noun-1 , wn30instances:synset-numeral-noun-1 , wn30instances:synset-measure-noun-2 , wn30instances:synset-number-noun-8 , wn30instances:synset-counter-noun-2 , wn30instances:synset-counter-noun-5 , wn30instances:synset-number-noun-2 .
+
+frame:Surviving  skos:closeMatch  wn30instances:synset-exist-verb-2 , wn30instances:synset-survive-verb-2 , wn30instances:synset-brave-noun-2 .
+
+frame:Body_movement  skos:closeMatch  wn30instances:synset-thrower-noun-2 , wn30instances:synset-stalker-noun-1 , wn30instances:synset-path-noun-4 , wn30instances:synset-ski_tow-noun-1 , wn30instances:synset-kneeler-noun-2 , wn30instances:synset-yawner-noun-1 , wn30instances:synset-undoer-noun-2 , wn30instances:synset-arch-noun-1 , wn30instances:synset-shaker-noun-3 , wn30instances:synset-stamp-noun-7 , wn30instances:synset-elevator-noun-1 , wn30instances:synset-arc-noun-2 , wn30instances:synset-winker-noun-1 , wn30instances:synset-pitcher-noun-1 , wn30instances:synset-kneeler-noun-1 , wn30instances:synset-arch-noun-4 , wn30instances:synset-bow-noun-5 , wn30instances:synset-tosser-noun-2 , wn30instances:synset-ascent-noun-1 , wn30instances:synset-bend-noun-1 , wn30instances:synset-extensor_muscle-noun-1 , wn30instances:synset-arch-noun-3 , wn30instances:synset-fold-noun-1 , wn30instances:synset-earthworm-noun-1 , wn30instances:synset-arch-noun-2 , wn30instances:synset-traverser-noun-1 , wn30instances:synset-opener-noun-3 , wn30instances:synset-wrinkle-noun-1 , wn30instances:synset-traversal-noun-2 , wn30instances:synset-wiggler-noun-2 , wn30instances:synset-curvature-noun-3 , wn30instances:synset-shutter-noun-2 , wn30instances:synset-sourpuss-noun-1 , wn30instances:synset-natural_elevation-noun-1 , wn30instances:synset-wiggler-noun-1 , wn30instances:synset-shutter-noun-1 , wn30instances:synset-weightlifter-noun-1 , wn30instances:synset-bender-noun-1 , wn30instances:synset-swinger-noun-1 .
+
+frame:Locale_by_event
+        skos:closeMatch  wn30instances:synset-locate-verb-3 .
+
+frame:Cause_to_rot  skos:closeMatch  wn30instances:synset-putrefaction-noun-1 .
+
+frame:Emotion_directed
+        skos:closeMatch  wn30instances:synset-bereave-verb-1 , wn30instances:synset-humiliate-verb-1 , wn30instances:synset-disgruntle-verb-1 , wn30instances:synset-depress-verb-1 , wn30instances:synset-excite-verb-1 , wn30instances:synset-torment-verb-1 , wn30instances:synset-mystify-verb-2 , wn30instances:synset-worry-verb-2 , wn30instances:synset-delight-verb-2 , wn30instances:synset-confuse-verb-2 , wn30instances:synset-perturb-verb-1 , wn30instances:synset-upset-verb-2 , wn30instances:synset-anger-verb-1 , wn30instances:synset-despond-verb-1 , wn30instances:synset-concern-verb-2 , wn30instances:synset-puzzle-verb-2 , wn30instances:synset-dishearten-verb-1 , wn30instances:synset-elate-verb-1 , wn30instances:synset-amaze-verb-1 , wn30instances:synset-worry-verb-3 , wn30instances:synset-bewilder-verb-2 , wn30instances:synset-commiseration-noun-1 , wn30instances:synset-worry-verb-1 , wn30instances:synset-confuse-verb-3 , wn30instances:synset-anger-verb-2 , wn30instances:synset-satisfy-verb-2 , wn30instances:synset-sympathizer-noun-1 , wn30instances:synset-obfuscate-verb-1 , wn30instances:synset-rage-verb-3 , wn30instances:synset-amuse-verb-2 , wn30instances:synset-despair-verb-1 , wn30instances:synset-perplex-verb-1 , wn30instances:synset-disappoint-verb-1 , wn30instances:synset-exhilarate-verb-1 , wn30instances:synset-distress-verb-2 , wn30instances:synset-discourage-verb-2 , wn30instances:synset-please-verb-1 , wn30instances:synset-grieve-verb-1 .
+
+frame:Rewards_and_punishments
+        skos:closeMatch  wn30instances:synset-compensation-noun-1 , wn30instances:synset-damages-noun-1 , wn30instances:synset-reparation-noun-1 , wn30instances:synset-honor-verb-1 .
+
+frame:Clothing_parts  skos:closeMatch  wn30instances:synset-braid-verb-3 , wn30instances:synset-lace-verb-4 , wn30instances:synset-twist-verb-5 , wn30instances:synset-flog-verb-1 , wn30instances:synset-fringe-verb-2 , wn30instances:synset-whip-verb-4 , wn30instances:synset-sole-verb-1 , wn30instances:synset-cowl-verb-1 , wn30instances:synset-fringe-verb-1 , wn30instances:synset-strap-verb-4 , wn30instances:synset-hood-verb-1 , wn30instances:synset-zip_up-verb-1 , wn30instances:synset-button-verb-1 , wn30instances:synset-collar-verb-3 , wn30instances:synset-button-verb-2 , wn30instances:synset-strap-verb-1 , wn30instances:synset-brooch-verb-1 , wn30instances:synset-plait-verb-2 , wn30instances:synset-buckle-verb-1 , wn30instances:synset-hem-verb-1 , wn30instances:synset-seam-verb-1 .
+
+frame:Collaboration  skos:closeMatch  wn30instances:synset-partner-verb-2 , wn30instances:synset-consociate-verb-1 .
+
+frame:Make_noise  skos:closeMatch  wn30instances:synset-hummer-noun-1 , wn30instances:synset-chirrup-noun-1 , wn30instances:synset-snorer-noun-1 , wn30instances:synset-growler-noun-1 , wn30instances:synset-snorter-noun-1 , wn30instances:synset-mourner-noun-1 , wn30instances:synset-screamer-noun-3 , wn30instances:synset-groaner-noun-1 , wn30instances:synset-drinking_fountain-noun-1 , wn30instances:synset-rattlesnake-noun-1 , wn30instances:synset-snarl-noun-1 , wn30instances:synset-elegy-noun-1 , wn30instances:synset-whistler-noun-2 , wn30instances:synset-babbler-noun-2 , wn30instances:synset-squeaker-noun-1 , wn30instances:synset-whiner-noun-1 , wn30instances:synset-beeper-noun-1 , wn30instances:synset-wailer-noun-1 , wn30instances:synset-croaker-noun-2 , wn30instances:synset-herald-noun-1 , wn30instances:synset-thunderer-noun-2 , wn30instances:synset-twitterer-noun-1 , wn30instances:synset-klaxon-noun-1 , wn30instances:synset-boom-noun-1 , wn30instances:synset-whisperer-noun-1 , wn30instances:synset-tweeter-noun-1 , wn30instances:synset-dirge-noun-1 , wn30instances:synset-honker-noun-1 , wn30instances:synset-rhythm-noun-1 , wn30instances:synset-titter-noun-1 , wn30instances:synset-titterer-noun-1 , wn30instances:synset-dab-noun-2 , wn30instances:synset-cackler-noun-1 , wn30instances:synset-scraper-noun-1 , wn30instances:synset-peeper-noun-3 , wn30instances:synset-crooner-noun-1 , wn30instances:synset-howler_monkey-noun-1 , wn30instances:synset-roarer-noun-1 , wn30instances:synset-lament-noun-1 , wn30instances:synset-gobbler-noun-1 , wn30instances:synset-abrasion-noun-1 , wn30instances:synset-scratch-noun-10 , wn30instances:synset-joke-noun-1 , wn30instances:synset-laugher-noun-1 , wn30instances:synset-toller-noun-1 , wn30instances:synset-pooch-noun-1 , wn30instances:synset-rattle-noun-2 , wn30instances:synset-yodeller-noun-1 , wn30instances:synset-grunter-noun-1 , wn30instances:synset-hisser-noun-1 , wn30instances:synset-rasp-noun-2 .
+
+frame:Expansion  skos:closeMatch  wn30instances:synset-stretcher-noun-2 , wn30instances:synset-inflater-noun-1 , wn30instances:synset-elongation-noun-1 .
+
+frame:Rotting  skos:closeMatch  wn30instances:synset-decay-verb-2 , wn30instances:synset-putrefaction-noun-1 , wn30instances:synset-pus-noun-2 , wn30instances:synset-fester-noun-1 .
+
+frame:Fluidic_motion  skos:closeMatch  wn30instances:synset-course-noun-3 , wn30instances:synset-water_pistol-noun-1 , wn30instances:synset-drip-noun-1 , wn30instances:synset-exit-noun-1 , wn30instances:synset-flow-noun-2 , wn30instances:synset-drinking_fountain-noun-1 , wn30instances:synset-rusher-noun-1 , wn30instances:synset-stream-noun-1 , wn30instances:synset-leak-noun-1 , wn30instances:synset-sprinkler-noun-1 , wn30instances:synset-gusher-noun-1 , wn30instances:synset-percolate-noun-1 , wn30instances:synset-spouter-noun-3 , wn30instances:synset-spouter-noun-2 .
+
+frame:Guest_and_host  skos:closeMatch  wn30instances:synset-invite-verb-2 , wn30instances:synset-invite-verb-5 , wn30instances:synset-host-verb-1 .
+
+frame:Estimated_value
+        skos:closeMatch  wn30instances:synset-estimate-verb-1 .
+
+frame:Sign  skos:closeMatch  wn30instances:synset-marker-noun-1 , wn30instances:synset-marker-noun-3 , wn30instances:synset-signify-verb-2 , wn30instances:synset-notice-verb-2 , wn30instances:synset-argue-verb-3 , wn30instances:synset-indication-noun-3 , wn30instances:synset-signal-noun-1 , wn30instances:synset-mark-noun-4 .
+
+frame:Similarity  skos:closeMatch  wn30instances:synset-differentiate-verb-4 , wn30instances:synset-differentiate-verb-6 , wn30instances:synset-mutate-verb-1 , wn30instances:synset-parallel-verb-1 , wn30instances:synset-distinguish-verb-1 , wn30instances:synset-distinguish-verb-3 .
+
+frame:Religious_belief
+        skos:closeMatch  wn30instances:synset-convert-noun-1 , wn30instances:synset-misbelieve-verb-1 .
+
+frame:Revenge  skos:closeMatch  wn30instances:synset-permit-verb-1 , wn30instances:synset-sanction-verb-2 , wn30instances:synset-approve-verb-1 .
+
+frame:Get_a_job  skos:closeMatch  wn30instances:synset-signer-noun-2 .
+
+frame:Defend  skos:closeMatch  wn30instances:synset-preserve-noun-2 , wn30instances:synset-preserver-noun-3 , wn30instances:synset-protect-verb-1 , wn30instances:synset-defend-verb-3 , wn30instances:synset-champion-verb-1 , wn30instances:synset-defend-verb-1 , wn30instances:synset-shield-verb-1 , wn30instances:synset-defense-noun-3 .
+
+frame:Differentiation
+        skos:closeMatch  wn30instances:synset-qualify-verb-6 , wn30instances:synset-class-noun-3 , wn30instances:synset-kind-noun-1 , wn30instances:synset-class-noun-1 , wn30instances:synset-differentiation-noun-1 , wn30instances:synset-classifier-noun-1 , wn30instances:synset-classification-noun-2 , wn30instances:synset-difference-noun-1 , wn30instances:synset-sorter-noun-1 , wn30instances:synset-differentiator-noun-1 , wn30instances:synset-sorter-noun-2 , wn30instances:synset-class-noun-7 , wn30instances:synset-deviation-noun-1 , wn30instances:synset-class-noun-5 .
+
+frame:Quantity  skos:closeMatch  wn30instances:synset-heap-verb-1 , wn30instances:synset-abound-verb-1 , wn30instances:synset-number-verb-6 , wn30instances:synset-calculate-verb-1 , wn30instances:synset-drip-verb-1 , wn30instances:synset-throng-verb-1 , wn30instances:synset-total-verb-1 , wn30instances:synset-measure-verb-4 , wn30instances:synset-number-verb-2 , wn30instances:synset-measure-verb-1 , wn30instances:synset-dribble-verb-2 , wn30instances:synset-quantify-verb-2 , wn30instances:synset-flood-verb-3 , wn30instances:synset-deluge-verb-1 , wn30instances:synset-drug-verb-1 , wn30instances:synset-jam-verb-6 , wn30instances:synset-number-verb-3 , wn30instances:synset-count-verb-1 .
+
+frame:Bragging  skos:closeMatch  wn30instances:synset-crab-noun-2 , wn30instances:synset-whiner-noun-1 , wn30instances:synset-loudmouth-noun-1 .
+
+frame:Kidnapping  skos:closeMatch  wn30instances:synset-shanghaier-noun-1 .
+
+frame:Growing_food  skos:closeMatch  wn30instances:synset-produce-noun-1 , wn30instances:synset-farm-noun-1 , wn30instances:synset-farmer-noun-1 , wn30instances:synset-agriculturist-noun-1 .
+
+frame:Arranging  skos:closeMatch  wn30instances:synset-array-noun-1 , wn30instances:synset-dress-verb-16 , wn30instances:synset-format-noun-2 , wn30instances:synset-ordering-noun-1 , wn30instances:synset-placement-noun-1 , wn30instances:synset-organizer-noun-1 .
+
+frame:Beat_opponent  skos:closeMatch  wn30instances:synset-predominance-noun-1 , wn30instances:synset-preponderance-noun-2 , wn30instances:synset-subduer-noun-1 , wn30instances:synset-conqueror-noun-1 .
+
+frame:Expensiveness  skos:closeMatch  wn30instances:synset-price-noun-3 , wn30instances:synset-disburse-verb-1 .
+
+frame:Biological_urge
+        skos:closeMatch  wn30instances:synset-crave-verb-1 .
+
+frame:Giving_in  skos:closeMatch  wn30instances:synset-submission-noun-3 , wn30instances:synset-submitter-noun-1 .
+
+frame:Coming_to_be  skos:closeMatch  wn30instances:synset-coalition-noun-2 , wn30instances:synset-mixer-noun-4 , wn30instances:synset-materialization-noun-2 , wn30instances:synset-offspring-noun-2 , wn30instances:synset-whole-noun-2 , wn30instances:synset-unit-noun-4 , wn30instances:synset-combination-noun-1 .
+
+frame:Studying  skos:closeMatch  wn30instances:synset-analyzer-noun-1 .
+
+frame:Measure_linear_extent
+        skos:closeMatch  wn30instances:synset-pace-verb-3 .
+
+frame:Quitting_a_place
+        skos:closeMatch  wn30instances:synset-apostasy-noun-1 , wn30instances:synset-forlornness-noun-1 , wn30instances:synset-resignation-noun-3 , wn30instances:synset-escape-verb-1 , wn30instances:synset-absconder-noun-1 , wn30instances:synset-deserter-noun-2 , wn30instances:synset-deserter-noun-1 .
+
+frame:Imprisonment  skos:closeMatch  wn30instances:synset-imprison-verb-2 , wn30instances:synset-jail-noun-1 , wn30instances:synset-prison_guard-noun-1 .
+
+frame:Apply_heat  skos:closeMatch  wn30instances:synset-microwave-noun-2 , wn30instances:synset-stew-noun-2 , wn30instances:synset-roast-noun-1 , wn30instances:synset-grill-noun-2 , wn30instances:synset-toast-noun-1 , wn30instances:synset-microwave-noun-1 , wn30instances:synset-steam-noun-1 , wn30instances:synset-kettle-noun-1 , wn30instances:synset-steeper-noun-1 , wn30instances:synset-roaster-noun-2 , wn30instances:synset-simmer-noun-1 , wn30instances:synset-fryer-noun-1 , wn30instances:synset-barbecue-noun-1 , wn30instances:synset-cook-noun-1 , wn30instances:synset-roaster-noun-4 , wn30instances:synset-toaster-noun-2 , wn30instances:synset-steamer-noun-2 , wn30instances:synset-grillroom-noun-1 , wn30instances:synset-poacher-noun-2 .
+
+frame:Text_creation  skos:closeMatch  wn30instances:synset-utterer-noun-1 , wn30instances:synset-type-noun-6 , wn30instances:synset-mouthpiece-noun-3 , wn30instances:synset-type-noun-4 , wn30instances:synset-statement-noun-1 , wn30instances:synset-signer-noun-2 , wn30instances:synset-jotter-noun-1 , wn30instances:synset-utterance-noun-1 , wn30instances:synset-speaker-noun-1 , wn30instances:synset-mouth-noun-2 , wn30instances:synset-printer-noun-3 , wn30instances:synset-chronicler-noun-1 , wn30instances:synset-drafter-noun-1 , wn30instances:synset-narrator-noun-1 , wn30instances:synset-outline-noun-3 , wn30instances:synset-jotting-noun-1 , wn30instances:synset-writer-noun-1 , wn30instances:synset-printer-noun-1 , wn30instances:synset-print-noun-1 , wn30instances:synset-printer-noun-2 , wn30instances:synset-draft-noun-5 , wn30instances:synset-typewriter-noun-1 .
+
+frame:Prevarication  skos:closeMatch  wn30instances:synset-chump-noun-1 , wn30instances:synset-hedger-noun-1 , wn30instances:synset-storyteller-noun-2 , wn30instances:synset-misinformation-noun-1 , wn30instances:synset-fool-noun-1 , wn30instances:synset-victim-noun-2 , wn30instances:synset-fink-noun-1 , wn30instances:synset-fake-noun-1 , wn30instances:synset-malingerer-noun-1 , wn30instances:synset-double-crosser-noun-1 , wn30instances:synset-deserter-noun-1 , wn30instances:synset-liar-noun-1 , wn30instances:synset-imposter-noun-1 , wn30instances:synset-deceiver-noun-1 , wn30instances:synset-misleader-noun-1 , wn30instances:synset-informer-noun-1 , wn30instances:synset-deceive-verb-1 .
+
+frame:Origin  skos:closeMatch  wn30instances:synset-root-verb-2 , wn30instances:synset-subjugate-verb-2 .
+
+frame:Sending  skos:closeMatch  wn30instances:synset-telegrapher-noun-1 , wn30instances:synset-export-noun-1 , wn30instances:synset-barge-noun-1 , wn30instances:synset-lighterman-noun-1 , wn30instances:synset-sendee-noun-1 , wn30instances:synset-mail-noun-2 , wn30instances:synset-road-noun-1 , wn30instances:synset-dispatch-noun-1 , wn30instances:synset-facsimile-noun-2 , wn30instances:synset-cargo-noun-1 , wn30instances:synset-mailer-noun-2 , wn30instances:synset-teletypewriter-noun-1 , wn30instances:synset-dispatcher-noun-2 , wn30instances:synset-shipper-noun-1 , wn30instances:synset-exporter-noun-1 , wn30instances:synset-mail-noun-3 , wn30instances:synset-sender-noun-1 , wn30instances:synset-shipper-noun-2 , wn30instances:synset-wirer-noun-1 , wn30instances:synset-telegraph-noun-1 , wn30instances:synset-express-noun-1 , wn30instances:synset-cable-noun-1 .
+
+frame:Sent_items  skos:closeMatch  wn30instances:synset-mail-verb-1 , wn30instances:synset-freight-verb-2 , wn30instances:synset-transport-verb-4 , wn30instances:synset-load-verb-4 , wn30instances:synset-load-verb-1 .
+
+frame:Finish_competition
+        skos:closeMatch  wn30instances:synset-tier-noun-2 , wn30instances:synset-winner-noun-2 , wn30instances:synset-failure-noun-4 , wn30instances:synset-loser-noun-3 , wn30instances:synset-loser-noun-1 .
+
+frame:Awareness  skos:closeMatch  wn30instances:synset-perceive-verb-1 , wn30instances:synset-pall-noun-2 , wn30instances:synset-ignore-verb-5 , wn30instances:synset-defendant-noun-1 , wn30instances:synset-knower-noun-1 , wn30instances:synset-given-noun-1 , wn30instances:synset-guesser-noun-1 , wn30instances:synset-imagination-noun-2 , wn30instances:synset-suspect-noun-1 , wn30instances:synset-suspicion-noun-3 .
+
+frame:Fields  skos:closeMatch  wn30instances:synset-study-verb-2 , wn30instances:synset-learn-verb-4 .
+
+frame:Become_silent  skos:closeMatch  wn30instances:synset-silence-noun-1 , wn30instances:synset-silencer-noun-1 , wn30instances:synset-silencer-noun-2 .
+
+frame:Use_firearm  skos:closeMatch  wn30instances:synset-shot-noun-5 .
+
+frame:Invading  skos:closeMatch  wn30instances:synset-infestation-noun-1 , wn30instances:synset-intrude_on-verb-1 , wn30instances:synset-encroach-verb-1 , wn30instances:synset-infestation-noun-2 , wn30instances:synset-occupier-noun-2 .
+
+frame:Categorization  skos:closeMatch  wn30instances:synset-class-noun-1 , wn30instances:synset-class-noun-3 , wn30instances:synset-interpretation-noun-4 , wn30instances:synset-construal-noun-1 , wn30instances:synset-classifier-noun-1 , wn30instances:synset-stereotype-noun-1 , wn30instances:synset-number-noun-7 , wn30instances:synset-sorter-noun-1 , wn30instances:synset-sorter-noun-2 , wn30instances:synset-interpretation-noun-1 , wn30instances:synset-kind-noun-1 , wn30instances:synset-stamp-noun-2 , wn30instances:synset-rede-verb-1 , wn30instances:synset-class-noun-5 , wn30instances:synset-bracket-noun-1 , wn30instances:synset-class-noun-7 , wn30instances:synset-identity-noun-4 , wn30instances:synset-classification-noun-2 , wn30instances:synset-pigeonhole-noun-1 .
+
+frame:Version_sequence
+        skos:closeMatch  wn30instances:synset-draft-verb-1 .
+
+frame:Sex  skos:closeMatch  wn30instances:synset-mate-noun-3 , wn30instances:synset-fucker-noun-1 , wn30instances:synset-lover-noun-3 .
+
+frame:Communication_noise
+        skos:closeMatch  wn30instances:synset-rattlesnake-noun-1 , wn30instances:synset-cackler-noun-1 , wn30instances:synset-boom-noun-1 , wn30instances:synset-whooper-noun-2 , wn30instances:synset-rattle-noun-2 , wn30instances:synset-hisser-noun-1 , wn30instances:synset-grunter-noun-1 , wn30instances:synset-pooch-noun-1 , wn30instances:synset-whiner-noun-1 , wn30instances:synset-crooner-noun-1 , wn30instances:synset-growler-noun-1 , wn30instances:synset-warbler-noun-1 , wn30instances:synset-screamer-noun-3 , wn30instances:synset-snorter-noun-1 , wn30instances:synset-snarl-noun-1 , wn30instances:synset-chirrup-noun-1 , wn30instances:synset-babble-verb-1 , wn30instances:synset-peeper-noun-3 , wn30instances:synset-drinking_fountain-noun-1 , wn30instances:synset-titter-noun-1 , wn30instances:synset-thunderer-noun-2 , wn30instances:synset-wailer-noun-1 , wn30instances:synset-grumble-noun-2 , wn30instances:synset-roarer-noun-1 , wn30instances:synset-groaner-noun-1 , wn30instances:synset-squeaker-noun-1 , wn30instances:synset-babble-verb-2 , wn30instances:synset-snarl-noun-2 , wn30instances:synset-automobile_horn-noun-1 , wn30instances:synset-titterer-noun-1 , wn30instances:synset-rasp-noun-2 , wn30instances:synset-twitterer-noun-1 , wn30instances:synset-herald-noun-1 .
+
+frame:Process_start  skos:closeMatch  wn30instances:synset-novice-noun-2 , wn30instances:synset-newcomer-noun-1 .
+
+frame:Trial  skos:closeMatch  wn30instances:synset-judge-verb-5 .
+
+frame:Theft  skos:closeMatch  wn30instances:synset-kidnapper-noun-1 , wn30instances:synset-rustler-noun-1 , wn30instances:synset-snatch-verb-1 .
+
+frame:Compatibility  skos:closeMatch  wn30instances:synset-coherence-noun-1 , wn30instances:synset-clash-noun-2 , wn30instances:synset-conflict-noun-4 , wn30instances:synset-adhesiveness-noun-1 , wn30instances:synset-dovetail-noun-1 , wn30instances:synset-match-noun-4 .
+
+frame:Cause_to_resume
+        skos:closeMatch  wn30instances:synset-reinstatement-noun-1 , wn30instances:synset-resuscitator-noun-1 .
+
+frame:Expected_location_of_person
+        skos:closeMatch  wn30instances:synset-place-verb-9 , wn30instances:synset-home-verb-2 .
+
+frame:Building  skos:closeMatch  wn30instances:synset-paster-noun-1 , wn30instances:synset-maker-noun-1 , wn30instances:synset-builder-noun-3 , wn30instances:synset-glue-noun-1 , wn30instances:synset-gummed_label-noun-1 , wn30instances:synset-welder-noun-1 , wn30instances:synset-weldment-noun-1 , wn30instances:synset-paste-noun-3 , wn30instances:synset-piece-noun-1 , wn30instances:synset-erection-noun-2 .
+
+frame:Interrupt_process
+        skos:closeMatch  wn30instances:synset-interrupter-noun-1 .
+
+frame:Escaping  skos:closeMatch  wn30instances:synset-escape-noun-5 , wn30instances:synset-escapee-noun-1 .
+
+frame:Bail_decision  skos:closeMatch  wn30instances:synset-bail-verb-1 .
+
+frame:Communication  skos:closeMatch  wn30instances:synset-conveyer-noun-1 , wn30instances:synset-commune-verb-2 , wn30instances:synset-signer-noun-1 , wn30instances:synset-indication-noun-1 , wn30instances:synset-channel-noun-5 , wn30instances:synset-signaler-noun-1 , wn30instances:synset-lucubration-noun-1 , wn30instances:synset-transportation-noun-2 , wn30instances:synset-transmission-noun-1 , wn30instances:synset-communicate-verb-1 , wn30instances:synset-transferer-noun-1 , wn30instances:synset-statement-noun-1 , wn30instances:synset-conveyance-noun-3 , wn30instances:synset-propagator-noun-2 , wn30instances:synset-convey-verb-3 , wn30instances:synset-communicate-verb-6 , wn30instances:synset-sender-noun-1 , wn30instances:synset-dissemination-noun-2 , wn30instances:synset-communicate-verb-5 , wn30instances:synset-signal-noun-1 , wn30instances:synset-narrator-noun-1 , wn30instances:synset-communicator-noun-1 , wn30instances:synset-indication-noun-3 .
+
+frame:Store  skos:closeMatch  wn30instances:synset-supply-verb-1 , wn30instances:synset-load-verb-1 , wn30instances:synset-stock-verb-1 , wn30instances:synset-freight-verb-2 , wn30instances:synset-transport-verb-4 , wn30instances:synset-load-verb-4 , wn30instances:synset-allow-verb-4 , wn30instances:synset-stock-verb-3 , wn30instances:synset-reserve-verb-1 , wn30instances:synset-issue-verb-2 , wn30instances:synset-stock-verb-5 , wn30instances:synset-store-verb-1 , wn30instances:synset-provide-verb-2 , wn30instances:synset-backlog-verb-1 , wn30instances:synset-stock-verb-6 .
+
+frame:Change_of_consistency
+        skos:closeMatch  wn30instances:synset-clot-noun-1 , wn30instances:synset-thickening-noun-1 , wn30instances:synset-coagulant-noun-1 .
+
+frame:Processing_materials
+        skos:closeMatch  wn30instances:synset-dye-noun-1 , wn30instances:synset-enrich-verb-2 , wn30instances:synset-spinner-noun-1 , wn30instances:synset-galvanizer-noun-1 , wn30instances:synset-etcher-noun-1 , wn30instances:synset-dyer-noun-1 , wn30instances:synset-stainer-noun-1 .
+
+frame:Achieving_first
+        skos:closeMatch  wn30instances:synset-discovery-noun-3 , wn30instances:synset-initiate-verb-2 , wn30instances:synset-introduce-verb-2 , wn30instances:synset-coiner-noun-2 , wn30instances:synset-gestate-verb-1 , wn30instances:synset-mastermind-verb-1 , wn30instances:synset-excogitator-noun-1 , wn30instances:synset-planner-noun-1 .
+
+frame:Cause_to_be_dry
+        skos:closeMatch  wn30instances:synset-dryer-noun-1 , wn30instances:synset-dehydration-noun-1 , wn30instances:synset-desiccant-noun-1 .
+
+frame:Body_mark  skos:closeMatch  wn30instances:synset-splotch-verb-1 , wn30instances:synset-blister-verb-1 , wn30instances:synset-blemish-verb-2 , wn30instances:synset-freckle-verb-2 , wn30instances:synset-flaw-verb-1 , wn30instances:synset-deface-verb-1 , wn30instances:synset-scar-verb-1 , wn30instances:synset-mottle-verb-1 , wn30instances:synset-mar-verb-1 , wn30instances:synset-scarify-verb-1 .
+
+frame:Relating_concepts
+        skos:closeMatch  wn30instances:synset-association-noun-3 , wn30instances:synset-connection-noun-2 , wn30instances:synset-junction-noun-2 .
+
+frame:Social_event  skos:closeMatch  wn30instances:synset-feast-verb-2 , wn30instances:synset-dine-verb-1 , wn30instances:synset-dine-verb-2 , wn30instances:synset-party-verb-1 , wn30instances:synset-host-noun-8 , wn30instances:synset-master_of_ceremonies-noun-1 , wn30instances:synset-host-noun-1 .
+
+frame:Seeking  skos:closeMatch  wn30instances:synset-tactile_property-noun-1 , wn30instances:synset-spectator-noun-1 , wn30instances:synset-hearer-noun-1 , wn30instances:synset-moocher-noun-1 , wn30instances:synset-searcher-noun-2 , wn30instances:synset-seeker-noun-1 , wn30instances:synset-hunter-noun-2 .
+
+frame:Forming_relationships
+        skos:closeMatch  wn30instances:synset-suitor-noun-1 , wn30instances:synset-divorcee-noun-1 .
+
+frame:Soaking_up  skos:closeMatch  wn30instances:synset-sponge-noun-1 , wn30instances:synset-absorber-noun-1 , wn30instances:synset-drinker-noun-2 , wn30instances:synset-chump-noun-1 .
+
+frame:Food  skos:closeMatch  wn30instances:synset-sweeten-verb-1 , wn30instances:synset-stew-verb-3 , wn30instances:synset-berry-verb-1 , wn30instances:synset-milk-verb-3 , wn30instances:synset-honey-verb-1 , wn30instances:synset-fruit-verb-1 , wn30instances:synset-fruit-verb-2 , wn30instances:synset-sauce-verb-3 , wn30instances:synset-pepper-verb-1 , wn30instances:synset-milk-verb-1 , wn30instances:synset-zest-verb-1 , wn30instances:synset-prawn-verb-1 , wn30instances:synset-fructify-verb-1 , wn30instances:synset-egg-verb-2 , wn30instances:synset-nutrify-verb-1 , wn30instances:synset-fructify-verb-3 , wn30instances:synset-bread-verb-1 , wn30instances:synset-butter-verb-1 , wn30instances:synset-egg-verb-1 , wn30instances:synset-sauce-verb-2 , wn30instances:synset-shrimp-verb-1 .
+
+frame:Part_whole  skos:closeMatch  wn30instances:synset-segment-verb-1 , wn30instances:synset-break_up-verb-16 .
+
+frame:Communicate_categorization
+        skos:closeMatch  wn30instances:synset-depicting-noun-1 , wn30instances:synset-representation-noun-2 , wn30instances:synset-delineate-verb-5 , wn30instances:synset-quality-noun-1 , wn30instances:synset-quality-noun-3 , wn30instances:synset-portraitist-noun-1 , wn30instances:synset-painter-noun-1 , wn30instances:synset-interpreter-noun-2 .
+
+frame:Ceasing_to_be  skos:closeMatch  wn30instances:synset-vanisher-noun-1 .
+
+frame:Working_on  skos:closeMatch  wn30instances:synset-work-verb-3 , wn30instances:synset-worker-noun-1 , wn30instances:synset-worker-noun-3 , wn30instances:synset-actor-noun-2 , wn30instances:synset-plodder-noun-2 .
+
+frame:Kinship  skos:closeMatch  wn30instances:synset-derivation-noun-1 , wn30instances:synset-ancestry-noun-2 , wn30instances:synset-mother-verb-1 , wn30instances:synset-beget-verb-1 , wn30instances:synset-rear-verb-2 .
+
+frame:Color  skos:closeMatch  wn30instances:synset-green-verb-1 , wn30instances:synset-discolor-verb-3 , wn30instances:synset-color-verb-4 , wn30instances:synset-color-verb-1 .
+
+frame:Identicality  skos:closeMatch  wn30instances:synset-identify-verb-1 , wn30instances:synset-identify-verb-5 , wn30instances:synset-name-verb-2 .
+
+frame:Recording  skos:closeMatch  wn30instances:synset-recorder-noun-1 , wn30instances:synset-software_documentation-noun-1 , wn30instances:synset-register-noun-1 , wn30instances:synset-registration-noun-3 , wn30instances:synset-record-noun-1 , wn30instances:synset-record-noun-7 , wn30instances:synset-register-noun-3 , wn30instances:synset-chronicler-noun-1 , wn30instances:synset-registrar-noun-3 .
+
+frame:Import_export  skos:closeMatch  wn30instances:synset-import-noun-2 .
+
+frame:Deciding  skos:closeMatch  wn30instances:synset-determine-verb-3 , wn30instances:synset-settle-verb-3 .
+
+frame:Corroding  skos:closeMatch  wn30instances:synset-corrosion-noun-1 , wn30instances:synset-rust-noun-1 .
+
+frame:Appeal  skos:closeMatch  wn30instances:synset-invocation-noun-1 .
+
+frame:Have_as_requirement
+        skos:closeMatch  wn30instances:synset-need-noun-1 , wn30instances:synset-need-noun-2 , wn30instances:synset-requirement-noun-1 .
+
+frame:Pardon  skos:closeMatch  wn30instances:synset-excuse-noun-1 .
+
+frame:Precipitation  skos:closeMatch  wn30instances:synset-sprinkler-noun-1 , wn30instances:synset-pour-verb-6 , wn30instances:synset-snow-noun-2 , wn30instances:synset-drench-verb-4 .
+
+frame:Communication_manner
+        skos:closeMatch  wn30instances:synset-mouth-noun-2 , wn30instances:synset-simperer-noun-1 , wn30instances:synset-drawl-noun-1 , wn30instances:synset-mutterer-noun-1 , wn30instances:synset-mouthpiece-noun-3 , wn30instances:synset-stammer-noun-1 , wn30instances:synset-stammerer-noun-1 , wn30instances:synset-chant-noun-1 , wn30instances:synset-babble-noun-1 , wn30instances:synset-singer-noun-1 , wn30instances:synset-ranter-noun-1 , wn30instances:synset-informer-noun-1 , wn30instances:synset-lisper-noun-1 , wn30instances:synset-drawler-noun-1 , wn30instances:synset-smirker-noun-1 , wn30instances:synset-prattler-noun-1 , wn30instances:synset-driveller-noun-1 , wn30instances:synset-whisperer-noun-1 , wn30instances:synset-twaddler-noun-1 , wn30instances:synset-utterance-noun-1 , wn30instances:synset-chatterer-noun-1 , wn30instances:synset-speaker-noun-1 , wn30instances:synset-visitor-noun-1 , wn30instances:synset-roarer-noun-1 .
+
+frame:Breathing  skos:closeMatch  wn30instances:synset-respirator-noun-1 , wn30instances:synset-halitus-noun-1 .
+
+frame:Occupy_rank  skos:closeMatch  wn30instances:synset-rank-noun-2 , wn30instances:synset-ranker-noun-1 , wn30instances:synset-ranker-noun-2 .
+
+frame:Expertise  skos:closeMatch  wn30instances:synset-master-verb-4 , wn30instances:synset-master-verb-1 , wn30instances:synset-give-verb-18 , wn30instances:synset-specialize-verb-4 , wn30instances:synset-excellence-noun-1 , wn30instances:synset-experience-verb-1 , wn30instances:synset-breeze_through-verb-1 , wn30instances:synset-star-verb-2 , wn30instances:synset-love-verb-2 , wn30instances:synset-introduce-verb-1 .
+
+frame:Chemical-sense_description
+        skos:closeMatch  wn30instances:synset-smell-verb-2 , wn30instances:synset-scent-verb-2 , wn30instances:synset-smell-noun-4 , wn30instances:synset-stinker-noun-2 , wn30instances:synset-odorize-verb-1 .
+
+frame:Cause_bodily_experience
+        skos:closeMatch  wn30instances:synset-abrasion-noun-1 , wn30instances:synset-chafe-noun-1 , wn30instances:synset-scratcher-noun-2 , wn30instances:synset-massager-noun-1 .
+
+frame:Possession  skos:closeMatch  wn30instances:synset-owner-noun-1 , wn30instances:synset-rich_person-noun-1 .
+
+frame:Part_piece  skos:closeMatch  wn30instances:synset-slice-verb-3 , wn30instances:synset-shred-verb-1 , wn30instances:synset-snip-verb-2 , wn30instances:synset-lump-verb-1 , wn30instances:synset-peel_off-verb-4 , wn30instances:synset-break_up-verb-16 , wn30instances:synset-chip-verb-1 , wn30instances:synset-nip-verb-3 , wn30instances:synset-sliver-verb-3 , wn30instances:synset-splinter-verb-3 , wn30instances:synset-chip-verb-5 , wn30instances:synset-chip-verb-4 , wn30instances:synset-collocate-verb-2 , wn30instances:synset-sliver-verb-1 .
+
+frame:Coming_up_with  skos:closeMatch  wn30instances:synset-design-noun-2 , wn30instances:synset-improvisation-noun-1 , wn30instances:synset-plan-noun-1 , wn30instances:synset-storyteller-noun-2 , wn30instances:synset-ad-lib-noun-1 , wn30instances:synset-originator-noun-1 , wn30instances:synset-planner-noun-1 , wn30instances:synset-excogitator-noun-1 , wn30instances:synset-inventor-noun-1 , wn30instances:synset-coiner-noun-2 .
+
+frame:Cause_to_continue
+        skos:closeMatch  wn30instances:synset-upholder-noun-1 .
+
+frame:Shoot_projectiles
+        skos:closeMatch  wn30instances:synset-shot-noun-5 .
+
+frame:Cause_change_of_phase
+        skos:closeMatch  wn30instances:synset-boiler-noun-1 , wn30instances:synset-defroster-noun-1 , wn30instances:synset-solid-noun-3 , wn30instances:synset-solid-noun-1 , wn30instances:synset-solid-noun-2 , wn30instances:synset-liquid-noun-2 , wn30instances:synset-liquid-noun-3 , wn30instances:synset-melter-noun-1 .
+
+frame:Statement  skos:closeMatch  wn30instances:synset-theorist-noun-1 , wn30instances:synset-homily-noun-1 , wn30instances:synset-mentioner-noun-1 , wn30instances:synset-mouthpiece-noun-3 , wn30instances:synset-confirmation-noun-1 , wn30instances:synset-confession-noun-2 , wn30instances:synset-license-noun-1 , wn30instances:synset-writer-noun-1 , wn30instances:synset-rebutter-noun-1 , wn30instances:synset-concede-verb-3 , wn30instances:synset-denier-noun-3 , wn30instances:synset-narrative-noun-1 , wn30instances:synset-announcer-noun-1 , wn30instances:synset-observer-noun-2 , wn30instances:synset-detail-noun-1 , wn30instances:synset-simperer-noun-1 , wn30instances:synset-narrator-noun-1 , wn30instances:synset-confessor-noun-2 , wn30instances:synset-confirmation-noun-2 , wn30instances:synset-preacher-noun-1 , wn30instances:synset-addressee-noun-1 , wn30instances:synset-account-verb-4 , wn30instances:synset-mouth-noun-2 , wn30instances:synset-smirker-noun-1 , wn30instances:synset-attester-noun-1 , wn30instances:synset-rebutter-noun-2 , wn30instances:synset-concede-verb-4 , wn30instances:synset-attestation-noun-2 , wn30instances:synset-announcer-noun-2 , wn30instances:synset-utterance-noun-1 , wn30instances:synset-sanction-noun-1 , wn30instances:synset-swearer-noun-2 , wn30instances:synset-detail-noun-2 , wn30instances:synset-admonisher-noun-1 , wn30instances:synset-speculator-noun-1 , wn30instances:synset-asserter-noun-1 , wn30instances:synset-disproof-noun-1 , wn30instances:synset-recognition-noun-1 , wn30instances:synset-restatement-noun-1 , wn30instances:synset-admonition-noun-1 , wn30instances:synset-suppose-verb-1 , wn30instances:synset-mention-verb-1 , wn30instances:synset-guesser-noun-1 , wn30instances:synset-speaker-noun-1 , wn30instances:synset-suggester-noun-1 , wn30instances:synset-sourpuss-noun-1 , wn30instances:synset-caution-noun-2 , wn30instances:synset-concede-verb-2 , wn30instances:synset-coerce-verb-1 .
+
+frame:Change_direction
+        skos:closeMatch  wn30instances:synset-bend-noun-3 , wn30instances:synset-course-noun-3 .
+
+frame:Proliferating_in_number
+        skos:closeMatch  wn30instances:synset-multiplication-noun-3 .
+
+frame:Emotion_active  skos:closeMatch  wn30instances:synset-troublesomeness-noun-1 , wn30instances:synset-concern-noun-4 , wn30instances:synset-worrier-noun-1 .
+
+frame:Renting_out  skos:closeMatch  wn30instances:synset-leaseholder-noun-1 , wn30instances:synset-lease-noun-1 , wn30instances:synset-lease-noun-2 , wn30instances:synset-lessor-noun-1 , wn30instances:synset-letter-noun-3 , wn30instances:synset-renter-noun-2 .
+
+frame:Run_risk  skos:closeMatch  wn30instances:synset-stake-noun-4 , wn30instances:synset-gamble-verb-1 , wn30instances:synset-venture-verb-3 , wn30instances:synset-endanger-verb-1 , wn30instances:synset-queer-verb-2 , wn30instances:synset-bettor-noun-1 .
+
+frame:Deserving  skos:closeMatch  wn30instances:synset-deservingness-noun-1 .
+
+frame:Simultaneity  skos:closeMatch  wn30instances:synset-concur-verb-2 .
+
+frame:Subordinates_and_superiors
+        skos:closeMatch  wn30instances:synset-subordinate-verb-2 , wn30instances:synset-subordinate-verb-1 , wn30instances:synset-stooge-verb-3 , wn30instances:synset-help-verb-6 , wn30instances:synset-help-verb-1 , wn30instances:synset-support-verb-1 .
+
+frame:Board_vehicle  skos:closeMatch  wn30instances:synset-hopper-noun-1 , wn30instances:synset-hopper-noun-2 , wn30instances:synset-boarder-noun-2 .
+
+frame:Buildings  skos:closeMatch  wn30instances:synset-beacon-verb-1 , wn30instances:synset-lodge-verb-1 , wn30instances:synset-church-verb-1 , wn30instances:synset-fort-verb-1 , wn30instances:synset-hospitalize-verb-1 , wn30instances:synset-fort-verb-3 , wn30instances:synset-beacon-verb-2 , wn30instances:synset-house-verb-2 , wn30instances:synset-shelter-verb-1 , wn30instances:synset-fortify-verb-2 , wn30instances:synset-garage-verb-1 , wn30instances:synset-home-verb-1 .
+
+frame:Linguistic_meaning
+        skos:closeMatch  wn30instances:synset-interpret-verb-1 , wn30instances:synset-connote-verb-2 , wn30instances:synset-mean-verb-3 , wn30instances:synset-spell-verb-2 , wn30instances:synset-signify-verb-2 , wn30instances:synset-rede-verb-1 .
+
+frame:Desirability  skos:closeMatch  wn30instances:synset-excel-verb-1 .
+
+frame:Corporal_punishment
+        skos:closeMatch  wn30instances:synset-paddle-noun-3 , wn30instances:synset-slapper-noun-1 , wn30instances:synset-cane-noun-3 , wn30instances:synset-wale-noun-1 , wn30instances:synset-strap-noun-4 , wn30instances:synset-flogger-noun-1 , wn30instances:synset-whip-noun-1 , wn30instances:synset-lash-noun-2 , wn30instances:synset-scourge-noun-1 , wn30instances:synset-switcher-noun-1 .
+
+frame:Perception_body
+        skos:closeMatch  wn30instances:synset-ache-noun-1 , wn30instances:synset-whirl-noun-2 , wn30instances:synset-pain-verb-2 , wn30instances:synset-stinger-noun-4 , wn30instances:synset-whirler-noun-2 , wn30instances:synset-spinner-noun-3 , wn30instances:synset-ailment-noun-1 , wn30instances:synset-whirling_dervish-noun-1 .
+
+frame:Fastener  skos:closeMatch  wn30instances:synset-button-verb-2 , wn30instances:synset-zip_up-verb-1 , wn30instances:synset-emboss-verb-1 , wn30instances:synset-buckle-verb-1 , wn30instances:synset-seal-verb-2 , wn30instances:synset-button-verb-1 , wn30instances:synset-seal-verb-4 .
+
+frame:Birth  skos:closeMatch  wn30instances:synset-pup-noun-1 , wn30instances:synset-layer-noun-4 , wn30instances:synset-spawner-noun-1 , wn30instances:synset-forefather-noun-1 , wn30instances:synset-sire-noun-3 , wn30instances:synset-mother-noun-1 , wn30instances:synset-father-noun-1 .
+
+frame:Attack  skos:closeMatch  wn30instances:synset-occupier-noun-2 , wn30instances:synset-charger-noun-1 , wn30instances:synset-encroach-verb-1 , wn30instances:synset-bomber-noun-1 , wn30instances:synset-bomb-noun-1 , wn30instances:synset-attack-verb-6 , wn30instances:synset-attack-verb-3 , wn30instances:synset-attack-verb-2 , wn30instances:synset-infiltrator-noun-2 , wn30instances:synset-attack-verb-5 , wn30instances:synset-surpriser-noun-1 , wn30instances:synset-lurker-noun-1 , wn30instances:synset-ambusher-noun-1 , wn30instances:synset-intrude_on-verb-1 , wn30instances:synset-bomber-noun-2 .
+
+frame:Rank  skos:closeMatch  wn30instances:synset-rank-verb-1 , wn30instances:synset-rate-verb-1 .
+
+frame:Cause_to_experience
+        skos:closeMatch  wn30instances:synset-frustration-noun-3 , wn30instances:synset-harassment-noun-1 , wn30instances:synset-panic-noun-1 , wn30instances:synset-entertainment-noun-1 , wn30instances:synset-tormentor-noun-1 , wn30instances:synset-entertainer-noun-1 .
+
+frame:Inhibit_movement
+        skos:closeMatch  wn30instances:synset-captivity-noun-1 , wn30instances:synset-enclose-verb-2 , wn30instances:synset-detention-noun-1 , wn30instances:synset-hold-noun-7 , wn30instances:synset-jail-noun-1 , wn30instances:synset-detainee-noun-1 , wn30instances:synset-prison_guard-noun-1 .
+
+frame:Scope  skos:closeMatch  wn30instances:synset-range-verb-4 , wn30instances:synset-compass-verb-1 .
+
+frame:Documents  skos:closeMatch  wn30instances:synset-certify-verb-4 , wn30instances:synset-testify-verb-1 , wn30instances:synset-serve-verb-11 , wn30instances:synset-bequeath-verb-1 , wn30instances:synset-certificate-verb-1 , wn30instances:synset-license-verb-1 , wn30instances:synset-allow-verb-10 , wn30instances:synset-visa-verb-1 , wn30instances:synset-certificate-verb-2 , wn30instances:synset-charter-verb-2 , wn30instances:synset-subpoena-verb-1 , wn30instances:synset-summon-verb-1 , wn30instances:synset-document-verb-2 , wn30instances:synset-action-verb-1 , wn30instances:synset-permit-verb-1 .
+
+frame:Certainty  skos:closeMatch  wn30instances:synset-doubt-noun-2 , wn30instances:synset-awareness-noun-1 , wn30instances:synset-believer-noun-1 , wn30instances:synset-doubt-verb-1 , wn30instances:synset-knower-noun-1 .
+
+frame:Rape  skos:closeMatch  wn30instances:synset-violator-noun-2 .
+
+frame:Place_weight_on
+        skos:closeMatch  wn30instances:synset-concentration-noun-5 , wn30instances:synset-assiduity-noun-1 , wn30instances:synset-focus-noun-1 , wn30instances:synset-center-noun-6 .
+
+frame:Fear  skos:closeMatch  wn30instances:synset-fear-verb-2 , wn30instances:synset-apprehend-verb-3 , wn30instances:synset-terrorize-verb-1 , wn30instances:synset-terrify-verb-1 .
+
+frame:Research  skos:closeMatch  wn30instances:synset-research_worker-noun-1 .
+
+frame:Renunciation  skos:closeMatch  wn30instances:synset-abdicator-noun-1 .
+
+frame:Suitability  skos:closeMatch  wn30instances:synset-match-noun-9 , wn30instances:synset-fitter-noun-1 .
+
+frame:Location_in_time
+        skos:closeMatch  wn30instances:synset-date-verb-3 .
+
+frame:Mental_property
+        skos:closeMatch  wn30instances:synset-grok-verb-1 , wn30instances:synset-enlighten-verb-1 , wn30instances:synset-mind-verb-6 .
+
+frame:People  skos:closeMatch  wn30instances:synset-people-verb-1 .
+
+frame:Giving  skos:closeMatch  wn30instances:synset-gift-noun-1 , wn30instances:synset-will-noun-3 , wn30instances:synset-endowment-noun-2 , wn30instances:synset-subscriber-noun-3 , wn30instances:synset-give-verb-3 , wn30instances:synset-dowry-noun-1 , wn30instances:synset-dower-noun-2 .
+
+frame:Influence_of_event_on_cognizer
+        skos:closeMatch  wn30instances:synset-influence-noun-4 , wn30instances:synset-influence-noun-1 , wn30instances:synset-usher-noun-3 , wn30instances:synset-guide-noun-2 , wn30instances:synset-maneuverer-noun-1 , wn30instances:synset-helmsman-noun-1 , wn30instances:synset-influence-noun-5 .
+
+frame:Redirecting  skos:closeMatch  wn30instances:synset-detour-noun-1 .
+
+frame:Getting_up  skos:closeMatch  wn30instances:synset-riser-noun-1 .
+
+frame:Indicating  skos:closeMatch  wn30instances:synset-identification-noun-3 , wn30instances:synset-identity-noun-2 , wn30instances:synset-identification-noun-2 .
+
+frame:Operational_testing
+        skos:closeMatch  wn30instances:synset-test-noun-4 , wn30instances:synset-trier-noun-2 , wn30instances:synset-examiner-noun-1 .
+
+frame:Distinctiveness
+        skos:closeMatch  wn30instances:synset-allow-verb-4 , wn30instances:synset-quality-noun-1 , wn30instances:synset-quality-noun-3 .
+
+frame:Light_movement  skos:closeMatch  wn30instances:synset-blinker-noun-2 , wn30instances:synset-reflect-verb-4 , wn30instances:synset-radiate-verb-5 , wn30instances:synset-radiate-verb-1 , wn30instances:synset-beam-noun-4 , wn30instances:synset-ice-noun-3 , wn30instances:synset-blinker-noun-1 , wn30instances:synset-twinkler-noun-1 , wn30instances:synset-shine-verb-7 .
+
+frame:Cause_to_make_progress
+        skos:closeMatch  wn30instances:synset-improvement-noun-3 , wn30instances:synset-better-noun-4 , wn30instances:synset-development-noun-6 , wn30instances:synset-addition-noun-1 , wn30instances:synset-perfecter-noun-1 , wn30instances:synset-humanitarian-noun-1 , wn30instances:synset-developer-noun-1 .
+
+frame:Using  skos:closeMatch  wn30instances:synset-utilizer-noun-1 , wn30instances:synset-user-noun-1 , wn30instances:synset-operator-noun-3 .
+
+frame:Conquering  skos:closeMatch  wn30instances:synset-appropriator-noun-1 .
+
+frame:Emptying  skos:closeMatch  wn30instances:synset-seeder-noun-3 , wn30instances:synset-pacifist-noun-1 , wn30instances:synset-weed-noun-1 , wn30instances:synset-disembarrassment-noun-1 , wn30instances:synset-defroster-noun-1 , wn30instances:synset-bone-noun-2 , wn30instances:synset-weeder-noun-1 , wn30instances:synset-parer-noun-2 , wn30instances:synset-seed-noun-1 , wn30instances:synset-scour-noun-1 , wn30instances:synset-peel-noun-2 , wn30instances:synset-open-noun-1 , wn30instances:synset-scale-noun-10 , wn30instances:synset-skinner-noun-4 , wn30instances:synset-gutter-noun-3 , wn30instances:synset-Bowdler-noun-1 , wn30instances:synset-core-noun-2 , wn30instances:synset-privation-noun-1 , wn30instances:synset-stone-noun-6 , wn30instances:synset-deforestation-noun-1 , wn30instances:synset-scalp-noun-1 , wn30instances:synset-drain-noun-3 , wn30instances:synset-bowdlerization-noun-1 , wn30instances:synset-weeder-noun-2 , wn30instances:synset-peeler-noun-2 , wn30instances:synset-defecator-noun-1 .
+
+frame:Artifact  skos:closeMatch  wn30instances:synset-produce-verb-2 , wn30instances:synset-create-verb-2 , wn30instances:synset-wheel-verb-2 , wn30instances:synset-wheel-verb-3 .
+
+frame:Eclipse  skos:closeMatch  wn30instances:synset-privacy-noun-2 , wn30instances:synset-obturator-noun-1 , wn30instances:synset-blind-noun-3 , wn30instances:synset-obstruction-noun-1 , wn30instances:synset-disguise-noun-2 , wn30instances:synset-cloak-noun-1 , wn30instances:synset-head_covering-noun-1 , wn30instances:synset-humeral_veil-noun-1 , wn30instances:synset-pall-noun-2 .
+
+frame:Being_in_operation
+        skos:closeMatch  wn30instances:synset-work-noun-2 .
+
+frame:Attention  skos:closeMatch  wn30instances:synset-attendant-noun-2 .
+
+frame:Partiality  skos:closeMatch  wn30instances:synset-favor-noun-4 , wn30instances:synset-predilection-noun-1 , wn30instances:synset-bias-verb-2 , wn30instances:synset-prejudice-verb-1 , wn30instances:synset-prejudice-verb-2 .
+
+frame:Name_conferral  skos:closeMatch  wn30instances:synset-denomination-noun-2 , wn30instances:synset-nickname-noun-1 , wn30instances:synset-title-noun-7 , wn30instances:synset-title-noun-2 .
+
+frame:Performers_and_roles
+        skos:closeMatch  wn30instances:synset-headliner-noun-1 , wn30instances:synset-co-star-verb-2 , wn30instances:synset-star-verb-2 , wn30instances:synset-actor-noun-1 .
+
+frame:Contingency  skos:closeMatch  wn30instances:synset-discovery-noun-3 , wn30instances:synset-hinge-noun-1 .
+
+frame:Commerce_pay  skos:closeMatch  wn30instances:synset-expense-noun-1 , wn30instances:synset-payment-noun-1 , wn30instances:synset-payee-noun-1 , wn30instances:synset-wage-noun-1 , wn30instances:synset-spender-noun-3 , wn30instances:synset-payer-noun-1 .
+
+frame:Destroying  skos:closeMatch  wn30instances:synset-devastation-noun-1 , wn30instances:synset-destroyer-noun-1 , wn30instances:synset-bleakness-noun-1 , wn30instances:synset-bane-noun-1 , wn30instances:synset-annihilator-noun-1 , wn30instances:synset-destroyer-noun-2 .
+
+frame:Locating  skos:closeMatch  wn30instances:synset-location-noun-1 , wn30instances:synset-meeting-noun-3 , wn30instances:synset-finder-noun-2 .
+
+frame:Waiting  skos:closeMatch  wn30instances:synset-waiter-noun-2 .
+
+frame:Intoxicants  skos:closeMatch  wn30instances:synset-drug-verb-2 , wn30instances:synset-calm-verb-1 , wn30instances:synset-sedate-verb-1 , wn30instances:synset-down-verb-5 , wn30instances:synset-drug-verb-1 .
+
+frame:Preventing  skos:closeMatch  wn30instances:synset-frustration-noun-1 , wn30instances:synset-frustration-noun-3 , wn30instances:synset-prohibition-noun-2 , wn30instances:synset-veto-noun-1 , wn30instances:synset-obstructionist-noun-1 .
+
+frame:Reason  skos:closeMatch  wn30instances:synset-reason-verb-1 , wn30instances:synset-motivate-verb-1 , wn30instances:synset-establish-verb-8 .
+
+frame:Gathering_up  skos:closeMatch  wn30instances:synset-collection-noun-1 , wn30instances:synset-crowd-noun-1 , wn30instances:synset-ruck-noun-1 , wn30instances:synset-picking-noun-1 , wn30instances:synset-compilation-noun-1 , wn30instances:synset-picker-noun-2 , wn30instances:synset-herder-noun-2 .
+
+frame:Surrendering  skos:closeMatch  wn30instances:synset-deliverer-noun-4 , wn30instances:synset-surrenderer-noun-1 .
+
+frame:Breaking_off  skos:closeMatch  wn30instances:synset-fault-noun-4 , wn30instances:synset-bit-noun-2 .
+
+frame:Range  skos:closeMatch  wn30instances:synset-range-verb-3 , wn30instances:synset-range-verb-1 , wn30instances:synset-reach-verb-6 .
+
+frame:Detaching  skos:closeMatch  wn30instances:synset-undoer-noun-2 .
+
+frame:Examination  skos:closeMatch  wn30instances:synset-test-noun-4 , wn30instances:synset-testee-noun-1 , wn30instances:synset-quiz-verb-1 , wn30instances:synset-trier-noun-2 , wn30instances:synset-examiner-noun-1 .
+
+frame:Omen  skos:closeMatch  wn30instances:synset-annunciator-noun-1 , wn30instances:synset-augur-noun-1 , wn30instances:synset-forecaster-noun-1 .
+
+frame:Being_in_effect
+        skos:closeMatch  wn30instances:synset-coerce-verb-1 , wn30instances:synset-force-verb-8 , wn30instances:synset-impel-verb-1 , wn30instances:synset-force-verb-4 .
+
+frame:Ratification  skos:closeMatch  wn30instances:synset-signer-noun-2 , wn30instances:synset-subscriber-noun-1 .
+
+frame:Speak_on_topic  skos:closeMatch  wn30instances:synset-lucubration-noun-1 , wn30instances:synset-lengthiness-noun-2 , wn30instances:synset-papacy-noun-1 , wn30instances:synset-homily-noun-1 , wn30instances:synset-rambler-noun-2 , wn30instances:synset-lector-noun-2 , wn30instances:synset-lecturer-noun-2 , wn30instances:synset-speaker-noun-1 , wn30instances:synset-preacher-noun-1 .
+
+frame:Emitting  skos:closeMatch  wn30instances:synset-emanation-noun-1 , wn30instances:synset-gland-noun-1 , wn30instances:synset-radiance-noun-2 , wn30instances:synset-exudate-noun-1 , wn30instances:synset-halitus-noun-1 , wn30instances:synset-emitter-noun-1 , wn30instances:synset-defecator-noun-1 .
+
+frame:Locale  skos:closeMatch  wn30instances:synset-partition-verb-2 , wn30instances:synset-settle-verb-4 , wn30instances:synset-locate-verb-1 , wn30instances:synset-situate-verb-1 , wn30instances:synset-set-verb-9 , wn30instances:synset-locate-verb-3 .
+
+frame:Translating  skos:closeMatch  wn30instances:synset-interpreter-noun-4 , wn30instances:synset-translator-noun-1 , wn30instances:synset-interpreter-noun-1 .
+
+frame:Inclusion  skos:closeMatch  wn30instances:synset-omission-noun-1 , wn30instances:synset-cargo_area-noun-1 .
+
+frame:Assessing  skos:closeMatch  wn30instances:synset-mark-noun-1 , wn30instances:synset-place-noun-15 , wn30instances:synset-circumstance-noun-3 , wn30instances:synset-measure-noun-2 , wn30instances:synset-order-noun-2 , wn30instances:synset-valuer-noun-1 , wn30instances:synset-measuring_stick-noun-1 , wn30instances:synset-gradation-noun-1 , wn30instances:synset-evaluator-noun-1 , wn30instances:synset-appraiser-noun-2 , wn30instances:synset-grader-noun-1 , wn30instances:synset-appraiser-noun-1 , wn30instances:synset-scorekeeper-noun-1 , wn30instances:synset-rank-noun-2 , wn30instances:synset-value-noun-3 , wn30instances:synset-grade-noun-2 , wn30instances:synset-tax_assessor-noun-1 .
+
+frame:Temporary_stay  skos:closeMatch  wn30instances:synset-room-noun-1 , wn30instances:synset-camp-noun-1 , wn30instances:synset-accommodation-noun-4 , wn30instances:synset-billet-noun-2 , wn30instances:synset-boarder-noun-3 , wn30instances:synset-lodger-noun-1 .
+
+frame:Try_defendant  skos:closeMatch  wn30instances:synset-trial-noun-4 , wn30instances:synset-opinion-noun-4 , wn30instances:synset-judgment-noun-3 , wn30instances:synset-adjudicator-noun-1 , wn30instances:synset-trier-noun-1 .
+
+frame:Regard  skos:closeMatch  wn30instances:synset-respect-verb-1 , wn30instances:synset-respect-verb-2 , wn30instances:synset-treasure-noun-3 .
+
+frame:Filling  skos:closeMatch  wn30instances:synset-paperhanger-noun-2 , wn30instances:synset-board-noun-2 , wn30instances:synset-gilder-noun-1 , wn30instances:synset-paper-noun-1 , wn30instances:synset-filling-noun-1 , wn30instances:synset-seed-noun-1 , wn30instances:synset-seeder-noun-2 , wn30instances:synset-panel-noun-1 , wn30instances:synset-yoke-noun-6 , wn30instances:synset-interior_decoration-noun-1 , wn30instances:synset-tile-noun-1 , wn30instances:synset-filler-noun-5 , wn30instances:synset-negligee-noun-1 , wn30instances:synset-sidewalk-noun-1 , wn30instances:synset-dust-noun-3 , wn30instances:synset-wax-noun-1 , wn30instances:synset-butter-noun-1 , wn30instances:synset-swab-noun-1 , wn30instances:synset-makeweight-noun-1 , wn30instances:synset-binding-noun-5 , wn30instances:synset-wallpaperer-noun-1 , wn30instances:synset-garnish-noun-1 , wn30instances:synset-tile-noun-2 , wn30instances:synset-varnish-noun-1 , wn30instances:synset-sealant-noun-1 , wn30instances:synset-stack-noun-1 , wn30instances:synset-wallpaper-noun-1 , wn30instances:synset-plaster-noun-4 , wn30instances:synset-asphalt-noun-1 , wn30instances:synset-screen-noun-4 , wn30instances:synset-garnish-noun-2 , wn30instances:synset-injector-noun-1 , wn30instances:synset-coating-noun-1 , wn30instances:synset-trimming-noun-2 , wn30instances:synset-seed-noun-2 , wn30instances:synset-pile-noun-1 , wn30instances:synset-glaze-noun-3 , wn30instances:synset-atomizer-noun-1 , wn30instances:synset-daub-noun-1 , wn30instances:synset-wrap-noun-1 , wn30instances:synset-sower-noun-1 , wn30instances:synset-dab-noun-2 , wn30instances:synset-dipper-noun-1 , wn30instances:synset-wrapping-noun-1 , wn30instances:synset-plasterer-noun-1 , wn30instances:synset-planter-noun-3 , wn30instances:synset-paving-noun-1 , wn30instances:synset-stacker-noun-1 , wn30instances:synset-decorator-noun-2 , wn30instances:synset-plant-noun-2 , wn30instances:synset-cargo-noun-1 , wn30instances:synset-stevedore-noun-1 , wn30instances:synset-decoration-noun-1 , wn30instances:synset-flood-noun-2 , wn30instances:synset-crowd-noun-1 , wn30instances:synset-water_pistol-noun-1 , wn30instances:synset-filler-noun-3 , wn30instances:synset-plunger-noun-3 , wn30instances:synset-wash-noun-1 , wn30instances:synset-varnisher-noun-1 , wn30instances:synset-drape-noun-2 , wn30instances:synset-tiler-noun-1 , wn30instances:synset-plaster-noun-1 , wn30instances:synset-painter-noun-2 , wn30instances:synset-load-noun-1 , wn30instances:synset-paint-noun-1 , wn30instances:synset-batch-noun-2 , wn30instances:synset-seal-noun-7 , wn30instances:synset-dauber-noun-1 , wn30instances:synset-beauty-noun-1 , wn30instances:synset-pavement-noun-1 , wn30instances:synset-broadcaster-noun-2 , wn30instances:synset-grace-noun-2 .
+
+frame:Cause_to_start  skos:closeMatch  wn30instances:synset-motivation-noun-2 , wn30instances:synset-sire-noun-3 , wn30instances:synset-spark-noun-6 , wn30instances:synset-output-noun-2 , wn30instances:synset-excitement-noun-2 , wn30instances:synset-instigator-noun-2 , wn30instances:synset-incentive-noun-1 , wn30instances:synset-instigator-noun-1 , wn30instances:synset-father-noun-1 , wn30instances:synset-magician-noun-1 , wn30instances:synset-invocation-noun-2 , wn30instances:synset-motivation-noun-1 , wn30instances:synset-mother-noun-1 , wn30instances:synset-forefather-noun-1 , wn30instances:synset-conjuring-noun-1 , wn30instances:synset-return-noun-6 , wn30instances:synset-scaremonger-noun-1 , wn30instances:synset-output-noun-4 , wn30instances:synset-incitement-noun-3 , wn30instances:synset-yield-noun-3 , wn30instances:synset-provocation-noun-3 .
+
+frame:Being_necessary
+        skos:closeMatch  wn30instances:synset-want-verb-2 .
+
+frame:Animals  skos:closeMatch  wn30instances:synset-animalize-verb-1 .
+
+frame:Having_or_lacking_access
+        skos:closeMatch  wn30instances:synset-admit-verb-3 .
+
+frame:Social_connection
+        skos:closeMatch  wn30instances:synset-yoke-verb-2 , wn30instances:synset-connect-verb-1 .
+
+frame:Create_representation
+        skos:closeMatch  wn30instances:synset-diagram-verb-1 , wn30instances:synset-draftsman-noun-2 , wn30instances:synset-photographer-noun-1 , wn30instances:synset-snapshot-noun-1 , wn30instances:synset-sculptor-noun-1 , wn30instances:synset-photograph-noun-1 , wn30instances:synset-sketcher-noun-1 , wn30instances:synset-painter-noun-1 , wn30instances:synset-sketcher-noun-2 , wn30instances:synset-illustration-noun-1 , wn30instances:synset-illustration-noun-4 .
+
+frame:Leadership  skos:closeMatch  wn30instances:synset-conduct-verb-6 , wn30instances:synset-officer-verb-1 , wn30instances:synset-restrainer-noun-2 , wn30instances:synset-rule-verb-2 , wn30instances:synset-administrator-noun-1 , wn30instances:synset-lead-verb-5 , wn30instances:synset-moderate-verb-1 , wn30instances:synset-administrator-noun-2 , wn30instances:synset-dictate-verb-3 , wn30instances:synset-air_force_officer-noun-1 , wn30instances:synset-conduct-verb-2 , wn30instances:synset-head-verb-4 , wn30instances:synset-command-verb-1 , wn30instances:synset-commander-noun-2 , wn30instances:synset-administration-noun-2 , wn30instances:synset-commander-noun-3 , wn30instances:synset-spearhead-noun-1 , wn30instances:synset-dominate-verb-3 , wn30instances:synset-minister-verb-2 , wn30instances:synset-legislate-verb-1 , wn30instances:synset-control-noun-1 , wn30instances:synset-administration-noun-1 , wn30instances:synset-chair-verb-1 , wn30instances:synset-skipper-verb-1 , wn30instances:synset-campaigner-noun-1 .
+
+frame:Remembering_information
+        skos:closeMatch  wn30instances:synset-remembrance-noun-1 .
+
+frame:Optical_image  skos:closeMatch  wn30instances:synset-silhouette-verb-1 , wn30instances:synset-shadow-verb-2 , wn30instances:synset-picture-verb-2 .
+
+frame:Physical_artworks
+        skos:closeMatch  wn30instances:synset-sculpt-verb-1 , wn30instances:synset-sculpt-verb-2 , wn30instances:synset-post-verb-1 , wn30instances:synset-post-verb-2 , wn30instances:synset-post-verb-3 .
+
+frame:Predicament  skos:closeMatch  wn30instances:synset-trouble-verb-2 , wn30instances:synset-oblige-verb-2 .
+
+frame:Connectors  skos:closeMatch  wn30instances:synset-glue-verb-1 , wn30instances:synset-strap-verb-4 , wn30instances:synset-lace-verb-4 , wn30instances:synset-thread-verb-2 , wn30instances:synset-weave-verb-4 , wn30instances:synset-record-verb-2 , wn30instances:synset-chain-verb-2 , wn30instances:synset-nail-verb-1 , wn30instances:synset-handicap-verb-3 , wn30instances:synset-cord-verb-2 , wn30instances:synset-videotape-verb-1 , wn30instances:synset-rope-verb-2 , wn30instances:synset-wire-verb-3 , wn30instances:synset-screw-verb-3 , wn30instances:synset-restrict-verb-3 , wn30instances:synset-hamper-verb-1 , wn30instances:synset-screw-verb-4 , wn30instances:synset-fetter-verb-1 , wn30instances:synset-peg-verb-2 , wn30instances:synset-tie-verb-1 , wn30instances:synset-strap-verb-1 , wn30instances:synset-glue-verb-2 , wn30instances:synset-plug_in-verb-1 , wn30instances:synset-connect-verb-1 , wn30instances:synset-lasso-verb-1 , wn30instances:synset-tack-verb-2 .
+
+frame:Institutionalization
+        skos:closeMatch  wn30instances:synset-hospitalization-noun-2 , wn30instances:synset-hospital-noun-1 , wn30instances:synset-hospital-noun-2 .
+
+frame:Change_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-double-noun-4 , wn30instances:synset-triple-noun-3 , wn30instances:synset-upgrade-noun-4 , wn30instances:synset-skyrocket-noun-2 , wn30instances:synset-increase-verb-2 , wn30instances:synset-rocket-noun-4 , wn30instances:synset-luger-noun-2 .
+
+frame:Preliminaries  skos:closeMatch  wn30instances:synset-establish-verb-8 .
+
+frame:Attention_getting
+        skos:closeMatch  wn30instances:synset-pal-verb-1 .
+
+frame:Being_obligated
+        skos:closeMatch  wn30instances:synset-compel-verb-1 , wn30instances:synset-contractor-noun-1 .
+
+frame:Be_subset_of  skos:closeMatch  wn30instances:synset-number-noun-7 .
+
+frame:Prohibiting  skos:closeMatch  wn30instances:synset-exclusion-noun-1 , wn30instances:synset-criminal-noun-1 , wn30instances:synset-ban-verb-1 , wn30instances:synset-veto-noun-1 .
+
+frame:Posing_as  skos:closeMatch  wn30instances:synset-caricature-verb-1 , wn30instances:synset-dissemble-verb-3 , wn30instances:synset-talk_through_one_s_hat-verb-1 , wn30instances:synset-simulate-verb-3 , wn30instances:synset-forge-verb-2 , wn30instances:synset-fudge-verb-1 , wn30instances:synset-feign-verb-1 , wn30instances:synset-impersonator-noun-1 , wn30instances:synset-poseur-noun-1 .
+
+frame:Hair_configuration
+        skos:closeMatch  wn30instances:synset-curler-noun-1 , wn30instances:synset-twist-verb-5 , wn30instances:synset-braid-verb-3 , wn30instances:synset-plait-verb-2 , wn30instances:synset-wave-verb-5 , wn30instances:synset-dress-verb-16 .
+
+frame:Surrendering_possession
+        skos:closeMatch  wn30instances:synset-concession-noun-2 , wn30instances:synset-surrenderer-noun-1 .
+
+frame:Simple_naming  skos:closeMatch  wn30instances:synset-term-noun-1 , wn30instances:synset-name-noun-1 , wn30instances:synset-namer-noun-1 .
+
+frame:Aiming  skos:closeMatch  wn30instances:synset-prey-verb-1 .
+
+frame:Getting  skos:closeMatch  wn30instances:synset-achiever-noun-1 , wn30instances:synset-gainer-noun-2 , wn30instances:synset-procurer-noun-2 , wn30instances:synset-winner-noun-2 , wn30instances:synset-score-noun-3 , wn30instances:synset-merchant_bank-noun-1 , wn30instances:synset-winnings-noun-1 , wn30instances:synset-acquirer-noun-3 , wn30instances:synset-acquirer-noun-2 , wn30instances:synset-acquirer-noun-1 , wn30instances:synset-scorer-noun-1 .
+
+frame:Preference  skos:closeMatch  wn30instances:synset-favor-noun-4 , wn30instances:synset-predilection-noun-1 .
+
+frame:Visiting  skos:closeMatch  wn30instances:synset-visit-verb-1 , wn30instances:synset-visit-verb-7 , wn30instances:synset-chew_the_fat-verb-1 , wn30instances:synset-travel_to-verb-1 , wn30instances:synset-visit-verb-4 , wn30instances:synset-caller-noun-1 .
+
+frame:Desiring  skos:closeMatch  wn30instances:synset-aspirant-noun-1 , wn30instances:synset-promise-noun-2 , wn30instances:synset-desire-noun-3 , wn30instances:synset-fancier-noun-1 , wn30instances:synset-longer-noun-1 , wn30instances:synset-hope-verb-2 , wn30instances:synset-fondness-noun-1 , wn30instances:synset-ambition-verb-1 , wn30instances:synset-aspiration-noun-1 , wn30instances:synset-hope-noun-4 , wn30instances:synset-wanter-noun-1 , wn30instances:synset-hoper-noun-1 .
+
+frame:Damaging  skos:closeMatch  wn30instances:synset-vandal-noun-1 , wn30instances:synset-dent-noun-3 , wn30instances:synset-abrasion-noun-1 , wn30instances:synset-blemish-noun-1 , wn30instances:synset-disfigurement-noun-1 , wn30instances:synset-scratcher-noun-1 , wn30instances:synset-scratcher-noun-3 , wn30instances:synset-impairer-noun-1 , wn30instances:synset-scratch-noun-10 , wn30instances:synset-key-noun-1 , wn30instances:synset-rip-noun-2 , wn30instances:synset-impairment-noun-4 , wn30instances:synset-check-noun-9 , wn30instances:synset-incision-noun-1 .
+
+frame:Cause_change_of_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-intensity-noun-2 , wn30instances:synset-curtailment-noun-1 , wn30instances:synset-baby_buggy-noun-1 , wn30instances:synset-increase-noun-4 , wn30instances:synset-addition-noun-3 , wn30instances:synset-force-noun-2 , wn30instances:synset-push-noun-2 , wn30instances:synset-addition-noun-2 .
+
+frame:Quitting  skos:closeMatch  wn30instances:synset-departer-noun-1 , wn30instances:synset-retiree-noun-1 .
+
+frame:Expressing_publicly
+        skos:closeMatch  wn30instances:synset-voice-noun-5 , wn30instances:synset-articulation-noun-3 , wn30instances:synset-look-verb-7 , wn30instances:synset-phrase-noun-1 , wn30instances:synset-word-noun-2 , wn30instances:synset-idiom-noun-4 , wn30instances:synset-voicer-noun-2 , wn30instances:synset-ventilator-noun-1 , wn30instances:synset-venter-noun-1 , wn30instances:synset-word-noun-1 , wn30instances:synset-look-verb-2 .
+
+frame:Forgiveness  skos:closeMatch  wn30instances:synset-excuse-noun-1 , wn30instances:synset-pardoner-noun-1 .
+
+frame:Cause_to_fragment
+        skos:closeMatch  wn30instances:synset-fragmentation-noun-3 , wn30instances:synset-cleaver-noun-1 , wn30instances:synset-shredder-noun-1 , wn30instances:synset-fragment-noun-3 , wn30instances:synset-rag-noun-1 , wn30instances:synset-rail-splitter-noun-1 , wn30instances:synset-rip-noun-2 , wn30instances:synset-shred-noun-1 , wn30instances:synset-splinter-noun-1 , wn30instances:synset-fault-noun-4 , wn30instances:synset-bit-noun-2 , wn30instances:synset-smasher-noun-1 , wn30instances:synset-shard-noun-1 , wn30instances:synset-fragment-noun-1 , wn30instances:synset-splitter-noun-1 .
+
+frame:Duplication  skos:closeMatch  wn30instances:synset-photocopier-noun-1 , wn30instances:synset-double-noun-4 , wn30instances:synset-imitate-verb-1 , wn30instances:synset-copy-verb-4 , wn30instances:synset-xerox-noun-1 , wn30instances:synset-duplicate-verb-3 , wn30instances:synset-repeater-noun-1 , wn30instances:synset-recidivist-noun-1 .
+
+frame:Discussion  skos:closeMatch  wn30instances:synset-deliberation-noun-5 , wn30instances:synset-communication-noun-2 , wn30instances:synset-negotiator-noun-1 , wn30instances:synset-communicator-noun-1 , wn30instances:synset-conferee-noun-2 .
+
+frame:Talking_into  skos:closeMatch  wn30instances:synset-persuader-noun-1 , wn30instances:synset-cause-noun-2 , wn30instances:synset-tempter-noun-1 , wn30instances:synset-leader-noun-1 , wn30instances:synset-cause-noun-1 , wn30instances:synset-causal_agent-noun-1 , wn30instances:synset-influence-noun-5 , wn30instances:synset-incitement-noun-3 , wn30instances:synset-influence-noun-4 , wn30instances:synset-influence-noun-1 , wn30instances:synset-incentive-noun-1 , wn30instances:synset-instigator-noun-1 , wn30instances:synset-appeal-noun-2 , wn30instances:synset-instigator-noun-2 .
+
+frame:Convey_importance
+        skos:closeMatch  wn30instances:synset-emphasis-noun-1 .
+
+frame:Abandonment  skos:closeMatch  wn30instances:synset-departer-noun-1 .
+
+frame:Evaluative_comparison
+        skos:closeMatch  wn30instances:synset-comparison-noun-3 , wn30instances:synset-qualification-noun-1 , wn30instances:synset-quality-noun-5 , wn30instances:synset-quality-noun-2 , wn30instances:synset-compare-verb-3 , wn30instances:synset-equal-verb-3 , wn30instances:synset-qualifier-noun-1 .
+
+frame:Exhaust_resource
+        skos:closeMatch  wn30instances:synset-depletion-noun-2 .
+
+frame:Create_physical_artwork
+        skos:closeMatch  wn30instances:synset-tracer-noun-2 , wn30instances:synset-delineation-noun-2 , wn30instances:synset-depiction-noun-4 , wn30instances:synset-tracing-noun-2 , wn30instances:synset-outline-noun-1 , wn30instances:synset-sculpture-noun-1 , wn30instances:synset-line-noun-2 , wn30instances:synset-painter-noun-1 , wn30instances:synset-sculptor-noun-1 .
+
+frame:Activity_start  skos:closeMatch  wn30instances:synset-initiate-verb-3 , wn30instances:synset-founder-noun-2 , wn30instances:synset-originator-noun-1 .
+
+frame:Permitting  skos:closeMatch  wn30instances:synset-entitlement-noun-1 , wn30instances:synset-license-verb-1 , wn30instances:synset-allow-verb-10 , wn30instances:synset-O.K.-noun-1 , wn30instances:synset-sanction-noun-1 , wn30instances:synset-approver-noun-1 .
+
+frame:Endangering  skos:closeMatch  wn30instances:synset-riskiness-noun-1 , wn30instances:synset-gamble-verb-1 , wn30instances:synset-venture-verb-3 , wn30instances:synset-queer-verb-2 , wn30instances:synset-risk-verb-1 , wn30instances:synset-menace-noun-1 .
+
+frame:Reporting  skos:closeMatch  wn30instances:synset-data-noun-1 , wn30instances:synset-chatter-verb-4 , wn30instances:synset-information-noun-2 , wn30instances:synset-deserter-noun-1 , wn30instances:synset-nark-verb-2 , wn30instances:synset-tattletale-noun-1 , wn30instances:synset-information-noun-1 , wn30instances:synset-confessor-noun-2 , wn30instances:synset-confession-noun-2 , wn30instances:synset-inform-verb-3 , wn30instances:synset-explanation-noun-1 , wn30instances:synset-betray-verb-2 , wn30instances:synset-fink-noun-1 .
+
+frame:Piracy  skos:closeMatch  wn30instances:synset-highjacker-noun-1 .
+
+frame:Path_shape  skos:closeMatch  wn30instances:synset-ford-noun-7 , wn30instances:synset-climb-verb-1 , wn30instances:synset-traverser-noun-1 , wn30instances:synset-dip-noun-1 , wn30instances:synset-tilt-noun-4 , wn30instances:synset-fold-noun-1 , wn30instances:synset-bend-noun-1 , wn30instances:synset-surface-noun-2 , wn30instances:synset-angle-noun-1 , wn30instances:synset-path-noun-4 , wn30instances:synset-bend-noun-3 , wn30instances:synset-raise-verb-2 , wn30instances:synset-meander-noun-1 , wn30instances:synset-course-noun-3 , wn30instances:synset-pitch-noun-5 , wn30instances:synset-climb-verb-4 , wn30instances:synset-crisscross-noun-1 , wn30instances:synset-bender-noun-1 , wn30instances:synset-ascender-noun-1 , wn30instances:synset-curvature-noun-3 , wn30instances:synset-traversal-noun-2 , wn30instances:synset-ribbon-noun-1 .
+
+frame:Separating  skos:closeMatch  wn30instances:synset-part-noun-9 , wn30instances:synset-separate-verb-1 , wn30instances:synset-partition-verb-2 , wn30instances:synset-segment-noun-2 , wn30instances:synset-section-noun-3 , wn30instances:synset-section-noun-13 , wn30instances:synset-divider-noun-2 , wn30instances:synset-splitter-noun-2 , wn30instances:synset-split-noun-3 , wn30instances:synset-section-noun-4 .
+
+frame:Going_back_on_a_commitment
+        skos:closeMatch  wn30instances:synset-withdrawer-noun-5 , wn30instances:synset-withdrawer-noun-4 .
+
+frame:Change_operational_state
+        skos:closeMatch  wn30instances:synset-interrupter-noun-1 , wn30instances:synset-activator-noun-1 .
+
+frame:Being_awake  skos:closeMatch  wn30instances:synset-spectator-noun-1 .
+
+frame:Facial_expression
+        skos:closeMatch  wn30instances:synset-snarl-verb-2 , wn30instances:synset-snap-verb-1 , wn30instances:synset-look-verb-7 , wn30instances:synset-look-verb-2 .
+
+frame:Process_end  skos:closeMatch  wn30instances:synset-end-noun-9 , wn30instances:synset-end-noun-1 , wn30instances:synset-end-noun-7 , wn30instances:synset-conclusion-noun-8 .
+
+frame:Elusive_goal  skos:closeMatch  wn30instances:synset-escape-noun-5 , wn30instances:synset-escapee-noun-1 .
+
+frame:Change_event_time
+        skos:closeMatch  wn30instances:synset-advancer-noun-1 , wn30instances:synset-procrastinator-noun-1 , wn30instances:synset-shelver-noun-1 .
+
+frame:Body_decoration
+        skos:closeMatch  wn30instances:synset-lipstick-verb-1 , wn30instances:synset-blush-verb-1 , wn30instances:synset-rouge-verb-1 , wn30instances:synset-lipstick-verb-2 .
+
+frame:Cause_motion  skos:closeMatch  wn30instances:synset-pitcher-noun-1 , wn30instances:synset-hauler-noun-1 , wn30instances:synset-slingshot-noun-1 , wn30instances:synset-propeller-noun-1 , wn30instances:synset-puller-noun-2 , wn30instances:synset-roller-noun-3 , wn30instances:synset-punt-noun-2 , wn30instances:synset-thrower-noun-2 , wn30instances:synset-pull-noun-2 , wn30instances:synset-water_scooter-noun-1 , wn30instances:synset-roller-noun-4 , wn30instances:synset-launcher-noun-1 , wn30instances:synset-nudger-noun-1 , wn30instances:synset-impeller-noun-1 , wn30instances:synset-pole-noun-1 , wn30instances:synset-catapult-noun-2 , wn30instances:synset-mover-noun-1 , wn30instances:synset-attraction-noun-3 , wn30instances:synset-attraction-noun-4 , wn30instances:synset-scooter-noun-2 , wn30instances:synset-motor_scooter-noun-1 , wn30instances:synset-iceboat-noun-2 , wn30instances:synset-slinger-noun-1 , wn30instances:synset-punter-noun-1 , wn30instances:synset-force-noun-2 , wn30instances:synset-runner-noun-2 , wn30instances:synset-baby_buggy-noun-1 , wn30instances:synset-yanker-noun-1 , wn30instances:synset-push-noun-2 , wn30instances:synset-drawing_card-noun-1 , wn30instances:synset-trawler-noun-2 , wn30instances:synset-tosser-noun-2 , wn30instances:synset-mover-noun-4 .
+
+frame:Manipulate_into_doing
+        skos:closeMatch  wn30instances:synset-delusion-noun-1 , wn30instances:synset-bully-noun-1 , wn30instances:synset-instigator-noun-1 , wn30instances:synset-pest-noun-3 , wn30instances:synset-heckler-noun-1 , wn30instances:synset-dodger-noun-1 , wn30instances:synset-tempter-noun-1 , wn30instances:synset-lure-noun-1 , wn30instances:synset-temptation-noun-1 , wn30instances:synset-victim-noun-2 , wn30instances:synset-pressure-noun-2 , wn30instances:synset-fool-noun-1 , wn30instances:synset-swindler-noun-1 , wn30instances:synset-bait-noun-2 , wn30instances:synset-blarney-noun-1 , wn30instances:synset-harasser-noun-2 , wn30instances:synset-blackmailer-noun-1 , wn30instances:synset-harasser-noun-1 , wn30instances:synset-bait-noun-1 , wn30instances:synset-deceiver-noun-1 , wn30instances:synset-blandishment-noun-1 , wn30instances:synset-misrepresentation-noun-1 , wn30instances:synset-delusion-noun-2 , wn30instances:synset-wheedler-noun-1 , wn30instances:synset-prankster-noun-1 , wn30instances:synset-tease-noun-1 , wn30instances:synset-chump-noun-1 , wn30instances:synset-flatterer-noun-1 .
+
+frame:Posture  skos:closeMatch  wn30instances:synset-sprawler-noun-1 , wn30instances:synset-stand-noun-2 , wn30instances:synset-tilt-noun-4 , wn30instances:synset-huddler-noun-2 , wn30instances:synset-stooper-noun-2 , wn30instances:synset-slouch-noun-2 , wn30instances:synset-bulge-noun-1 , wn30instances:synset-angle-noun-1 , wn30instances:synset-lie-noun-3 , wn30instances:synset-standee-noun-1 , wn30instances:synset-sloucher-noun-1 , wn30instances:synset-pitch-noun-5 , wn30instances:synset-kneeler-noun-1 , wn30instances:synset-kneeler-noun-2 , wn30instances:synset-stander-noun-1 .
+
+frame:Pattern  skos:closeMatch  wn30instances:synset-determine-verb-2 , wn30instances:synset-shape-verb-3 , wn30instances:synset-pattern-verb-2 .
+
+frame:Activity_stop  skos:closeMatch  wn30instances:synset-arrester-noun-1 , wn30instances:synset-end-noun-5 , wn30instances:synset-end-noun-3 .
+
+frame:Conduct  skos:closeMatch  wn30instances:synset-behavior-noun-1 .
+
+frame:Practice  skos:closeMatch  wn30instances:synset-drill-verb-3 .
+
+frame:Losing_track_of_perceiver
+        skos:closeMatch  wn30instances:synset-escape-noun-5 , wn30instances:synset-escapee-noun-1 .
+
+frame:Reveal_secret  skos:closeMatch  wn30instances:synset-recognition-noun-1 , wn30instances:synset-confidence-noun-5 , wn30instances:synset-confession-noun-2 , wn30instances:synset-leaker-noun-1 , wn30instances:synset-confessor-noun-2 .
+
+frame:Process_continue
+        skos:closeMatch  wn30instances:synset-lengthiness-noun-2 , wn30instances:synset-prevalence-noun-1 .
+
+frame:Importing  skos:closeMatch  wn30instances:synset-import-noun-2 , wn30instances:synset-importer-noun-1 .
+
+frame:Exporting  skos:closeMatch  wn30instances:synset-exporter-noun-1 .
+
+frame:Travel  skos:closeMatch  wn30instances:synset-tourist-noun-1 , wn30instances:synset-travel-verb-6 , wn30instances:synset-wayfarer-noun-2 , wn30instances:synset-travel-verb-5 , wn30instances:synset-voyager-noun-1 , wn30instances:synset-locomotion-noun-1 , wn30instances:synset-mover-noun-3 , wn30instances:synset-travel-verb-4 , wn30instances:synset-commuter-noun-2 , wn30instances:synset-commuter-noun-1 , wn30instances:synset-sightseer-noun-1 .
+
+frame:Hindering  skos:closeMatch  wn30instances:synset-obturator-noun-1 , wn30instances:synset-retardation-noun-4 , wn30instances:synset-shackle-noun-1 , wn30instances:synset-obstruct-verb-1 , wn30instances:synset-idiot-noun-1 , wn30instances:synset-restrainer-noun-2 .
+
+frame:Dominate_situation
+        skos:closeMatch  wn30instances:synset-predominance-noun-1 , wn30instances:synset-preponderance-noun-2 .
+
+frame:Accomplishment  skos:closeMatch  wn30instances:synset-achiever-noun-1 .
+
+frame:Cause_to_make_noise
+        skos:closeMatch  wn30instances:synset-beeper-noun-1 , wn30instances:synset-klaxon-noun-1 , wn30instances:synset-squeaker-noun-1 , wn30instances:synset-peeper-noun-3 , wn30instances:synset-honker-noun-1 , wn30instances:synset-toll-verb-1 .
+
+frame:Reshaping  skos:closeMatch  wn30instances:synset-mold-noun-2 , wn30instances:synset-incision-noun-1 , wn30instances:synset-bender-noun-1 , wn30instances:synset-mold-noun-8 , wn30instances:synset-squeezer-noun-1 , wn30instances:synset-folder-noun-2 , wn30instances:synset-put-down-noun-1 , wn30instances:synset-crusher-noun-1 , wn30instances:synset-cast-noun-6 , wn30instances:synset-pulp-noun-1 , wn30instances:synset-form-noun-7 , wn30instances:synset-squelch_circuit-noun-1 , wn30instances:synset-form-noun-16 , wn30instances:synset-caster-noun-1 , wn30instances:synset-coil-noun-2 , wn30instances:synset-dent-noun-3 , wn30instances:synset-wrinkle-noun-1 , wn30instances:synset-warp-noun-2 , wn30instances:synset-bend-noun-1 , wn30instances:synset-shaper-noun-2 , wn30instances:synset-fold-noun-1 , wn30instances:synset-form-noun-3 , wn30instances:synset-shape-noun-1 , wn30instances:synset-maker-noun-1 .
+
+frame:Becoming_a_member
+        skos:closeMatch  wn30instances:synset-draftee-noun-1 , wn30instances:synset-joiner-noun-1 , wn30instances:synset-enrollee-noun-1 , wn30instances:synset-recruiter-noun-1 , wn30instances:synset-recruit-noun-2 .
+
+frame:Temporal_subregion
+        skos:closeMatch  wn30instances:synset-end-verb-2 .
+
+frame:Colonization  skos:closeMatch  wn30instances:synset-location-noun-1 , wn30instances:synset-settlement-noun-6 , wn30instances:synset-settle-verb-21 , wn30instances:synset-citizenry-noun-1 .
+
+frame:Execution  skos:closeMatch  wn30instances:synset-guillotine-noun-2 .
+
+frame:Moving_in_place
+        skos:closeMatch  wn30instances:synset-pitcher-noun-1 , wn30instances:synset-roller-noun-3 , wn30instances:synset-shaker-noun-3 , wn30instances:synset-sway-noun-1 , wn30instances:synset-swinger-noun-1 , wn30instances:synset-spinner-noun-2 , wn30instances:synset-quaker-noun-2 , wn30instances:synset-baton_twirler-noun-1 , wn30instances:synset-rocking_chair-noun-1 , wn30instances:synset-vibrator-noun-2 , wn30instances:synset-roller-noun-4 , wn30instances:synset-whirl-noun-2 .
+
+frame:Grooming  skos:closeMatch  wn30instances:synset-cleansing_agent-noun-1 , wn30instances:synset-dental_floss-noun-1 , wn30instances:synset-plaiter-noun-1 , wn30instances:synset-shaver-noun-3 , wn30instances:synset-braid-noun-2 , wn30instances:synset-comb-noun-1 , wn30instances:synset-shower-noun-1 , wn30instances:synset-pleat-noun-1 , wn30instances:synset-soapsuds-noun-1 , wn30instances:synset-bather-noun-2 , wn30instances:synset-shaver-noun-1 , wn30instances:synset-comb-noun-3 , wn30instances:synset-shampoo-noun-1 , wn30instances:synset-lace-noun-2 , wn30instances:synset-lather-noun-4 .
+
+frame:Surpassing  skos:closeMatch  wn30instances:synset-lividness-noun-1 , wn30instances:synset-better-noun-4 .
+
+frame:Required_event  skos:closeMatch  wn30instances:synset-need-noun-1 , wn30instances:synset-necessity-noun-2 , wn30instances:synset-need-noun-2 , wn30instances:synset-requirement-noun-1 , wn30instances:synset-expectation-noun-1 , wn30instances:synset-wanter-noun-1 .
+
+frame:Extradition  skos:closeMatch  wn30instances:synset-exile-noun-2 .
+
+frame:Wagering  skos:closeMatch  wn30instances:synset-stake-noun-4 , wn30instances:synset-bettor-noun-1 .
+
+frame:Labeling  skos:closeMatch  wn30instances:synset-mark-noun-6 , wn30instances:synset-name-noun-1 , wn30instances:synset-label-noun-4 , wn30instances:synset-label-noun-1 , wn30instances:synset-term-noun-1 , wn30instances:synset-namer-noun-1 .
+
+frame:Come_together  skos:closeMatch  wn30instances:synset-alliance-noun-1 , wn30instances:synset-batch-noun-2 , wn30instances:synset-pile-noun-1 , wn30instances:synset-congregation-noun-1 , wn30instances:synset-accomplice-noun-1 .
+
+frame:Becoming_aware  skos:closeMatch  wn30instances:synset-mentioner-noun-1 , wn30instances:synset-observation-noun-3 , wn30instances:synset-detector-noun-3 , wn30instances:synset-lookout-noun-1 , wn30instances:synset-detector-noun-1 , wn30instances:synset-register-noun-1 , wn30instances:synset-location-noun-1 , wn30instances:synset-register-noun-3 , wn30instances:synset-perceiver-noun-1 , wn30instances:synset-observation-noun-4 , wn30instances:synset-registration-noun-3 , wn30instances:synset-observer-noun-2 , wn30instances:synset-finder-noun-2 , wn30instances:synset-mention-noun-1 , wn30instances:synset-comprehension-noun-1 , wn30instances:synset-meeting-noun-3 .
+
+frame:Attaching  skos:closeMatch  wn30instances:synset-hook-noun-1 , wn30instances:synset-wire-noun-1 , wn30instances:synset-adhesiveness-noun-1 , wn30instances:synset-paster-noun-1 , wn30instances:synset-binder-noun-2 , wn30instances:synset-connection-noun-2 , wn30instances:synset-binder-noun-1 , wn30instances:synset-cement-noun-2 , wn30instances:synset-fetter-noun-1 , wn30instances:synset-solder-noun-1 , wn30instances:synset-gummed_label-noun-1 , wn30instances:synset-glue-noun-1 , wn30instances:synset-tie-noun-9 , wn30instances:synset-tape-noun-1 , wn30instances:synset-weldment-noun-1 , wn30instances:synset-handcuff-noun-1 , wn30instances:synset-stapler-noun-1 , wn30instances:synset-undoer-noun-2 , wn30instances:synset-solderer-noun-1 , wn30instances:synset-link-noun-2 , wn30instances:synset-baster-noun-2 , wn30instances:synset-link-noun-1 , wn30instances:synset-paste-noun-3 , wn30instances:synset-strap-noun-1 , wn30instances:synset-stitcher-noun-1 , wn30instances:synset-yoke-noun-7 , wn30instances:synset-stitch-noun-1 , wn30instances:synset-rivet-noun-2 , wn30instances:synset-fastener-noun-2 , wn30instances:synset-cement-noun-4 , wn30instances:synset-fastener-noun-1 , wn30instances:synset-tacker-noun-1 , wn30instances:synset-sewer-noun-2 , wn30instances:synset-staple_gun-noun-1 , wn30instances:synset-attach-verb-3 , wn30instances:synset-bracket-noun-4 , wn30instances:synset-hook-noun-4 , wn30instances:synset-coherence-noun-1 , wn30instances:synset-nail-noun-2 , wn30instances:synset-riveter-noun-1 , wn30instances:synset-chain-noun-3 , wn30instances:synset-backing-noun-2 , wn30instances:synset-tier-noun-4 , wn30instances:synset-pin-noun-9 , wn30instances:synset-anchor-noun-2 , wn30instances:synset-connection-noun-3 , wn30instances:synset-cinch-noun-2 , wn30instances:synset-tier-noun-3 , wn30instances:synset-staple-noun-5 , wn30instances:synset-yoke-noun-6 , wn30instances:synset-nailer-noun-1 , wn30instances:synset-welder-noun-1 , wn30instances:synset-yoke-noun-5 , wn30instances:synset-leash-noun-1 , wn30instances:synset-shackle-noun-1 , wn30instances:synset-riveting_machine-noun-1 , wn30instances:synset-concatenation-noun-4 , wn30instances:synset-tack-noun-2 , wn30instances:synset-attach-verb-2 .
+
+frame:Cardinal_numbers
+        skos:closeMatch  wn30instances:synset-pair-verb-4 .
+
+frame:Removing  skos:closeMatch  wn30instances:synset-skimmer-noun-2 , wn30instances:synset-bowdlerization-noun-1 , wn30instances:synset-ouster-noun-1 , wn30instances:synset-dustcloth-noun-1 , wn30instances:synset-booster-noun-3 , wn30instances:synset-vomiter-noun-1 , wn30instances:synset-sneak_thief-noun-1 , wn30instances:synset-scratch-noun-10 , wn30instances:synset-cartridge_ejector-noun-1 , wn30instances:synset-jimmy-noun-1 , wn30instances:synset-discard-noun-1 , wn30instances:synset-dust-noun-1 , wn30instances:synset-scratcher-noun-3 , wn30instances:synset-attachment-noun-3 , wn30instances:synset-drain-noun-3 , wn30instances:synset-remover-noun-1 , wn30instances:synset-kidnapper-noun-1 , wn30instances:synset-defecator-noun-1 , wn30instances:synset-open-noun-1 , wn30instances:synset-Bowdler-noun-1 , wn30instances:synset-weed-noun-1 , wn30instances:synset-scratcher-noun-1 , wn30instances:synset-shaver-noun-1 , wn30instances:synset-weeder-noun-2 , wn30instances:synset-shaver-noun-3 , wn30instances:synset-skim-noun-1 , wn30instances:synset-incision-noun-1 , wn30instances:synset-abrasion-noun-1 , wn30instances:synset-emetic-noun-1 , wn30instances:synset-lever-noun-1 , wn30instances:synset-extractor-noun-1 , wn30instances:synset-lever-noun-2 , wn30instances:synset-weeder-noun-1 , wn30instances:synset-crowbar-noun-1 , wn30instances:synset-vomit-noun-1 , wn30instances:synset-scour-noun-1 .
+
+frame:Stimulus_focus  skos:closeMatch  wn30instances:synset-exacerbate-verb-2 , wn30instances:synset-infuriate-verb-1 , wn30instances:synset-delight-verb-2 , wn30instances:synset-please-verb-1 , wn30instances:synset-gladden-verb-1 .
+
+frame:Labor_product  skos:closeMatch  wn30instances:synset-work-verb-3 , wn30instances:synset-work-verb-1 .
+
+frame:Representing  skos:closeMatch  wn30instances:synset-photograph-verb-1 , wn30instances:synset-photograph-verb-2 , wn30instances:synset-representation-noun-2 , wn30instances:synset-symbol-noun-2 , wn30instances:synset-interpreter-noun-2 , wn30instances:synset-symbolist-noun-2 .
+
+frame:Appellations  skos:closeMatch  wn30instances:synset-general-verb-1 , wn30instances:synset-officer-verb-1 .
+
+frame:Part_orientational
+        skos:closeMatch  wn30instances:synset-back-verb-6 , wn30instances:synset-cap-verb-1 , wn30instances:synset-clear-verb-9 , wn30instances:synset-summit-verb-1 , wn30instances:synset-top-verb-6 , wn30instances:synset-front-verb-1 , wn30instances:synset-front-verb-2 , wn30instances:synset-face-verb-7 .
+
+frame:Operating_a_system
+        skos:closeMatch  wn30instances:synset-debugger-noun-1 , wn30instances:synset-blame-verb-1 , wn30instances:synset-operator-noun-3 .
+
+frame:Evading  skos:closeMatch  wn30instances:synset-escape-noun-5 , wn30instances:synset-escapee-noun-1 .
+
+frame:Objective_influence
+        skos:closeMatch  wn30instances:synset-influence-noun-4 , wn30instances:synset-influence-noun-3 , wn30instances:synset-charm-verb-4 , wn30instances:synset-influence-noun-5 .
+
+frame:Traversing  skos:closeMatch  wn30instances:synset-hopper-noun-1 , wn30instances:synset-crisscross-noun-1 , wn30instances:synset-traversal-noun-2 , wn30instances:synset-path-noun-4 , wn30instances:synset-upgrade-noun-4 , wn30instances:synset-bounder-noun-2 , wn30instances:synset-hopper-noun-2 , wn30instances:synset-traverser-noun-1 .
+
+frame:First_rank  skos:closeMatch  wn30instances:synset-head-verb-2 , wn30instances:synset-lead-verb-5 .
+
+frame:Manufacturing  skos:closeMatch  wn30instances:synset-creation-noun-2 , wn30instances:synset-brand-noun-2 , wn30instances:synset-builder-noun-3 , wn30instances:synset-manufacturer-noun-1 , wn30instances:synset-shape-verb-2 , wn30instances:synset-shape-verb-3 .
+
+frame:Avoiding  skos:closeMatch  wn30instances:synset-escape-noun-5 , wn30instances:synset-escapee-noun-1 , wn30instances:synset-dodge-noun-3 , wn30instances:synset-abstainer-noun-1 , wn30instances:synset-slacker-noun-1 , wn30instances:synset-hedger-noun-1 , wn30instances:synset-abstinence-noun-1 , wn30instances:synset-dodger-noun-1 , wn30instances:synset-hedge-noun-3 , wn30instances:synset-abstainer-noun-2 , wn30instances:synset-release-noun-11 .
+
+frame:Cause_fluidic_motion
+        skos:closeMatch  wn30instances:synset-drip-noun-1 , wn30instances:synset-dab-noun-2 , wn30instances:synset-water_pistol-noun-1 , wn30instances:synset-atomizer-noun-1 , wn30instances:synset-dust-noun-3 .
+
+frame:Make_possible_to_do
+        skos:closeMatch  wn30instances:synset-license-noun-1 , wn30instances:synset-sanction-noun-1 .
+
+frame:Judgment_communication
+        skos:closeMatch  wn30instances:synset-glory-noun-1 , wn30instances:synset-condemnation-noun-4 , wn30instances:synset-scold-noun-1 , wn30instances:synset-tout-noun-2 , wn30instances:synset-approbate-verb-1 , wn30instances:synset-fault-noun-6 , wn30instances:synset-haranguer-noun-1 , wn30instances:synset-slammer-noun-1 , wn30instances:synset-commend-verb-2 , wn30instances:synset-scoffer-noun-2 , wn30instances:synset-abomination-noun-1 , wn30instances:synset-abominator-noun-1 , wn30instances:synset-commend-verb-4 , wn30instances:synset-laudator-noun-1 , wn30instances:synset-satirist-noun-1 , wn30instances:synset-reviewer-noun-1 , wn30instances:synset-abhorrence-noun-1 , wn30instances:synset-execration-noun-3 , wn30instances:synset-detractor-noun-1 , wn30instances:synset-citation-noun-1 , wn30instances:synset-damnation-noun-2 , wn30instances:synset-review-noun-6 , wn30instances:synset-ridicule-noun-1 , wn30instances:synset-accuser-noun-1 , wn30instances:synset-upbraider-noun-1 .
+
+frame:Cause_harm  skos:closeMatch  wn30instances:synset-bumper-noun-2 , wn30instances:synset-horsewhip-noun-1 , wn30instances:synset-claw-noun-3 , wn30instances:synset-scourge-noun-1 , wn30instances:synset-slapper-noun-1 , wn30instances:synset-agony-noun-2 , wn30instances:synset-mauler-noun-1 , wn30instances:synset-rock-noun-1 , wn30instances:synset-spear-noun-1 , wn30instances:synset-cutter-noun-6 , wn30instances:synset-tormenter-noun-2 , wn30instances:synset-tormentor-noun-1 , wn30instances:synset-pelter-noun-2 , wn30instances:synset-cane-noun-3 , wn30instances:synset-strap-noun-4 , wn30instances:synset-butter-noun-2 , wn30instances:synset-intoxicate-verb-3 , wn30instances:synset-wale-noun-1 , wn30instances:synset-prod-noun-2 , wn30instances:synset-stoner-noun-1 , wn30instances:synset-squeezer-noun-1 , wn30instances:synset-check-noun-9 , wn30instances:synset-torturer-noun-1 , wn30instances:synset-claw-noun-1 , wn30instances:synset-bludgeoner-noun-1 , wn30instances:synset-switcher-noun-1 , wn30instances:synset-striker-noun-5 , wn30instances:synset-bludgeon-noun-1 , wn30instances:synset-knife-noun-2 , wn30instances:synset-rock-noun-2 , wn30instances:synset-cudgel-noun-1 , wn30instances:synset-golf_club-noun-2 , wn30instances:synset-stabber-noun-1 , wn30instances:synset-claw-noun-4 , wn30instances:synset-puncher-noun-2 , wn30instances:synset-fault-noun-4 , wn30instances:synset-whip-noun-1 , wn30instances:synset-mutilator-noun-1 , wn30instances:synset-smasher-noun-1 , wn30instances:synset-hitter-noun-2 , wn30instances:synset-lash-noun-2 , wn30instances:synset-flogger-noun-1 , wn30instances:synset-club-noun-3 , wn30instances:synset-bayonet-noun-1 , wn30instances:synset-torture-noun-2 , wn30instances:synset-boiler-noun-1 , wn30instances:synset-cutter-noun-3 , wn30instances:synset-knife-noun-1 , wn30instances:synset-spike-noun-9 , wn30instances:synset-discourtesy-noun-3 , wn30instances:synset-crusher-noun-1 , wn30instances:synset-hammer-noun-2 , wn30instances:synset-spear-noun-2 , wn30instances:synset-stinger-noun-4 , wn30instances:synset-cattiness-noun-1 , wn30instances:synset-malice-noun-1 .
+
+frame:Killing  skos:closeMatch  wn30instances:synset-suffocation-noun-2 , wn30instances:synset-garrote-noun-1 , wn30instances:synset-cause_of_death-noun-1 , wn30instances:synset-butcher-noun-1 , wn30instances:synset-exterminator-noun-1 , wn30instances:synset-garroter-noun-1 , wn30instances:synset-annihilator-noun-1 .
+
+frame:Inchoative_change_of_temperature
+        skos:closeMatch  wn30instances:synset-cooler-noun-1 , wn30instances:synset-heater-noun-1 , wn30instances:synset-refrigerator-noun-1 , wn30instances:synset-chill-noun-1 , wn30instances:synset-cool-noun-1 , wn30instances:synset-cooler-noun-2 , wn30instances:synset-heat-noun-1 , wn30instances:synset-hotness-noun-1 , wn30instances:synset-heat-noun-3 .
+
+frame:Grinding  skos:closeMatch  wn30instances:synset-molar-noun-1 , wn30instances:synset-rag-noun-1 , wn30instances:synset-mash-noun-1 , wn30instances:synset-chewer-noun-1 , wn30instances:synset-mash-noun-2 , wn30instances:synset-chew-noun-1 , wn30instances:synset-masher-noun-2 , wn30instances:synset-powder-noun-1 , wn30instances:synset-shred-noun-1 , wn30instances:synset-mill-noun-4 , wn30instances:synset-crusher-noun-1 , wn30instances:synset-jaw-noun-1 , wn30instances:synset-squeezer-noun-1 , wn30instances:synset-muncher-noun-1 , wn30instances:synset-shredder-noun-1 .
+
+frame:Adjusting  skos:closeMatch  wn30instances:synset-graduate-noun-2 , wn30instances:synset-graduation-noun-3 .
+
+frame:Reading  skos:closeMatch  wn30instances:synset-publication-noun-1 , wn30instances:synset-reader-noun-1 , wn30instances:synset-read-verb-3 .
+
+frame:Arrest  skos:closeMatch  wn30instances:synset-apprehender-noun-2 .
+
+frame:Hiding_objects  skos:closeMatch  wn30instances:synset-privacy-noun-2 , wn30instances:synset-camouflage-noun-3 , wn30instances:synset-disguise-noun-2 .
+
+frame:Go_into_shape  skos:closeMatch  wn30instances:synset-curler-noun-1 , wn30instances:synset-lock-noun-2 , wn30instances:synset-wave-noun-6 , wn30instances:synset-loop-noun-2 , wn30instances:synset-coil-noun-1 , wn30instances:synset-coil-noun-2 .
+
+frame:Being_located  skos:closeMatch  wn30instances:synset-stand-noun-2 , wn30instances:synset-lie-noun-3 , wn30instances:synset-stander-noun-1 , wn30instances:synset-standee-noun-1 .
+
+frame:Finish_game  skos:closeMatch  wn30instances:synset-winner-noun-1 , wn30instances:synset-winner-noun-2 , wn30instances:synset-failure-noun-4 , wn30instances:synset-loser-noun-3 , wn30instances:synset-loser-noun-1 .
+
+frame:Communication_response
+        skos:closeMatch  wn30instances:synset-respondent-noun-2 .
+
+frame:Activity_prepare
+        skos:closeMatch  wn30instances:synset-ready-noun-1 , wn30instances:synset-cooker-noun-1 , wn30instances:synset-cook-noun-1 .
+
+frame:Response  skos:closeMatch  wn30instances:synset-respondent-noun-2 .
+
+frame:Information  skos:closeMatch  wn30instances:synset-inform-verb-1 .
+
+frame:Sensation  skos:closeMatch  wn30instances:synset-picture-verb-2 , wn30instances:synset-sensitize-verb-1 , wn30instances:synset-taste-verb-5 , wn30instances:synset-feel-verb-3 , wn30instances:synset-cense-verb-1 , wn30instances:synset-perfume-verb-2 , wn30instances:synset-perfume-verb-1 , wn30instances:synset-savor-verb-4 , wn30instances:synset-odorize-verb-1 , wn30instances:synset-sense-verb-2 .
+
+frame:Referring_by_name
+        skos:closeMatch  wn30instances:synset-name-verb-5 , wn30instances:synset-identify-verb-5 , wn30instances:synset-namer-noun-1 .
+
+frame:Ingredients  skos:closeMatch  wn30instances:synset-factorize-verb-1 .
+
+frame:Adorning  skos:closeMatch  wn30instances:synset-interior_decoration-noun-1 , wn30instances:synset-wrapping-noun-1 , wn30instances:synset-decoration-noun-1 , wn30instances:synset-stud-noun-2 , wn30instances:synset-incrustation-noun-3 , wn30instances:synset-circle-noun-3 , wn30instances:synset-paving-noun-1 , wn30instances:synset-garnish-noun-2 , wn30instances:synset-beauty-noun-1 , wn30instances:synset-blanket-noun-2 , wn30instances:synset-screen-noun-4 , wn30instances:synset-festoon-noun-3 , wn30instances:synset-decorator-noun-2 , wn30instances:synset-sidewalk-noun-1 , wn30instances:synset-garnish-noun-1 , wn30instances:synset-liner-noun-3 , wn30instances:synset-adornment-noun-1 , wn30instances:synset-binding-noun-5 , wn30instances:synset-festoon-noun-2 , wn30instances:synset-point-noun-9 , wn30instances:synset-trimming-noun-2 , wn30instances:synset-coating-noun-1 , wn30instances:synset-grace-noun-2 , wn30instances:synset-pavement-noun-1 .
+
+frame:Take_place_of  skos:closeMatch  wn30instances:synset-substitute-noun-1 , wn30instances:synset-understudy-verb-1 , wn30instances:synset-alternate-verb-2 , wn30instances:synset-successor-noun-2 , wn30instances:synset-successor-noun-3 , wn30instances:synset-successor-noun-1 , wn30instances:synset-usurper-noun-1 .
+
+frame:Offering  skos:closeMatch  wn30instances:synset-suggestion-noun-2 , wn30instances:synset-offerer-noun-1 .
+
+frame:Political_locales
+        skos:closeMatch  wn30instances:synset-zone-verb-1 .
+
+frame:Purpose  skos:closeMatch  wn30instances:synset-program-verb-1 , wn30instances:synset-plan-verb-2 , wn30instances:synset-plan-verb-3 , wn30instances:synset-determination-noun-2 , wn30instances:synset-target-verb-1 , wn30instances:synset-intent-noun-2 .
+
+frame:Grant_permission
+        skos:closeMatch  wn30instances:synset-shackle-noun-1 , wn30instances:synset-pass-noun-5 , wn30instances:synset-restrainer-noun-2 , wn30instances:synset-restriction-noun-1 , wn30instances:synset-license-noun-1 , wn30instances:synset-clearance-noun-3 , wn30instances:synset-limit-noun-1 , wn30instances:synset-limiter-noun-1 , wn30instances:synset-boundary-noun-1 , wn30instances:synset-commend-verb-2 , wn30instances:synset-O.K.-noun-1 , wn30instances:synset-approbate-verb-1 , wn30instances:synset-authorizer-noun-1 , wn30instances:synset-authority-noun-6 , wn30instances:synset-commend-verb-4 , wn30instances:synset-sanction-noun-1 , wn30instances:synset-commend-verb-1 , wn30instances:synset-boundary-noun-2 , wn30instances:synset-mandate-verb-2 , wn30instances:synset-approver-noun-1 , wn30instances:synset-limitation-noun-2 .
+
+frame:Capacity  skos:closeMatch  wn30instances:synset-seat-noun-1 , wn30instances:synset-dish-noun-2 , wn30instances:synset-dish-noun-3 , wn30instances:synset-dish-noun-1 , wn30instances:synset-seat-noun-3 , wn30instances:synset-fitter-noun-1 .
+
+frame:Connecting_architecture
+        skos:closeMatch  wn30instances:synset-raise-verb-2 , wn30instances:synset-hoist-verb-1 .
+
+frame:Silencing  skos:closeMatch  wn30instances:synset-silence-noun-1 , wn30instances:synset-silencer-noun-1 , wn30instances:synset-silencer-noun-2 .
+
+frame:Biological_area
+        skos:closeMatch  wn30instances:synset-afforest-verb-1 , wn30instances:synset-mire-verb-2 , wn30instances:synset-swamp-verb-1 , wn30instances:synset-crop-verb-4 , wn30instances:synset-crop-verb-5 .
+
+frame:Agriculture  skos:closeMatch  wn30instances:synset-produce-noun-1 , wn30instances:synset-farm-noun-1 , wn30instances:synset-farmer-noun-1 , wn30instances:synset-agriculturist-noun-1 .
+
+frame:People_by_vocation
+        skos:closeMatch  wn30instances:synset-clerk-verb-1 , wn30instances:synset-direct-verb-4 , wn30instances:synset-engineer-verb-1 , wn30instances:synset-serve-verb-5 , wn30instances:synset-farm-verb-1 , wn30instances:synset-mastermind-verb-1 , wn30instances:synset-garden-verb-1 , wn30instances:synset-report-verb-5 , wn30instances:synset-design-verb-4 , wn30instances:synset-oversee-verb-1 , wn30instances:synset-vet-verb-4 , wn30instances:synset-soldier-verb-1 , wn30instances:synset-grow-verb-7 , wn30instances:synset-wait-verb-4 , wn30instances:synset-investigate-verb-1 , wn30instances:synset-attend-verb-1 , wn30instances:synset-spy-verb-4 , wn30instances:synset-deal-verb-6 , wn30instances:synset-rede-verb-2 , wn30instances:synset-vet-verb-1 , wn30instances:synset-research-verb-1 , wn30instances:synset-spy-verb-2 , wn30instances:synset-officer-verb-1 , wn30instances:synset-design-verb-3 , wn30instances:synset-trade-verb-1 , wn30instances:synset-speculate-verb-1 , wn30instances:synset-peddle-verb-1 , wn30instances:synset-research-verb-2 , wn30instances:synset-carpenter-verb-1 , wn30instances:synset-speculate-verb-2 .
+
+frame:Cause_expansion
+        skos:closeMatch  wn30instances:synset-inflater-noun-1 , wn30instances:synset-enlarger-noun-1 , wn30instances:synset-enlargement-noun-4 , wn30instances:synset-stretch-noun-7 , wn30instances:synset-magnification-noun-2 , wn30instances:synset-narrow-noun-1 , wn30instances:synset-magnifier-noun-1 .
+
+frame:Taking_sides  skos:closeMatch  wn30instances:synset-endorsement-noun-1 , wn30instances:synset-adversary-noun-1 , wn30instances:synset-promote-verb-1 , wn30instances:synset-subscriber-noun-1 , wn30instances:synset-seconder-noun-1 , wn30instances:synset-champion-verb-1 , wn30instances:synset-support-verb-2 , wn30instances:synset-admire-verb-1 , wn30instances:synset-second-noun-8 , wn30instances:synset-defend-verb-1 .
+
+frame:Operate_vehicle
+        skos:closeMatch  wn30instances:synset-parachutist-noun-1 , wn30instances:synset-toboggan-noun-1 , wn30instances:synset-oarsman-noun-1 , wn30instances:synset-sled-noun-1 , wn30instances:synset-pedaler-noun-1 , wn30instances:synset-motor-noun-1 , wn30instances:synset-pedal-noun-2 , wn30instances:synset-sheet-noun-7 , wn30instances:synset-boatman-noun-1 , wn30instances:synset-cyclist-noun-1 , wn30instances:synset-cabin_cruiser-noun-1 , wn30instances:synset-cab-noun-3 , wn30instances:synset-punter-noun-2 , wn30instances:synset-tack-noun-1 , wn30instances:synset-paddle-noun-4 , wn30instances:synset-aviator-noun-1 , wn30instances:synset-passenger-noun-1 , wn30instances:synset-raft-noun-1 , wn30instances:synset-bicycle-noun-1 , wn30instances:synset-skate-noun-1 , wn30instances:synset-canoeist-noun-1 , wn30instances:synset-canoe-noun-1 , wn30instances:synset-luge-noun-1 , wn30instances:synset-skater-noun-1 , wn30instances:synset-balloon-noun-1 , wn30instances:synset-driver-noun-1 , wn30instances:synset-pilot-noun-1 , wn30instances:synset-boat-noun-1 .
+
+frame:Immobilization  skos:closeMatch  wn30instances:synset-fetter-noun-1 , wn30instances:synset-handcuff-noun-1 , wn30instances:synset-shackle-noun-1 .
+
+frame:Holding_off_on  skos:closeMatch  wn30instances:synset-waiter-noun-2 .
+
+frame:Supply  skos:closeMatch  wn30instances:synset-sutler-noun-1 , wn30instances:synset-issuer-noun-1 , wn30instances:synset-provide-verb-2 , wn30instances:synset-outfitter-noun-1 , wn30instances:synset-issue-noun-5 , wn30instances:synset-supply-noun-1 , wn30instances:synset-provision-noun-4 , wn30instances:synset-purveyor-noun-1 , wn30instances:synset-kit-noun-2 , wn30instances:synset-fuel-noun-1 , wn30instances:synset-outfit-noun-2 .
+
+frame:Cause_temperature_change
+        skos:closeMatch  wn30instances:synset-cooler-noun-1 , wn30instances:synset-heater-noun-1 , wn30instances:synset-refrigerator-noun-1 , wn30instances:synset-chill-noun-1 , wn30instances:synset-cool-noun-1 , wn30instances:synset-cooler-noun-2 , wn30instances:synset-heat-noun-1 , wn30instances:synset-hotness-noun-1 , wn30instances:synset-heat-noun-3 .
+
+frame:Subversion  skos:closeMatch  wn30instances:synset-underseller-noun-1 .
+
+frame:Communication_means
+        skos:closeMatch  wn30instances:synset-facsimile-noun-2 , wn30instances:synset-teletypewriter-noun-1 , wn30instances:synset-semaphore-noun-1 , wn30instances:synset-telegrapher-noun-1 , wn30instances:synset-telegraph-noun-1 , wn30instances:synset-wirer-noun-1 , wn30instances:synset-cable-noun-1 , wn30instances:synset-radio_receiver-noun-1 , wn30instances:synset-radio-noun-1 , wn30instances:synset-telephone-noun-1 , wn30instances:synset-radio-noun-3 , wn30instances:synset-caller-noun-7 .
+
+frame:Imposing_obligation
+        skos:closeMatch  wn30instances:synset-obligation-noun-5 , wn30instances:synset-regent-noun-1 , wn30instances:synset-assurance-noun-2 , wn30instances:synset-consignee-noun-1 , wn30instances:synset-trustee-noun-1 , wn30instances:synset-obligation-noun-2 , wn30instances:synset-consigner-noun-1 , wn30instances:synset-trust-noun-3 , wn30instances:synset-bind-noun-1 , wn30instances:synset-committee-noun-1 .
+
+frame:Wearing  skos:closeMatch  wn30instances:synset-clothing-noun-1 , wn30instances:synset-feature-noun-4 , wn30instances:synset-feature-noun-6 , wn30instances:synset-wearer-noun-1 .
+
+frame:Employing  skos:closeMatch  wn30instances:synset-staff-verb-1 , wn30instances:synset-staff-verb-2 , wn30instances:synset-work-verb-2 , wn30instances:synset-work-verb-1 , wn30instances:synset-hire-verb-1 .
+
+frame:Reforming_a_system
+        skos:closeMatch  wn30instances:synset-reformer-noun-1 .
+
+frame:Misdeed  skos:closeMatch  wn30instances:synset-sinner-noun-1 , wn30instances:synset-violator-noun-1 , wn30instances:synset-transgressor-noun-1 , wn30instances:synset-wrongdoer-noun-1 .
+
+frame:Substance_by_phase
+        skos:closeMatch  wn30instances:synset-solidify-verb-1 , wn30instances:synset-solidify-verb-2 .
+
+frame:Cause_impact  skos:closeMatch  wn30instances:synset-pasture-noun-1 , wn30instances:synset-range-noun-3 , wn30instances:synset-striker-noun-5 , wn30instances:synset-hitter-noun-2 , wn30instances:synset-runner-noun-2 , wn30instances:synset-slapper-noun-1 .
+
+frame:Becoming_dry  skos:closeMatch  wn30instances:synset-dryer-noun-1 , wn30instances:synset-dehydration-noun-1 , wn30instances:synset-desiccant-noun-1 .
+
+frame:Complaining  skos:closeMatch  wn30instances:synset-scold-noun-1 , wn30instances:synset-grouch-noun-1 , wn30instances:synset-mourner-noun-1 , wn30instances:synset-groaner-noun-1 , wn30instances:synset-crab-noun-2 , wn30instances:synset-whiner-noun-1 .
+
+frame:Cause_to_amalgamate
+        skos:closeMatch  wn30instances:synset-compound-noun-1 , wn30instances:synset-combination-noun-1 , wn30instances:synset-amalgamator-noun-1 , wn30instances:synset-coalition-noun-2 , wn30instances:synset-patchwork-noun-1 , wn30instances:synset-joiner-noun-1 , wn30instances:synset-pair-noun-3 , wn30instances:synset-hunk-noun-2 , wn30instances:synset-couple-noun-1 , wn30instances:synset-whole-noun-2 , wn30instances:synset-compound-verb-4 , wn30instances:synset-blender-noun-1 , wn30instances:synset-amalgamation-noun-1 , wn30instances:synset-mixer-noun-4 , wn30instances:synset-scrambler-noun-3 , wn30instances:synset-clutter-noun-1 .
+
+frame:Feigning  skos:closeMatch  wn30instances:synset-counterfeit-noun-1 , wn30instances:synset-fake-noun-1 , wn30instances:synset-forger-noun-2 , wn30instances:synset-malingerer-noun-1 , wn30instances:synset-imposter-noun-1 , wn30instances:synset-hypocrite-noun-1 .
+
+frame:Goal  skos:closeMatch  wn30instances:synset-determination-noun-2 , wn30instances:synset-intent-noun-2 , wn30instances:synset-ambition-noun-1 , wn30instances:synset-aspiration-noun-1 , wn30instances:synset-aspirant-noun-1 .
+
+frame:Supporting  skos:closeMatch  wn30instances:synset-garter-noun-1 , wn30instances:synset-holder-noun-1 , wn30instances:synset-support-noun-10 , wn30instances:synset-support-noun-7 .
+
+frame:Hospitality  skos:closeMatch  wn30instances:synset-invite-verb-2 , wn30instances:synset-invite-verb-5 , wn30instances:synset-host-noun-8 , wn30instances:synset-master_of_ceremonies-noun-1 , wn30instances:synset-host-noun-1 .
+
+frame:Topic  skos:closeMatch  wn30instances:synset-applicability-noun-1 .
+
+frame:Knot_creation  skos:closeMatch  wn30instances:synset-necktie-noun-1 .
+
+frame:Robbery  skos:closeMatch  wn30instances:synset-loot-noun-1 , wn30instances:synset-muggee-noun-1 , wn30instances:synset-plunderer-noun-1 .
+
+frame:Reasoning  skos:closeMatch  wn30instances:synset-rationality-noun-1 , wn30instances:synset-submit-verb-2 , wn30instances:synset-confutation-noun-2 , wn30instances:synset-reason-noun-3 , wn30instances:synset-argue-verb-3 , wn30instances:synset-rebutter-noun-1 , wn30instances:synset-reasoner-noun-1 , wn30instances:synset-debater-noun-1 .
+
+frame:Ingestion  skos:closeMatch  wn30instances:synset-luncher-noun-1 , wn30instances:synset-self-feeder-noun-1 , wn30instances:synset-devourer-noun-1 , wn30instances:synset-quaffer-noun-1 , wn30instances:synset-drinker-noun-2 , wn30instances:synset-nibbler-noun-1 , wn30instances:synset-consumer-noun-1 , wn30instances:synset-nosher-noun-1 , wn30instances:synset-dinner-noun-2 , wn30instances:synset-sipper-noun-1 , wn30instances:synset-sucker-noun-6 , wn30instances:synset-dining_car-noun-1 , wn30instances:synset-diner-noun-3 , wn30instances:synset-eater-noun-1 , wn30instances:synset-diner-noun-1 , wn30instances:synset-swallow-noun-1 , wn30instances:synset-gobbler-noun-1 , wn30instances:synset-eater-noun-2 , wn30instances:synset-muncher-noun-1 , wn30instances:synset-drink-noun-1 , wn30instances:synset-beverage-noun-1 , wn30instances:synset-gulper-noun-1 , wn30instances:synset-drinker-noun-1 .
+
+frame:Replacing  skos:closeMatch  wn30instances:synset-substitute-noun-1 .
+
+frame:People_by_morality
+        skos:closeMatch  wn30instances:synset-consecrate-verb-4 , wn30instances:synset-outlaw-verb-1 , wn30instances:synset-canonize-verb-1 , wn30instances:synset-sin-verb-1 , wn30instances:synset-corrupt-verb-1 , wn30instances:synset-transgress-verb-1 , wn30instances:synset-denounce-verb-4 .
+
+frame:Abounding_with  skos:closeMatch  wn30instances:synset-batch-noun-2 , wn30instances:synset-pile-noun-1 , wn30instances:synset-swarm-noun-2 , wn30instances:synset-drove-noun-2 .
+
+frame:Appointing  skos:closeMatch  wn30instances:synset-appointee-noun-1 , wn30instances:synset-appointee-noun-2 .
+
+frame:People_by_jurisdiction
+        skos:closeMatch  wn30instances:synset-subjugate-verb-2 , wn30instances:synset-people-verb-2 .
+
+frame:Non-commutative_process
+        skos:closeMatch  wn30instances:synset-fraction-noun-3 .
+
+frame:State_of_entity
+        skos:closeMatch  wn30instances:synset-condition-verb-4 .
+
+frame:Meet_specifications
+        skos:closeMatch  wn30instances:synset-fulfillment-noun-1 , wn30instances:synset-fill-noun-1 , wn30instances:synset-satisfier-noun-1 .
+
+frame:Death  skos:closeMatch  wn30instances:synset-suffocation-noun-2 , wn30instances:synset-starve-verb-1 , wn30instances:synset-uproot-verb-2 , wn30instances:synset-exterminate-verb-1 .
+
+frame:Craft  skos:closeMatch  wn30instances:synset-handicraft-noun-1 , wn30instances:synset-craft-noun-3 , wn30instances:synset-craftsman-noun-2 .
+
+frame:Likelihood  skos:closeMatch  wn30instances:synset-inclination-noun-1 , wn30instances:synset-tendency-noun-3 , wn30instances:synset-inclination-noun-5 .
+
+frame:Suspicion  skos:closeMatch  wn30instances:synset-distrust-noun-2 , wn30instances:synset-suspect-verb-3 .
+
+frame:Alliance  skos:closeMatch  wn30instances:synset-confederate-verb-2 , wn30instances:synset-band_together-verb-1 .
+
+frame:Rope_manipulation
+        skos:closeMatch  wn30instances:synset-knot-noun-2 , wn30instances:synset-braid-noun-1 , wn30instances:synset-tangle-noun-1 , wn30instances:synset-tangle-noun-2 , wn30instances:synset-necktie-noun-1 .
+
+frame:Emanating  skos:closeMatch  wn30instances:synset-emanation-noun-1 , wn30instances:synset-exit-noun-1 , wn30instances:synset-exudate-noun-1 , wn30instances:synset-radiator-noun-1 .
+
+frame:Respond_to_proposal
+        skos:closeMatch  wn30instances:synset-accept-verb-1 , wn30instances:synset-taker-noun-1 .
+
+frame:Closure  skos:closeMatch  wn30instances:synset-tier-noun-3 , wn30instances:synset-crest-noun-1 , wn30instances:synset-opener-noun-3 , wn30instances:synset-binder-noun-1 , wn30instances:synset-peak-noun-4 , wn30instances:synset-slide_fastener-noun-1 , wn30instances:synset-undoer-noun-2 , wn30instances:synset-tie-noun-9 , wn30instances:synset-button-noun-1 , wn30instances:synset-seal-noun-8 , wn30instances:synset-buckle-noun-1 , wn30instances:synset-clasp-noun-1 , wn30instances:synset-lacer-noun-1 , wn30instances:synset-link-noun-2 , wn30instances:synset-shutter-noun-2 , wn30instances:synset-fastener-noun-2 , wn30instances:synset-shutter-noun-1 , wn30instances:synset-tier-noun-4 , wn30instances:synset-lace-noun-1 , wn30instances:synset-fastener-noun-1 , wn30instances:synset-sealant-noun-1 .
+
+frame:Judgment  skos:closeMatch  wn30instances:synset-enchant-verb-1 , wn30instances:synset-esteem-noun-1 , wn30instances:synset-spurner-noun-1 , wn30instances:synset-cull-noun-1 , wn30instances:synset-honor-verb-1 , wn30instances:synset-curse-verb-3 , wn30instances:synset-exhilarate-verb-1 , wn30instances:synset-inspire-verb-1 , wn30instances:synset-abuse-verb-3 , wn30instances:synset-vilify-verb-1 , wn30instances:synset-value-noun-6 , wn30instances:synset-treasure-noun-3 , wn30instances:synset-venerator-noun-1 , wn30instances:synset-disapproval-noun-1 , wn30instances:synset-admirer-noun-2 , wn30instances:synset-scoffer-noun-2 , wn30instances:synset-sneerer-noun-1 , wn30instances:synset-supporter-noun-1 , wn30instances:synset-fault-noun-6 , wn30instances:synset-admiration-noun-1 , wn30instances:synset-respecter-noun-1 , wn30instances:synset-accuser-noun-1 , wn30instances:synset-clapper-noun-1 , wn30instances:synset-respect-verb-2 , wn30instances:synset-post-verb-12 , wn30instances:synset-reverence-noun-2 , wn30instances:synset-admirer-noun-3 , wn30instances:synset-contemn-verb-1 , wn30instances:synset-award-verb-1 , wn30instances:synset-hisser-noun-1 .
+
+frame:Progress  skos:closeMatch  wn30instances:synset-improvement-noun-3 , wn30instances:synset-endowment-noun-1 , wn30instances:synset-better-noun-4 .
+
+frame:Subjective_influence
+        skos:closeMatch  wn30instances:synset-motivation-noun-2 , wn30instances:synset-provocation-noun-3 , wn30instances:synset-incitement-noun-3 , wn30instances:synset-motivation-noun-1 , wn30instances:synset-incentive-noun-1 , wn30instances:synset-push-noun-5 , wn30instances:synset-energy-noun-3 , wn30instances:synset-pusher-noun-2 , wn30instances:synset-galvanizer-noun-2 .
+
+frame:Request  skos:closeMatch  wn30instances:synset-petition-verb-1 , wn30instances:synset-guest-noun-1 , wn30instances:synset-decree-noun-1 , wn30instances:synset-order-noun-1 , wn30instances:synset-citation-noun-5 , wn30instances:synset-summons-noun-3 , wn30instances:synset-caller-noun-5 , wn30instances:synset-cheerer-noun-1 , wn30instances:synset-demander-noun-1 .
+
+frame:Receiving  skos:closeMatch  wn30instances:synset-recipient-noun-1 , wn30instances:synset-taker-noun-1 .
+
+frame:Cause_to_perceive
+        skos:closeMatch  wn30instances:synset-exhibitor-noun-1 , wn30instances:synset-depiction-noun-4 , wn30instances:synset-picture-noun-1 , wn30instances:synset-pointer-noun-2 , wn30instances:synset-demonstrator-noun-1 , wn30instances:synset-arrow-noun-1 , wn30instances:synset-cursor-noun-1 , wn30instances:synset-picture-noun-5 , wn30instances:synset-interpreter-noun-2 , wn30instances:synset-representation-noun-2 , wn30instances:synset-painting-noun-1 .
+
+frame:Event  skos:closeMatch  wn30instances:synset-force-verb-8 , wn30instances:synset-push-verb-1 .
+
+frame:Reading_aloud  skos:closeMatch  wn30instances:synset-reader-noun-1 , wn30instances:synset-reader-noun-3 .
+
+frame:Duration_relation
+        skos:closeMatch  wn30instances:synset-prevalence-noun-1 .
+
+frame:Evidence  skos:closeMatch  wn30instances:synset-deduction-noun-3 , wn30instances:synset-testimony-noun-3 , wn30instances:synset-evidence-noun-3 , wn30instances:synset-rebutter-noun-1 , wn30instances:synset-debater-noun-1 , wn30instances:synset-voucher-noun-1 , wn30instances:synset-indication-noun-1 , wn30instances:synset-model-noun-7 , wn30instances:synset-documentation-noun-1 , wn30instances:synset-reason-noun-3 , wn30instances:synset-indication-noun-3 , wn30instances:synset-testimony-noun-2 , wn30instances:synset-argue-verb-3 , wn30instances:synset-evidence-noun-2 , wn30instances:synset-submit-verb-2 , wn30instances:synset-exemplar-noun-1 , wn30instances:synset-confirmation-noun-2 , wn30instances:synset-rationality-noun-1 , wn30instances:synset-attestation-noun-2 , wn30instances:synset-testifier-noun-1 , wn30instances:synset-confutation-noun-2 , wn30instances:synset-signal-noun-1 , wn30instances:synset-example-noun-1 , wn30instances:synset-reasoner-noun-1 , wn30instances:synset-confirmation-noun-1 .
+
+frame:Besieging  skos:closeMatch  wn30instances:synset-besieger-noun-1 .
+
+frame:Exercising  skos:closeMatch  wn30instances:synset-gymnastic_apparatus-noun-1 .
+
+frame:Criminal_investigation
+        skos:closeMatch  wn30instances:synset-inquirer-noun-1 , wn30instances:synset-detective-noun-1 .
+
+frame:Cause_to_be_sharp
+        skos:closeMatch  wn30instances:synset-sharpener-noun-1 .
+
+frame:Sign_agreement  skos:closeMatch  wn30instances:synset-sign-verb-4 , wn30instances:synset-sign-verb-2 , wn30instances:synset-sign-verb-3 .
+
+frame:Commutative_process
+        skos:closeMatch  wn30instances:synset-total-verb-1 , wn30instances:synset-total-verb-2 , wn30instances:synset-multiplier-noun-1 , wn30instances:synset-better-verb-2 , wn30instances:synset-lend-verb-1 , wn30instances:synset-addition-noun-2 , wn30instances:synset-multiply-verb-2 .
+
+frame:People_by_residence
+        skos:closeMatch  wn30instances:synset-neighbor-verb-1 .
+
+frame:Commerce_buy  skos:closeMatch  wn30instances:synset-buyer-noun-1 .
+
+frame:Grasp  skos:closeMatch  wn30instances:synset-understanding-noun-1 , wn30instances:synset-comprehension-noun-1 , wn30instances:synset-knower-noun-1 .
+
+frame:Judgment_direct_address
+        skos:closeMatch  wn30instances:synset-scoffer-noun-2 , wn30instances:synset-scold-noun-1 , wn30instances:synset-haranguer-noun-1 , wn30instances:synset-upbraider-noun-1 .
+
+frame:Quarreling  skos:closeMatch  wn30instances:synset-fighter-noun-2 , wn30instances:synset-carper-noun-1 , wn30instances:synset-quibbler-noun-1 , wn30instances:synset-brawler-noun-1 , wn30instances:synset-wrangler-noun-1 , wn30instances:synset-debater-noun-1 , wn30instances:synset-combatant-noun-1 , wn30instances:synset-quarreler-noun-1 .
+
+frame:Sound_movement  skos:closeMatch  wn30instances:synset-plangency-noun-1 .
+
+frame:Diversity  skos:closeMatch  wn30instances:synset-diversify-verb-1 , wn30instances:synset-vary-verb-4 , wn30instances:synset-range-verb-4 , wn30instances:synset-compass-verb-1 .
+
+frame:Make_agreement_on_action
+        skos:closeMatch  wn30instances:synset-dicker-verb-1 , wn30instances:synset-arrange-verb-2 .
+
+frame:Have_associated
+        skos:closeMatch  wn30instances:synset-feature-noun-2 , wn30instances:synset-feature-noun-1 .
+
+frame:Rest  skos:closeMatch  wn30instances:synset-remain-verb-3 , wn30instances:synset-remainder-verb-1 , wn30instances:synset-complement-noun-4 .
+
+frame:Heralding  skos:closeMatch  wn30instances:synset-annunciator-noun-1 , wn30instances:synset-harbinger-noun-1 .
+
+frame:Mass_motion  skos:closeMatch  wn30instances:synset-troop-noun-4 , wn30instances:synset-crowd-noun-1 , wn30instances:synset-downpour-noun-1 , wn30instances:synset-batch-noun-2 , wn30instances:synset-pile-noun-1 , wn30instances:synset-wheel-noun-1 , wn30instances:synset-marcher-noun-2 , wn30instances:synset-drove-noun-2 .
+
+frame:Relational_natural_features
+        skos:closeMatch  wn30instances:synset-cap-verb-1 , wn30instances:synset-clear-verb-9 , wn30instances:synset-summit-verb-1 , wn30instances:synset-top-verb-6 , wn30instances:synset-shore-verb-1 , wn30instances:synset-bank-verb-2 .
+
+frame:Participation  skos:closeMatch  wn30instances:synset-participation-noun-2 , wn30instances:synset-player-noun-5 .
+
+frame:Scrutiny  skos:closeMatch  wn30instances:synset-spectator-noun-1 , wn30instances:synset-sweep-verb-8 , wn30instances:synset-assayer-noun-1 , wn30instances:synset-proctor-noun-1 , wn30instances:synset-checker-noun-2 , wn30instances:synset-monitor-noun-6 , wn30instances:synset-supervisor-noun-1 , wn30instances:synset-auditor-noun-3 , wn30instances:synset-scrutinizer-noun-1 , wn30instances:synset-rover-noun-2 , wn30instances:synset-survey-verb-6 , wn30instances:synset-eyeball-noun-1 , wn30instances:synset-study-verb-3 , wn30instances:synset-eye-noun-1 , wn30instances:synset-analyzer-noun-1 , wn30instances:synset-cross-verb-5 , wn30instances:synset-research_worker-noun-1 , wn30instances:synset-examine-verb-2 , wn30instances:synset-searcher-noun-2 , wn30instances:synset-scout-noun-4 , wn30instances:synset-seeker-noun-1 , wn30instances:synset-scout-noun-3 .
+
+frame:Intentional_traversing
+        skos:closeMatch  wn30instances:synset-crampon-noun-2 , wn30instances:synset-traversal-noun-2 , wn30instances:synset-path-noun-4 , wn30instances:synset-ford-noun-7 , wn30instances:synset-ascent-noun-1 , wn30instances:synset-climber-noun-4 , wn30instances:synset-mounter-noun-2 , wn30instances:synset-ascender-noun-1 , wn30instances:synset-traverser-noun-1 .
+
+frame:Telling  skos:closeMatch  wn30instances:synset-confidence-noun-5 , wn30instances:synset-information-noun-1 , wn30instances:synset-information-noun-2 , wn30instances:synset-data-noun-1 , wn30instances:synset-notification-noun-3 .
+
+frame:Medical_professionals
+        skos:closeMatch  wn30instances:synset-bring_around-verb-2 , wn30instances:synset-doctor-verb-2 , wn30instances:synset-nurse-verb-1 , wn30instances:synset-nurse-verb-3 .
+
+frame:Commerce_scenario
+        skos:closeMatch  wn30instances:synset-cost-verb-1 , wn30instances:synset-retail-verb-2 , wn30instances:synset-buy-verb-1 , wn30instances:synset-traffic-verb-2 , wn30instances:synset-deal-verb-6 , wn30instances:synset-market-verb-1 , wn30instances:synset-peddle-verb-1 , wn30instances:synset-sell-verb-1 .
+
+frame:Hunting_success_or_failure
+        skos:closeMatch  wn30instances:synset-catch-noun-2 , wn30instances:synset-captor-noun-1 .
+
+frame:Thriving  skos:closeMatch  wn30instances:synset-languisher-noun-1 .
+
+frame:Evoking  skos:closeMatch  wn30instances:synset-reminder-noun-2 , wn30instances:synset-remembrance-noun-1 .
+
+frame:Ride_vehicle  skos:closeMatch  wn30instances:synset-flier-noun-1 , wn30instances:synset-passenger-noun-1 , wn30instances:synset-coaster-noun-2 , wn30instances:synset-hitchhiker-noun-1 , wn30instances:synset-bus-noun-1 , wn30instances:synset-jet-noun-1 , wn30instances:synset-cabin_cruiser-noun-1 , wn30instances:synset-wing-noun-2 , wn30instances:synset-cab-noun-3 , wn30instances:synset-wing-noun-1 .
+
+frame:Type  skos:closeMatch  wn30instances:synset-produce-verb-2 , wn30instances:synset-classify-verb-1 , wn30instances:synset-change-verb-3 , wn30instances:synset-relegate-verb-4 .
+
+frame:Change_of_leadership
+        skos:closeMatch  wn30instances:synset-appointee-noun-1 , wn30instances:synset-appointee-noun-2 , wn30instances:synset-chosen-noun-3 , wn30instances:synset-ouster-noun-1 , wn30instances:synset-usurper-noun-1 , wn30instances:synset-arrogator-noun-1 , wn30instances:synset-rebel-verb-1 , wn30instances:synset-voter-noun-1 .
+
+frame:Preserving  skos:closeMatch  wn30instances:synset-mummy-noun-2 , wn30instances:synset-conserve-noun-1 , wn30instances:synset-pickle-noun-1 , wn30instances:synset-salt-noun-2 , wn30instances:synset-embalmer-noun-1 , wn30instances:synset-salter-noun-1 , wn30instances:synset-preserver-noun-2 .
+
+frame:Sentencing  skos:closeMatch  wn30instances:synset-condemnation-noun-4 , wn30instances:synset-prison_term-noun-1 .
+
+frame:Others_situation_as_stimulus
+        skos:closeMatch  wn30instances:synset-commiseration-noun-1 , wn30instances:synset-compassion-noun-1 , wn30instances:synset-sympathizer-noun-2 .
+
+frame:Observable_body_parts
+        skos:closeMatch  wn30instances:synset-fin-verb-2 , wn30instances:synset-mouth-verb-3 , wn30instances:synset-elbow-verb-2 , wn30instances:synset-flip-verb-7 , wn30instances:synset-nuzzle-verb-2 , wn30instances:synset-dock-verb-4 , wn30instances:synset-nose-verb-4 , wn30instances:synset-peck-verb-1 , wn30instances:synset-scent-verb-2 , wn30instances:synset-chew-verb-1 , wn30instances:synset-finger-verb-1 , wn30instances:synset-toe-verb-1 , wn30instances:synset-eye-verb-1 , wn30instances:synset-peck-verb-2 , wn30instances:synset-feel-verb-11 , wn30instances:synset-shoulder-verb-1 , wn30instances:synset-crown-verb-4 , wn30instances:synset-claw-verb-3 , wn30instances:synset-skin-verb-2 , wn30instances:synset-shoulder-verb-2 , wn30instances:synset-finger-verb-4 , wn30instances:synset-feel-verb-9 , wn30instances:synset-toe-verb-5 , wn30instances:synset-fly-verb-1 , wn30instances:synset-tongue-verb-1 , wn30instances:synset-shoulder-verb-3 , wn30instances:synset-horn-verb-1 , wn30instances:synset-tongue-verb-2 , wn30instances:synset-paw-verb-1 , wn30instances:synset-heel-verb-3 , wn30instances:synset-elbow-verb-1 , wn30instances:synset-talk-verb-2 .
+
+frame:Cause_to_move_in_place
+        skos:closeMatch  wn30instances:synset-swinger-noun-1 , wn30instances:synset-seesaw-noun-1 , wn30instances:synset-squeezer-noun-1 , wn30instances:synset-pitcher-noun-1 , wn30instances:synset-spinner-noun-2 , wn30instances:synset-baton_twirler-noun-1 , wn30instances:synset-crusher-noun-1 , wn30instances:synset-shaker-noun-3 , wn30instances:synset-whirl-noun-2 , wn30instances:synset-vibrator-noun-2 .
+
+frame:Vehicle  skos:closeMatch  wn30instances:synset-yacht-verb-1 , wn30instances:synset-bus-verb-2 , wn30instances:synset-ferry-verb-2 , wn30instances:synset-bus-verb-1 , wn30instances:synset-automobile-verb-1 , wn30instances:synset-ferry-verb-3 , wn30instances:synset-taxi-verb-2 , wn30instances:synset-truck-verb-1 , wn30instances:synset-dart-verb-2 , wn30instances:synset-kayak-verb-1 , wn30instances:synset-ship-verb-4 , wn30instances:synset-canoe-verb-1 , wn30instances:synset-toboggan-verb-1 , wn30instances:synset-boat-verb-1 , wn30instances:synset-train-verb-10 , wn30instances:synset-cart-verb-2 , wn30instances:synset-bicycle-verb-1 .
+
+frame:Setting_out  skos:closeMatch  wn30instances:synset-novice-noun-2 , wn30instances:synset-newcomer-noun-1 .
+
+frame:Cause_change  skos:closeMatch  wn30instances:synset-converter-noun-1 , wn30instances:synset-change-noun-4 , wn30instances:synset-change-noun-6 , wn30instances:synset-version-noun-2 , wn30instances:synset-change-noun-2 , wn30instances:synset-transformation-noun-2 , wn30instances:synset-changer-noun-1 .
+
+frame:Verdict  skos:closeMatch  wn30instances:synset-exoneration-noun-1 , wn30instances:synset-clear-noun-1 , wn30instances:synset-convict-noun-1 , wn30instances:synset-convict-noun-2 , wn30instances:synset-label-noun-4 , wn30instances:synset-label-noun-1 .
+
+frame:Locative_relation
+        skos:closeMatch  wn30instances:synset-contact-noun-3 , wn30instances:synset-position-verb-1 , wn30instances:synset-borderland-noun-1 , wn30instances:synset-boundary_line-noun-1 , wn30instances:synset-edge-noun-1 , wn30instances:synset-abutment-noun-1 , wn30instances:synset-bracket-noun-4 , wn30instances:synset-neighbor-noun-2 , wn30instances:synset-abutter-noun-1 .
+
+frame:Mention  skos:closeMatch  wn30instances:synset-quotation-noun-2 , wn30instances:synset-mention-noun-1 , wn30instances:synset-citation-noun-3 , wn30instances:synset-mentioner-noun-1 .
+
+frame:Feeling  skos:closeMatch  wn30instances:synset-experience-noun-2 , wn30instances:synset-experience-noun-1 , wn30instances:synset-discourtesy-noun-3 , wn30instances:synset-malice-noun-1 , wn30instances:synset-cattiness-noun-1 .
+
+frame:Speed  skos:closeMatch  wn30instances:synset-pace-verb-1 , wn30instances:synset-pace-verb-4 , wn30instances:synset-accelerate-verb-1 , wn30instances:synset-speed-verb-4 , wn30instances:synset-travel_rapidly-verb-1 , wn30instances:synset-accelerate-verb-2 .
+
+frame:Front_for  skos:closeMatch  wn30instances:synset-front-noun-1 , wn30instances:synset-front-noun-9 .
+
+frame:Contacting  skos:closeMatch  wn30instances:synset-mail-noun-3 , wn30instances:synset-writer-noun-2 , wn30instances:synset-radio_receiver-noun-1 , wn30instances:synset-electronic_mail-noun-1 , wn30instances:synset-caller-noun-7 , wn30instances:synset-wirer-noun-1 , wn30instances:synset-telephone-noun-1 , wn30instances:synset-facsimile-noun-2 , wn30instances:synset-cable-noun-1 , wn30instances:synset-mailer-noun-2 , wn30instances:synset-touch-verb-5 , wn30instances:synset-teletypewriter-noun-1 , wn30instances:synset-radio-noun-1 , wn30instances:synset-mail-noun-2 , wn30instances:synset-mail-noun-1 , wn30instances:synset-beeper-noun-1 , wn30instances:synset-radio-noun-3 , wn30instances:synset-liaison-noun-2 , wn30instances:synset-telegrapher-noun-1 , wn30instances:synset-mail-noun-4 , wn30instances:synset-telegraph-noun-1 .
+
+frame:Bringing  skos:closeMatch  wn30instances:synset-transporter-noun-1 , wn30instances:synset-wheel-noun-1 , wn30instances:synset-canoeist-noun-1 , wn30instances:synset-carrier-noun-1 , wn30instances:synset-paddle-noun-4 , wn30instances:synset-bicycle-noun-1 , wn30instances:synset-aircraft_carrier-noun-1 , wn30instances:synset-pedal-noun-2 , wn30instances:synset-cart-noun-1 , wn30instances:synset-handcart-noun-1 , wn30instances:synset-pedaler-noun-1 , wn30instances:synset-cyclist-noun-1 , wn30instances:synset-teamster-noun-2 , wn30instances:synset-hauler-noun-1 , wn30instances:synset-transmit-verb-4 , wn30instances:synset-bus-noun-1 , wn30instances:synset-truck-noun-1 , wn30instances:synset-carrier-noun-5 , wn30instances:synset-driver-noun-1 , wn30instances:synset-pallbearer-noun-1 , wn30instances:synset-conveyer_belt-noun-1 , wn30instances:synset-carrier-noun-2 , wn30instances:synset-motor-noun-1 , wn30instances:synset-shuttle-noun-2 , wn30instances:synset-oarsman-noun-1 , wn30instances:synset-conveyer-noun-1 , wn30instances:synset-bearer-noun-2 , wn30instances:synset-transfer-verb-2 , wn30instances:synset-jet-noun-1 , wn30instances:synset-carter-noun-3 .
+
+frame:Exclude_member  skos:closeMatch  wn30instances:synset-excommunicate-verb-1 .
+
+frame:Cause_to_end  skos:closeMatch  wn30instances:synset-catch-noun-6 , wn30instances:synset-containment-noun-1 , wn30instances:synset-end-noun-5 , wn30instances:synset-end-noun-3 .
+
+frame:Tasting  skos:closeMatch  wn30instances:synset-sampler-noun-3 , wn30instances:synset-sampler-noun-4 , wn30instances:synset-taste-noun-5 , wn30instances:synset-trier-noun-2 , wn30instances:synset-taster-noun-1 .
+
+frame:Architectural_part
+        skos:closeMatch  wn30instances:synset-cap-verb-2 , wn30instances:synset-deck-verb-3 , wn30instances:synset-rail-verb-4 , wn30instances:synset-wall-verb-1 , wn30instances:synset-roof-verb-1 , wn30instances:synset-rail-verb-2 , wn30instances:synset-rail-verb-3 .
+
+frame:Cure  skos:closeMatch  wn30instances:synset-comfort-noun-1 , wn30instances:synset-resuscitator-noun-1 , wn30instances:synset-comforter-noun-4 , wn30instances:synset-relief-noun-1 , wn30instances:synset-alleviator-noun-1 , wn30instances:synset-nurse-noun-1 .
+
+frame:Cooking_creation
+        skos:closeMatch  wn30instances:synset-cooker-noun-1 , wn30instances:synset-concoction-noun-1 , wn30instances:synset-cook-noun-1 .
+
+frame:Inherent_purpose
+        skos:closeMatch  wn30instances:synset-instrument-verb-1 .
+
+frame:Earnings_and_losses
+        skos:closeMatch  wn30instances:synset-net-verb-2 , wn30instances:synset-gross-verb-1 , wn30instances:synset-gainer-noun-2 , wn30instances:synset-earner-noun-1 , wn30instances:synset-loser-noun-3 .
+
+frame:Attributed_information
+        skos:closeMatch  wn30instances:synset-stand-verb-6 .
+
+frame:Remembering_experience
+        skos:closeMatch  wn30instances:synset-remembrance-noun-1 .
+
+frame:Stinginess  skos:closeMatch  wn30instances:synset-hoard-noun-1 , wn30instances:synset-hoarder-noun-1 .
+
+frame:Manipulation  skos:closeMatch  wn30instances:synset-puller-noun-2 , wn30instances:synset-push-noun-2 , wn30instances:synset-claw-noun-3 , wn30instances:synset-kisser-noun-1 , wn30instances:synset-toucher-noun-1 , wn30instances:synset-catcher-noun-1 , wn30instances:synset-baby_buggy-noun-1 , wn30instances:synset-nudger-noun-1 , wn30instances:synset-handle-noun-1 , wn30instances:synset-finger-noun-1 , wn30instances:synset-massager-noun-1 , wn30instances:synset-catcher-noun-2 , wn30instances:synset-force-noun-2 , wn30instances:synset-palm-noun-1 , wn30instances:synset-twiddler-noun-1 , wn30instances:synset-pawer-noun-1 , wn30instances:synset-yanker-noun-1 .
+
+frame:Repel  skos:closeMatch  wn30instances:synset-fender-noun-2 , wn30instances:synset-fender-noun-3 , wn30instances:synset-buffer-noun-6 , wn30instances:synset-fender-noun-1 , wn30instances:synset-stand-noun-12 .
+
+frame:Cause_to_wake  skos:closeMatch  wn30instances:synset-waker-noun-2 , wn30instances:synset-waker-noun-1 .
+
+frame:Soaking  skos:closeMatch  wn30instances:synset-marinade-noun-1 .
+
+frame:Being_at_risk  skos:closeMatch  wn30instances:synset-gamble-verb-1 , wn30instances:synset-venture-verb-3 , wn30instances:synset-endanger-verb-1 , wn30instances:synset-queer-verb-2 , wn30instances:synset-risk-verb-1 .
+
+frame:Hit_target  skos:closeMatch  wn30instances:synset-shot-noun-5 .
+
+frame:Inchoative_attaching
+        skos:closeMatch  wn30instances:synset-holder-noun-1 , wn30instances:synset-garter-noun-1 , wn30instances:synset-attachment-noun-4 , wn30instances:synset-support-noun-7 , wn30instances:synset-adhesiveness-noun-1 , wn30instances:synset-support-noun-10 , wn30instances:synset-gummed_label-noun-1 , wn30instances:synset-binder-noun-2 , wn30instances:synset-coherence-noun-1 , wn30instances:synset-fastener-noun-1 , wn30instances:synset-fastener-noun-2 .
+
+frame:Aggregate  skos:closeMatch  wn30instances:synset-group-verb-2 , wn30instances:synset-team-verb-1 , wn30instances:synset-crowd-verb-3 , wn30instances:synset-bunch-verb-2 , wn30instances:synset-box-verb-1 , wn30instances:synset-huddle-verb-1 , wn30instances:synset-throng-verb-1 , wn30instances:synset-batch-verb-1 , wn30instances:synset-classify-verb-1 , wn30instances:synset-relegate-verb-4 , wn30instances:synset-jam-verb-6 , wn30instances:synset-bundle-verb-1 , wn30instances:synset-vary-verb-4 , wn30instances:synset-bunch_together-verb-1 , wn30instances:synset-roll_up-verb-2 , wn30instances:synset-pour-verb-2 , wn30instances:synset-group-verb-1 , wn30instances:synset-herd-verb-1 , wn30instances:synset-teem-verb-1 , wn30instances:synset-cluster-verb-1 , wn30instances:synset-heap-verb-1 , wn30instances:synset-herd-verb-2 , wn30instances:synset-parcel-verb-3 .
+
+frame:Motion  skos:closeMatch  wn30instances:synset-ribbon-noun-1 , wn30instances:synset-meander-noun-1 , wn30instances:synset-course-noun-3 , wn30instances:synset-vagabond-noun-1 , wn30instances:synset-glider-noun-1 , wn30instances:synset-stray-noun-1 , wn30instances:synset-vagrant-noun-1 , wn30instances:synset-straggler-noun-1 , wn30instances:synset-coaster-noun-2 , wn30instances:synset-spiral-noun-1 , wn30instances:synset-traveler-noun-1 , wn30instances:synset-wing-noun-1 , wn30instances:synset-bend-noun-3 , wn30instances:synset-wing-noun-2 , wn30instances:synset-hiker-noun-1 , wn30instances:synset-luger-noun-2 , wn30instances:synset-flier-noun-1 , wn30instances:synset-locomotion-noun-1 , wn30instances:synset-drift-noun-1 , wn30instances:synset-rambler-noun-1 , wn30instances:synset-coil-noun-1 , wn30instances:synset-wanderer-noun-1 , wn30instances:synset-mover-noun-3 , wn30instances:synset-coil-noun-2 .
+
+frame:Food_gathering  skos:closeMatch  wn30instances:synset-harvester-noun-2 , wn30instances:synset-crop-noun-1 , wn30instances:synset-gleaner-noun-1 , wn30instances:synset-harvester-noun-1 .
+
+frame:Experiencer_obj
+        skos:closeMatch  wn30instances:synset-galvanizer-noun-2 , wn30instances:synset-abashment-noun-1 , wn30instances:synset-confusion-noun-3 , wn30instances:synset-comforter-noun-4 , wn30instances:synset-consolation-noun-1 , wn30instances:synset-preoccupation-noun-2 , wn30instances:synset-peace-noun-2 , wn30instances:synset-delight-noun-1 , wn30instances:synset-aggravation-noun-1 , wn30instances:synset-incitement-noun-3 , wn30instances:synset-attraction-noun-3 , wn30instances:synset-gratification-noun-1 , wn30instances:synset-instigator-noun-1 , wn30instances:synset-horror-noun-1 , wn30instances:synset-panic-noun-1 , wn30instances:synset-enchantment-noun-2 , wn30instances:synset-demoralization-noun-3 , wn30instances:synset-astonishment-noun-1 , wn30instances:synset-discomfiture-noun-1 , wn30instances:synset-bleakness-noun-1 , wn30instances:synset-encouragement-noun-3 , wn30instances:synset-charmer-noun-2 , wn30instances:synset-entertainment-noun-1 , wn30instances:synset-attraction-noun-4 , wn30instances:synset-tormentor-noun-1 , wn30instances:synset-anxiousness-noun-2 , wn30instances:synset-attraction-noun-2 , wn30instances:synset-dejection-noun-1 , wn30instances:synset-conciliation-noun-1 , wn30instances:synset-determent-noun-1 , wn30instances:synset-malice-noun-1 , wn30instances:synset-joy-noun-2 , wn30instances:synset-wrath-noun-2 , wn30instances:synset-exhilaration-noun-1 , wn30instances:synset-bore-noun-1 , wn30instances:synset-concentration-noun-5 , wn30instances:synset-excitement-noun-2 , wn30instances:synset-stupefaction-noun-1 , wn30instances:synset-devastation-noun-1 , wn30instances:synset-ecstasy-noun-1 , wn30instances:synset-intentness-noun-1 , wn30instances:synset-distress-noun-1 , wn30instances:synset-pleaser-noun-1 , wn30instances:synset-anger-noun-1 , wn30instances:synset-poser-noun-3 , wn30instances:synset-entertainer-noun-1 , wn30instances:synset-aggravation-noun-2 , wn30instances:synset-shame-noun-1 , wn30instances:synset-disturbance-noun-2 , wn30instances:synset-aggravator-noun-1 , wn30instances:synset-bane-noun-1 , wn30instances:synset-mystification-noun-3 , wn30instances:synset-fascination-noun-3 , wn30instances:synset-intimidation-noun-3 , wn30instances:synset-tranquilizer-noun-1 , wn30instances:synset-solace-noun-2 , wn30instances:synset-smoothie-noun-1 , wn30instances:synset-disquiet-noun-2 , wn30instances:synset-satisfier-noun-1 , wn30instances:synset-annoyance-noun-4 , wn30instances:synset-blessedness-noun-1 , wn30instances:synset-enchantment-noun-3 , wn30instances:synset-irritation-noun-1 , wn30instances:synset-puzzle-noun-1 , wn30instances:synset-harasser-noun-1 , wn30instances:synset-reliever-noun-2 , wn30instances:synset-anger-noun-2 , wn30instances:synset-captivation-noun-2 , wn30instances:synset-thrill-noun-3 , wn30instances:synset-harassment-noun-1 , wn30instances:synset-repose-noun-3 , wn30instances:synset-interest-noun-3 , wn30instances:synset-disappointment-noun-1 , wn30instances:synset-mystification-noun-2 , wn30instances:synset-frustration-noun-3 , wn30instances:synset-entrancement-noun-1 , wn30instances:synset-alarm-noun-1 , wn30instances:synset-mollification-noun-1 , wn30instances:synset-embitterment-noun-1 , wn30instances:synset-destroyer-noun-2 , wn30instances:synset-confusion-noun-2 , wn30instances:synset-chagrin-noun-1 , wn30instances:synset-cattiness-noun-1 , wn30instances:synset-scandal-noun-1 , wn30instances:synset-scaremonger-noun-1 , wn30instances:synset-concern-noun-4 , wn30instances:synset-conciliator-noun-1 , wn30instances:synset-peace-noun-3 , wn30instances:synset-tease-noun-1 , wn30instances:synset-humiliation-noun-4 , wn30instances:synset-discouragement-noun-1 , wn30instances:synset-bewitchery-noun-1 , wn30instances:synset-harasser-noun-2 , wn30instances:synset-sympathizer-noun-1 , wn30instances:synset-perturbation-noun-4 , wn30instances:synset-bewilderment-noun-1 , wn30instances:synset-joy-noun-1 , wn30instances:synset-infuriation-noun-1 , wn30instances:synset-fascination-noun-1 , wn30instances:synset-appeal-noun-2 , wn30instances:synset-discourtesy-noun-3 , wn30instances:synset-humiliation-noun-1 , wn30instances:synset-scarecrow-noun-1 , wn30instances:synset-mystery-noun-1 .
+
+frame:Dominate_competitor
+        skos:closeMatch  wn30instances:synset-dominance-noun-2 .
+
+frame:Making_faces  skos:closeMatch  wn30instances:synset-smiler-noun-1 , wn30instances:synset-sourpuss-noun-1 , wn30instances:synset-grinner-noun-1 , wn30instances:synset-simperer-noun-1 , wn30instances:synset-smirker-noun-1 .
+
+frame:Memory  skos:closeMatch  wn30instances:synset-memory-noun-3 , wn30instances:synset-remembrance-noun-1 .
+
+frame:Emotions_of_mental_activity
+        skos:closeMatch  wn30instances:synset-delight-noun-1 , wn30instances:synset-groover-noun-1 , wn30instances:synset-groove-noun-1 , wn30instances:synset-please-verb-1 , wn30instances:synset-gladden-verb-1 , wn30instances:synset-enjoyer-noun-1 .
+
+frame:Being_attached  skos:closeMatch  wn30instances:synset-coherence-noun-1 , wn30instances:synset-binder-noun-2 , wn30instances:synset-gummed_label-noun-1 , wn30instances:synset-attachment-noun-4 .
+
+frame:Hostile_encounter
+        skos:closeMatch  wn30instances:synset-fighter-noun-2 , wn30instances:synset-meet-verb-10 , wn30instances:synset-warrior-noun-1 , wn30instances:synset-skirmisher-noun-1 , wn30instances:synset-dueler-noun-1 , wn30instances:synset-combatant-noun-1 , wn30instances:synset-brawler-noun-1 , wn30instances:synset-wrangler-noun-1 .
+
+frame:Commitment  skos:closeMatch  wn30instances:synset-promisee-noun-1 , wn30instances:synset-fan-noun-3 , wn30instances:synset-dedication-noun-1 , wn30instances:synset-guarantee-noun-2 , wn30instances:synset-swearer-noun-2 , wn30instances:synset-vower-noun-1 , wn30instances:synset-pledge-verb-5 , wn30instances:synset-promiser-noun-1 , wn30instances:synset-labor-verb-2 , wn30instances:synset-dedication-noun-2 , wn30instances:synset-tug-verb-2 , wn30instances:synset-pledger-noun-1 .
+
+frame:Behind_the_scenes
+        skos:closeMatch  wn30instances:synset-composing-noun-2 , wn30instances:synset-projector-noun-2 , wn30instances:synset-stage-noun-3 , wn30instances:synset-stage_manager-noun-1 , wn30instances:synset-score-verb-4 , wn30instances:synset-film-noun-2 , wn30instances:synset-musical_composition-noun-1 , wn30instances:synset-director-noun-3 , wn30instances:synset-movie-noun-1 , wn30instances:synset-composer-noun-1 .
+
+frame:Measure_volume  skos:closeMatch  wn30instances:synset-bundle-verb-1 , wn30instances:synset-bunch-verb-2 , wn30instances:synset-tank-verb-1 , wn30instances:synset-scoop-verb-1 , wn30instances:synset-box-verb-1 , wn30instances:synset-parcel-verb-3 , wn30instances:synset-spoon-verb-1 , wn30instances:synset-sack-verb-4 , wn30instances:synset-bucket-verb-2 .
+
+frame:Estimating  skos:closeMatch  wn30instances:synset-appraisal-noun-2 , wn30instances:synset-estimate-noun-4 , wn30instances:synset-guesser-noun-1 .
+
+frame:Hiring  skos:closeMatch  wn30instances:synset-employment-noun-1 , wn30instances:synset-job-noun-3 , wn30instances:synset-employee-noun-1 , wn30instances:synset-subcontract-noun-1 , wn30instances:synset-boss-noun-2 , wn30instances:synset-employer-noun-1 , wn30instances:synset-subcontractor-noun-1 , wn30instances:synset-signer-noun-2 .
+
+frame:Fleeing  skos:closeMatch  wn30instances:synset-absconder-noun-1 .
+
+frame:Building_subparts
+        skos:closeMatch  wn30instances:synset-raise-verb-2 , wn30instances:synset-hoist-verb-1 , wn30instances:synset-board-verb-2 , wn30instances:synset-annex-verb-2 .
+
+frame:Excreting  skos:closeMatch  wn30instances:synset-vomiter-noun-1 , wn30instances:synset-vomit-noun-1 , wn30instances:synset-spitter-noun-1 , wn30instances:synset-urine-noun-1 , wn30instances:synset-defecator-noun-1 , wn30instances:synset-bubble-noun-1 , wn30instances:synset-perspirer-noun-1 , wn30instances:synset-pisser-noun-1 , wn30instances:synset-emetic-noun-1 , wn30instances:synset-toilet-noun-2 , wn30instances:synset-crap-noun-1 , wn30instances:synset-fecal_matter-noun-1 .
+
+frame:Ingest_substance
+        skos:closeMatch  wn30instances:synset-consumer-noun-1 , wn30instances:synset-smoker-noun-1 , wn30instances:synset-sniffer-noun-1 .
+
+frame:Questioning  skos:closeMatch  wn30instances:synset-curiosity-noun-1 , wn30instances:synset-testee-noun-1 , wn30instances:synset-examination-noun-2 , wn30instances:synset-wonderer-noun-1 , wn30instances:synset-examiner-noun-1 , wn30instances:synset-inquisitor-noun-1 , wn30instances:synset-inquirer-noun-1 .
+
+frame:Intentionally_create
+        skos:closeMatch  wn30instances:synset-output-noun-4 , wn30instances:synset-manufacturer-noun-1 , wn30instances:synset-output-noun-2 , wn30instances:synset-foundation-noun-2 , wn30instances:synset-manufacturer-noun-2 , wn30instances:synset-maker-noun-1 , wn30instances:synset-return-noun-6 , wn30instances:synset-creation-noun-2 , wn30instances:synset-brand-noun-2 , wn30instances:synset-synthesist-noun-1 , wn30instances:synset-yield-noun-3 , wn30instances:synset-founder-noun-2 , wn30instances:synset-synthesizer-noun-2 .
+
+frame:Rejuvenation  skos:closeMatch  wn30instances:synset-resuscitator-noun-1 , wn30instances:synset-animation-noun-3 , wn30instances:synset-quickener-noun-1 , wn30instances:synset-freshener-noun-1 , wn30instances:synset-refresher-noun-2 .
+
+frame:Source_of_getting
+        skos:closeMatch  wn30instances:synset-source-verb-2 .
+
+frame:Containers  skos:closeMatch  wn30instances:synset-hold-verb-11 , wn30instances:synset-barrel-verb-1 , wn30instances:synset-distribute-verb-1 , wn30instances:synset-draw-verb-5 , wn30instances:synset-plant-verb-1 , wn30instances:synset-cart-verb-2 , wn30instances:synset-hop-verb-1 , wn30instances:synset-containerize-verb-1 , wn30instances:synset-serve-verb-6 , wn30instances:synset-spoon-verb-1 , wn30instances:synset-empty-verb-2 , wn30instances:synset-decant-verb-1 .
+
+frame:Perception_active
+        skos:closeMatch  wn30instances:synset-finder-noun-2 , wn30instances:synset-experience-noun-2 , wn30instances:synset-detector-noun-3 , wn30instances:synset-taste-verb-5 , wn30instances:synset-admirer-noun-2 , wn30instances:synset-sight-noun-2 , wn30instances:synset-spectator-noun-1 , wn30instances:synset-admirer-noun-3 , wn30instances:synset-seer-noun-2 , wn30instances:synset-observation-noun-3 , wn30instances:synset-sight-noun-3 , wn30instances:synset-detector-noun-1 , wn30instances:synset-sniffer-noun-1 , wn30instances:synset-attendant-noun-2 , wn30instances:synset-observation-noun-4 , wn30instances:synset-sight-noun-5 , wn30instances:synset-olfactory_property-noun-1 , wn30instances:synset-starer-noun-1 , wn30instances:synset-eye-noun-1 , wn30instances:synset-hearer-noun-1 , wn30instances:synset-perceiver-noun-1 , wn30instances:synset-tactile_property-noun-1 , wn30instances:synset-view-noun-4 , wn30instances:synset-voyeur-noun-1 , wn30instances:synset-eavesdropper-noun-1 , wn30instances:synset-eyeball-noun-1 , wn30instances:synset-smell-noun-4 .
+
+frame:Amassing  skos:closeMatch  wn30instances:synset-collection-noun-1 , wn30instances:synset-reserve-noun-2 , wn30instances:synset-stockpile-noun-2 , wn30instances:synset-store-noun-2 , wn30instances:synset-stock-noun-2 , wn30instances:synset-compilation-noun-1 .
+
+frame:Network  skos:closeMatch  wn30instances:synset-web-verb-1 , wn30instances:synset-network-verb-1 .
+
+frame:Education_teaching
+        skos:closeMatch  wn30instances:synset-polish-noun-2 , wn30instances:synset-lecture-verb-1 , wn30instances:synset-maestro-noun-1 , wn30instances:synset-teach-verb-2 , wn30instances:synset-crammer-noun-4 , wn30instances:synset-teacher-noun-2 , wn30instances:synset-coach-noun-1 , wn30instances:synset-discipline-noun-1 , wn30instances:synset-swot-noun-1 , wn30instances:synset-education-noun-2 , wn30instances:synset-graduate-verb-1 , wn30instances:synset-trainer-noun-1 , wn30instances:synset-crammer-noun-1 , wn30instances:synset-trainee-noun-1 , wn30instances:synset-education-noun-5 , wn30instances:synset-prepare-verb-5 , wn30instances:synset-graduate-verb-2 , wn30instances:synset-refinement-noun-5 , wn30instances:synset-education-noun-4 .
+
+frame:Shaped_part  skos:closeMatch  wn30instances:synset-grip-verb-1 , wn30instances:synset-mouth-verb-3 , wn30instances:synset-handle-verb-4 .
+
+frame:Being_employed  skos:closeMatch  wn30instances:synset-hire-verb-1 , wn30instances:synset-job-noun-3 , wn30instances:synset-subcontract-noun-1 , wn30instances:synset-subcontractor-noun-1 , wn30instances:synset-clerk-noun-1 , wn30instances:synset-deserter-noun-1 , wn30instances:synset-scab-noun-1 , wn30instances:synset-denounce-verb-4 , wn30instances:synset-worker-noun-1 .
+
+frame:Domain  skos:closeMatch  wn30instances:synset-study-verb-2 , wn30instances:synset-learn-verb-4 .
+
+frame:Eventive_cognizer_affecting
+        skos:closeMatch  wn30instances:synset-decision-noun-2 .
+
+frame:Encounter  skos:closeMatch  wn30instances:synset-encounter-noun-3 .
+
+frame:Commerce_collect
+        skos:closeMatch  wn30instances:synset-charge-noun-3 , wn30instances:synset-bill-noun-2 , wn30instances:synset-collector-noun-2 .
+
+frame:Expectation  skos:closeMatch  wn30instances:synset-expectation-noun-3 , wn30instances:synset-expect-verb-4 , wn30instances:synset-ask-verb-4 , wn30instances:synset-forecaster-noun-1 , wn30instances:synset-waiter-noun-2 , wn30instances:synset-anticipator-noun-1 .
+
+frame:Self_motion  skos:closeMatch  wn30instances:synset-advancer-noun-1 , wn30instances:synset-sheet-noun-7 , wn30instances:synset-waltzer-noun-1 , wn30instances:synset-hobbler-noun-1 , wn30instances:synset-jogger-noun-1 , wn30instances:synset-rambler-noun-1 , wn30instances:synset-romper-noun-1 , wn30instances:synset-trudger-noun-1 , wn30instances:synset-coaster-noun-2 , wn30instances:synset-stalker-noun-1 , wn30instances:synset-burrow-noun-1 , wn30instances:synset-traveler-noun-1 , wn30instances:synset-wading_bird-noun-1 , wn30instances:synset-waddler-noun-1 , wn30instances:synset-shuffler-noun-2 , wn30instances:synset-shoulder-noun-1 , wn30instances:synset-trotting_horse-noun-1 , wn30instances:synset-pacer-noun-2 , wn30instances:synset-stumbler-noun-1 , wn30instances:synset-wanderer-noun-1 , wn30instances:synset-prowler-noun-1 , wn30instances:synset-wiggler-noun-1 , wn30instances:synset-water_scooter-noun-1 , wn30instances:synset-bop-noun-2 , wn30instances:synset-swimmer-noun-2 , wn30instances:synset-dancer-noun-1 , wn30instances:synset-swimmer-noun-1 , wn30instances:synset-swaggerer-noun-1 , wn30instances:synset-bounder-noun-2 , wn30instances:synset-haunt-noun-1 , wn30instances:synset-iceboat-noun-2 , wn30instances:synset-ribbon-noun-1 , wn30instances:synset-plodder-noun-2 , wn30instances:synset-toddler-noun-1 , wn30instances:synset-dance-noun-2 , wn30instances:synset-speed-noun-1 , wn30instances:synset-hopper-noun-2 , wn30instances:synset-earthworm-noun-1 , wn30instances:synset-hopper-noun-1 , wn30instances:synset-pace-noun-1 , wn30instances:synset-marcher-noun-2 , wn30instances:synset-tiptoe-noun-1 , wn30instances:synset-staggerer-noun-1 , wn30instances:synset-infantryman-noun-1 , wn30instances:synset-wing-noun-1 , wn30instances:synset-cabin_cruiser-noun-1 , wn30instances:synset-lurch-noun-1 , wn30instances:synset-hitchhiker-noun-1 , wn30instances:synset-luger-noun-2 , wn30instances:synset-hiker-noun-1 , wn30instances:synset-lunger-noun-1 , wn30instances:synset-saunterer-noun-1 , wn30instances:synset-crawler-noun-2 , wn30instances:synset-sightseer-noun-1 , wn30instances:synset-vaulter-noun-1 , wn30instances:synset-flier-noun-1 , wn30instances:synset-dancer-noun-2 , wn30instances:synset-walk-noun-3 , wn30instances:synset-vagabond-noun-1 , wn30instances:synset-dodderer-noun-1 , wn30instances:synset-pusher-noun-1 , wn30instances:synset-trekker-noun-1 , wn30instances:synset-file-noun-2 , wn30instances:synset-stamper-noun-2 , wn30instances:synset-walk-noun-5 , wn30instances:synset-plodder-noun-3 , wn30instances:synset-slouch-noun-2 , wn30instances:synset-motor-noun-1 , wn30instances:synset-speed-noun-2 , wn30instances:synset-pedestrian-noun-1 , wn30instances:synset-runner-noun-2 , wn30instances:synset-vagrant-noun-1 , wn30instances:synset-scooter-noun-2 , wn30instances:synset-stray-noun-1 , wn30instances:synset-wing-noun-2 , wn30instances:synset-sprinter-noun-1 , wn30instances:synset-sleepwalker-noun-1 , wn30instances:synset-strider-noun-1 , wn30instances:synset-prancer-noun-1 , wn30instances:synset-meander-noun-1 , wn30instances:synset-tack-noun-1 , wn30instances:synset-motor_scooter-noun-1 , wn30instances:synset-straggler-noun-1 .
+
+frame:Withdraw_from_participation
+        skos:closeMatch  wn30instances:synset-excuse-noun-2 , wn30instances:synset-withdrawer-noun-5 , wn30instances:synset-withdrawer-noun-4 .
+
+frame:Departing  skos:closeMatch  wn30instances:synset-vanisher-noun-1 , wn30instances:synset-escape-noun-5 , wn30instances:synset-exit-noun-1 , wn30instances:synset-escapee-noun-1 , wn30instances:synset-departer-noun-1 .
+
+frame:Shopping  skos:closeMatch  wn30instances:synset-shop-noun-1 , wn30instances:synset-shopper-noun-1 .
+
+frame:Make_cognitive_connection
+        skos:closeMatch  wn30instances:synset-connect-verb-3 , wn30instances:synset-association-noun-3 , wn30instances:synset-junction-noun-2 , wn30instances:synset-yoke-verb-2 , wn30instances:synset-connect-verb-1 .
+
+frame:Attempt_means  skos:closeMatch  wn30instances:synset-trier-noun-2 .
+
+frame:Dimension  skos:closeMatch  wn30instances:synset-measuring_stick-noun-1 , wn30instances:synset-quantity-noun-3 , wn30instances:synset-measure-noun-2 .
+
+frame:Businesses  skos:closeMatch  wn30instances:synset-shop-verb-3 , wn30instances:synset-patronize-verb-2 , wn30instances:synset-shop-verb-1 .
+
+frame:Justifying  skos:closeMatch  wn30instances:synset-justification-noun-1 , wn30instances:synset-patron-noun-3 , wn30instances:synset-explanation-noun-1 , wn30instances:synset-justification-noun-2 , wn30instances:synset-vindicate-verb-2 , wn30instances:synset-justify-verb-2 , wn30instances:synset-defender-noun-1 , wn30instances:synset-excuse-noun-1 , wn30instances:synset-supporter-noun-1 , wn30instances:synset-apologist-noun-1 .
+
+frame:Dunking  skos:closeMatch  wn30instances:synset-dipper-noun-1 , wn30instances:synset-plunger-noun-3 .
+
+frame:Spelling_and_pronouncing
+        skos:closeMatch  wn30instances:synset-articulation-noun-1 , wn30instances:synset-pronunciation-noun-1 , wn30instances:synset-pronunciation-noun-2 , wn30instances:synset-articulator-noun-1 .
+
+frame:Enforcing  skos:closeMatch  wn30instances:synset-hatchet_man-noun-2 .
+
+frame:Abundance  skos:closeMatch  wn30instances:synset-abundance-noun-1 , wn30instances:synset-drove-noun-2 , wn30instances:synset-swarm-noun-2 .
+
+frame:Assistance  skos:closeMatch  wn30instances:synset-abettor-noun-1 , wn30instances:synset-supply-noun-1 , wn30instances:synset-relief-noun-5 , wn30instances:synset-provision-noun-2 , wn30instances:synset-succorer-noun-1 , wn30instances:synset-provider-noun-2 , wn30instances:synset-attendant-noun-1 , wn30instances:synset-benefactor-noun-1 , wn30instances:synset-servitor-noun-1 , wn30instances:synset-caterer-noun-1 , wn30instances:synset-aid-noun-1 , wn30instances:synset-assistant-noun-1 .
+
+frame:Exemplar  skos:closeMatch  wn30instances:synset-model-verb-1 , wn30instances:synset-exemplify-verb-1 , wn30instances:synset-exemplify-verb-2 .
+
+frame:Delivery  skos:closeMatch  wn30instances:synset-deliveryman-noun-1 , wn30instances:synset-deliverer-noun-4 .
+
+frame:Sleep  skos:closeMatch  wn30instances:synset-sleeper-noun-1 .
+
+frame:Notification_of_charges
+        skos:closeMatch  wn30instances:synset-accuser-noun-1 .
+
+frame:Remembering_to_do
+        skos:closeMatch  wn30instances:synset-remembrance-noun-1 .
+
+frame:Placing  skos:closeMatch  wn30instances:synset-shoulder-noun-1 , wn30instances:synset-tilt-noun-4 , wn30instances:synset-rest-noun-6 , wn30instances:synset-dump-noun-2 , wn30instances:synset-insert-noun-2 , wn30instances:synset-warehouser-noun-1 , wn30instances:synset-swab-noun-1 , wn30instances:synset-stand-noun-2 , wn30instances:synset-stacker-noun-1 , wn30instances:synset-shelver-noun-1 , wn30instances:synset-brush-noun-2 , wn30instances:synset-hoarder-noun-1 , wn30instances:synset-lodgment-noun-2 , wn30instances:synset-plant-noun-2 , wn30instances:synset-daub-noun-1 , wn30instances:synset-seed-noun-2 , wn30instances:synset-garage-noun-1 , wn30instances:synset-wrapping-noun-1 , wn30instances:synset-bagger-noun-2 , wn30instances:synset-register-noun-1 , wn30instances:synset-bottler-noun-1 , wn30instances:synset-planter-noun-3 , wn30instances:synset-seat-noun-3 , wn30instances:synset-cargo-noun-1 , wn30instances:synset-billet-noun-2 , wn30instances:synset-seeder-noun-2 , wn30instances:synset-shoulder-noun-3 , wn30instances:synset-pile-noun-1 , wn30instances:synset-stack-noun-1 , wn30instances:synset-sower-noun-1 , wn30instances:synset-parking_lot-noun-1 , wn30instances:synset-file-noun-1 , wn30instances:synset-drape-noun-2 , wn30instances:synset-plunger-noun-3 , wn30instances:synset-seed-noun-1 , wn30instances:synset-placement-noun-1 , wn30instances:synset-interpolate-verb-2 , wn30instances:synset-archive-noun-1 , wn30instances:synset-register-noun-3 , wn30instances:synset-camp-noun-1 , wn30instances:synset-hoard-noun-1 , wn30instances:synset-package-noun-1 , wn30instances:synset-diver-noun-2 , wn30instances:synset-pack-noun-3 , wn30instances:synset-dab-noun-2 , wn30instances:synset-organizer-noun-1 , wn30instances:synset-injector-noun-1 , wn30instances:synset-piston-noun-2 , wn30instances:synset-packer-noun-1 , wn30instances:synset-debris-noun-1 , wn30instances:synset-dauber-noun-1 , wn30instances:synset-seat-noun-4 , wn30instances:synset-seat-noun-1 , wn30instances:synset-rotary_actuator-noun-1 , wn30instances:synset-load-noun-1 , wn30instances:synset-implant-noun-1 , wn30instances:synset-stevedore-noun-1 .
+
+frame:Clothing  skos:closeMatch  wn30instances:synset-waterproof-verb-1 , wn30instances:synset-uniform-verb-1 , wn30instances:synset-overdress-verb-2 , wn30instances:synset-girdle-verb-2 , wn30instances:synset-coat-verb-2 , wn30instances:synset-dress-verb-4 , wn30instances:synset-scarf-verb-3 , wn30instances:synset-dress-verb-2 , wn30instances:synset-shoe-verb-1 , wn30instances:synset-armor-verb-1 , wn30instances:synset-hold-verb-10 , wn30instances:synset-wear-verb-1 , wn30instances:synset-wear-verb-2 , wn30instances:synset-wear-verb-9 , wn30instances:synset-vesture-verb-1 , wn30instances:synset-garter-verb-1 , wn30instances:synset-jacket-verb-2 , wn30instances:synset-preen-verb-3 , wn30instances:synset-corset-verb-1 , wn30instances:synset-wrap-verb-1 , wn30instances:synset-dress-verb-1 , wn30instances:synset-tie-verb-5 , wn30instances:synset-frock-verb-1 , wn30instances:synset-vest-verb-5 , wn30instances:synset-cowl-verb-1 , wn30instances:synset-equip-verb-1 .
+
+frame:Sounds  skos:closeMatch  wn30instances:synset-squeaker-noun-1 , wn30instances:synset-thunder-verb-2 , wn30instances:synset-giggle-verb-1 , wn30instances:synset-thunder-verb-1 , wn30instances:synset-snarl-verb-2 , wn30instances:synset-thunder-verb-4 , wn30instances:synset-thunder-verb-3 , wn30instances:synset-lament-verb-1 , wn30instances:synset-babble-verb-2 , wn30instances:synset-chitter-verb-1 , wn30instances:synset-babble-verb-1 , wn30instances:synset-snap-verb-1 .
+
+frame:Rite  skos:closeMatch  wn30instances:synset-prayer-noun-5 , wn30instances:synset-saint-noun-2 , wn30instances:synset-novice-noun-2 , wn30instances:synset-anointer-noun-1 , wn30instances:synset-liniment-noun-1 , wn30instances:synset-saint-noun-1 , wn30instances:synset-prayer-noun-4 , wn30instances:synset-initiate-noun-3 , wn30instances:synset-oil-noun-1 , wn30instances:synset-initiate-noun-2 , wn30instances:synset-ordainer-noun-1 , wn30instances:synset-inductee-noun-1 .
+
+frame:Extreme_value  skos:closeMatch  wn30instances:synset-lift-verb-10 .
+
+frame:Simple_name  skos:closeMatch  wn30instances:synset-term-verb-1 , wn30instances:synset-give_voice-verb-1 .
+
+frame:Addiction  skos:closeMatch  wn30instances:synset-habituate-verb-2 , wn30instances:synset-drink-verb-2 , wn30instances:synset-souse-verb-3 , wn30instances:synset-addict-verb-1 .
+
+frame:Means  skos:closeMatch  wn30instances:synset-maneuver-verb-2 .
+
+frame:Absorb_heat  skos:closeMatch  wn30instances:synset-kettle-noun-1 , wn30instances:synset-stew-noun-2 , wn30instances:synset-simmer-noun-1 , wn30instances:synset-fryer-noun-1 , wn30instances:synset-cook-noun-1 .
+
+frame:Summarizing  skos:closeMatch  wn30instances:synset-abstract-verb-4 , wn30instances:synset-sketch-noun-3 .
+
+frame:Medical_instruments
+        skos:closeMatch  wn30instances:synset-syringe-verb-1 , wn30instances:synset-catheterize-verb-1 .
+
+frame:Appearance  skos:closeMatch  wn30instances:synset-expression-noun-1 , wn30instances:synset-look-noun-3 , wn30instances:synset-stinker-noun-2 .
+
+frame:Cause_change_of_strength
+        skos:closeMatch  wn30instances:synset-strengthener-noun-1 , wn30instances:synset-fortification-noun-2 , wn30instances:synset-weakener-noun-1 .
+
+frame:Dispersal  skos:closeMatch  wn30instances:synset-solvent-noun-1 , wn30instances:synset-dust-noun-3 .
+
+frame:Setting_fire  skos:closeMatch  wn30instances:synset-lighter-noun-2 , wn30instances:synset-igniter-noun-1 .
+
+frame:Be_in_agreement_on_action
+        skos:closeMatch  wn30instances:synset-dicker-verb-1 .
+
+frame:Position_on_a_scale
+        skos:closeMatch  wn30instances:synset-transcendence-noun-2 .
+
+frame:Detaining  skos:closeMatch  wn30instances:synset-detention-noun-1 , wn30instances:synset-hold-noun-7 , wn30instances:synset-detainee-noun-1 , wn30instances:synset-internee-noun-1 , wn30instances:synset-internment-noun-1 .
+
+frame:Successfully_communicate_message
+        skos:closeMatch  wn30instances:synset-conveyer-noun-1 .
+
+frame:Performers  skos:closeMatch  wn30instances:synset-act-verb-3 , wn30instances:synset-act-verb-10 , wn30instances:synset-play-verb-3 .
+
+frame:Provide_lodging
+        skos:closeMatch  wn30instances:synset-diggings-noun-2 , wn30instances:synset-house-noun-1 , wn30instances:synset-house-noun-12 , wn30instances:synset-accommodation-noun-4 , wn30instances:synset-host-noun-8 , wn30instances:synset-master_of_ceremonies-noun-1 , wn30instances:synset-host-noun-1 .
+
+frame:Intentionally_act
+        skos:closeMatch  wn30instances:synset-action-noun-2 , wn30instances:synset-pursuer-noun-2 , wn30instances:synset-conductor-noun-1 , wn30instances:synset-work-verb-1 , wn30instances:synset-do-verb-3 , wn30instances:synset-act-verb-4 , wn30instances:synset-executor-noun-1 .
+
+frame:Perception_experience
+        skos:closeMatch  wn30instances:synset-detector-noun-1 , wn30instances:synset-finder-noun-2 , wn30instances:synset-observation-noun-4 , wn30instances:synset-experience-noun-2 , wn30instances:synset-seer-noun-2 , wn30instances:synset-sense-noun-1 , wn30instances:synset-perceiver-noun-1 , wn30instances:synset-smell-noun-4 , wn30instances:synset-spy-verb-3 , wn30instances:synset-observation-noun-3 , wn30instances:synset-taste-noun-7 , wn30instances:synset-spectator-noun-1 , wn30instances:synset-detector-noun-3 , wn30instances:synset-olfactory_property-noun-1 , wn30instances:synset-taste-noun-6 , wn30instances:synset-comprehension-noun-1 .
+
+frame:Gesture  skos:closeMatch  wn30instances:synset-signalize-verb-4 , wn30instances:synset-waver-noun-1 , wn30instances:synset-gesture-noun-1 , wn30instances:synset-signify-verb-2 , wn30instances:synset-gesture-noun-2 , wn30instances:synset-signalize-verb-1 , wn30instances:synset-bespeak-verb-1 , wn30instances:synset-signaler-noun-1 , wn30instances:synset-signer-noun-1 , wn30instances:synset-signalize-verb-3 .
+
+frame:Toxic_substance
+        skos:closeMatch  wn30instances:synset-poison-verb-2 , wn30instances:synset-poison-verb-4 , wn30instances:synset-poison-verb-3 .
+
+frame:Impact  skos:closeMatch  wn30instances:synset-bumper-noun-2 , wn30instances:synset-dab-noun-2 , wn30instances:synset-striker-noun-5 , wn30instances:synset-toucher-noun-1 , wn30instances:synset-hitter-noun-2 , wn30instances:synset-runner-noun-2 , wn30instances:synset-slapper-noun-1 .
+
+frame:Manipulate_into_shape
+        skos:closeMatch  wn30instances:synset-curler-noun-1 , wn30instances:synset-winder-noun-3 , wn30instances:synset-loop-noun-2 , wn30instances:synset-coil-noun-1 , wn30instances:synset-coil-noun-2 , wn30instances:synset-winder-noun-1 .
+
+frame:Change_resistance
+        skos:closeMatch  wn30instances:synset-brace-noun-1 , wn30instances:synset-breakwater-noun-1 , wn30instances:synset-rampart-noun-1 .
+
+frame:Touring  skos:closeMatch  wn30instances:synset-sightseer-noun-1 .
+
+frame:Submitting_documents
+        skos:closeMatch  wn30instances:synset-register-noun-1 , wn30instances:synset-register-noun-3 , wn30instances:synset-file-noun-1 , wn30instances:synset-deliverer-noun-4 .
+
+frame:Location_of_light
+        skos:closeMatch  wn30instances:synset-sparkle-verb-2 , wn30instances:synset-twinkler-noun-1 , wn30instances:synset-reflect-verb-4 , wn30instances:synset-blinker-noun-2 , wn30instances:synset-radiate-verb-1 , wn30instances:synset-blinker-noun-1 , wn30instances:synset-ice-noun-3 , wn30instances:synset-radiate-verb-5 , wn30instances:synset-shine-verb-7 , wn30instances:synset-beam-noun-4 .
+
+frame:Dressing  skos:closeMatch  wn30instances:synset-attire-noun-1 , wn30instances:synset-clothing-noun-1 , wn30instances:synset-apparel-noun-1 , wn30instances:synset-dresser-noun-3 .
+
+frame:Gizmo  skos:closeMatch  wn30instances:synset-tool-verb-4 , wn30instances:synset-separate-verb-5 , wn30instances:synset-centrifuge-verb-1 , wn30instances:synset-machine-verb-1 , wn30instances:synset-machine-verb-2 , wn30instances:synset-implement-verb-1 , wn30instances:synset-equip-verb-1 , wn30instances:synset-tool-verb-3 .
+
+frame:Cause_to_be_included
+        skos:closeMatch  wn30instances:synset-addition-noun-2 .
+
+frame:Fining  skos:closeMatch  wn30instances:synset-compensate-verb-2 .
+
+frame:Successful_action
+        skos:closeMatch  wn30instances:synset-negligence-noun-2 , wn30instances:synset-achiever-noun-1 .
+
+frame:Becoming_separated
+        skos:closeMatch  wn30instances:synset-split-noun-3 , wn30instances:synset-partition-noun-1 , wn30instances:synset-splitter-noun-2 , wn30instances:synset-divider-noun-2 .
+
+frame:Choosing  skos:closeMatch  wn30instances:synset-decision-noun-2 , wn30instances:synset-predilection-noun-1 , wn30instances:synset-chosen-noun-3 , wn30instances:synset-cream-noun-1 , wn30instances:synset-voter-noun-1 , wn30instances:synset-picker-noun-1 .
+
+frame:Residence  skos:closeMatch  wn30instances:synset-room-noun-1 , wn30instances:synset-lodger-noun-1 , wn30instances:synset-squatter-noun-2 , wn30instances:synset-camp-noun-3 , wn30instances:synset-hostel-noun-1 , wn30instances:synset-liver-noun-4 , wn30instances:synset-population-noun-1 , wn30instances:synset-quarter-verb-1 , wn30instances:synset-campsite-noun-1 , wn30instances:synset-boarder-noun-3 , wn30instances:synset-homestead-verb-1 .
+
+frame:Volubility  skos:closeMatch  wn30instances:synset-swagger-verb-3 , wn30instances:synset-boast-verb-1 .
+
+frame:Arriving  skos:closeMatch  wn30instances:synset-entrance-noun-1 , wn30instances:synset-visitor-noun-1 , wn30instances:synset-arrival-noun-3 .
+
+frame:Cutting  skos:closeMatch  wn30instances:synset-cube-noun-1 , wn30instances:synset-cleaver-noun-1 , wn30instances:synset-mincer-noun-1 , wn30instances:synset-incision-noun-1 , wn30instances:synset-fillet-noun-1 , wn30instances:synset-chopper-noun-2 , wn30instances:synset-mince-noun-1 , wn30instances:synset-slicer-noun-2 , wn30instances:synset-parer-noun-1 , wn30instances:synset-cutter-noun-3 , wn30instances:synset-block-noun-3 , wn30instances:synset-fillet-noun-2 , wn30instances:synset-cutter-noun-2 , wn30instances:synset-chop-noun-2 , wn30instances:synset-dicer-noun-1 , wn30instances:synset-cutter-noun-6 .
+
+frame:Trying_out  skos:closeMatch  wn30instances:synset-test-noun-4 , wn30instances:synset-stressor-noun-1 , wn30instances:synset-trier-noun-2 , wn30instances:synset-examiner-noun-1 .
+
+frame:Seeking_to_achieve
+        skos:closeMatch  wn30instances:synset-searcher-noun-2 , wn30instances:synset-seeker-noun-1 .
+
+frame:Imitating  skos:closeMatch  wn30instances:synset-copy-noun-2 , wn30instances:synset-mimic-noun-1 , wn30instances:synset-mime-noun-1 , wn30instances:synset-copycat-noun-1 .
+
+frame:Competition  skos:closeMatch  wn30instances:synset-challenge-verb-2 , wn30instances:synset-rival-verb-2 .
+
+frame:Attempt  skos:closeMatch  wn30instances:synset-adventurer-noun-1 , wn30instances:synset-trier-noun-2 .
+
+frame:Commerce_sell  skos:closeMatch  wn30instances:synset-huckster-noun-1 , wn30instances:synset-trader-noun-1 , wn30instances:synset-trade-verb-1 , wn30instances:synset-retail-verb-2 , wn30instances:synset-traffic-verb-2 , wn30instances:synset-pusher-noun-2 , wn30instances:synset-deal-verb-6 , wn30instances:synset-auctioneer-noun-1 , wn30instances:synset-market-verb-1 , wn30instances:synset-peddler-noun-1 .
+
+frame:Waver_between_options
+        skos:closeMatch  wn30instances:synset-reluctance-noun-2 , wn30instances:synset-waffler-noun-1 , wn30instances:synset-waverer-noun-1 .
+
+frame:Delimitation_of_diversity
+        skos:closeMatch  wn30instances:synset-range-noun-2 .
+
+frame:Chatting  skos:closeMatch  wn30instances:synset-joke-noun-1 , wn30instances:synset-joker-noun-1 , wn30instances:synset-jester-noun-1 , wn30instances:synset-chatterer-noun-1 , wn30instances:synset-visitor-noun-1 .
+
+frame:Medical_conditions
+        skos:closeMatch  wn30instances:synset-infect-verb-2 , wn30instances:synset-undernourish-verb-1 , wn30instances:synset-ulcerate-verb-2 , wn30instances:synset-ulcerate-verb-1 , wn30instances:synset-trouble-verb-5 , wn30instances:synset-ail-verb-1 .
+
+frame:Committing_crime
+        skos:closeMatch  wn30instances:synset-perpetrator-noun-1 .
+
+frame:Boundary  skos:closeMatch  wn30instances:synset-restrict-verb-3 , wn30instances:synset-bound-verb-2 .
+
+frame:Dodging  skos:closeMatch  wn30instances:synset-hedge-noun-3 , wn30instances:synset-dodge-noun-3 , wn30instances:synset-hedger-noun-1 , wn30instances:synset-dodger-noun-1 .
+
+frame:Money  skos:closeMatch  wn30instances:synset-capitalize-verb-4 .
+
+frame:Cotheme  skos:closeMatch  wn30instances:synset-date-noun-2 , wn30instances:synset-guide-noun-2 , wn30instances:synset-tail-noun-5 , wn30instances:synset-walk-noun-5 , wn30instances:synset-shadow-noun-9 , wn30instances:synset-walk-noun-3 , wn30instances:synset-hunter-noun-1 , wn30instances:synset-tracker-noun-1 , wn30instances:synset-follower-noun-2 , wn30instances:synset-usher-noun-3 , wn30instances:synset-pedestrian-noun-1 .
+
+frame:Risky_situation
+        skos:closeMatch  wn30instances:synset-gamble-verb-1 , wn30instances:synset-venture-verb-3 , wn30instances:synset-endanger-verb-1 , wn30instances:synset-queer-verb-2 , wn30instances:synset-risk-verb-1 .
+
+frame:Substance  skos:closeMatch  wn30instances:synset-gasify-verb-1 , wn30instances:synset-compound-verb-4 , wn30instances:synset-glass-verb-3 , wn30instances:synset-glass-verb-1 , wn30instances:synset-anoint-verb-2 , wn30instances:synset-oil-verb-1 , wn30instances:synset-metal-verb-1 , wn30instances:synset-water-verb-1 , wn30instances:synset-water-verb-2 .

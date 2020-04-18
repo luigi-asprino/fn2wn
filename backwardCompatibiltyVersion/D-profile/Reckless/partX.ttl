@@ -1,0 +1,77 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/participleadjfn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/participleadjfn2wn.ttl#> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/participleadjfn2wn.ttl> a owl:Ontology .
+
+frame:Cause_to_move_in_place
+        skos:closeMatch  wn30instances:synset-squashed-adjective-1 .
+
+frame:Communication_noise
+        skos:closeMatch  wn30instances:synset-shrieked-adjective-1 , wn30instances:synset-thoriated-adjective-1 .
+
+frame:Corroding_caused
+        skos:closeMatch  wn30instances:synset-oxidized-adjective-1 .
+
+frame:Cause_change  skos:closeMatch  wn30instances:synset-plugged-adjective-1 .
+
+frame:Participation  skos:closeMatch  wn30instances:synset-played-adjective-1 .
+
+frame:Revenge  skos:closeMatch  wn30instances:synset-unavenged-adjective-1 , wn30instances:synset-avenged-adjective-1 .
+
+frame:Motion  skos:closeMatch  wn30instances:synset-ranging-adjective-1 .
+
+frame:Grinding  skos:closeMatch  wn30instances:synset-squashed-adjective-1 .
+
+frame:Filling  skos:closeMatch  wn30instances:synset-stacked-adjective-1 .
+
+frame:Reshaping  skos:closeMatch  wn30instances:synset-squashed-adjective-1 .
+
+frame:Being_in_operation
+        skos:closeMatch  wn30instances:synset-operating-adjective-1 .
+
+frame:Seeking  skos:closeMatch  wn30instances:synset-sought-adjective-1 .
+
+frame:Being_operational
+        skos:closeMatch  wn30instances:synset-operating-adjective-1 .
+
+frame:Manipulation  skos:closeMatch  wn30instances:synset-hand-held-adjective-1 , wn30instances:synset-forced-adjective-1 .
+
+frame:Rewards_and_punishments
+        skos:closeMatch  wn30instances:synset-punishing-adjective-1 .
+
+frame:Cause_harm  skos:closeMatch  wn30instances:synset-squashed-adjective-1 .
+
+frame:Cause_change_of_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-forced-adjective-1 .
+
+frame:Coming_up_with  skos:closeMatch  wn30instances:synset-preconceived-adjective-1 .
+
+frame:Self_motion  skos:closeMatch  wn30instances:synset-ranging-adjective-1 , wn30instances:synset-marched_upon-adjective-1 .
+
+frame:Usefulness  skos:closeMatch  wn30instances:synset-operating-adjective-1 .
+
+frame:Make_noise  skos:closeMatch  wn30instances:synset-thoriated-adjective-1 .
+
+frame:Placing  skos:closeMatch  wn30instances:synset-parked-adjective-1 , wn30instances:synset-stacked-adjective-1 .
+
+frame:Cause_motion  skos:closeMatch  wn30instances:synset-forced-adjective-1 .
+
+frame:Gathering_up  skos:closeMatch  wn30instances:synset-uncollected-adjective-1 , wn30instances:synset-collected-adjective-1 .
+
+frame:Cotheme  skos:closeMatch  wn30instances:synset-pursued-adjective-1 .
+
+frame:Meet_specifications
+        skos:closeMatch  wn30instances:synset-filled-adjective-2 , wn30instances:synset-unfilled-adjective-1 .
+
+frame:Seeking_to_achieve
+        skos:closeMatch  wn30instances:synset-sought-adjective-1 .

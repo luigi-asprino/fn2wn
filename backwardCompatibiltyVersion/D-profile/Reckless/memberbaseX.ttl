@@ -1,0 +1,67 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/memberbasefn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/memberbasefn2wn.ttl#> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/memberbasefn2wn.ttl> a owl:Ontology .
+
+frame:Organization  skos:closeMatch  wn30instances:synset-associate-noun-1 , wn30instances:synset-division-noun-4 , wn30instances:synset-government_officials-noun-1 , wn30instances:synset-club_member-noun-1 , wn30instances:synset-judiciary-noun-1 , wn30instances:synset-executive-noun-2 , wn30instances:synset-government_department-noun-1 , wn30instances:synset-membership-noun-1 , wn30instances:synset-legislature-noun-1 , wn30instances:synset-quorum-noun-1 , wn30instances:synset-chapter-noun-3 , wn30instances:synset-committee_member-noun-1 , wn30instances:synset-commissioner-noun-2 .
+
+frame:People  skos:closeMatch  wn30instances:synset-plebeian-noun-1 .
+
+frame:Dead_or_alive  skos:closeMatch  wn30instances:synset-dead_person-noun-1 .
+
+frame:Judicial_body  skos:closeMatch  wn30instances:synset-jury-noun-1 .
+
+frame:Offenses  skos:closeMatch  wn30instances:synset-conspirator-noun-1 .
+
+frame:Colonization  skos:closeMatch  wn30instances:synset-colonial-noun-1 .
+
+frame:Vehicle  skos:closeMatch  wn30instances:synset-car-noun-2 , wn30instances:synset-locomotive-noun-1 .
+
+frame:Forming_relationships
+        skos:closeMatch  wn30instances:synset-spouse-noun-1 .
+
+frame:Religious_belief
+        skos:closeMatch  wn30instances:synset-Black_Muslim-noun-1 , wn30instances:synset-cultist-noun-1 .
+
+frame:Leadership  skos:closeMatch  wn30instances:synset-government_department-noun-1 , wn30instances:synset-executive-noun-2 , wn30instances:synset-judiciary-noun-1 , wn30instances:synset-division-noun-4 , wn30instances:synset-government_officials-noun-1 .
+
+frame:Personal_relationship
+        skos:closeMatch  wn30instances:synset-date-noun-2 .
+
+frame:Locale  skos:closeMatch  wn30instances:synset-galaxy-noun-3 .
+
+frame:Locale_by_use  skos:closeMatch  wn30instances:synset-staff-noun-3 , wn30instances:synset-schoolteacher-noun-1 .
+
+frame:Law  skos:closeMatch  wn30instances:synset-government_department-noun-1 , wn30instances:synset-legislature-noun-1 , wn30instances:synset-executive-noun-2 , wn30instances:synset-judiciary-noun-1 , wn30instances:synset-division-noun-4 , wn30instances:synset-government_officials-noun-1 .
+
+frame:Kinship  skos:closeMatch  wn30instances:synset-clansman-noun-1 , wn30instances:synset-tribesman-noun-1 .
+
+frame:Discussion  skos:closeMatch  wn30instances:synset-conferee-noun-2 .
+
+frame:Businesses  skos:closeMatch  wn30instances:synset-division-noun-4 , wn30instances:synset-chain_store-noun-1 .
+
+frame:Alliance  skos:closeMatch  wn30instances:synset-ally-noun-1 .
+
+frame:Employing  skos:closeMatch  wn30instances:synset-staff_member-noun-1 .
+
+frame:Aggregate  skos:closeMatch  wn30instances:synset-relative-noun-1 , wn30instances:synset-corps-noun-1 , wn30instances:synset-huddler-noun-1 , wn30instances:synset-volume-noun-4 , wn30instances:synset-tribesman-noun-1 , wn30instances:synset-stringer-noun-1 , wn30instances:synset-fish-noun-1 , wn30instances:synset-superphylum-noun-1 , wn30instances:synset-army_unit-noun-1 , wn30instances:synset-clansman-noun-1 , wn30instances:synset-goose-noun-1 , wn30instances:synset-posseman-noun-1 .
+
+frame:Type  skos:closeMatch  wn30instances:synset-superphylum-noun-1 .
+
+frame:Social_event_collective
+        skos:closeMatch  wn30instances:synset-date-noun-2 .
+
+frame:Biological_area
+        skos:closeMatch  wn30instances:synset-underbrush-noun-1 , wn30instances:synset-tree-noun-1 .
+
+frame:Military  skos:closeMatch  wn30instances:synset-naval_unit-noun-1 , wn30instances:synset-fleet-noun-4 , wn30instances:synset-air_unit-noun-1 , wn30instances:synset-army_unit-noun-1 , wn30instances:synset-corps-noun-1 , wn30instances:synset-cadre-noun-2 , wn30instances:synset-medical_officer-noun-1 .

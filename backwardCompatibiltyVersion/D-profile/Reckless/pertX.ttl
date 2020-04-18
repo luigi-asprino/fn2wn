@@ -1,0 +1,690 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/pertainymfn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/pertainymconsfn2wn.ttl#> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/pertainymfn2wn.ttl> a owl:Ontology .
+
+frame:Color_qualities
+        skos:closeMatch  wn30instances:synset-dully-adverb-2 , wn30instances:synset-vividly-adverb-1 , wn30instances:synset-warmly-adverb-2 , wn30instances:synset-wanly-adverb-1 , wn30instances:synset-pallidly-adverb-1 .
+
+frame:Color_qualities
+        skos:closeMatch  wn30instances:synset-dully-adverb-2 , wn30instances:synset-vividly-adverb-1 , wn30instances:synset-wanly-adverb-1 , wn30instances:synset-pallidly-adverb-1 .
+
+frame:Mental_stimulus_stimulus_focus
+        skos:closeMatch  wn30instances:synset-bewitchingly-adverb-1 , wn30instances:synset-fascinatingly-adverb-1 .
+
+frame:Substance  skos:closeMatch  wn30instances:synset-arenicolous-adjective-1 , wn30instances:synset-aqueous-adjective-1 , wn30instances:synset-transuranic-adjective-1 , wn30instances:synset-hydraulic-adjective-1 , wn30instances:synset-intermolecular-adjective-1 , wn30instances:synset-elemental-adjective-1 , wn30instances:synset-monometallic-adjective-1 , wn30instances:synset-intramolecular-adjective-1 , wn30instances:synset-aquatic-adjective-1 , wn30instances:synset-chalybeate-adjective-1 , wn30instances:synset-bimolecular-adjective-1 , wn30instances:synset-pyrochemical-adjective-1 , wn30instances:synset-vitreous-adjective-2 , wn30instances:synset-chemical-adjective-2 , wn30instances:synset-ferric-adjective-1 , wn30instances:synset-molecular-adjective-1 , wn30instances:synset-aluminous-adjective-1 .
+
+frame:Obscurity  skos:closeMatch  wn30instances:synset-abstrusely-adverb-1 .
+
+frame:Rotting  skos:closeMatch  wn30instances:synset-septic-adjective-2 .
+
+frame:Rest  skos:closeMatch  wn30instances:synset-residuary-adjective-1 .
+
+frame:Interrupt_process
+        skos:closeMatch  wn30instances:synset-endlessly-adverb-2 .
+
+frame:Colonization  skos:closeMatch  wn30instances:synset-colonial-adjective-1 .
+
+frame:Linguistic_meaning
+        skos:closeMatch  wn30instances:synset-ambiguously-adverb-1 .
+
+frame:Certainty  skos:closeMatch  wn30instances:synset-sceptically-adverb-1 , wn30instances:synset-positively-adverb-1 , wn30instances:synset-surely-adverb-1 , wn30instances:synset-unsteadily-adverb-1 , wn30instances:synset-uncertainly-adverb-2 , wn30instances:synset-doubtfully-adverb-1 .
+
+frame:Judicial_body  skos:closeMatch  wn30instances:synset-judicially-adverb-1 .
+
+frame:Theft  skos:closeMatch  wn30instances:synset-thievishly-adverb-1 .
+
+frame:Precipitation  skos:closeMatch  wn30instances:synset-diluvian-adjective-1 .
+
+frame:Expensiveness  skos:closeMatch  wn30instances:synset-dearly-adverb-2 , wn30instances:synset-cheaply-adverb-2 , wn30instances:synset-cheaply-adverb-3 , wn30instances:synset-exorbitantly-adverb-1 , wn30instances:synset-outrageously-adverb-2 .
+
+frame:Suitability  skos:closeMatch  wn30instances:synset-appropriately-adverb-1 , wn30instances:synset-properly-adverb-1 .
+
+frame:Excreting  skos:closeMatch  wn30instances:synset-hidrotic-adjective-1 .
+
+frame:Commitment  skos:closeMatch  wn30instances:synset-promissory-adjective-1 .
+
+frame:Similarity  skos:closeMatch  wn30instances:synset-differential-adjective-1 , wn30instances:synset-distinctly-adverb-2 , wn30instances:synset-similarly-adverb-1 .
+
+frame:Summarizing  skos:closeMatch  wn30instances:synset-synoptic-adjective-1 .
+
+frame:Probability  skos:closeMatch  wn30instances:synset-probabilistic-adjective-2 .
+
+frame:Ranked_expectation
+        skos:closeMatch  wn30instances:synset-wholly-adverb-1 , wn30instances:synset-broadly-adverb-1 .
+
+frame:Obviousness  skos:closeMatch  wn30instances:synset-audibly-adverb-1 , wn30instances:synset-visibly-adverb-1 , wn30instances:synset-visibly-adverb-2 .
+
+frame:Possibilities  skos:closeMatch  wn30instances:synset-optative-adjective-1 .
+
+frame:Catastrophe  skos:closeMatch  wn30instances:synset-disastrously-adverb-1 , wn30instances:synset-apocalyptic-adjective-2 , wn30instances:synset-ruinously-adverb-1 , wn30instances:synset-catastrophically-adverb-1 .
+
+frame:Finish_competition
+        skos:closeMatch  wn30instances:synset-triumphal-adjective-1 , wn30instances:synset-award-winning-adjective-1 .
+
+frame:Fame  skos:closeMatch  wn30instances:synset-famously-adverb-1 .
+
+frame:Noise_makers  skos:closeMatch  wn30instances:synset-pianistic-adjective-2 .
+
+frame:Weapon  skos:closeMatch  wn30instances:synset-bladed-adjective-1 , wn30instances:synset-strategically-adverb-1 .
+
+frame:Reason  skos:closeMatch  wn30instances:synset-motivational-adjective-1 .
+
+frame:Being_obligatory
+        skos:closeMatch  wn30instances:synset-obligatorily-adverb-1 , wn30instances:synset-compulsorily-adverb-1 .
+
+frame:Natural_features
+        skos:closeMatch  wn30instances:synset-semiterrestrial-adjective-1 , wn30instances:synset-lacustrine-adjective-1 , wn30instances:synset-archipelagic-adjective-1 , wn30instances:synset-marine-adjective-1 , wn30instances:synset-fluvial-adjective-1 , wn30instances:synset-montane-adjective-1 , wn30instances:synset-peninsular-adjective-1 , wn30instances:synset-transoceanic-adjective-1 , wn30instances:synset-insular-adjective-1 , wn30instances:synset-oceanic-adjective-1 , wn30instances:synset-isthmian-adjective-1 , wn30instances:synset-tellurian-adjective-1 , wn30instances:synset-thalassic-adjective-1 , wn30instances:synset-glacial-adjective-1 , wn30instances:synset-continental-adjective-3 .
+
+frame:Frugality  skos:closeMatch  wn30instances:synset-thriftily-adverb-1 , wn30instances:synset-extravagantly-adverb-2 , wn30instances:synset-wastefully-adverb-1 , wn30instances:synset-ascetically-adverb-1 , wn30instances:synset-frugally-adverb-1 , wn30instances:synset-meagerly-adverb-1 .
+
+frame:Body_description_holistic
+        skos:closeMatch  wn30instances:synset-slenderly-adverb-1 , wn30instances:synset-flabbily-adverb-1 , wn30instances:synset-punily-adverb-1 , wn30instances:synset-stockily-adverb-1 .
+
+frame:Distinctiveness
+        skos:closeMatch  wn30instances:synset-characteristically-adverb-1 , wn30instances:synset-distinctly-adverb-2 .
+
+frame:Physical_artworks
+        skos:closeMatch  wn30instances:synset-sculptural-adjective-1 , wn30instances:synset-statuary-adjective-1 .
+
+frame:Forming_relationships
+        skos:closeMatch  wn30instances:synset-marital-adjective-1 , wn30instances:synset-conjugal-adjective-1 , wn30instances:synset-hymeneal-adjective-1 .
+
+frame:Duration_attribute
+        skos:closeMatch  wn30instances:synset-enduringly-adverb-1 , wn30instances:synset-lingeringly-adverb-1 , wn30instances:synset-briefly-adverb-1 , wn30instances:synset-everlastingly-adverb-1 , wn30instances:synset-longer-adverb-1 , wn30instances:synset-permanently-adverb-1 , wn30instances:synset-transitorily-adverb-1 , wn30instances:synset-lengthily-adverb-1 , wn30instances:synset-longest-adverb-1 , wn30instances:synset-endlessly-adverb-2 , wn30instances:synset-transiently-adverb-1 , wn30instances:synset-lastingly-adverb-1 .
+
+frame:Dimension  skos:closeMatch  wn30instances:synset-highly-adverb-1 , wn30instances:synset-thickly-adverb-4 , wn30instances:synset-massively-adverb-1 , wn30instances:synset-heavily-adverb-6 , wn30instances:synset-thinly-adverb-3 , wn30instances:synset-darkly-adverb-1 , wn30instances:synset-broadly-adverb-2 .
+
+frame:Cause_expansion
+        skos:closeMatch  wn30instances:synset-developmental-adjective-1 , wn30instances:synset-ontogenetic-adjective-1 , wn30instances:synset-growing-adjective-1 , wn30instances:synset-maturational-adjective-1 .
+
+frame:Praiseworthiness
+        skos:closeMatch  wn30instances:synset-vilely-adverb-1 , wn30instances:synset-criminally-adverb-1 , wn30instances:synset-painfully-adverb-1 , wn30instances:synset-respectably-adverb-1 , wn30instances:synset-pathetically-adverb-2 , wn30instances:synset-meritoriously-adverb-1 , wn30instances:synset-respectably-adverb-2 , wn30instances:synset-pitifully-adverb-1 , wn30instances:synset-deplorably-adverb-1 , wn30instances:synset-disgracefully-adverb-1 , wn30instances:synset-detestably-adverb-1 , wn30instances:synset-despicably-adverb-1 , wn30instances:synset-reprehensibly-adverb-1 , wn30instances:synset-admirably-adverb-1 , wn30instances:synset-dishonorably-adverb-1 , wn30instances:synset-dishonorably-adverb-2 .
+
+frame:Version_sequence
+        skos:closeMatch  wn30instances:synset-initially-adverb-1 .
+
+frame:Diversity  skos:closeMatch  wn30instances:synset-uniformly-adverb-1 , wn30instances:synset-scopal-adjective-1 , wn30instances:synset-variously-adverb-1 , wn30instances:synset-homogeneously-adverb-1 .
+
+frame:Simultaneity  skos:closeMatch  wn30instances:synset-coincidentally-adverb-1 .
+
+frame:Commerce_scenario
+        skos:closeMatch  wn30instances:synset-commercial-adjective-2 .
+
+frame:Offenses  skos:closeMatch  wn30instances:synset-incendiary-adjective-1 , wn30instances:synset-burglarious-adjective-1 .
+
+frame:Businesses  skos:closeMatch  wn30instances:synset-institutional-adjective-1 , wn30instances:synset-corporate-adjective-1 .
+
+frame:Accuracy  skos:closeMatch  wn30instances:synset-precisely-adverb-2 .
+
+frame:Event  skos:closeMatch  wn30instances:synset-motional-adjective-1 , wn30instances:synset-phenomenal-adjective-1 .
+
+frame:Medical_conditions
+        skos:closeMatch  wn30instances:synset-anicteric-adjective-1 , wn30instances:synset-leprous-adjective-1 , wn30instances:synset-diabetic-adjective-1 , wn30instances:synset-amnestic-adjective-1 , wn30instances:synset-schizoid-adjective-1 , wn30instances:synset-malarial-adjective-1 , wn30instances:synset-hypoglycemic-adjective-1 , wn30instances:synset-choleraic-adjective-1 , wn30instances:synset-ulcerative-adjective-1 , wn30instances:synset-tuberculoid-adjective-1 , wn30instances:synset-anticancer-adjective-1 , wn30instances:synset-infectious-adjective-3 , wn30instances:synset-tubercular-adjective-3 , wn30instances:synset-morbilliform-adjective-1 , wn30instances:synset-icterogenic-adjective-1 , wn30instances:synset-sciatic-adjective-1 , wn30instances:synset-asphyxiated-adjective-1 , wn30instances:synset-precancerous-adjective-1 , wn30instances:synset-tetanic-adjective-2 , wn30instances:synset-syphilitic-adjective-1 , wn30instances:synset-neoplastic-adjective-1 .
+
+frame:Identicality  skos:closeMatch  wn30instances:synset-identically-adverb-1 , wn30instances:synset-distinctly-adverb-2 .
+
+frame:Importance  skos:closeMatch  wn30instances:synset-chiefly-adverb-1 , wn30instances:synset-significantly-adverb-2 , wn30instances:synset-crucially-adverb-1 , wn30instances:synset-importantly-adverb-1 , wn30instances:synset-importantly-adverb-2 , wn30instances:synset-well-adverb-7 .
+
+frame:Familiarity  skos:closeMatch  wn30instances:synset-recently-adverb-1 , wn30instances:synset-familiarly-adverb-1 .
+
+frame:Morality_evaluation
+        skos:closeMatch  wn30instances:synset-heinously-adverb-1 , wn30instances:synset-perversely-adverb-1 , wn30instances:synset-righteously-adverb-1 , wn30instances:synset-wrongly-adverb-1 , wn30instances:synset-immorally-adverb-1 , wn30instances:synset-distastefully-adverb-1 , wn30instances:synset-high-mindedly-adverb-1 , wn30instances:synset-nefariously-adverb-1 , wn30instances:synset-badly-adverb-3 , wn30instances:synset-rightly-adverb-1 , wn30instances:synset-vilely-adverb-1 , wn30instances:synset-profligately-adverb-1 , wn30instances:synset-iniquitously-adverb-1 , wn30instances:synset-dishonestly-adverb-1 , wn30instances:synset-corruptly-adverb-1 , wn30instances:synset-despicably-adverb-1 , wn30instances:synset-repellently-adverb-1 , wn30instances:synset-meanly-adverb-2 , wn30instances:synset-wickedly-adverb-1 , wn30instances:synset-morally-adverb-2 , wn30instances:synset-disgustingly-adverb-1 .
+
+frame:Revenge  skos:closeMatch  wn30instances:synset-revengefully-adverb-1 .
+
+frame:Social_connection
+        skos:closeMatch  wn30instances:synset-closely-adverb-3 , wn30instances:synset-well-adverb-8 .
+
+frame:People_by_jurisdiction
+        skos:closeMatch  wn30instances:synset-civil-adjective-4 .
+
+frame:Shaped_part  skos:closeMatch  wn30instances:synset-oral-adjective-2 , wn30instances:synset-short-handled-adjective-1 , wn30instances:synset-brachial-adjective-1 .
+
+frame:Rite  skos:closeMatch  wn30instances:synset-ritual-adjective-1 , wn30instances:synset-baptismal-adjective-1 , wn30instances:synset-sacrificial-adjective-1 , wn30instances:synset-sacramental-adjective-1 .
+
+frame:Aggregate  skos:closeMatch  wn30instances:synset-colonial-adjective-2 , wn30instances:synset-categorical-adjective-1 .
+
+frame:Change_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-ascensional-adjective-1 , wn30instances:synset-developmental-adjective-1 , wn30instances:synset-ontogenetic-adjective-1 , wn30instances:synset-maturational-adjective-1 .
+
+frame:Arson  skos:closeMatch  wn30instances:synset-incendiary-adjective-1 .
+
+frame:Gizmo  skos:closeMatch  wn30instances:synset-mechanically-adverb-2 .
+
+frame:Correctness  skos:closeMatch  wn30instances:synset-falsely-adverb-2 , wn30instances:synset-precisely-adverb-2 .
+
+frame:Money  skos:closeMatch  wn30instances:synset-monetary-adjective-1 .
+
+frame:Undergo_change  skos:closeMatch  wn30instances:synset-transitional-adjective-1 .
+
+frame:Extreme_point  skos:closeMatch  wn30instances:synset-zenithal-adjective-1 .
+
+frame:Guilt_or_innocence
+        skos:closeMatch  wn30instances:synset-guiltily-adverb-1 , wn30instances:synset-innocently-adverb-1 .
+
+frame:Domain  skos:closeMatch  wn30instances:synset-interdisciplinary-adjective-1 , wn30instances:synset-disciplinary-adjective-2 .
+
+frame:Prevarication  skos:closeMatch  wn30instances:synset-deceptively-adverb-1 .
+
+frame:Topic  skos:closeMatch  wn30instances:synset-unthematic-adjective-1 , wn30instances:synset-thematic-adjective-1 .
+
+frame:Temporal_subregion
+        skos:closeMatch  wn30instances:synset-auroral-adjective-2 .
+
+frame:Statement  skos:closeMatch  wn30instances:synset-annunciatory-adjective-1 .
+
+frame:Regard  skos:closeMatch  wn30instances:synset-impressionistic-adjective-1 , wn30instances:synset-appreciatively-adverb-1 .
+
+frame:Progress  skos:closeMatch  wn30instances:synset-developmental-adjective-1 , wn30instances:synset-ontogenetic-adjective-1 , wn30instances:synset-growing-adjective-1 , wn30instances:synset-maturational-adjective-1 .
+
+frame:Stimulus_focus  skos:closeMatch  wn30instances:synset-amazingly-adverb-1 , wn30instances:synset-affectingly-adverb-1 , wn30instances:synset-irritatingly-adverb-1 , wn30instances:synset-formidably-adverb-1 , wn30instances:synset-disturbingly-adverb-1 , wn30instances:synset-vacuously-adverb-1 , wn30instances:synset-cuttingly-adverb-1 , wn30instances:synset-dismally-adverb-2 , wn30instances:synset-agonizingly-adverb-1 , wn30instances:synset-disgustingly-adverb-1 , wn30instances:synset-screamingly-adverb-1 , wn30instances:synset-dramatically-adverb-1 , wn30instances:synset-dreadfully-adverb-1 , wn30instances:synset-morosely-adverb-1 , wn30instances:synset-gravely-adverb-1 , wn30instances:synset-vexatiously-adverb-1 , wn30instances:synset-sourly-adverb-1 , wn30instances:synset-terribly-adverb-2 , wn30instances:synset-gloweringly-adverb-1 , wn30instances:synset-solemnly-adverb-1 , wn30instances:synset-direfully-adverb-1 , wn30instances:synset-cryptically-adverb-1 , wn30instances:synset-plaguey-adverb-1 , wn30instances:synset-worryingly-adverb-1 , wn30instances:synset-insultingly-adverb-1 , wn30instances:synset-repellently-adverb-1 , wn30instances:synset-painfully-adverb-1 , wn30instances:synset-gratifyingly-adverb-1 , wn30instances:synset-placatingly-adverb-1 , wn30instances:synset-gracelessly-adverb-2 , wn30instances:synset-frighteningly-adverb-1 , wn30instances:synset-pleasantly-adverb-2 , wn30instances:synset-piteously-adverb-1 , wn30instances:synset-fearfully-adverb-2 , wn30instances:synset-bewilderingly-adverb-1 , wn30instances:synset-laughably-adverb-1 , wn30instances:synset-humorously-adverb-1 , wn30instances:synset-distressfully-adverb-1 , wn30instances:synset-dauntingly-adverb-1 , wn30instances:synset-comfortingly-adverb-1 , wn30instances:synset-aggravatingly-adverb-1 , wn30instances:synset-fascinatingly-adverb-1 , wn30instances:synset-pathetically-adverb-1 , wn30instances:synset-depressingly-adverb-1 , wn30instances:synset-bewitchingly-adverb-1 , wn30instances:synset-comically-adverb-1 , wn30instances:synset-fearsomely-adverb-1 , wn30instances:synset-disconcertingly-adverb-1 , wn30instances:synset-embarrassingly-adverb-1 , wn30instances:synset-gruesomely-adverb-1 , wn30instances:synset-wretchedly-adverb-1 , wn30instances:synset-disappointingly-adverb-1 , wn30instances:synset-exasperatingly-adverb-1 , wn30instances:synset-excitingly-adverb-1 , wn30instances:synset-spectacularly-adverb-1 , wn30instances:synset-hilariously-adverb-1 , wn30instances:synset-delightfully-adverb-1 , wn30instances:synset-jovially-adverb-1 , wn30instances:synset-inscrutably-adverb-1 , wn30instances:synset-discouragingly-adverb-1 , wn30instances:synset-seductively-adverb-1 , wn30instances:synset-deliciously-adverb-1 , wn30instances:synset-darkly-adverb-2 , wn30instances:synset-impressively-adverb-1 , wn30instances:synset-luridly-adverb-1 , wn30instances:synset-offensively-adverb-1 , wn30instances:synset-annoyingly-adverb-1 , wn30instances:synset-disagreeably-adverb-1 , wn30instances:synset-appallingly-adverb-1 , wn30instances:synset-soothingly-adverb-1 , wn30instances:synset-restfully-adverb-1 , wn30instances:synset-moodily-adverb-1 , wn30instances:synset-contemptuously-adverb-1 , wn30instances:synset-boringly-adverb-1 , wn30instances:synset-distastefully-adverb-1 , wn30instances:synset-strikingly-adverb-1 , wn30instances:synset-happily-adverb-1 , wn30instances:synset-ill-adverb-1 , wn30instances:synset-dourly-adverb-1 , wn30instances:synset-problematically-adverb-1 , wn30instances:synset-deplorably-adverb-1 .
+
+frame:Abounding_with  skos:closeMatch  wn30instances:synset-predominantly-adverb-1 .
+
+frame:Aesthetics  skos:closeMatch  wn30instances:synset-prettily-adverb-1 , wn30instances:synset-beautifully-adverb-1 , wn30instances:synset-bonnily-adverb-1 , wn30instances:synset-handsomely-adverb-1 , wn30instances:synset-tastily-adverb-1 , wn30instances:synset-elegantly-adverb-1 .
+
+frame:Surpassing  skos:closeMatch  wn30instances:synset-specially-adverb-1 , wn30instances:synset-particularly-adverb-1 .
+
+frame:Sensation  skos:closeMatch  wn30instances:synset-perceptive-adjective-1 , wn30instances:synset-perceptual-adjective-1 , wn30instances:synset-sensational-adjective-3 , wn30instances:synset-gustatory-adjective-1 .
+
+frame:People_by_vocation
+        skos:closeMatch  wn30instances:synset-agential-adjective-1 , wn30instances:synset-judicial-adjective-2 , wn30instances:synset-professorial-adjective-1 , wn30instances:synset-clerical-adjective-1 , wn30instances:synset-magisterial-adjective-1 , wn30instances:synset-veterinary-adjective-1 .
+
+frame:Mental_property
+        skos:closeMatch  wn30instances:synset-brilliantly-adverb-2 , wn30instances:synset-wisely-adverb-1 , wn30instances:synset-dumbly-adverb-1 , wn30instances:synset-unreasonably-adverb-1 , wn30instances:synset-cleverly-adverb-1 , wn30instances:synset-curiously-adverb-2 , wn30instances:synset-presciently-adverb-1 , wn30instances:synset-sanely-adverb-1 , wn30instances:synset-attitudinal-adjective-1 , wn30instances:synset-fatuously-adverb-1 , wn30instances:synset-naively-adverb-1 , wn30instances:synset-perseveringly-adverb-1 , wn30instances:synset-suspiciously-adverb-1 , wn30instances:synset-daftly-adverb-1 , wn30instances:synset-insanely-adverb-1 , wn30instances:synset-craftily-adverb-1 , wn30instances:synset-mental-adjective-2 , wn30instances:synset-astutely-adverb-1 , wn30instances:synset-absently-adverb-1 , wn30instances:synset-foolishly-adverb-1 , wn30instances:synset-unadvisedly-adverb-1 , wn30instances:synset-distrustfully-adverb-1 , wn30instances:synset-cynically-adverb-1 , wn30instances:synset-irrationally-adverb-1 .
+
+frame:Quantity  skos:closeMatch  wn30instances:synset-mensural-adjective-1 , wn30instances:synset-multiply-adverb-1 , wn30instances:synset-fairly-adverb-2 , wn30instances:synset-fairly-adverb-3 .
+
+frame:Being_in_effect
+        skos:closeMatch  wn30instances:synset-validly-adverb-1 .
+
+frame:Experiencer_focus
+        skos:closeMatch  wn30instances:synset-frenziedly-adverb-1 , wn30instances:synset-tenderly-adverb-1 , wn30instances:synset-fierily-adverb-1 , wn30instances:synset-anxiously-adverb-1 , wn30instances:synset-worriedly-adverb-1 , wn30instances:synset-ruefully-adverb-1 , wn30instances:synset-serenely-adverb-1 , wn30instances:synset-calmly-adverb-1 , wn30instances:synset-tranquilly-adverb-1 , wn30instances:synset-ardently-adverb-1 , wn30instances:synset-aversive-adjective-1 , wn30instances:synset-deliriously-adverb-2 , wn30instances:synset-madly-adverb-1 , wn30instances:synset-disgustedly-adverb-1 , wn30instances:synset-sympathetically-adverb-2 , wn30instances:synset-dearly-adverb-3 .
+
+frame:Process_start  skos:closeMatch  wn30instances:synset-eruptive-adjective-1 .
+
+frame:Beyond_compare  skos:closeMatch  wn30instances:synset-incomparably-adverb-1 .
+
+frame:Calendric_unit  skos:closeMatch  wn30instances:synset-millenarian-adjective-1 , wn30instances:synset-millennial-adjective-1 , wn30instances:synset-matutinal-adjective-1 , wn30instances:synset-centennial-adjective-1 , wn30instances:synset-circadian-adjective-1 , wn30instances:synset-dominical-adjective-2 , wn30instances:synset-auroral-adjective-2 , wn30instances:synset-meridian-adjective-1 , wn30instances:synset-nocturnal-adjective-2 .
+
+frame:Ammunition  skos:closeMatch  wn30instances:synset-soft-nosed-adjective-1 .
+
+frame:Amalgamation  skos:closeMatch  wn30instances:synset-amalgamative-adjective-1 .
+
+frame:Emotion_directed
+        skos:closeMatch  wn30instances:synset-happily-adverb-1 , wn30instances:synset-jealously-adverb-1 , wn30instances:synset-anxiously-adverb-1 , wn30instances:synset-deplorably-adverb-1 , wn30instances:synset-irately-adverb-1 , wn30instances:synset-agonal-adjective-1 , wn30instances:synset-huffily-adverb-1 , wn30instances:synset-gleefully-adverb-1 , wn30instances:synset-furiously-adverb-3 , wn30instances:synset-lividly-adverb-1 , wn30instances:synset-desolately-adverb-1 , wn30instances:synset-perplexedly-adverb-1 , wn30instances:synset-bewilderedly-adverb-1 , wn30instances:synset-contentedly-adverb-1 , wn30instances:synset-angrily-adverb-1 , wn30instances:synset-disgustedly-adverb-1 , wn30instances:synset-sadly-adverb-1 , wn30instances:synset-sympathetically-adverb-2 , wn30instances:synset-dejectedly-adverb-1 , wn30instances:synset-enviously-adverb-1 , wn30instances:synset-disappointedly-adverb-1 , wn30instances:synset-ecstatically-adverb-1 , wn30instances:synset-dolefully-adverb-1 , wn30instances:synset-indignantly-adverb-1 , wn30instances:synset-dispiritedly-adverb-1 , wn30instances:synset-worriedly-adverb-1 , wn30instances:synset-transversely-adverb-1 , wn30instances:synset-gloomily-adverb-1 , wn30instances:synset-despairingly-adverb-1 , wn30instances:synset-plaintively-adverb-1 .
+
+frame:Vehicle  skos:closeMatch  wn30instances:synset-automotive-adjective-1 , wn30instances:synset-vehicular-adjective-1 .
+
+frame:Ambient_temperature
+        skos:closeMatch  wn30instances:synset-warmly-adverb-2 .
+
+frame:Compliance  skos:closeMatch  wn30instances:synset-obediently-adverb-1 , wn30instances:synset-contrarily-adverb-2 , wn30instances:synset-anarchically-adverb-1 .
+
+frame:Taking  skos:closeMatch  wn30instances:synset-ictal-adjective-1 , wn30instances:synset-postictal-adjective-1 .
+
+frame:Referring_by_name
+        skos:closeMatch  wn30instances:synset-nominal-adjective-1 .
+
+frame:Sufficiency  skos:closeMatch  wn30instances:synset-amply-adverb-1 , wn30instances:synset-amply-adverb-2 .
+
+frame:Hospitality  skos:closeMatch  wn30instances:synset-hospitably-adverb-1 .
+
+frame:Social_interaction_evaluation
+        skos:closeMatch  wn30instances:synset-socially-adverb-1 , wn30instances:synset-pityingly-adverb-1 , wn30instances:synset-impertinently-adverb-1 , wn30instances:synset-spitefully-adverb-2 , wn30instances:synset-civilly-adverb-1 , wn30instances:synset-heartily-adverb-2 , wn30instances:synset-dreadfully-adverb-1 , wn30instances:synset-despitefully-adverb-1 , wn30instances:synset-uncivilly-adverb-1 , wn30instances:synset-undiplomatically-adverb-1 , wn30instances:synset-pleasantly-adverb-2 , wn30instances:synset-gregariously-adverb-1 , wn30instances:synset-impolitely-adverb-1 , wn30instances:synset-affably-adverb-1 , wn30instances:synset-cruelly-adverb-2 , wn30instances:synset-diplomatically-adverb-1 , wn30instances:synset-viciously-adverb-1 , wn30instances:synset-boorishly-adverb-1 , wn30instances:synset-churlishly-adverb-1 , wn30instances:synset-sociably-adverb-2 , wn30instances:synset-thoughtfully-adverb-1 , wn30instances:synset-barbarously-adverb-1 , wn30instances:synset-thoughtlessly-adverb-1 , wn30instances:synset-politely-adverb-1 , wn30instances:synset-horrifyingly-adverb-1 .
+
+frame:Commerce_pay  skos:closeMatch  wn30instances:synset-monetary-adjective-1 .
+
+frame:Foreign_or_domestic_country
+        skos:closeMatch  wn30instances:synset-domestically-adverb-1 .
+
+frame:Being_obligated
+        skos:closeMatch  wn30instances:synset-contractual-adjective-1 .
+
+frame:Motion  skos:closeMatch  wn30instances:synset-still-adverb-4 , wn30instances:synset-motionlessly-adverb-1 .
+
+frame:Communication_response
+        skos:closeMatch  wn30instances:synset-sensorimotor-adjective-1 , wn30instances:synset-psychomotor-adjective-1 .
+
+frame:Cause_change_of_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-developmental-adjective-1 , wn30instances:synset-ontogenetic-adjective-1 , wn30instances:synset-growing-adjective-1 , wn30instances:synset-maturational-adjective-1 .
+
+frame:Text  skos:closeMatch  wn30instances:synset-lyric-adjective-4 , wn30instances:synset-elegiac-adjective-1 , wn30instances:synset-editorial-adjective-1 , wn30instances:synset-literary-adjective-1 , wn30instances:synset-semiautobiographical-adjective-1 , wn30instances:synset-biographic-adjective-1 , wn30instances:synset-comic-adjective-2 , wn30instances:synset-poetic-adjective-1 , wn30instances:synset-autobiographical-adjective-2 , wn30instances:synset-tragic-adjective-2 , wn30instances:synset-parabolic-adjective-1 , wn30instances:synset-holographic-adjective-2 .
+
+frame:Exertive_force  skos:closeMatch  wn30instances:synset-weakly-adverb-1 , wn30instances:synset-strongly-adverb-1 , wn30instances:synset-powerfully-adverb-1 .
+
+frame:Expertise  skos:closeMatch  wn30instances:synset-artlessly-adverb-1 , wn30instances:synset-enormously-adverb-1 , wn30instances:synset-unbelievably-adverb-2 , wn30instances:synset-ineptly-adverb-1 , wn30instances:synset-superlatively-adverb-1 , wn30instances:synset-painfully-adverb-1 , wn30instances:synset-skillfully-adverb-1 , wn30instances:synset-chiefly-adverb-1 , wn30instances:synset-specialistic-adjective-1 , wn30instances:synset-terribly-adverb-2 , wn30instances:synset-excellently-adverb-1 , wn30instances:synset-incredibly-adverb-1 , wn30instances:synset-incompetently-adverb-1 , wn30instances:synset-proficiently-adverb-1 , wn30instances:synset-competently-adverb-1 , wn30instances:synset-expertly-adverb-1 , wn30instances:synset-wonderfully-adverb-1 , wn30instances:synset-dismally-adverb-2 .
+
+frame:Lively_place  skos:closeMatch  wn30instances:synset-demoniacally-adverb-1 , wn30instances:synset-madly-adverb-1 , wn30instances:synset-frenziedly-adverb-1 , wn30instances:synset-feverishly-adverb-1 .
+
+frame:Connecting_architecture
+        skos:closeMatch  wn30instances:synset-fenestral-adjective-2 .
+
+frame:Wealthiness  skos:closeMatch  wn30instances:synset-lavishly-adverb-2 , wn30instances:synset-high-adverb-3 , wn30instances:synset-wealthily-adverb-1 , wn30instances:synset-well-adverb-12 , wn30instances:synset-prosperously-adverb-1 .
+
+frame:Evaluative_comparison
+        skos:closeMatch  wn30instances:synset-comparably-adverb-1 .
+
+frame:Sequence  skos:closeMatch  wn30instances:synset-serial-adjective-3 , wn30instances:synset-successively-adverb-1 , wn30instances:synset-consecutive-adverb-1 .
+
+frame:Desiring  skos:closeMatch  wn30instances:synset-hungrily-adverb-1 , wn30instances:synset-reluctantly-adverb-1 , wn30instances:synset-eagerly-adverb-1 , wn30instances:synset-jealously-adverb-1 , wn30instances:synset-enviously-adverb-1 , wn30instances:synset-wishfully-adverb-1 .
+
+frame:Using  skos:closeMatch  wn30instances:synset-operationally-adverb-1 .
+
+frame:Relative_time  skos:closeMatch  wn30instances:synset-coincidentally-adverb-1 , wn30instances:synset-previously-adverb-1 , wn30instances:synset-recently-adverb-1 , wn30instances:synset-late-adverb-1 .
+
+frame:Location_in_time
+        skos:closeMatch  wn30instances:synset-quartan-adjective-1 .
+
+frame:Capability  skos:closeMatch  wn30instances:synset-competently-adverb-1 , wn30instances:synset-potentially-adverb-1 .
+
+frame:Personal_relationship
+        skos:closeMatch  wn30instances:synset-conjugal-adjective-1 , wn30instances:synset-spousal-adjective-2 , wn30instances:synset-familiarly-adverb-1 .
+
+frame:Part_whole  skos:closeMatch  wn30instances:synset-centesimal-adjective-1 , wn30instances:synset-bodily-adjective-1 .
+
+frame:Connectors  skos:closeMatch  wn30instances:synset-ropy-adjective-1 , wn30instances:synset-wiry-adjective-2 .
+
+frame:Rewards_and_punishments
+        skos:closeMatch  wn30instances:synset-penal-adjective-1 , wn30instances:synset-punitively-adverb-1 .
+
+frame:Abundance  skos:closeMatch  wn30instances:synset-abundantly-adverb-1 .
+
+frame:Delivery  skos:closeMatch  wn30instances:synset-deliverable-adjective-1 .
+
+frame:Secrecy_status  skos:closeMatch  wn30instances:synset-covertly-adverb-1 , wn30instances:synset-confidentially-adverb-1 .
+
+frame:Biological_urge
+        skos:closeMatch  wn30instances:synset-eagerly-adverb-1 , wn30instances:synset-sleepily-adverb-1 , wn30instances:synset-drowsily-adverb-1 , wn30instances:synset-queasily-adverb-1 , wn30instances:synset-hungrily-adverb-1 , wn30instances:synset-tiredly-adverb-1 , wn30instances:synset-amorously-adverb-1 .
+
+frame:Fear  skos:closeMatch  wn30instances:synset-anxiously-adverb-1 .
+
+frame:Taking_time  skos:closeMatch  wn30instances:synset-swiftly-adverb-1 , wn30instances:synset-quicker-adverb-1 , wn30instances:synset-quickest-adverb-1 , wn30instances:synset-quickly-adverb-1 , wn30instances:synset-promptly-adverb-1 , wn30instances:synset-slowest-adverb-1 , wn30instances:synset-slower-adverb-1 .
+
+frame:Clothing  skos:closeMatch  wn30instances:synset-vestiary-adjective-1 , wn30instances:synset-vestmental-adjective-1 .
+
+frame:Institutions  skos:closeMatch  wn30instances:synset-institutionally-adverb-1 .
+
+frame:Openness  skos:closeMatch  wn30instances:synset-openly-adverb-1 .
+
+frame:Part_piece  skos:closeMatch  wn30instances:synset-flaky-adjective-1 , wn30instances:synset-splintery-adjective-2 .
+
+frame:Locale_by_use  skos:closeMatch  wn30instances:synset-rurally-adverb-1 , wn30instances:synset-quadratic-adjective-1 , wn30instances:synset-scholastic-adjective-1 .
+
+frame:Partiality  skos:closeMatch  wn30instances:synset-prejudicial-adjective-2 .
+
+frame:Color  skos:closeMatch  wn30instances:synset-chromatic-adjective-1 , wn30instances:synset-grayly-adverb-1 , wn30instances:synset-redly-adverb-1 , wn30instances:synset-greenly-adverb-1 .
+
+frame:Animals  skos:closeMatch  wn30instances:synset-ovine-adjective-1 , wn30instances:synset-feline-adjective-1 , wn30instances:synset-zoological-adjective-2 , wn30instances:synset-zoic-adjective-1 .
+
+frame:Being_necessary
+        skos:closeMatch  wn30instances:synset-integrally-adverb-1 , wn30instances:synset-inherently-adverb-1 , wn30instances:synset-superfluously-adverb-1 , wn30instances:synset-necessarily-adverb-1 .
+
+frame:Breathing  skos:closeMatch  wn30instances:synset-inspiratory-adjective-1 , wn30instances:synset-inhalant-adjective-1 , wn30instances:synset-expiratory-adjective-1 .
+
+frame:Timespan  skos:closeMatch  wn30instances:synset-quartan-adjective-1 , wn30instances:synset-circadian-adjective-1 , wn30instances:synset-temporal-adjective-2 .
+
+frame:Suspiciousness  skos:closeMatch  wn30instances:synset-queerly-adverb-2 , wn30instances:synset-questionably-adverb-1 .
+
+frame:Measurable_attributes
+        skos:closeMatch  wn30instances:synset-profoundly-adverb-1 , wn30instances:synset-heavily-adverb-2 , wn30instances:synset-ponderously-adverb-2 , wn30instances:synset-thickly-adverb-4 , wn30instances:synset-highly-adverb-1 .
+
+frame:Desirability  skos:closeMatch  wn30instances:synset-feebly-adverb-2 , wn30instances:synset-incredibly-adverb-1 , wn30instances:synset-pathetically-adverb-1 , wn30instances:synset-nastily-adverb-1 , wn30instances:synset-appallingly-adverb-1 , wn30instances:synset-ill-adverb-1 , wn30instances:synset-lamely-adverb-1 , wn30instances:synset-gorgeously-adverb-1 , wn30instances:synset-popularly-adverb-1 , wn30instances:synset-unbelievably-adverb-2 , wn30instances:synset-wonderfully-adverb-1 , wn30instances:synset-superlatively-adverb-1 , wn30instances:synset-wretchedly-adverb-1 , wn30instances:synset-terribly-adverb-2 , wn30instances:synset-piteously-adverb-1 , wn30instances:synset-horrifyingly-adverb-1 , wn30instances:synset-dismally-adverb-2 , wn30instances:synset-dreadfully-adverb-1 , wn30instances:synset-amazingly-adverb-1 , wn30instances:synset-enormously-adverb-1 , wn30instances:synset-excellently-adverb-1 , wn30instances:synset-unfortunately-adverb-1 , wn30instances:synset-stupendously-adverb-1 , wn30instances:synset-painfully-adverb-1 .
+
+frame:Performing_arts
+        skos:closeMatch  wn30instances:synset-musical-adjective-1 , wn30instances:synset-thespian-adjective-1 , wn30instances:synset-dramatic-adjective-3 .
+
+frame:Cause_proliferation_in_number
+        skos:closeMatch  wn30instances:synset-propagative-adjective-1 .
+
+frame:Buildings  skos:closeMatch  wn30instances:synset-nosocomial-adjective-1 , wn30instances:synset-domestic-adjective-2 , wn30instances:synset-domiciliary-adjective-1 , wn30instances:synset-bungaloid-adjective-1 , wn30instances:synset-manorial-adjective-1 .
+
+frame:Feeling  skos:closeMatch  wn30instances:synset-emotional-adjective-3 .
+
+frame:Clarity_of_resolution
+        skos:closeMatch  wn30instances:synset-decisively-adverb-2 .
+
+frame:Dead_or_alive  skos:closeMatch  wn30instances:synset-asleep-adverb-2 , wn30instances:synset-lifelessly-adverb-2 , wn30instances:synset-deadly-adverb-1 , wn30instances:synset-cadaverous-adjective-2 .
+
+frame:Agriculture  skos:closeMatch  wn30instances:synset-agricultural-adjective-1 .
+
+frame:Prominence  skos:closeMatch  wn30instances:synset-cheaply-adverb-2 , wn30instances:synset-garishly-adverb-1 , wn30instances:synset-meretriciously-adverb-1 , wn30instances:synset-blatantly-adverb-1 , wn30instances:synset-prominently-adverb-1 , wn30instances:synset-quietly-adverb-3 .
+
+frame:Subjective_temperature
+        skos:closeMatch  wn30instances:synset-warmly-adverb-2 .
+
+frame:Perception_active
+        skos:closeMatch  wn30instances:synset-gustatory-adjective-1 .
+
+frame:Attack  skos:closeMatch  wn30instances:synset-offensively-adverb-3 .
+
+frame:Health_response
+        skos:closeMatch  wn30instances:synset-allergic-adjective-1 .
+
+frame:Chemical-sense_description
+        skos:closeMatch  wn30instances:synset-lusciously-adverb-1 , wn30instances:synset-pungently-adverb-2 , wn30instances:synset-piquantly-adverb-1 , wn30instances:synset-tastily-adverb-1 , wn30instances:synset-unpalatably-adverb-1 , wn30instances:synset-palatably-adverb-1 .
+
+frame:Medical_specialties
+        skos:closeMatch  wn30instances:synset-homeopathic-adjective-1 , wn30instances:synset-hematologic-adjective-1 , wn30instances:synset-cardiologic-adjective-1 , wn30instances:synset-oncological-adjective-1 , wn30instances:synset-psychoanalytical-adjective-1 , wn30instances:synset-epidemiologic-adjective-1 , wn30instances:synset-histological-adjective-1 , wn30instances:synset-orthopedic-adjective-1 , wn30instances:synset-allopathic-adjective-1 , wn30instances:synset-pediatric-adjective-1 , wn30instances:synset-obstetric-adjective-1 , wn30instances:synset-gynecological-adjective-1 , wn30instances:synset-therapeutic-adjective-2 , wn30instances:synset-immunological-adjective-1 , wn30instances:synset-dental-adjective-2 , wn30instances:synset-neurological-adjective-1 , wn30instances:synset-dermatologic-adjective-1 .
+
+frame:Purpose  skos:closeMatch  wn30instances:synset-intently-adverb-1 , wn30instances:synset-determinedly-adverb-1 .
+
+frame:Existence  skos:closeMatch  wn30instances:synset-existential-adjective-3 , wn30instances:synset-actually-adverb-1 .
+
+frame:Attention  skos:closeMatch  wn30instances:synset-vigilantly-adverb-1 , wn30instances:synset-attentional-adjective-1 .
+
+frame:Difficulty  skos:closeMatch  wn30instances:synset-impossibly-adverb-1 , wn30instances:synset-hard-adverb-5 , wn30instances:synset-easy-adverb-3 .
+
+frame:Measure_duration
+        skos:closeMatch  wn30instances:synset-centennial-adjective-1 , wn30instances:synset-millenarian-adjective-1 , wn30instances:synset-millennial-adjective-1 , wn30instances:synset-horary-adjective-1 , wn30instances:synset-circadian-adjective-1 .
+
+frame:Temporal_collocation
+        skos:closeMatch  wn30instances:synset-anciently-adverb-1 .
+
+frame:Cardinal_numbers
+        skos:closeMatch  wn30instances:synset-dyadic-adjective-1 , wn30instances:synset-vicennial-adjective-1 , wn30instances:synset-vigesimal-adjective-1 , wn30instances:synset-millenary-adjective-2 .
+
+frame:Cure  skos:closeMatch  wn30instances:synset-therapeutically-adverb-1 , wn30instances:synset-therapeutic-adjective-2 , wn30instances:synset-incurably-adverb-2 .
+
+frame:Possibility  skos:closeMatch  wn30instances:synset-impossibly-adverb-1 .
+
+frame:Kinship  skos:closeMatch  wn30instances:synset-maternal-adjective-2 , wn30instances:synset-familial-adjective-1 , wn30instances:synset-parentally-adverb-1 , wn30instances:synset-avuncular-adjective-2 , wn30instances:synset-paternal-adjective-1 , wn30instances:synset-parental-adjective-1 , wn30instances:synset-puerile-adjective-1 , wn30instances:synset-filial-adjective-1 .
+
+frame:Judgment_communication
+        skos:closeMatch  wn30instances:synset-slanderously-adverb-1 , wn30instances:synset-jeeringly-adverb-1 , wn30instances:synset-derisively-adverb-1 , wn30instances:synset-admirably-adverb-1 , wn30instances:synset-disparagingly-adverb-1 , wn30instances:synset-scathingly-adverb-1 .
+
+frame:Being_wet  skos:closeMatch  wn30instances:synset-damply-adverb-1 , wn30instances:synset-clammily-adverb-1 .
+
+frame:First_rank  skos:closeMatch  wn30instances:synset-chiefly-adverb-1 .
+
+frame:Popularity  skos:closeMatch  wn30instances:synset-popularly-adverb-1 .
+
+frame:Type  skos:closeMatch  wn30instances:synset-categorical-adjective-1 .
+
+frame:Extreme_value  skos:closeMatch  wn30instances:synset-minimally-adverb-1 , wn30instances:synset-maximally-adverb-1 .
+
+frame:Leadership  skos:closeMatch  wn30instances:synset-royal-adjective-1 , wn30instances:synset-mayoral-adjective-1 , wn30instances:synset-pastoral-adjective-1 , wn30instances:synset-dictatorial-adjective-1 , wn30instances:synset-viceregal-adjective-1 , wn30instances:synset-imperial-adjective-3 , wn30instances:synset-episcopal-adjective-2 , wn30instances:synset-gubernatorial-adjective-1 , wn30instances:synset-ministerial-adjective-1 , wn30instances:synset-legislative-adjective-1 .
+
+frame:Accoutrements  skos:closeMatch  wn30instances:synset-armillary-adjective-1 , wn30instances:synset-mitral-adjective-2 .
+
+frame:Law  skos:closeMatch  wn30instances:synset-statutory-adjective-1 , wn30instances:synset-legal-adjective-2 , wn30instances:synset-medicolegal-adjective-1 .
+
+frame:Food  skos:closeMatch  wn30instances:synset-stearic-adjective-1 , wn30instances:synset-lactic-adjective-1 .
+
+frame:Sleep  skos:closeMatch  wn30instances:synset-asleep-adverb-1 .
+
+frame:Scope  skos:closeMatch  wn30instances:synset-scopal-adjective-1 .
+
+frame:Location_of_light
+        skos:closeMatch  wn30instances:synset-radiantly-adverb-1 , wn30instances:synset-brilliantly-adverb-1 , wn30instances:synset-photic-adjective-1 .
+
+frame:Fields  skos:closeMatch  wn30instances:synset-dramaturgic-adjective-1 , wn30instances:synset-theatrical-adjective-1 , wn30instances:synset-literary-adjective-1 , wn30instances:synset-industrially-adverb-1 , wn30instances:synset-interdisciplinary-adjective-1 , wn30instances:synset-disciplinary-adjective-2 , wn30instances:synset-mathematical-adjective-1 .
+
+frame:Sociability  skos:closeMatch  wn30instances:synset-diffidently-adverb-1 , wn30instances:synset-shyly-adverb-1 , wn30instances:synset-sociably-adverb-2 , wn30instances:synset-gregariously-adverb-1 .
+
+frame:Omen  skos:closeMatch  wn30instances:synset-ominously-adverb-1 , wn30instances:synset-balefully-adverb-1 , wn30instances:synset-menacingly-adverb-1 , wn30instances:synset-promisingly-adverb-1 , wn30instances:synset-promissory-adjective-1 .
+
+frame:Luck  skos:closeMatch  wn30instances:synset-happily-adverb-2 .
+
+frame:Judgment  skos:closeMatch  wn30instances:synset-stigmatic-adjective-1 , wn30instances:synset-contemptuously-adverb-1 , wn30instances:synset-reprehensibly-adverb-1 , wn30instances:synset-derisively-adverb-1 , wn30instances:synset-criminally-adverb-1 , wn30instances:synset-jeeringly-adverb-1 , wn30instances:synset-reprovingly-adverb-1 , wn30instances:synset-insultingly-adverb-1 , wn30instances:synset-appreciatively-adverb-1 , wn30instances:synset-approvingly-adverb-1 .
+
+frame:Membership  skos:closeMatch  wn30instances:synset-partitive-adjective-1 .
+
+frame:Process_end  skos:closeMatch  wn30instances:synset-ultimately-adverb-1 .
+
+frame:State_of_entity
+        skos:closeMatch  wn30instances:synset-factual-adjective-2 .
+
+frame:Indigenous_origin
+        skos:closeMatch  wn30instances:synset-indigenously-adverb-1 .
+
+frame:Sound_level  skos:closeMatch  wn30instances:synset-loudly-adverb-1 , wn30instances:synset-quietly-adverb-2 .
+
+frame:Releasing  skos:closeMatch  wn30instances:synset-time-release-adjective-1 .
+
+frame:Removing  skos:closeMatch  wn30instances:synset-excretory-adjective-1 .
+
+frame:Giving  skos:closeMatch  wn30instances:synset-charitable-adjective-1 .
+
+frame:Speed  skos:closeMatch  wn30instances:synset-hell-for-leather-adverb-1 , wn30instances:synset-quicker-adverb-1 , wn30instances:synset-quickest-adverb-1 .
+
+frame:Containers  skos:closeMatch  wn30instances:synset-bicylindrical-adjective-1 .
+
+frame:Coming_to_believe
+        skos:closeMatch  wn30instances:synset-inferential-adjective-1 .
+
+frame:Disgraceful_situation
+        skos:closeMatch  wn30instances:synset-disgracefully-adverb-1 , wn30instances:synset-scandalously-adverb-1 , wn30instances:synset-shockingly-adverb-2 .
+
+frame:Artifact  skos:closeMatch  wn30instances:synset-ergonomic-adjective-1 , wn30instances:synset-technical-adjective-3 , wn30instances:synset-artifactual-adjective-1 , wn30instances:synset-three-wheel-adjective-1 , wn30instances:synset-two-wheel-adjective-1 , wn30instances:synset-four-wheel-adjective-1 , wn30instances:synset-textile-adjective-1 .
+
+frame:Sounds  skos:closeMatch  wn30instances:synset-chirpy-adjective-1 , wn30instances:synset-splashy-adjective-1 .
+
+frame:Dispersal  skos:closeMatch  wn30instances:synset-distributional-adjective-1 .
+
+frame:Exemplar  skos:closeMatch  wn30instances:synset-paradigmatic-adjective-2 .
+
+frame:People_along_political_spectrum
+        skos:closeMatch  wn30instances:synset-ideological-adjective-1 .
+
+frame:Addiction  skos:closeMatch  wn30instances:synset-compulsively-adverb-1 .
+
+frame:Size  skos:closeMatch  wn30instances:synset-vastly-adverb-1 , wn30instances:synset-enormously-adverb-1 .
+
+frame:Strictness  skos:closeMatch  wn30instances:synset-dictatorially-adverb-1 , wn30instances:synset-overbearingly-adverb-1 , wn30instances:synset-laxly-adverb-1 , wn30instances:synset-indulgently-adverb-1 .
+
+frame:Artificiality  skos:closeMatch  wn30instances:synset-artificially-adverb-1 , wn30instances:synset-authentically-adverb-1 , wn30instances:synset-truly-adverb-1 .
+
+frame:Path_traveled  skos:closeMatch  wn30instances:synset-suborbital-adjective-1 , wn30instances:synset-orbital-adjective-1 .
+
+frame:Usefulness  skos:closeMatch  wn30instances:synset-usefully-adverb-1 , wn30instances:synset-enormously-adverb-1 , wn30instances:synset-wonderfully-adverb-1 , wn30instances:synset-inefficaciously-adverb-1 , wn30instances:synset-ideally-adverb-1 , wn30instances:synset-excellently-adverb-1 , wn30instances:synset-perfectly-adverb-2 , wn30instances:synset-efficaciously-adverb-1 .
+
+frame:Medical_instruments
+        skos:closeMatch  wn30instances:synset-forcipate-adjective-1 , wn30instances:synset-bronchoscopic-adjective-1 .
+
+frame:Response  skos:closeMatch  wn30instances:synset-sensorimotor-adjective-1 , wn30instances:synset-psychomotor-adjective-1 .
+
+frame:Being_named  skos:closeMatch  wn30instances:synset-patronymic-adjective-1 , wn30instances:synset-nominal-adjective-1 , wn30instances:synset-eponymous-adjective-1 .
+
+frame:Trendiness  skos:closeMatch  wn30instances:synset-fashionably-adverb-1 , wn30instances:synset-smartly-adverb-3 .
+
+frame:Time_vector  skos:closeMatch  wn30instances:synset-presently-adverb-2 .
+
+frame:Compatibility  skos:closeMatch  wn30instances:synset-compatibly-adverb-1 , wn30instances:synset-systematically-adverb-1 , wn30instances:synset-incompatibly-adverb-1 .
+
+frame:Bragging  skos:closeMatch  wn30instances:synset-boastfully-adverb-1 .
+
+frame:Scarcity  skos:closeMatch  wn30instances:synset-hardly-adverb-2 .
+
+frame:Heat_potential  skos:closeMatch  wn30instances:synset-warmly-adverb-2 .
+
+frame:Ordinal_numbers
+        skos:closeMatch  wn30instances:synset-seventhly-adverb-1 , wn30instances:synset-fourthly-adverb-1 , wn30instances:synset-tenthly-adverb-1 , wn30instances:synset-sixthly-adverb-1 , wn30instances:synset-fifthly-adverb-1 .
+
+frame:Legality  skos:closeMatch  wn30instances:synset-fairly-adverb-2 , wn30instances:synset-fairly-adverb-3 , wn30instances:synset-permissibly-adverb-1 , wn30instances:synset-unlawfully-adverb-1 , wn30instances:synset-illegally-adverb-1 , wn30instances:synset-legally-adverb-1 , wn30instances:synset-legitimately-adverb-1 , wn30instances:synset-legally-adverb-2 .
+
+frame:Education_teaching
+        skos:closeMatch  wn30instances:synset-educationally-adverb-1 , wn30instances:synset-tutorial-adjective-1 , wn30instances:synset-professorial-adjective-1 .
+
+frame:Hair_configuration
+        skos:closeMatch  wn30instances:synset-capillary-adjective-1 .
+
+frame:Relational_natural_features
+        skos:closeMatch  wn30instances:synset-estuarine-adjective-1 , wn30instances:synset-coastal-adjective-1 .
+
+frame:Locale  skos:closeMatch  wn30instances:synset-point-of-sale-adjective-1 , wn30instances:synset-lunar-adjective-1 , wn30instances:synset-extraterrestrial-adjective-1 , wn30instances:synset-cosmic-adjective-1 , wn30instances:synset-heliacal-adjective-1 , wn30instances:synset-macrocosmic-adjective-1 , wn30instances:synset-earthy-adjective-4 , wn30instances:synset-planetary-adjective-2 , wn30instances:synset-sublunar-adjective-1 , wn30instances:synset-bizonal-adjective-1 , wn30instances:synset-areal-adjective-1 , wn30instances:synset-lunisolar-adjective-1 , wn30instances:synset-regionally-adverb-1 , wn30instances:synset-solar-adjective-1 , wn30instances:synset-translunar-adjective-1 , wn30instances:synset-earthen-adjective-1 .
+
+frame:Emotions_by_stimulus
+        skos:closeMatch  wn30instances:synset-gleefully-adverb-1 , wn30instances:synset-happily-adverb-1 .
+
+frame:Wearing  skos:closeMatch  wn30instances:synset-nakedly-adverb-2 .
+
+frame:Typicality  skos:closeMatch  wn30instances:synset-curiously-adverb-1 , wn30instances:synset-normally-adverb-1 , wn30instances:synset-queerly-adverb-1 , wn30instances:synset-eccentrically-adverb-1 , wn30instances:synset-outlandishly-adverb-1 .
+
+frame:Expectation  skos:closeMatch  wn30instances:synset-predictably-adverb-1 , wn30instances:synset-erratically-adverb-1 , wn30instances:synset-by_chance-adverb-3 , wn30instances:synset-unexpectedly-adverb-1 .
+
+frame:Being_in_operation
+        skos:closeMatch  wn30instances:synset-operationally-adverb-1 .
+
+frame:Observable_body_parts
+        skos:closeMatch  wn30instances:synset-maxillomandibular-adjective-1 , wn30instances:synset-abdominovesical-adjective-1 , wn30instances:synset-preanal-adjective-1 , wn30instances:synset-plantar-adjective-1 , wn30instances:synset-inguinal-adjective-1 , wn30instances:synset-anal-adjective-1 , wn30instances:synset-aural-adjective-1 , wn30instances:synset-umbilical-adjective-1 , wn30instances:synset-buccal-adjective-1 , wn30instances:synset-glossopharyngeal-adjective-1 , wn30instances:synset-femoral-adjective-1 , wn30instances:synset-labial-adjective-1 , wn30instances:synset-lingual-adjective-2 , wn30instances:synset-shouldered-adjective-1 , wn30instances:synset-cubital-adjective-1 , wn30instances:synset-caudal-adjective-1 , wn30instances:synset-binocular-adjective-1 , wn30instances:synset-capillary-adjective-1 , wn30instances:synset-palmar-adjective-1 , wn30instances:synset-abdominal-adjective-1 , wn30instances:synset-dental-adjective-1 , wn30instances:synset-otic-adjective-1 , wn30instances:synset-zygomatic-adjective-1 , wn30instances:synset-popliteal-adjective-1 , wn30instances:synset-natal-adjective-2 , wn30instances:synset-palatoglossal-adjective-1 , wn30instances:synset-ocular-adjective-1 , wn30instances:synset-antennal-adjective-1 , wn30instances:synset-maxillofacial-adjective-1 , wn30instances:synset-brachial-adjective-1 , wn30instances:synset-knee-length-adjective-1 , wn30instances:synset-cervical-adjective-2 , wn30instances:synset-ophthalmic-adjective-1 , wn30instances:synset-jugular-adjective-1 , wn30instances:synset-anorectal-adjective-1 , wn30instances:synset-manual-adjective-1 , wn30instances:synset-cephalic-adjective-1 , wn30instances:synset-tentacular-adjective-1 , wn30instances:synset-appendicular-adjective-1 , wn30instances:synset-temporal-adjective-3 , wn30instances:synset-tentacled-adjective-1 , wn30instances:synset-mandibulofacial-adjective-1 , wn30instances:synset-perianal-adjective-1 , wn30instances:synset-perinasal-adjective-1 , wn30instances:synset-palpebrate-adjective-1 , wn30instances:synset-facial-adjective-1 , wn30instances:synset-oral-adjective-2 , wn30instances:synset-anatomic-adjective-1 , wn30instances:synset-sublingual-adjective-1 , wn30instances:synset-antecubital-adjective-1 , wn30instances:synset-anoperineal-adjective-1 , wn30instances:synset-ungual-adjective-1 , wn30instances:synset-genial-adjective-2 , wn30instances:synset-rhinal-adjective-1 , wn30instances:synset-hooflike-adjective-1 .
+
+frame:Create_physical_artwork
+        skos:closeMatch  wn30instances:synset-artistic-adjective-1 .
+
+frame:Categorization  skos:closeMatch  wn30instances:synset-classificatory-adjective-1 .
+
+frame:Origin  skos:closeMatch  wn30instances:synset-nationally-adverb-2 .
+
+frame:Being_employed  skos:closeMatch  wn30instances:synset-on-the-job-adjective-1 , wn30instances:synset-occupational-adjective-1 .
+
+frame:Awareness  skos:closeMatch  wn30instances:synset-cognitive-adjective-1 , wn30instances:synset-psychomotor-adjective-1 , wn30instances:synset-consciously-adverb-1 .
+
+frame:Grasp  skos:closeMatch  wn30instances:synset-intelligibly-adverb-1 , wn30instances:synset-opaquely-adverb-1 .
+
+frame:Annoyance  skos:closeMatch  wn30instances:synset-disappointedly-adverb-1 .
+
+frame:Measure_linear_extent
+        skos:closeMatch  wn30instances:synset-non-metric-adjective-1 , wn30instances:synset-metric-adjective-1 .
+
+frame:Facial_expression
+        skos:closeMatch  wn30instances:synset-mandibulofacial-adjective-1 , wn30instances:synset-maxillofacial-adjective-1 , wn30instances:synset-facial-adjective-1 .
+
+frame:Hostile_encounter
+        skos:closeMatch  wn30instances:synset-confrontational-adjective-1 .
+
+frame:People  skos:closeMatch  wn30instances:synset-anthropic-adjective-1 .
+
+frame:Position_on_a_scale
+        skos:closeMatch  wn30instances:synset-highly-adverb-1 , wn30instances:synset-lavishly-adverb-2 , wn30instances:synset-high-adverb-3 .
+
+frame:Evoking  skos:closeMatch  wn30instances:synset-reminiscently-adverb-1 .
+
+frame:Sex  skos:closeMatch  wn30instances:synset-coital-adjective-1 .
+
+frame:Competition  skos:closeMatch  wn30instances:synset-competitively-adverb-1 .
+
+frame:Perception_experience
+        skos:closeMatch  wn30instances:synset-perceptive-adjective-1 , wn30instances:synset-perceptual-adjective-1 .
+
+frame:Mental_stimulus_exp_focus
+        skos:closeMatch  wn30instances:synset-distrustfully-adverb-1 , wn30instances:synset-suspiciously-adverb-1 , wn30instances:synset-intently-adverb-1 .
+
+frame:Idiosyncrasy  skos:closeMatch  wn30instances:synset-uncannily-adverb-1 , wn30instances:synset-particularly-adverb-2 , wn30instances:synset-peculiarly-adverb-1 .
+
+frame:Hindering  skos:closeMatch  wn30instances:synset-obstructively-adverb-1 .
+
+frame:Being_awake  skos:closeMatch  wn30instances:synset-consciously-adverb-1 .
+
+frame:Trust  skos:closeMatch  wn30instances:synset-credulously-adverb-1 , wn30instances:synset-faithfully-adverb-1 .
+
+frame:Intentionally_act
+        skos:closeMatch  wn30instances:synset-agential-adjective-1 .
+
+frame:Economy  skos:closeMatch  wn30instances:synset-economically-adverb-3 .
+
+frame:Word_relations  skos:closeMatch  wn30instances:synset-homonymic-adjective-1 .
+
+frame:Willingness  skos:closeMatch  wn30instances:synset-unwillingly-adverb-1 , wn30instances:synset-reluctantly-adverb-1 , wn30instances:synset-willingly-adverb-1 .
+
+frame:Manufacturing  skos:closeMatch  wn30instances:synset-industrially-adverb-1 .
+
+frame:Likelihood  skos:closeMatch  wn30instances:synset-credibly-adverb-1 , wn30instances:synset-probabilistic-adjective-2 , wn30instances:synset-inconceivably-adverb-1 , wn30instances:synset-unimaginably-adverb-1 .
+
+frame:Intentionally_create
+        skos:closeMatch  wn30instances:synset-propagative-adjective-1 .
+
+frame:Contingency  skos:closeMatch  wn30instances:synset-independently-adverb-1 .
+
+frame:Candidness  skos:closeMatch  wn30instances:synset-bluffly-adverb-1 , wn30instances:synset-honestly-adverb-1 , wn30instances:synset-outspokenly-adverb-1 , wn30instances:synset-truthfully-adverb-1 , wn30instances:synset-shiftily-adverb-1 , wn30instances:synset-dishonestly-adverb-1 , wn30instances:synset-honestly-adverb-2 , wn30instances:synset-squarely-adverb-5 , wn30instances:synset-seriously-adverb-1 , wn30instances:synset-sincerely-adverb-1 , wn30instances:synset-artlessly-adverb-2 , wn30instances:synset-cagily-adverb-1 , wn30instances:synset-disingenuously-adverb-1 , wn30instances:synset-coyly-adverb-1 , wn30instances:synset-secretively-adverb-1 , wn30instances:synset-squarely-adverb-1 , wn30instances:synset-demurely-adverb-1 , wn30instances:synset-explicitly-adverb-1 .
+
+frame:Change_of_leadership
+        skos:closeMatch  wn30instances:synset-revolutionary-adjective-3 , wn30instances:synset-insurrectional-adjective-1 .
+
+frame:Part_orientational
+        skos:closeMatch  wn30instances:synset-westerly-adverb-1 , wn30instances:synset-westerly-adverb-2 , wn30instances:synset-north-adverb-1 , wn30instances:synset-easterly-adverb-1 , wn30instances:synset-southerly-adverb-1 , wn30instances:synset-facial-adjective-2 .
+
+frame:Temperature  skos:closeMatch  wn30instances:synset-warmly-adverb-2 .
+
+frame:Stinginess  skos:closeMatch  wn30instances:synset-extravagantly-adverb-2 , wn30instances:synset-unstintingly-adverb-1 , wn30instances:synset-stingily-adverb-1 , wn30instances:synset-liberally-adverb-2 .
+
+frame:Part_inner_outer
+        skos:closeMatch  wn30instances:synset-superficial-adjective-2 .
+
+frame:Shapes  skos:closeMatch  wn30instances:synset-wedge-shaped-adjective-2 , wn30instances:synset-shaped-adjective-2 , wn30instances:synset-triangulate-adjective-1 , wn30instances:synset-roundly-adverb-1 .
+
+frame:Electricity  skos:closeMatch  wn30instances:synset-high-energy-adjective-1 , wn30instances:synset-photoelectrically-adverb-1 , wn30instances:synset-electrically-adverb-1 , wn30instances:synset-electrical-adjective-1 , wn30instances:synset-electromotive-adjective-1 .
+
+frame:Being_at_risk  skos:closeMatch  wn30instances:synset-insecurely-adverb-2 , wn30instances:synset-vulnerably-adverb-1 , wn30instances:synset-securely-adverb-3 .
+
+frame:Locative_relation
+        skos:closeMatch  wn30instances:synset-positional-adjective-1 .
+
+frame:Volubility  skos:closeMatch  wn30instances:synset-mutely-adverb-1 , wn30instances:synset-chattily-adverb-1 , wn30instances:synset-effusively-adverb-1 , wn30instances:synset-telegraphically-adverb-1 , wn30instances:synset-bluffly-adverb-1 , wn30instances:synset-reservedly-adverb-1 , wn30instances:synset-curtly-adverb-1 , wn30instances:synset-laconically-adverb-1 , wn30instances:synset-loquaciously-adverb-1 , wn30instances:synset-gushingly-adverb-1 .
+
+frame:Fairness_evaluation
+        skos:closeMatch  wn30instances:synset-inequitably-adverb-1 .
+
+frame:Placing  skos:closeMatch  wn30instances:synset-positionable-adjective-1 .
+
+frame:Political_locales
+        skos:closeMatch  wn30instances:synset-territorial-adjective-1 , wn30instances:synset-vicinal-adjective-1 , wn30instances:synset-parochial-adjective-1 , wn30instances:synset-urban-adjective-1 , wn30instances:synset-civil-adjective-3 , wn30instances:synset-locally-adverb-1 , wn30instances:synset-globally-adverb-1 , wn30instances:synset-municipally-adverb-1 , wn30instances:synset-local-adjective-2 , wn30instances:synset-diocesan-adjective-1 , wn30instances:synset-nationally-adverb-2 , wn30instances:synset-provincial-adjective-1 .
+
+frame:Amounting_to  skos:closeMatch  wn30instances:synset-wholly-adverb-1 .
+
+frame:People_by_age  skos:closeMatch  wn30instances:synset-puerile-adjective-1 , wn30instances:synset-neonatal-adjective-1 , wn30instances:synset-geriatric-adjective-1 .
+
+frame:Architectural_part
+        skos:closeMatch  wn30instances:synset-mural-adjective-1 .
+
+frame:Ineffability  skos:closeMatch  wn30instances:synset-ineffably-adverb-1 , wn30instances:synset-magically-adverb-1 .
+
+frame:Contrition  skos:closeMatch  wn30instances:synset-ruefully-adverb-1 , wn30instances:synset-guiltily-adverb-1 , wn30instances:synset-penitently-adverb-1 , wn30instances:synset-ruthlessly-adverb-1 , wn30instances:synset-mercilessly-adverb-1 , wn30instances:synset-stubbornly-adverb-1 , wn30instances:synset-regretfully-adverb-1 .
+
+frame:Cogitation  skos:closeMatch  wn30instances:synset-psychomotor-adjective-1 .
+
+frame:Means  skos:closeMatch  wn30instances:synset-technical-adjective-1 , wn30instances:synset-tactical-adjective-1 .
+
+frame:Being_strong  skos:closeMatch  wn30instances:synset-securely-adverb-4 , wn30instances:synset-impregnably-adverb-1 , wn30instances:synset-toughly-adverb-1 , wn30instances:synset-strongly-adverb-1 , wn30instances:synset-powerfully-adverb-1 .
+
+frame:Completeness  skos:closeMatch  wn30instances:synset-wholly-adverb-1 , wn30instances:synset-incompletely-adverb-1 , wn30instances:synset-fully-adverb-1 .
+
+frame:Risky_situation
+        skos:closeMatch  wn30instances:synset-perilously-adverb-1 .
+
+frame:Clothing_parts  skos:closeMatch  wn30instances:synset-flagellate-adjective-1 , wn30instances:synset-collarless-adjective-1 .
+
+frame:Change_of_phase
+        skos:closeMatch  wn30instances:synset-evaporative-adjective-1 .
+
+frame:Custom  skos:closeMatch  wn30instances:synset-customarily-adverb-1 , wn30instances:synset-habitually-adverb-1 , wn30instances:synset-ritual-adjective-2 .
+
+frame:Religious_belief
+        skos:closeMatch  wn30instances:synset-Satanic-adjective-2 , wn30instances:synset-theological-adjective-1 .
+
+frame:Simple_name  skos:closeMatch  wn30instances:synset-nonlexical-adjective-1 , wn30instances:synset-lexical-adjective-1 , wn30instances:synset-verbal-adjective-2 .
+
+frame:Body_mark  skos:closeMatch  wn30instances:synset-acneiform-adjective-1 .
+
+frame:Weather  skos:closeMatch  wn30instances:synset-climatic-adjective-1 .
+
+frame:Rashness  skos:closeMatch  wn30instances:synset-impetuously-adverb-1 , wn30instances:synset-headlong-adverb-2 , wn30instances:synset-headlong-adverb-3 .
+
+frame:Organization  skos:closeMatch  wn30instances:synset-official-adjective-2 .
+
+frame:Frequency  skos:closeMatch  wn30instances:synset-monthly-adverb-1 , wn30instances:synset-hebdomadally-adverb-1 , wn30instances:synset-annually-adverb-1 , wn30instances:synset-biennially-adverb-1 , wn30instances:synset-repeatedly-adverb-1 , wn30instances:synset-recurrently-adverb-1 , wn30instances:synset-fortnightly-adverb-1 , wn30instances:synset-sporadically-adverb-1 .
+
+frame:Documents  skos:closeMatch  wn30instances:synset-testimonial-adjective-2 , wn30instances:synset-testamentary-adjective-1 , wn30instances:synset-documentary-adjective-1 .
+
+frame:Communication  skos:closeMatch  wn30instances:synset-phonic-adjective-2 , wn30instances:synset-communicative-adjective-1 , wn30instances:synset-extralinguistic-adjective-1 , wn30instances:synset-linguistic-adjective-1 , wn30instances:synset-nonlinguistic-adjective-1 , wn30instances:synset-intralinguistic-adjective-1 , wn30instances:synset-cross-linguistic-adjective-1 .

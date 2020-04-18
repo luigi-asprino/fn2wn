@@ -1,0 +1,763 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/antonymbaseconsfn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/antonymbaseconsfn2wn.ttl#> .
+@prefix fntbox:  <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/antonymbaseconsfn2wn.ttl> a owl:Ontology .
+
+frame:Bringing  skos:closeMatch  wn30instances:synset-unportable-adjective-1 , wn30instances:synset-immobile-adjective-1 .
+
+frame:Being_in_operation
+        skos:closeMatch  wn30instances:synset-malfunction-verb-1 .
+
+frame:Being_necessary
+        skos:closeMatch  wn30instances:synset-incidental-adjective-1 , wn30instances:synset-inessential-noun-1 , wn30instances:synset-unnecessary-adjective-1 .
+
+frame:Quitting_a_place
+        skos:closeMatch  wn30instances:synset-immigrate-verb-3 , wn30instances:synset-take_office-verb-1 .
+
+frame:Wealthiness  skos:closeMatch  wn30instances:synset-wealth-noun-1 .
+
+frame:Activity_ongoing
+        skos:closeMatch  wn30instances:synset-discontinue-verb-2 .
+
+frame:Remembering_experience
+        skos:closeMatch  wn30instances:synset-remember-verb-2 .
+
+frame:Defend  skos:closeMatch  wn30instances:synset-offensively-adverb-3 .
+
+frame:Closure  skos:closeMatch  wn30instances:synset-screw-verb-4 , wn30instances:synset-unbutton-verb-1 , wn30instances:synset-cork-verb-1 .
+
+frame:Occupy_rank  skos:closeMatch  wn30instances:synset-side-adjective-1 .
+
+frame:Building_subparts
+        skos:closeMatch  wn30instances:synset-location-noun-4 .
+
+frame:Altered_phase  skos:closeMatch  wn30instances:synset-unfrozen-adjective-1 , wn30instances:synset-unmelted-adjective-1 .
+
+frame:Successful_action
+        skos:closeMatch  wn30instances:synset-fail-verb-5 , wn30instances:synset-failure-noun-3 .
+
+frame:Compatibility  skos:closeMatch  wn30instances:synset-incongruous-adjective-1 , wn30instances:synset-disagree-verb-2 , wn30instances:synset-inconsistent-adjective-1 .
+
+frame:Building  skos:closeMatch  wn30instances:synset-level-verb-2 , wn30instances:synset-disassemble-verb-1 .
+
+frame:Shapes  skos:closeMatch  wn30instances:synset-square-adjective-1 .
+
+frame:Inclusion  skos:closeMatch  wn30instances:synset-exclusive-adjective-2 , wn30instances:synset-exclude-verb-3 , wn30instances:synset-include-verb-2 .
+
+frame:Remembering_to_do
+        skos:closeMatch  wn30instances:synset-remember-verb-2 .
+
+frame:Excreting  skos:closeMatch  wn30instances:synset-keep_down-verb-3 .
+
+frame:Expensiveness  skos:closeMatch  wn30instances:synset-cheaply-adverb-2 .
+
+frame:Activity_ready_state
+        skos:closeMatch  wn30instances:synset-unready-adjective-1 , wn30instances:synset-unprepared-adjective-1 .
+
+frame:Certainty  skos:closeMatch  wn30instances:synset-disbelieve-verb-1 , wn30instances:synset-ignore-verb-5 .
+
+frame:Drop_in_on  skos:closeMatch  wn30instances:synset-pop_out-verb-3 .
+
+frame:Relative_time  skos:closeMatch  wn30instances:synset-late-adjective-1 , wn30instances:synset-unevenly-adverb-3 , wn30instances:synset-back-adverb-4 , wn30instances:synset-tardiness-noun-1 , wn30instances:synset-unpunctual-adjective-1 , wn30instances:synset-succeeding-adjective-1 .
+
+frame:Used_up  skos:closeMatch  wn30instances:synset-unexhausted-adjective-1 .
+
+frame:Enforcing  skos:closeMatch  wn30instances:synset-exempt-verb-1 .
+
+frame:Foreign_or_domestic_country
+        skos:closeMatch  wn30instances:synset-national-adjective-2 .
+
+frame:Losing  skos:closeMatch  wn30instances:synset-keep-verb-3 .
+
+frame:Cause_to_be_sharp
+        skos:closeMatch  wn30instances:synset-dull-verb-5 .
+
+frame:Commerce_pay  skos:closeMatch  wn30instances:synset-evasion-noun-2 .
+
+frame:Traversing  skos:closeMatch  wn30instances:synset-wane-verb-2 .
+
+frame:Indigenous_origin
+        skos:closeMatch  wn30instances:synset-foreign-adjective-2 , wn30instances:synset-acquaintance-noun-3 .
+
+frame:Personal_relationship
+        skos:closeMatch  wn30instances:synset-married-adjective-1 , wn30instances:synset-unrelated-adjective-2 .
+
+frame:Complaining  skos:closeMatch  wn30instances:synset-cheer-verb-4 .
+
+frame:Reshaping  skos:closeMatch  wn30instances:synset-unfold-verb-4 , wn30instances:synset-straighten-verb-1 .
+
+frame:Success_or_failure
+        skos:closeMatch  wn30instances:synset-fail-verb-5 , wn30instances:synset-failure-noun-2 , wn30instances:synset-passing-noun-7 .
+
+frame:Artifact  skos:closeMatch  wn30instances:synset-natural_object-noun-1 .
+
+frame:Desiring  skos:closeMatch  wn30instances:synset-thirsty-adjective-2 , wn30instances:synset-uninterested-adjective-1 , wn30instances:synset-uneager-adjective-1 , wn30instances:synset-undesirous-adjective-1 .
+
+frame:Becoming_detached
+        skos:closeMatch  wn30instances:synset-couple-verb-2 .
+
+frame:Praiseworthiness
+        skos:closeMatch  wn30instances:synset-contemptible-adjective-1 , wn30instances:synset-honorable-adjective-2 .
+
+frame:Awareness  skos:closeMatch  wn30instances:synset-ignore-verb-5 , wn30instances:synset-incomprehension-noun-1 , wn30instances:synset-known-adjective-1 , wn30instances:synset-unaware-adjective-1 , wn30instances:synset-unconscious-adjective-1 , wn30instances:synset-incognizance-noun-1 , wn30instances:synset-misconception-noun-1 .
+
+frame:Ranked_expectation
+        skos:closeMatch  wn30instances:synset-fractional-adjective-1 , wn30instances:synset-specific-adjective-1 .
+
+frame:Sufficiency  skos:closeMatch  wn30instances:synset-inadequacy-noun-3 , wn30instances:synset-sufficiency-noun-3 , wn30instances:synset-meager-adjective-1 .
+
+frame:Assistance  skos:closeMatch  wn30instances:synset-unhelpful-adjective-1 , wn30instances:synset-unhelpfully-adverb-1 .
+
+frame:Gathering_up  skos:closeMatch  wn30instances:synset-spread-verb-1 .
+
+frame:Cause_change_of_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-take_away-verb-3 , wn30instances:synset-de-escalate-verb-2 , wn30instances:synset-nondevelopment-noun-1 , wn30instances:synset-increase-noun-5 .
+
+frame:Linguistic_meaning
+        skos:closeMatch  wn30instances:synset-defined-adjective-1 , wn30instances:synset-unambiguous-adjective-1 .
+
+frame:Interrupt_process
+        skos:closeMatch  wn30instances:synset-discontinuous-adjective-2 .
+
+frame:Calendric_unit  skos:closeMatch  wn30instances:synset-sunset-noun-1 , wn30instances:synset-day-noun-4 .
+
+frame:Required_event  skos:closeMatch  wn30instances:synset-obviate-verb-1 .
+
+frame:Desirability  skos:closeMatch  wn30instances:synset-credible-adjective-1 , wn30instances:synset-unsensational-adjective-1 , wn30instances:synset-worse-adjective-1 , wn30instances:synset-superior-adjective-1 , wn30instances:synset-undesirable-adjective-1 .
+
+frame:Emitting  skos:closeMatch  wn30instances:synset-absorb-verb-6 .
+
+frame:Subjective_influence
+        skos:closeMatch  wn30instances:synset-uninfluential-adjective-1 .
+
+frame:Military  skos:closeMatch  wn30instances:synset-unmilitary-adjective-1 .
+
+frame:Render_nonfunctional
+        skos:closeMatch  wn30instances:synset-enable-verb-1 .
+
+frame:Self_motion  skos:closeMatch  wn30instances:synset-linger-verb-4 .
+
+frame:Differentiation
+        skos:closeMatch  wn30instances:synset-indistinguishable-adjective-2 .
+
+frame:Attaching  skos:closeMatch  wn30instances:synset-disconnect-verb-2 , wn30instances:synset-unstaple-verb-1 , wn30instances:synset-unlash-verb-1 , wn30instances:synset-disjoin-verb-2 , wn30instances:synset-unpin-verb-1 , wn30instances:synset-unwire-verb-1 .
+
+frame:Sign_agreement  skos:closeMatch  wn30instances:synset-dissent-verb-1 .
+
+frame:Corroding_caused
+        skos:closeMatch  wn30instances:synset-deoxidize-verb-1 .
+
+frame:Inhibit_movement
+        skos:closeMatch  wn30instances:synset-derestrict-verb-1 .
+
+frame:Suitability  skos:closeMatch  wn30instances:synset-unfit-adjective-1 .
+
+frame:Cause_to_make_progress
+        skos:closeMatch  wn30instances:synset-worsen-verb-2 .
+
+frame:Just_found_out  skos:closeMatch  wn30instances:synset-unsurprised-adjective-1 .
+
+frame:Experiencer_obj
+        skos:closeMatch  wn30instances:synset-fall_short_of-verb-1 , wn30instances:synset-agitate-verb-2 , wn30instances:synset-elate-verb-1 , wn30instances:synset-disenchant-verb-1 , wn30instances:synset-dissatisfy-verb-1 , wn30instances:synset-repel-verb-2 .
+
+frame:Process_stop  skos:closeMatch  wn30instances:synset-continuance-noun-1 .
+
+frame:Getting  skos:closeMatch  wn30instances:synset-lose-verb-8 , wn30instances:synset-give-verb-3 .
+
+frame:Fairness_evaluation
+        skos:closeMatch  wn30instances:synset-equitable-adjective-1 , wn30instances:synset-unreasonably-adverb-2 , wn30instances:synset-rightly-adverb-1 .
+
+frame:Temporal_subregion
+        skos:closeMatch  wn30instances:synset-late-adjective-1 , wn30instances:synset-sunset-noun-1 , wn30instances:synset-beginning-noun-3 , wn30instances:synset-middle-noun-2 , wn30instances:synset-early-adjective-2 .
+
+frame:Causation  skos:closeMatch  wn30instances:synset-noncausative-adjective-1 .
+
+frame:Weapon  skos:closeMatch  wn30instances:synset-conventional-adjective-3 , wn30instances:synset-nonexplosive-adjective-1 .
+
+frame:Operating_a_system
+        skos:closeMatch  wn30instances:synset-fail-verb-5 .
+
+frame:Being_obligated
+        skos:closeMatch  wn30instances:synset-unobligated-adjective-1 .
+
+frame:First_rank  skos:closeMatch  wn30instances:synset-follower-noun-1 .
+
+frame:Dispersal  skos:closeMatch  wn30instances:synset-concentration-noun-2 .
+
+frame:Body_movement  skos:closeMatch  wn30instances:synset-straighten-verb-1 , wn30instances:synset-lower-verb-1 , wn30instances:synset-stand_still-verb-1 .
+
+frame:Hostile_encounter
+        skos:closeMatch  wn30instances:synset-make_peace-verb-1 .
+
+frame:Deny_permission
+        skos:closeMatch  wn30instances:synset-legalize-verb-1 .
+
+frame:Temporal_pattern
+        skos:closeMatch  wn30instances:synset-unrhythmical-adjective-1 .
+
+frame:Volubility  skos:closeMatch  wn30instances:synset-unreserved-adjective-2 , wn30instances:synset-communicative-adjective-2 .
+
+frame:Competition  skos:closeMatch  wn30instances:synset-noncompetitive-adjective-1 .
+
+frame:Surrendering_possession
+        skos:closeMatch  wn30instances:synset-resist-verb-2 .
+
+frame:Questioning  skos:closeMatch  wn30instances:synset-answer-noun-3 .
+
+frame:Candidness  skos:closeMatch  wn30instances:synset-untruthful-adjective-1 , wn30instances:synset-dishonesty-noun-1 , wn30instances:synset-crooked-adjective-2 , wn30instances:synset-insincere-adjective-1 , wn30instances:synset-implicit-adjective-1 .
+
+frame:Activity_done_state
+        skos:closeMatch  wn30instances:synset-unfinished-adjective-2 .
+
+frame:Killing  skos:closeMatch  wn30instances:synset-nonfatal-adjective-1 .
+
+frame:Taking_sides  skos:closeMatch  wn30instances:synset-con-adverb-1 , wn30instances:synset-unsupportive-adjective-1 .
+
+frame:Mental_property
+        skos:closeMatch  wn30instances:synset-inability-noun-1 , wn30instances:synset-unenlightenment-noun-1 , wn30instances:synset-broad-mindedly-adverb-1 , wn30instances:synset-carefulness-noun-2 , wn30instances:synset-wisdom-noun-2 , wn30instances:synset-careful-adjective-1 , wn30instances:synset-unintelligently-adverb-1 , wn30instances:synset-unintelligent-adjective-1 , wn30instances:synset-sophisticated-adjective-1 , wn30instances:synset-broad-minded-adjective-2 , wn30instances:synset-unacquisitive-adjective-1 , wn30instances:synset-incurious-adjective-1 , wn30instances:synset-unperceptive-adjective-1 , wn30instances:synset-unenlightened-adjective-1 , wn30instances:synset-well-advised-adjective-1 , wn30instances:synset-rational-adjective-1 , wn30instances:synset-shockable-adjective-1 .
+
+frame:Active_substance
+        skos:closeMatch  wn30instances:synset-inactive-adjective-4 .
+
+frame:Frequency  skos:closeMatch  wn30instances:synset-continual-adjective-1 , wn30instances:synset-irregularly-adverb-1 , wn30instances:synset-irregularly-adverb-3 , wn30instances:synset-aperiodic-adjective-1 , wn30instances:synset-irregularly-adverb-2 .
+
+frame:Prevarication  skos:closeMatch  wn30instances:synset-undeceive-verb-1 .
+
+frame:Expectation  skos:closeMatch  wn30instances:synset-expected-adjective-1 .
+
+frame:Commitment  skos:closeMatch  wn30instances:synset-refuse-verb-1 .
+
+frame:Importance  skos:closeMatch  wn30instances:synset-insignificance-noun-1 , wn30instances:synset-noncritical-adjective-2 , wn30instances:synset-unimportance-noun-2 , wn30instances:synset-insignificant-adjective-4 , wn30instances:synset-noncrucial-adjective-1 , wn30instances:synset-unimportant-adjective-1 , wn30instances:synset-minor-adjective-1 , wn30instances:synset-inconsiderable-adjective-1 .
+
+frame:Change_of_quantity_of_possession
+        skos:closeMatch  wn30instances:synset-keep-verb-3 .
+
+frame:Prohibiting  skos:closeMatch  wn30instances:synset-legalize-verb-1 .
+
+frame:Rite  skos:closeMatch  wn30instances:synset-desecrate-verb-2 .
+
+frame:Working_on  skos:closeMatch  wn30instances:synset-idle-verb-2 .
+
+frame:Judgment_communication
+        skos:closeMatch  wn30instances:synset-disapproval-noun-2 , wn30instances:synset-bless-verb-1 , wn30instances:synset-absolve-verb-2 .
+
+frame:Being_awake  skos:closeMatch  wn30instances:synset-unconscious-adjective-1 .
+
+frame:Inclination  skos:closeMatch  wn30instances:synset-disinclined-adjective-1 .
+
+frame:Intentionally_act
+        skos:closeMatch  wn30instances:synset-inactivity-noun-3 , wn30instances:synset-by_chance-adverb-3 , wn30instances:synset-unintentionally-adverb-1 .
+
+frame:Coincidence  skos:closeMatch  wn30instances:synset-nonrandom-adjective-1 .
+
+frame:Filling  skos:closeMatch  wn30instances:synset-uncover-verb-2 , wn30instances:synset-unwrap-verb-1 .
+
+frame:Body_description_part
+        skos:closeMatch  wn30instances:synset-walleyed-adjective-1 .
+
+frame:Trust  skos:closeMatch  wn30instances:synset-disbelieve-verb-1 , wn30instances:synset-undependability-noun-1 , wn30instances:synset-incredulous-adjective-1 , wn30instances:synset-untrustworthy-adjective-1 , wn30instances:synset-unreliable-adjective-2 .
+
+frame:Have_as_requirement
+        skos:closeMatch  wn30instances:synset-obviate-verb-1 .
+
+frame:Attending  skos:closeMatch  wn30instances:synset-nonattendance-noun-1 .
+
+frame:People_by_age  skos:closeMatch  wn30instances:synset-juvenile-noun-1 , wn30instances:synset-female_child-noun-1 , wn30instances:synset-young-noun-9 .
+
+frame:Posture  skos:closeMatch  wn30instances:synset-lie-verb-2 , wn30instances:synset-standing-adjective-5 .
+
+frame:Sleep  skos:closeMatch  wn30instances:synset-estivate-verb-1 , wn30instances:synset-wake-verb-1 .
+
+frame:Separating  skos:closeMatch  wn30instances:synset-unite-verb-1 .
+
+frame:Medical_conditions
+        skos:closeMatch  wn30instances:synset-well-adjective-1 , wn30instances:synset-hyperglycemia-noun-1 , wn30instances:synset-unhealthy-adjective-1 , wn30instances:synset-hypotension-noun-1 .
+
+frame:Cause_to_start  skos:closeMatch  wn30instances:synset-close_up-verb-1 .
+
+frame:Sociability  skos:closeMatch  wn30instances:synset-confident-adjective-1 , wn30instances:synset-unfriendly-adjective-2 , wn30instances:synset-introvert-noun-1 , wn30instances:synset-extrospective-adjective-1 , wn30instances:synset-unsociable-adjective-1 .
+
+frame:Becoming_a_member
+        skos:closeMatch  wn30instances:synset-discharge-verb-10 .
+
+frame:Existence  skos:closeMatch  wn30instances:synset-nonbeing-noun-1 , wn30instances:synset-nonexistence-noun-1 , wn30instances:synset-unreal-adjective-1 .
+
+frame:Color  skos:closeMatch  wn30instances:synset-colorlessness-noun-1 .
+
+frame:Make_noise  skos:closeMatch  wn30instances:synset-cry-verb-2 .
+
+frame:Completeness  skos:closeMatch  wn30instances:synset-incompleteness-noun-1 .
+
+frame:Travel  skos:closeMatch  wn30instances:synset-stay_in_place-verb-1 .
+
+frame:Opportunity  skos:closeMatch  wn30instances:synset-inopportune-adjective-1 , wn30instances:synset-inopportunely-adverb-1 .
+
+frame:Setting_fire  skos:closeMatch  wn30instances:synset-snuff_out-verb-2 .
+
+frame:Be_in_agreement_on_assessment
+        skos:closeMatch  wn30instances:synset-disagree-verb-1 .
+
+frame:Attention  skos:closeMatch  wn30instances:synset-unalert-adjective-1 , wn30instances:synset-far-adjective-1 , wn30instances:synset-inattention-noun-1 .
+
+frame:Make_agreement_on_action
+        skos:closeMatch  wn30instances:synset-disagree-verb-1 .
+
+frame:People_along_political_spectrum
+        skos:closeMatch  wn30instances:synset-liberal-noun-1 .
+
+frame:Coming_to_be  skos:closeMatch  wn30instances:synset-dematerialize-verb-1 , wn30instances:synset-disunify-verb-1 .
+
+frame:Placing  skos:closeMatch  wn30instances:synset-unpack-verb-1 , wn30instances:synset-unsheathe-verb-1 , wn30instances:synset-unbox-verb-1 , wn30instances:synset-uncrate-verb-1 , wn30instances:synset-disarrange-verb-1 .
+
+frame:Documents  skos:closeMatch  wn30instances:synset-disagreement-noun-1 .
+
+frame:Presence  skos:closeMatch  wn30instances:synset-absent-adjective-1 , wn30instances:synset-absence-noun-1 .
+
+frame:Cause_expansion
+        skos:closeMatch  wn30instances:synset-increase-noun-5 , wn30instances:synset-nondevelopment-noun-1 , wn30instances:synset-shorten-verb-1 , wn30instances:synset-widen-verb-1 , wn30instances:synset-deflate-verb-6 , wn30instances:synset-reduce-verb-9 .
+
+frame:Color_qualities
+        skos:closeMatch  wn30instances:synset-dark-adjective-2 .
+
+frame:Arranging  skos:closeMatch  wn30instances:synset-disarrange-verb-1 .
+
+frame:Stage_of_progress
+        skos:closeMatch  wn30instances:synset-undeveloped-adjective-1 .
+
+frame:Being_obligatory
+        skos:closeMatch  wn30instances:synset-optional-adjective-1 .
+
+frame:Part_inner_outer
+        skos:closeMatch  wn30instances:synset-peripheral-adjective-1 , wn30instances:synset-outside-noun-1 , wn30instances:synset-inside-adverb-1 , wn30instances:synset-indoor-adjective-1 , wn30instances:synset-peripherally-adverb-1 .
+
+frame:Creating  skos:closeMatch  wn30instances:synset-disassemble-verb-1 .
+
+frame:Board_vehicle  skos:closeMatch  wn30instances:synset-get_off-verb-1 .
+
+frame:Degree_of_processing
+        skos:closeMatch  wn30instances:synset-unrefined-adjective-1 , wn30instances:synset-processed-adjective-3 .
+
+frame:Make_possible_to_do
+        skos:closeMatch  wn30instances:synset-prevent-verb-2 .
+
+frame:Mental_stimulus_stimulus_focus
+        skos:closeMatch  wn30instances:synset-uninterestingly-adverb-1 , wn30instances:synset-uninteresting-adjective-1 .
+
+frame:Path_shape  skos:closeMatch  wn30instances:synset-straighten-verb-1 .
+
+frame:Likelihood  skos:closeMatch  wn30instances:synset-improbable-adjective-1 , wn30instances:synset-probability-noun-2 , wn30instances:synset-unlikelihood-noun-1 .
+
+frame:Recovery  skos:closeMatch  wn30instances:synset-devolve-verb-3 .
+
+frame:Emptying  skos:closeMatch  wn30instances:synset-contamination-noun-3 , wn30instances:synset-arming-noun-1 , wn30instances:synset-contaminate-verb-2 .
+
+frame:Remembering_information
+        skos:closeMatch  wn30instances:synset-remember-verb-2 .
+
+frame:Satisfying  skos:closeMatch  wn30instances:synset-fall_short_of-verb-1 .
+
+frame:Prevent_from_having
+        skos:closeMatch  wn30instances:synset-allow-verb-3 .
+
+frame:Time_vector  skos:closeMatch  wn30instances:synset-back-adverb-4 .
+
+frame:Temporal_collocation
+        skos:closeMatch  wn30instances:synset-noncurrent-adjective-1 , wn30instances:synset-late-adjective-1 , wn30instances:synset-nonmodern-adjective-1 , wn30instances:synset-early-adverb-2 .
+
+frame:Supply  skos:closeMatch  wn30instances:synset-recall-verb-6 .
+
+frame:Identicality  skos:closeMatch  wn30instances:synset-same-adjective-2 .
+
+frame:Process_end  skos:closeMatch  wn30instances:synset-beginning-noun-1 .
+
+frame:Sound_level  skos:closeMatch  wn30instances:synset-soft-adjective-3 , wn30instances:synset-noisy-adjective-1 .
+
+frame:Type  skos:closeMatch  wn30instances:synset-antitype-noun-2 .
+
+frame:Being_detached  skos:closeMatch  wn30instances:synset-compact-adjective-1 , wn30instances:synset-legato-adjective-1 .
+
+frame:Being_attached  skos:closeMatch  wn30instances:synset-unconnected-adjective-1 , wn30instances:synset-unaffixed-adjective-1 , wn30instances:synset-unbound-adjective-2 , wn30instances:synset-unstuck-adjective-1 , wn30instances:synset-untied-adjective-1 .
+
+frame:Locale_by_event
+        skos:closeMatch  wn30instances:synset-move-verb-4 .
+
+frame:Change_posture  skos:closeMatch  wn30instances:synset-lie-verb-2 , wn30instances:synset-arise-verb-3 .
+
+frame:Want_suspect  skos:closeMatch  wn30instances:synset-unwanted-adjective-1 .
+
+frame:Cause_change_of_consistency
+        skos:closeMatch  wn30instances:synset-thin-verb-2 , wn30instances:synset-thicken-verb-2 .
+
+frame:Having_or_lacking_access
+        skos:closeMatch  wn30instances:synset-inaccessible-adjective-1 .
+
+frame:Rotting  skos:closeMatch  wn30instances:synset-be_born-verb-1 .
+
+frame:Silencing  skos:closeMatch  wn30instances:synset-louden-verb-1 , wn30instances:synset-louden-verb-2 .
+
+frame:Dominate_competitor
+        skos:closeMatch  wn30instances:synset-subordinate-adjective-1 .
+
+frame:Abounding_with  skos:closeMatch  wn30instances:synset-uncoated-adjective-1 , wn30instances:synset-bare-adjective-4 , wn30instances:synset-unpaved-adjective-1 , wn30instances:synset-unadorned-adjective-1 , wn30instances:synset-uncrowded-adjective-1 , wn30instances:synset-unpainted-adjective-2 .
+
+frame:Duration_attribute
+        skos:closeMatch  wn30instances:synset-impermanent-adjective-1 , wn30instances:synset-caducous-adjective-1 .
+
+frame:Meet_specifications
+        skos:closeMatch  wn30instances:synset-fall_short_of-verb-1 .
+
+frame:Employing  skos:closeMatch  wn30instances:synset-nonworker-noun-1 .
+
+frame:Preliminaries  skos:closeMatch  wn30instances:synset-nonexploratory-adjective-1 .
+
+frame:Change_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-wane-verb-2 , wn30instances:synset-nondevelopment-noun-1 .
+
+frame:Dimension  skos:closeMatch  wn30instances:synset-light-adjective-1 , wn30instances:synset-light-adjective-6 , wn30instances:synset-low-adjective-2 , wn30instances:synset-short-adjective-2 .
+
+frame:Hindering  skos:closeMatch  wn30instances:synset-derestrict-verb-1 , wn30instances:synset-free-verb-7 , wn30instances:synset-rush-verb-3 .
+
+frame:Willingness  skos:closeMatch  wn30instances:synset-ungrudgingly-adverb-1 , wn30instances:synset-up-adjective-1 .
+
+frame:Detaching  skos:closeMatch  wn30instances:synset-hitch-verb-1 .
+
+frame:Degree  skos:closeMatch  wn30instances:synset-lightly-adverb-4 , wn30instances:synset-partially-adverb-1 , wn30instances:synset-unreasonably-adverb-2 , wn30instances:synset-meagerly-adverb-1 .
+
+frame:Bearing_arms  skos:closeMatch  wn30instances:synset-conventional-adjective-3 .
+
+frame:Lively_place  skos:closeMatch  wn30instances:synset-dull-adjective-1 .
+
+frame:Birth  skos:closeMatch  wn30instances:synset-unborn-adjective-1 .
+
+frame:Prominence  skos:closeMatch  wn30instances:synset-inconspicuously-adverb-1 , wn30instances:synset-inconspicuous-adjective-1 , wn30instances:synset-unquiet-adjective-1 .
+
+frame:Being_at_risk  skos:closeMatch  wn30instances:synset-invulnerable-adjective-1 , wn30instances:synset-insecurity-noun-1 .
+
+frame:Take_place_of  skos:closeMatch  wn30instances:synset-precede-verb-3 .
+
+frame:Statement  skos:closeMatch  wn30instances:synset-disclaim-verb-2 .
+
+frame:Front_for  skos:closeMatch  wn30instances:synset-back-verb-6 .
+
+frame:Undergo_change  skos:closeMatch  wn30instances:synset-immutable-adjective-1 .
+
+frame:Suspiciousness  skos:closeMatch  wn30instances:synset-unquestionable-adjective-1 .
+
+frame:Locative_relation
+        skos:closeMatch  wn30instances:synset-inshore-adjective-1 .
+
+frame:Non-commutative_process
+        skos:closeMatch  wn30instances:synset-add-verb-4 .
+
+frame:Compliance  skos:closeMatch  wn30instances:synset-obedience-noun-1 , wn30instances:synset-disobedient-adjective-1 , wn30instances:synset-nonobservance-noun-1 , wn30instances:synset-nonconformity-noun-4 , wn30instances:synset-defiant-adjective-1 , wn30instances:synset-disrespect-verb-1 .
+
+frame:Participation  skos:closeMatch  wn30instances:synset-uninvolved-adjective-1 , wn30instances:synset-non-engagement-noun-1 , wn30instances:synset-drop_out-verb-1 .
+
+frame:Clothing  skos:closeMatch  wn30instances:synset-overgarment-noun-1 .
+
+frame:Chemical-sense_description
+        skos:closeMatch  wn30instances:synset-fresh-adjective-6 ,
+        synset-purity-noun-1 . # added
+
+frame:Ambient_temperature
+        skos:closeMatch  wn30instances:synset-hotness-noun-1 .
+
+frame:Arriving  skos:closeMatch  wn30instances:synset-outflow-noun-2 .
+
+frame:Age  skos:closeMatch  wn30instances:synset-stale-adjective-1 .
+
+frame:Relating_concepts
+        skos:closeMatch  wn30instances:synset-decouple-verb-2 .
+
+frame:Direction  skos:closeMatch  wn30instances:synset-back-adverb-4 , wn30instances:synset-aft-adverb-1 , wn30instances:synset-up-adverb-2 , wn30instances:synset-inward-adverb-1 .
+
+frame:Manipulation  skos:closeMatch  wn30instances:synset-unclasp-verb-1 .
+
+frame:Political_locales
+        skos:closeMatch  wn30instances:synset-national-adjective-3 , wn30instances:synset-national-adjective-2 .
+
+frame:Cause_to_be_included
+        skos:closeMatch  wn30instances:synset-take_away-verb-3 , wn30instances:synset-exclude-verb-3 .
+
+frame:Emotions_of_mental_activity
+        skos:closeMatch  wn30instances:synset-pain-noun-2 .
+
+frame:Earnings_and_losses
+        skos:closeMatch  wn30instances:synset-outgo-noun-1 , wn30instances:synset-break_even-verb-1 , wn30instances:synset-profit-verb-2 .
+
+frame:Progress  skos:closeMatch  wn30instances:synset-retreat-noun-7 , wn30instances:synset-worsen-verb-1 , wn30instances:synset-nondevelopment-noun-1 , wn30instances:synset-regress-verb-3 .
+
+frame:Nuclear_process
+        skos:closeMatch  wn30instances:synset-nonradioactive-adjective-1 , wn30instances:synset-nonfissionable-adjective-1 .
+
+frame:Being_located  skos:closeMatch  wn30instances:synset-lie-verb-2 .
+
+frame:Grant_permission
+        skos:closeMatch  wn30instances:synset-disapprove-verb-2 , wn30instances:synset-disapproval-noun-2 , wn30instances:synset-refuse-verb-1 .
+
+frame:Hair_configuration
+        skos:closeMatch  wn30instances:synset-brunet-adjective-1 , wn30instances:synset-untrimmed-adjective-1 , wn30instances:synset-straight-adjective-3 .
+
+frame:Growing_food  skos:closeMatch  wn30instances:synset-immaturity-noun-1 .
+
+frame:Cause_to_wake  skos:closeMatch  wn30instances:synset-cause_to_sleep-verb-1 .
+
+frame:Taking_time  skos:closeMatch  wn30instances:synset-early-adverb-2 .
+
+frame:Obviousness  skos:closeMatch  wn30instances:synset-unobvious-adjective-1 , wn30instances:synset-inaudible-adjective-1 , wn30instances:synset-unintelligibly-adverb-1 , wn30instances:synset-invisible-adjective-1 , wn30instances:synset-unclearness-noun-1 , wn30instances:synset-obscureness-noun-3 .
+
+frame:Change_of_leadership
+        skos:closeMatch  wn30instances:synset-divest-verb-2 .
+
+frame:Diversity  skos:closeMatch  wn30instances:synset-evenness-noun-2 , wn30instances:synset-homogeneity-noun-1 , wn30instances:synset-unvaried-adjective-1 , wn30instances:synset-nonuniformity-noun-1 .
+
+frame:Dominate_situation
+        skos:closeMatch  wn30instances:synset-subordinate-adjective-1 .
+
+frame:Expertise  skos:closeMatch  wn30instances:synset-inexperience-noun-1 , wn30instances:synset-credible-adjective-1 , wn30instances:synset-unskilled-adjective-1 , wn30instances:synset-amateur-noun-2 , wn30instances:synset-Renaissance_man-noun-1 .
+
+frame:Fear  skos:closeMatch  wn30instances:synset-fearlessness-noun-1 , wn30instances:synset-unafraid-adjective-1 .
+
+frame:Measurable_attributes
+        skos:closeMatch  wn30instances:synset-shallow-adjective-2 , wn30instances:synset-inelasticity-noun-1 , wn30instances:synset-short-adjective-2 .
+
+frame:Opinion  skos:closeMatch  wn30instances:synset-unbelief-noun-1 .
+
+frame:Needing  skos:closeMatch  wn30instances:synset-obviate-verb-1 .
+
+frame:Halt  skos:closeMatch  wn30instances:synset-start-verb-9 .
+
+frame:Health_response
+        skos:closeMatch  wn30instances:synset-unsusceptible-adjective-1 , wn30instances:synset-unsusceptibility-noun-1 .
+
+frame:Dead_or_alive  skos:closeMatch  wn30instances:synset-animate-adjective-2 , wn30instances:synset-living-noun-2 .
+
+frame:Removing  skos:closeMatch  wn30instances:synset-keep_down-verb-3 .
+
+frame:Intentionally_create
+        skos:closeMatch  wn30instances:synset-abolish-verb-1 , wn30instances:synset-analyze-verb-2 .
+
+frame:Ceasing_to_be  skos:closeMatch  wn30instances:synset-appear-verb-2 .
+
+frame:Word_relations  skos:closeMatch  wn30instances:synset-antonymous-adjective-1 .
+
+frame:Suasion  skos:closeMatch  wn30instances:synset-persuade-verb-2 .
+
+frame:Legality  skos:closeMatch  wn30instances:synset-impermissible-adjective-1 , wn30instances:synset-lawful-adjective-1 .
+
+frame:Residence  skos:closeMatch  wn30instances:synset-nonresident-noun-1 .
+
+frame:Usefulness  skos:closeMatch  wn30instances:synset-useless-adjective-1 , wn30instances:synset-inutility-noun-1 , wn30instances:synset-worthless-adjective-1 , wn30instances:synset-malfunction-verb-1 , wn30instances:synset-imperfect-adjective-1 .
+
+frame:Distinctiveness
+        skos:closeMatch  wn30instances:synset-uncharacteristic-adjective-1 .
+
+frame:Increment  skos:closeMatch  wn30instances:synset-fewer-adjective-1 , wn30instances:synset-less-adjective-1 .
+
+frame:Similarity  skos:closeMatch  wn30instances:synset-same-adjective-2 , wn30instances:synset-sameness-noun-1 , wn30instances:synset-conform-verb-1 , wn30instances:synset-false-adjective-1 , wn30instances:synset-dissimilar-adjective-1 , wn30instances:synset-unalike-adjective-1 , wn30instances:synset-similarity-noun-1 .
+
+frame:Resolve_problem
+        skos:closeMatch  wn30instances:synset-obfuscate-verb-1 .
+
+frame:Membership  skos:closeMatch  wn30instances:synset-nonmember-noun-1 .
+
+frame:Commutative_process
+        skos:closeMatch  wn30instances:synset-take_away-verb-3 .
+
+frame:Typicality  skos:closeMatch  wn30instances:synset-normality-noun-1 , wn30instances:synset-abnormal-adjective-1 , wn30instances:synset-familiar-adjective-2 , wn30instances:synset-unnaturally-adverb-3 .
+
+frame:Judgment  skos:closeMatch  wn30instances:synset-critical-adjective-3 , wn30instances:synset-approvingly-adverb-1 , wn30instances:synset-approve-verb-2 , wn30instances:synset-look_down_on-verb-1 , wn30instances:synset-uncritical-adjective-2 , wn30instances:synset-disrespect-noun-2 , wn30instances:synset-disrespect-verb-2 , wn30instances:synset-absolve-verb-2 , wn30instances:synset-blessing-noun-1 .
+
+frame:Mental_stimulus_exp_focus
+        skos:closeMatch  wn30instances:synset-uninterested-adjective-1 .
+
+frame:Part_orientational
+        skos:closeMatch  wn30instances:synset-south-adjective-1 , wn30instances:synset-front-noun-4 , wn30instances:synset-front-adjective-1 , wn30instances:synset-side-adjective-1 .
+
+frame:Quitting  skos:closeMatch  wn30instances:synset-take_office-verb-1 .
+
+frame:Giving_in  skos:closeMatch  wn30instances:synset-stand-verb-4 , wn30instances:synset-dissent-verb-1 .
+
+frame:Permitting  skos:closeMatch  wn30instances:synset-disapprove-verb-2 , wn30instances:synset-refuse-verb-1 .
+
+frame:Undressing  skos:closeMatch  wn30instances:synset-dress-verb-2 .
+
+frame:Cotheme  skos:closeMatch  wn30instances:synset-unguided-adjective-1 .
+
+frame:Being_in_effect
+        skos:closeMatch  wn30instances:synset-invalid-adjective-1 .
+
+frame:Process_completed_state
+        skos:closeMatch  wn30instances:synset-unfinished-adjective-2 .
+
+frame:Emotion_directed
+        skos:closeMatch  wn30instances:synset-unagitated-adjective-2 , wn30instances:synset-joyful-adjective-1 , wn30instances:synset-unashamedly-adverb-1 , wn30instances:synset-unashamed-adjective-1 , wn30instances:synset-settled-adjective-1 , wn30instances:synset-tense-adjective-1 , wn30instances:synset-discontented-adjective-1 , wn30instances:synset-unhappy-adjective-1 , wn30instances:synset-unresentful-adjective-1 , wn30instances:synset-unexcited-adjective-1 , wn30instances:synset-joy-noun-1 , wn30instances:synset-unsympathetic-adjective-1 , wn30instances:synset-unangry-adjective-1 , wn30instances:synset-consolable-adjective-1 , wn30instances:synset-unconcerned-adjective-1 , wn30instances:synset-unperplexed-adjective-1 .
+
+frame:Experiencer_focus
+        skos:closeMatch  wn30instances:synset-unafraid-adjective-1 , wn30instances:synset-unhappily-adverb-1 , wn30instances:synset-liking-noun-1 , wn30instances:synset-pain-noun-2 , wn30instances:synset-love-noun-1 , wn30instances:synset-hope-verb-2 , wn30instances:synset-sadly-adverb-1 , wn30instances:synset-dissatisfaction-noun-1 , wn30instances:synset-uninterested-adjective-1 .
+
+frame:Go_into_shape  skos:closeMatch  wn30instances:synset-uncoil-verb-1 .
+
+frame:Domain  skos:closeMatch  wn30instances:synset-illegally-adverb-1 , wn30instances:synset-illegitimately-adverb-1 , wn30instances:synset-unemotionally-adverb-1 , wn30instances:synset-unlawfully-adverb-1 .
+
+frame:Scrutiny  skos:closeMatch  wn30instances:synset-synthetic-adjective-2 .
+
+frame:Processing_materials
+        skos:closeMatch  wn30instances:synset-deprive-verb-3 .
+
+frame:Openness  skos:closeMatch  wn30instances:synset-shut-adjective-1 .
+
+frame:People_by_religion
+        skos:closeMatch  wn30instances:synset-nonpartisan-noun-1 .
+
+frame:Motion_directional
+        skos:closeMatch  wn30instances:synset-fall-noun-7 .
+
+frame:Gizmo  skos:closeMatch  wn30instances:synset-nonmechanical-adjective-1 .
+
+frame:Morality_evaluation
+        skos:closeMatch  wn30instances:synset-properly-adverb-1 , wn30instances:synset-ethically-adverb-1 , wn30instances:synset-ethical-adjective-2 , wn30instances:synset-indecent-adjective-2 , wn30instances:synset-incorrupt-adjective-1 , wn30instances:synset-unrighteous-adjective-1 , wn30instances:synset-scrupulous-adjective-1 .
+
+frame:Alliance  skos:closeMatch  wn30instances:synset-nonalignment-noun-1 .
+
+frame:Sidereal_appearance
+        skos:closeMatch  wn30instances:synset-set-verb-10 .
+
+frame:Finish_competition
+        skos:closeMatch  wn30instances:synset-loser-noun-1 .
+
+frame:Trendiness  skos:closeMatch  wn30instances:synset-unfashionable-adjective-1 .
+
+frame:Giving  skos:closeMatch  wn30instances:synset-disinherit-verb-1 .
+
+frame:Hospitality  skos:closeMatch  wn30instances:synset-inhospitality-noun-1 , wn30instances:synset-inhospitable-adjective-2 .
+
+frame:Correctness  skos:closeMatch  wn30instances:synset-incorrectness-noun-2 .
+
+frame:Communication_manner
+        skos:closeMatch  wn30instances:synset-sharpen-verb-5 .
+
+frame:Social_interaction_evaluation
+        skos:closeMatch  wn30instances:synset-undiplomatic-adjective-1 , wn30instances:synset-thoughtfully-adverb-2 , wn30instances:synset-friendly-adjective-3 , wn30instances:synset-uncompassionate-adjective-1 , wn30instances:synset-unsociable-adjective-1 , wn30instances:synset-unfriendly-adjective-2 , wn30instances:synset-ill-natured-adjective-1 .
+
+frame:Luck  skos:closeMatch  wn30instances:synset-unfortunately-adverb-1 .
+
+frame:Regard  skos:closeMatch  wn30instances:synset-disesteem-noun-1 .
+
+frame:Leadership  skos:closeMatch  wn30instances:synset-follower-noun-1 , wn30instances:synset-queen-noun-2 .
+
+frame:Quantity  skos:closeMatch  wn30instances:synset-fewest-adjective-1 , wn30instances:synset-some-adjective-1 , wn30instances:synset-least-adverb-1 .
+
+frame:Becoming_separated
+        skos:closeMatch  wn30instances:synset-unite-verb-1 .
+
+frame:Biological_urge
+        skos:closeMatch  wn30instances:synset-wakefulness-noun-2 , wn30instances:synset-rested-adjective-1 , wn30instances:synset-thirsty-adjective-2 .
+
+frame:Catastrophe  skos:closeMatch  wn30instances:synset-enjoy-verb-4 .
+
+frame:Social_connection
+        skos:closeMatch  wn30instances:synset-distant-adjective-2 , wn30instances:synset-unconnectedness-noun-1 .
+
+frame:Place_weight_on
+        skos:closeMatch  wn30instances:synset-unfocused-adjective-1 , wn30instances:synset-unoriented-adjective-1 .
+
+frame:Wearing  skos:closeMatch  wn30instances:synset-shod-adjective-1 .
+
+frame:Rope_manipulation
+        skos:closeMatch  wn30instances:synset-unbraid-verb-1 , wn30instances:synset-disentangle-verb-2 .
+
+frame:Destroying  skos:closeMatch  wn30instances:synset-constructive-adjective-1 , wn30instances:synset-do-verb-8 , wn30instances:synset-assembly-noun-6 .
+
+frame:Probability  skos:closeMatch  wn30instances:synset-unlikelihood-noun-1 , wn30instances:synset-insignificance-noun-1 .
+
+frame:Aesthetics  skos:closeMatch  wn30instances:synset-inelegant-adjective-1 .
+
+frame:Secrecy_status  skos:closeMatch  wn30instances:synset-unconcealed-adjective-1 , wn30instances:synset-privately-adverb-1 , wn30instances:synset-overt-adjective-1 , wn30instances:synset-private-adjective-1 , wn30instances:synset-classified-adjective-2 , wn30instances:synset-privately-adverb-2 .
+
+frame:Change_of_consistency
+        skos:closeMatch  wn30instances:synset-thin-verb-2 .
+
+frame:Influence_of_event_on_cognizer
+        skos:closeMatch  wn30instances:synset-uninfluential-adjective-1 .
+
+frame:Addiction  skos:closeMatch  wn30instances:synset-unaddicted-adjective-1 .
+
+frame:Artificiality  skos:closeMatch  wn30instances:synset-natural-adjective-2 .
+
+frame:Contrition  skos:closeMatch  wn30instances:synset-impenitent-adjective-1 , wn30instances:synset-unregretful-adjective-1 .
+
+frame:Toxic_substance
+        skos:closeMatch  wn30instances:synset-nontoxic-adjective-1 .
+
+frame:Make_cognitive_connection
+        skos:closeMatch  wn30instances:synset-disjunction-noun-1 , wn30instances:synset-decouple-verb-2 .
+
+frame:Motion  skos:closeMatch  wn30instances:synset-stay_in_place-verb-1 .
+
+frame:Ingestion  skos:closeMatch  wn30instances:synset-bottlefeed-verb-1 .
+
+frame:Reporting  skos:closeMatch  wn30instances:synset-keep_quiet-verb-1 .
+
+frame:Expansion  skos:closeMatch  wn30instances:synset-expand-verb-1 , wn30instances:synset-shorten-verb-1 , wn30instances:synset-nonexplosive-adjective-1 , wn30instances:synset-deflate-verb-6 .
+
+frame:Become_silent  skos:closeMatch  wn30instances:synset-louden-verb-1 , wn30instances:synset-louden-verb-2 .
+
+frame:Stimulus_focus  skos:closeMatch  wn30instances:synset-unreassuring-adjective-1 , wn30instances:synset-uninterestingly-adverb-1 , wn30instances:synset-humorless-adjective-1 , wn30instances:synset-discouragingly-adverb-1 , wn30instances:synset-uninteresting-adjective-1 , wn30instances:synset-inoffensive-adjective-2 , wn30instances:synset-thin-adjective-6 , wn30instances:synset-unalarming-adjective-1 , wn30instances:synset-restless-adjective-3 , wn30instances:synset-cheerful-adjective-1 , wn30instances:synset-unexciting-adjective-2 , wn30instances:synset-unsurprising-adjective-1 , wn30instances:synset-debilitating-adjective-1 , wn30instances:synset-unimpressive-adjective-1 , wn30instances:synset-pleasantly-adverb-2 .
+
+frame:Accuracy  skos:closeMatch  wn30instances:synset-impreciseness-noun-1 , wn30instances:synset-precisely-adverb-2 , wn30instances:synset-ill-adverb-1 , wn30instances:synset-inexact-adjective-1 .
+
+frame:Natural_features
+        skos:closeMatch  wn30instances:synset-unfurrowed-adjective-1 , wn30instances:synset-natural_elevation-noun-1 .
+
+frame:Clarity_of_resolution
+        skos:closeMatch  wn30instances:synset-indecisiveness-noun-2 , wn30instances:synset-indecisive-adjective-2 .
+
+frame:Process_continue
+        skos:closeMatch  wn30instances:synset-discontinue-verb-2 .
+
+frame:Capability  skos:closeMatch  wn30instances:synset-incapable-adjective-1 , wn30instances:synset-incapability-noun-2 , wn30instances:synset-inability-noun-2 , wn30instances:synset-incapacity-noun-1 .
+
+frame:People_by_vocation
+        skos:closeMatch  wn30instances:synset-nonprofessional-adjective-1 .
+
+frame:Impact  skos:closeMatch  wn30instances:synset-miss-verb-7 .
+
+frame:Death  skos:closeMatch  wn30instances:synset-be_born-verb-1 , wn30instances:synset-birth-noun-2 .
+
+frame:Adorning  skos:closeMatch  wn30instances:synset-uncover-verb-2 .
+
+frame:Manipulate_into_shape
+        skos:closeMatch  wn30instances:synset-uncoil-verb-1 , wn30instances:synset-unwind-verb-1 .
+
+frame:Ordinal_numbers
+        skos:closeMatch  wn30instances:synset-last-adjective-2 .
+
+frame:Eclipse  skos:closeMatch  wn30instances:synset-unveiled-adjective-1 , wn30instances:synset-free-verb-7 , wn30instances:synset-bare-adjective-4 , wn30instances:synset-unveil-verb-1 , wn30instances:synset-unconcealed-adjective-1 .
+
+frame:Relational_quantity
+        skos:closeMatch  wn30instances:synset-even-adjective-1 .
+
+frame:Being_operational
+        skos:closeMatch  wn30instances:synset-malfunction-verb-1 .
+
+frame:Weather  skos:closeMatch  wn30instances:synset-calm-adjective-2 .
+
+frame:Departing  skos:closeMatch  wn30instances:synset-appearance-noun-5 , wn30instances:synset-appear-verb-2 .
+
+frame:Fame  skos:closeMatch  wn30instances:synset-disrepute-noun-1 , wn30instances:synset-infamy-noun-1 .
+
+frame:Dressing  skos:closeMatch  wn30instances:synset-slip_off-verb-1 , wn30instances:synset-dress_down-verb-2 .
+
+frame:Custom  skos:closeMatch  wn30instances:synset-nontraditional-adjective-1 .

@@ -1,0 +1,94 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/memberdirectfn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/memberdirectfn2wn.ttl#> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/memberdirectfn2wn.ttl> a owl:Ontology .
+
+frame:Organization  skos:closeMatch  wn30instances:synset-National_Security_Agency-noun-1 , wn30instances:synset-legislature-noun-1 , wn30instances:synset-cast-noun-1 , wn30instances:synset-Southern_Baptist-noun-1 , wn30instances:synset-judiciary-noun-1 , wn30instances:synset-Central_Intelligence_Agency-noun-1 , wn30instances:synset-musician-noun-1 , wn30instances:synset-Fabian-noun-1 , wn30instances:synset-Federal_Bureau_of_Investigation-noun-1 , wn30instances:synset-Philippines-noun-1 , wn30instances:synset-membership-noun-1 , wn30instances:synset-Realtor-noun-1 , wn30instances:synset-Laos-noun-1 , wn30instances:synset-executive-noun-2 , wn30instances:synset-Myanmar-noun-1 , wn30instances:synset-jati-noun-1 , wn30instances:synset-Indonesia-noun-1 , wn30instances:synset-committee_member-noun-1 , wn30instances:synset-attache-noun-1 , wn30instances:synset-Singapore-noun-2 , wn30instances:synset-Thailand-noun-1 , wn30instances:synset-Defense_Intelligence_Agency-noun-1 , wn30instances:synset-government_officials-noun-1 , wn30instances:synset-ally-noun-1 , wn30instances:synset-National_Reconnaissance_Office-noun-1 , wn30instances:synset-professional-noun-1 , wn30instances:synset-Webb-noun-2 , wn30instances:synset-director-noun-2 , wn30instances:synset-Girl_Scout-noun-1 , wn30instances:synset-Cambodia-noun-1 , wn30instances:synset-sister-noun-3 , wn30instances:synset-board_member-noun-1 , wn30instances:synset-Vietnam-noun-1 , wn30instances:synset-pope-noun-1 , wn30instances:synset-hierarch-noun-1 , wn30instances:synset-insect-noun-1 , wn30instances:synset-turner-noun-5 , wn30instances:synset-associate-noun-1 , wn30instances:synset-gangster-noun-1 , wn30instances:synset-Northern_Baptist-noun-1 , wn30instances:synset-Brunei-noun-1 , wn30instances:synset-veteran-noun-2 , wn30instances:synset-vestryman-noun-1 , wn30instances:synset-division-noun-4 , wn30instances:synset-Legionnaire-noun-1 , wn30instances:synset-government_department-noun-1 , wn30instances:synset-Malaysia-noun-1 , wn30instances:synset-vestrywoman-noun-1 , wn30instances:synset-Navy_SEAL-noun-1 , wn30instances:synset-club_member-noun-1 , wn30instances:synset-commissioner-noun-2 , wn30instances:synset-quorum-noun-1 .
+
+frame:Political_locales
+        skos:closeMatch  wn30instances:synset-hack-noun-3 .
+
+frame:People  skos:closeMatch  wn30instances:synset-blind_person-noun-1 , wn30instances:synset-womanhood-noun-2 , wn30instances:synset-invalid-noun-1 , wn30instances:synset-shopkeeper-noun-1 , wn30instances:synset-layman-noun-1 , wn30instances:synset-fan-noun-3 , wn30instances:synset-plebeian-noun-1 .
+
+frame:Dead_or_alive  skos:closeMatch  wn30instances:synset-dead_person-noun-1 .
+
+frame:Judicial_body  skos:closeMatch  wn30instances:synset-jury-noun-1 .
+
+frame:Fields  skos:closeMatch  wn30instances:synset-stock_exchange-noun-1 , wn30instances:synset-nondepository_financial_institution-noun-1 , wn30instances:synset-oil_company-noun-1 , wn30instances:synset-pipeline_company-noun-1 , wn30instances:synset-trucking_company-noun-1 , wn30instances:synset-shipbuilder-noun-3 , wn30instances:synset-electronics_company-noun-1 , wn30instances:synset-car_manufacturer-noun-1 , wn30instances:synset-depository_financial_institution-noun-1 .
+
+frame:Offenses  skos:closeMatch  wn30instances:synset-conspirator-noun-1 .
+
+frame:Colonization  skos:closeMatch  wn30instances:synset-colonial-noun-1 .
+
+frame:Gizmo  skos:closeMatch  wn30instances:synset-reel-noun-3 , wn30instances:synset-spinner-noun-3 , wn30instances:synset-harpoon-noun-1 , wn30instances:synset-gaff-noun-3 , wn30instances:synset-fishing_rod-noun-1 , wn30instances:synset-bob-noun-5 , wn30instances:synset-key-noun-15 , wn30instances:synset-fishing_line-noun-1 , wn30instances:synset-landing_net-noun-1 , wn30instances:synset-fishhook-noun-1 .
+
+frame:Vehicle  skos:closeMatch  wn30instances:synset-cabin_car-noun-1 , wn30instances:synset-freight_car-noun-1 , wn30instances:synset-baggage_car-noun-1 , wn30instances:synset-mail_car-noun-1 , wn30instances:synset-car-noun-2 , wn30instances:synset-locomotive-noun-1 .
+
+frame:Set_of_interrelated_entities
+        skos:closeMatch  wn30instances:synset-minor_planet-noun-1 , wn30instances:synset-political_system-noun-1 , wn30instances:synset-planet-noun-1 , wn30instances:synset-sun-noun-1 , wn30instances:synset-Mercury-noun-3 , wn30instances:synset-Venus-noun-1 , wn30instances:synset-Saturn-noun-1 , wn30instances:synset-Pluto-noun-3 , wn30instances:synset-outer_planet-noun-1 , wn30instances:synset-Kuiper_belt-noun-1 , wn30instances:synset-Uranus-noun-2 , wn30instances:synset-Jupiter-noun-1 , wn30instances:synset-Neptune-noun-2 , wn30instances:synset-Mars-noun-1 , wn30instances:synset-Earth-noun-1 .
+
+frame:Forming_relationships
+        skos:closeMatch  wn30instances:synset-spouse-noun-1 .
+
+frame:Religious_belief
+        skos:closeMatch  wn30instances:synset-Rastafarian-noun-1 , wn30instances:synset-hypostasis-noun-3 , wn30instances:synset-Black_Muslim-noun-1 , wn30instances:synset-cultist-noun-1 .
+
+frame:Leadership  skos:closeMatch  wn30instances:synset-United_States_House_of_Representatives-noun-1 , wn30instances:synset-pope-noun-1 , wn30instances:synset-government_department-noun-1 , wn30instances:synset-executive-noun-2 , wn30instances:synset-judiciary-noun-1 , wn30instances:synset-division-noun-4 , wn30instances:synset-government_officials-noun-1 .
+
+frame:Biological_entity
+        skos:closeMatch  wn30instances:synset-phytoplankton-noun-1 , wn30instances:synset-zooplankton-noun-1 .
+
+frame:Pattern  skos:closeMatch  wn30instances:synset-back-noun-9 .
+
+frame:Locale  skos:closeMatch  wn30instances:synset-galaxy-noun-3 .
+
+frame:Locale_by_use  skos:closeMatch  wn30instances:synset-staff-noun-3 , wn30instances:synset-schoolteacher-noun-1 .
+
+frame:Law  skos:closeMatch  wn30instances:synset-pope-noun-1 , wn30instances:synset-government_department-noun-1 , wn30instances:synset-legislature-noun-1 , wn30instances:synset-executive-noun-2 , wn30instances:synset-judiciary-noun-1 , wn30instances:synset-division-noun-4 , wn30instances:synset-government_officials-noun-1 .
+
+frame:Kinship  skos:closeMatch  wn30instances:synset-totemist-noun-1 , wn30instances:synset-clansman-noun-1 , wn30instances:synset-tribesman-noun-1 .
+
+frame:Discussion  skos:closeMatch  wn30instances:synset-conferee-noun-2 .
+
+frame:Businesses  skos:closeMatch  wn30instances:synset-department_store-noun-1 , wn30instances:synset-discount_house-noun-1 , wn30instances:synset-academician-noun-1 , wn30instances:synset-restaurant-noun-1 , wn30instances:synset-partner-noun-3 , wn30instances:synset-division-noun-4 .
+
+frame:Alliance  skos:closeMatch  wn30instances:synset-ally-noun-1 .
+
+frame:Amounting_to  skos:closeMatch  wn30instances:synset-plankton-noun-1 , wn30instances:synset-nekton-noun-1 .
+
+frame:Aggregate  skos:closeMatch  wn30instances:synset-colonial-noun-1 , wn30instances:synset-accounting_principle-noun-1 , wn30instances:synset-Wordsworth-noun-1 , wn30instances:synset-graduate_school-noun-1 , wn30instances:synset-center_field-noun-2 , wn30instances:synset-end-noun-14 , wn30instances:synset-Fry-noun-1 , wn30instances:synset-wingback-noun-2 , wn30instances:synset-fish-noun-1 , wn30instances:synset-backfield-noun-1 , wn30instances:synset-totemist-noun-1 , wn30instances:synset-left_field-noun-2 , wn30instances:synset-center-noun-17 , wn30instances:synset-quarterback-noun-2 , wn30instances:synset-stringer-noun-1 , wn30instances:synset-cabalist-noun-1 , wn30instances:synset-advisory_board-noun-1 , wn30instances:synset-Coleridge-noun-1 , wn30instances:synset-child-noun-2 , wn30instances:synset-parent-noun-1 , wn30instances:synset-constituent-noun-2 , wn30instances:synset-Woolf-noun-1 , wn30instances:synset-catcher-noun-2 , wn30instances:synset-Mullah-noun-1 , wn30instances:synset-insect-noun-1 , wn30instances:synset-Strachey-noun-1 , wn30instances:synset-American-noun-3 , wn30instances:synset-deity-noun-1 , wn30instances:synset-relative-noun-1 , wn30instances:synset-little_leaguer-noun-1 , wn30instances:synset-tackle-noun-4 , wn30instances:synset-juror-noun-1 , wn30instances:synset-professor-noun-1 , wn30instances:synset-Areopagite-noun-1 , wn30instances:synset-guard-noun-10 , wn30instances:synset-halfback-noun-2 , wn30instances:synset-second_base-noun-2 , wn30instances:synset-forward-noun-2 , wn30instances:synset-center-noun-18 , wn30instances:synset-fullback-noun-2 , wn30instances:synset-jati-noun-1 , wn30instances:synset-panelist-noun-1 , wn30instances:synset-witch-noun-2 , wn30instances:synset-Grant-noun-4 , wn30instances:synset-conspirator-noun-1 , wn30instances:synset-minor_leaguer-noun-1 , wn30instances:synset-cardinal-noun-1 , wn30instances:synset-linemen-noun-1 , wn30instances:synset-tailback-noun-2 , wn30instances:synset-huddler-noun-1 , wn30instances:synset-major_leaguer-noun-1 , wn30instances:synset-Southey-noun-1 , wn30instances:synset-goose-noun-1 , wn30instances:synset-parishioner-noun-1 , wn30instances:synset-first_base-noun-2 , wn30instances:synset-sibling-noun-1 , wn30instances:synset-Bell-noun-7 , wn30instances:synset-third_base-noun-2 , wn30instances:synset-tribesman-noun-1 , wn30instances:synset-posseman-noun-1 , wn30instances:synset-Keynes-noun-1 , wn30instances:synset-shortstop-noun-2 , wn30instances:synset-corps-noun-1 , wn30instances:synset-guard-noun-9 , wn30instances:synset-bangle-noun-2 , wn30instances:synset-clansman-noun-1 , wn30instances:synset-linebacker-noun-2 , wn30instances:synset-right_field-noun-2 , wn30instances:synset-center-noun-16 , wn30instances:synset-volume-noun-4 , wn30instances:synset-superphylum-noun-1 , wn30instances:synset-tooth-noun-1 , wn30instances:synset-secondary-noun-1 , wn30instances:synset-army_unit-noun-1 , wn30instances:synset-pitcher-noun-5 .
+
+frame:Type  skos:closeMatch  wn30instances:synset-superphylum-noun-1 .
+
+frame:Social_event  skos:closeMatch  wn30instances:synset-best_man-noun-1 , wn30instances:synset-bride-noun-3 , wn30instances:synset-bridesmaid-noun-1 , wn30instances:synset-flower_girl-noun-2 , wn30instances:synset-groom-noun-1 , wn30instances:synset-groomsman-noun-1 , wn30instances:synset-trainbearer-noun-1 .
+
+frame:Social_event_collective
+        skos:closeMatch  wn30instances:synset-date-noun-2 .
+
+frame:Biological_area
+        skos:closeMatch  wn30instances:synset-tree-noun-1 .
+
+frame:Institutions  skos:closeMatch  wn30instances:synset-academician-noun-1 .
+
+frame:Biological_classification
+        skos:closeMatch  wn30instances:synset-breed-noun-1 , wn30instances:synset-Bunyaviridae-noun-1 , wn30instances:synset-Togaviridae-noun-1 , wn30instances:synset-Flaviviridae-noun-1 , wn30instances:synset-Arenaviridae-noun-1 , wn30instances:synset-Rhabdoviridae-noun-1 , wn30instances:synset-Reoviridae-noun-1 , wn30instances:synset-tribe-noun-3 .
+
+frame:Military  skos:closeMatch  wn30instances:synset-naval_unit-noun-1 , wn30instances:synset-patroller-noun-1 , wn30instances:synset-gang-noun-3 , wn30instances:synset-policeman-noun-1 , wn30instances:synset-cadre-noun-2 , wn30instances:synset-military_policeman-noun-1 , wn30instances:synset-medical_officer-noun-1 , wn30instances:synset-fleet-noun-4 , wn30instances:synset-staff_member-noun-1 , wn30instances:synset-military_unit-noun-1 , wn30instances:synset-guerrilla-noun-1 , wn30instances:synset-air_unit-noun-1 , wn30instances:synset-army_unit-noun-1 , wn30instances:synset-watchman-noun-1 , wn30instances:synset-enlisted_man-noun-1 , wn30instances:synset-reservist-noun-1 , wn30instances:synset-corps-noun-1 .
+
+frame:Gathering_up  skos:closeMatch  wn30instances:synset-hearer-noun-1 , wn30instances:synset-moviegoer-noun-1 , wn30instances:synset-playgoer-noun-1 .
+
+frame:Shapes  skos:closeMatch  wn30instances:synset-terraced_house-noun-1 .
+
+frame:People_by_jurisdiction
+        skos:closeMatch  wn30instances:synset-constituency-noun-1 , wn30instances:synset-vote-noun-4 .

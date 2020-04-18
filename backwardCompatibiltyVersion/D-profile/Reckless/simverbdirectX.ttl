@@ -1,0 +1,713 @@
+# baseURI: http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/simverbdirectfn2wn.ttl
+
+@prefix :        <http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/simverbdirectfn2wn.ttl#> .
+@prefix frame: <http://www.ontologydesignpatterns.org/ont/framenet/abox/frame/> .
+@prefix wn30instances: <http://www.ontologydesignpatterns.org/ont/wn/wn30/instances/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:  <http://www.ontologydesignpatterns.org/ont/wn/wn30/schema/> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+@prefix tbox:    <http://www.ontologydesignpatterns.org/ont/framenet/tbox/> .
+@prefix xsd:     <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.ontologydesignpatterns.org/ont/framenet/fn2wn/simverbdirectfn2wn.ttl>
+      rdf:type owl:Ontology ;
+      rdfs:comment """An extension of FrameNet frame mappings to WordNet synsets, inferred through the same verb groups, from base+direct mappings."""^^xsd:string .
+
+frame:Detaining  skos:closeMatch  wn30instances:synset-prevent-verb-2 .
+
+frame:Representing  skos:closeMatch  wn30instances:synset-map-verb-5 .
+
+frame:Request  skos:closeMatch  wn30instances:synset-want-verb-3 , wn30instances:synset-call_in-verb-1 , wn30instances:synset-demand-verb-4 , wn30instances:synset-supplicate-verb-2 .
+
+frame:Motion_directional
+        skos:closeMatch  wn30instances:synset-list-verb-3 , wn30instances:synset-drop-verb-1 , wn30instances:synset-precipitate-verb-3 .
+
+frame:Rotting  skos:closeMatch  wn30instances:synset-smother-verb-2 , wn30instances:synset-die-verb-2 , wn30instances:synset-fail-verb-4 , wn30instances:synset-suppurate-verb-1 .
+
+frame:Coming_to_be  skos:closeMatch  wn30instances:synset-come-verb-10 , wn30instances:synset-develop-verb-1 .
+
+frame:Cutting  skos:closeMatch  wn30instances:synset-sever-verb-1 .
+
+frame:Commerce_collect
+        skos:closeMatch  wn30instances:synset-charge-verb-9 .
+
+frame:Exchange  skos:closeMatch  wn30instances:synset-sell-verb-2 .
+
+frame:Win_prize  skos:closeMatch  wn30instances:synset-carry-verb-37 , wn30instances:synset-carry-verb-23 .
+
+frame:Certainty  skos:closeMatch  wn30instances:synset-know-verb-3 .
+
+frame:Linguistic_meaning
+        skos:closeMatch  wn30instances:synset-denote-verb-1 .
+
+frame:Participation  skos:closeMatch  wn30instances:synset-play_out-verb-2 , wn30instances:synset-catch-verb-4 , wn30instances:synset-meet-verb-10 .
+
+frame:Breaking_apart  skos:closeMatch  wn30instances:synset-smash-verb-2 , wn30instances:synset-break-verb-5 .
+
+frame:Suasion  skos:closeMatch  wn30instances:synset-affect-verb-5 , wn30instances:synset-move-verb-11 .
+
+frame:Inchoative_attaching
+        skos:closeMatch  wn30instances:synset-cement-verb-2 , wn30instances:synset-hang-verb-13 , wn30instances:synset-carry-verb-20 , wn30instances:synset-carry-verb-24 , wn30instances:synset-hang-verb-1 , wn30instances:synset-stick-verb-9 .
+
+frame:Suitability  skos:closeMatch  wn30instances:synset-balance-verb-4 .
+
+frame:Arranging  skos:closeMatch  wn30instances:synset-stratify-verb-4 , wn30instances:synset-pair-verb-3 , wn30instances:synset-compact-verb-1 .
+
+frame:Excreting  skos:closeMatch  wn30instances:synset-suction-verb-1 .
+
+frame:Commitment  skos:closeMatch  wn30instances:synset-allow-verb-3 , wn30instances:synset-profess-verb-5 , wn30instances:synset-guarantee-verb-2 , wn30instances:synset-give-verb-37 , wn30instances:synset-sacrifice-verb-1 .
+
+frame:Make_agreement_on_action
+        skos:closeMatch  wn30instances:synset-agree-verb-7 .
+
+frame:Resolve_problem
+        skos:closeMatch  wn30instances:synset-work-verb-16 , wn30instances:synset-break-verb-50 .
+
+frame:Summarizing  skos:closeMatch  wn30instances:synset-summarize-verb-2 .
+
+frame:Communication_manner
+        skos:closeMatch  wn30instances:synset-solmizate-verb-1 .
+
+frame:Name_conferral  skos:closeMatch  wn30instances:synset-call-verb-8 , wn30instances:synset-name-verb-1 .
+
+frame:Make_possible_to_do
+        skos:closeMatch  wn30instances:synset-suffer-verb-3 , wn30instances:synset-admit-verb-8 , wn30instances:synset-allow-verb-3 .
+
+frame:Obviousness  skos:closeMatch  wn30instances:synset-attest-verb-1 .
+
+frame:Reporting  skos:closeMatch  wn30instances:synset-warn-verb-2 , wn30instances:synset-regret-verb-3 , wn30instances:synset-cover-verb-13 , wn30instances:synset-spill-verb-5 .
+
+frame:Finish_competition
+        skos:closeMatch  wn30instances:synset-carry-verb-23 , wn30instances:synset-carry-verb-37 .
+
+frame:Emotion_active  skos:closeMatch  wn30instances:synset-cry-verb-7 .
+
+frame:Distinctiveness
+        skos:closeMatch  wn30instances:synset-mark-verb-2 .
+
+frame:Forming_relationships
+        skos:closeMatch  wn30instances:synset-marry-verb-2 .
+
+frame:Simple_naming  skos:closeMatch  wn30instances:synset-address-verb-6 .
+
+frame:Visiting  skos:closeMatch  wn30instances:synset-visit-verb-1 , wn30instances:synset-call-verb-13 .
+
+frame:Posture  skos:closeMatch  wn30instances:synset-face-verb-4 , wn30instances:synset-list-verb-3 , wn30instances:synset-seat-verb-1 , wn30instances:synset-sit_down-verb-1 , wn30instances:synset-lie-verb-6 , wn30instances:synset-stand-verb-10 .
+
+frame:Required_event  skos:closeMatch  wn30instances:synset-call-verb-14 .
+
+frame:Cause_expansion
+        skos:closeMatch  wn30instances:synset-develop-verb-9 , wn30instances:synset-blister-verb-3 , wn30instances:synset-distend-verb-2 , wn30instances:synset-root-verb-6 , wn30instances:synset-extend-verb-9 .
+
+frame:Cause_harm  skos:closeMatch  wn30instances:synset-crack-verb-11 , wn30instances:synset-shoot-verb-2 , wn30instances:synset-poison-verb-4 , wn30instances:synset-urticate-verb-1 , wn30instances:synset-break-verb-5 , wn30instances:synset-check-verb-24 , wn30instances:synset-fracture-verb-5 , wn30instances:synset-forge-verb-1 , wn30instances:synset-sever-verb-1 , wn30instances:synset-burn-verb-10 .
+
+frame:Verification  skos:closeMatch  wn30instances:synset-control-verb-5 , wn30instances:synset-determine-verb-8 .
+
+frame:Opinion  skos:closeMatch  wn30instances:synset-expect-verb-3 .
+
+frame:Commerce_scenario
+        skos:closeMatch  wn30instances:synset-bull-verb-2 .
+
+frame:Change_direction
+        skos:closeMatch  wn30instances:synset-roll-verb-14 , wn30instances:synset-overturn-verb-2 , wn30instances:synset-face-verb-7 , wn30instances:synset-turn-verb-4 .
+
+frame:Event  skos:closeMatch  wn30instances:synset-come-verb-4 , wn30instances:synset-happen-verb-3 , wn30instances:synset-fall-verb-16 , wn30instances:synset-originate-verb-1 .
+
+frame:Assistance  skos:closeMatch  wn30instances:synset-treat-verb-5 , wn30instances:synset-board-verb-3 , wn30instances:synset-serve-verb-7 .
+
+frame:Coming_up_with  skos:closeMatch  wn30instances:synset-detect-verb-1 , wn30instances:synset-work-verb-3 , wn30instances:synset-provoke-verb-2 , wn30instances:synset-build-verb-7 .
+
+frame:Arriving  skos:closeMatch  wn30instances:synset-close_in-verb-1 , wn30instances:synset-get-verb-27 .
+
+frame:Change_posture  skos:closeMatch  wn30instances:synset-list-verb-3 , wn30instances:synset-seat-verb-1 , wn30instances:synset-sit_down-verb-1 , wn30instances:synset-sink-verb-1 .
+
+frame:Identicality  skos:closeMatch  wn30instances:synset-check-verb-8 , wn30instances:synset-harmonize-verb-1 .
+
+frame:Commerce_sell  skos:closeMatch  wn30instances:synset-sell-verb-2 .
+
+frame:Supply  skos:closeMatch  wn30instances:synset-charge-verb-23 .
+
+frame:Cause_to_move_in_place
+        skos:closeMatch  wn30instances:synset-roll-verb-14 , wn30instances:synset-overturn-verb-2 , wn30instances:synset-face-verb-7 , wn30instances:synset-turn-verb-4 .
+
+frame:Being_in_category
+        skos:closeMatch  wn30instances:synset-make-verb-32 .
+
+frame:Assessing  skos:closeMatch  wn30instances:synset-expect-verb-3 , wn30instances:synset-accept-verb-4 , wn30instances:synset-impute-verb-2 , wn30instances:synset-assess-verb-4 .
+
+frame:Commerce_buy  skos:closeMatch  wn30instances:synset-buy-verb-3 .
+
+frame:Ingestion  skos:closeMatch  wn30instances:synset-crop-verb-5 , wn30instances:synset-drink-verb-5 , wn30instances:synset-feast-verb-2 .
+
+frame:Shaped_part  skos:closeMatch  wn30instances:synset-thrust-verb-6 .
+
+frame:Being_operational
+        skos:closeMatch  wn30instances:synset-serve-verb-1 , wn30instances:synset-work-verb-16 .
+
+frame:Change_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-add-verb-6 , wn30instances:synset-develop-verb-9 , wn30instances:synset-root-verb-6 , wn30instances:synset-fly-verb-8 , wn30instances:synset-depreciate-verb-2 , wn30instances:synset-fluctuate-verb-1 , wn30instances:synset-drop-verb-1 .
+
+frame:Studying  skos:closeMatch  wn30instances:synset-compare-verb-2 , wn30instances:synset-check-verb-6 , wn30instances:synset-watch-verb-2 .
+
+frame:Reasoning  skos:closeMatch  wn30instances:synset-attest-verb-1 .
+
+frame:Undergo_change  skos:closeMatch  wn30instances:synset-turn-verb-4 , wn30instances:synset-evaporate-verb-2 , wn30instances:synset-solarize-verb-1 , wn30instances:synset-roll-verb-14 , wn30instances:synset-develop-verb-13 , wn30instances:synset-distill-verb-3 , wn30instances:synset-keratinize-verb-1 , wn30instances:synset-mellow-verb-1 , wn30instances:synset-face-verb-7 , wn30instances:synset-rust-verb-3 , wn30instances:synset-convert-verb-2 , wn30instances:synset-opacify-verb-1 , wn30instances:synset-catch-verb-22 , wn30instances:synset-roll_up-verb-6 , wn30instances:synset-shade-verb-4 , wn30instances:synset-purify-verb-1 , wn30instances:synset-drift-verb-4 , wn30instances:synset-roll_up-verb-1 , wn30instances:synset-isomerize-verb-1 , wn30instances:synset-explicate-verb-2 , wn30instances:synset-transaminate-verb-1 , wn30instances:synset-become-verb-2 , wn30instances:synset-collapse-verb-5 , wn30instances:synset-check-verb-24 , wn30instances:synset-relax-verb-6 , wn30instances:synset-dress-verb-2 , wn30instances:synset-play-verb-18 , wn30instances:synset-run_down-verb-6 , wn30instances:synset-get-verb-1 , wn30instances:synset-overturn-verb-2 , wn30instances:synset-crack-verb-11 , wn30instances:synset-convert-verb-5 .
+
+frame:Offering  skos:closeMatch  wn30instances:synset-give-verb-43 .
+
+frame:Relating_concepts
+        skos:closeMatch  wn30instances:synset-correlate-verb-1 , wn30instances:synset-relate-verb-4 .
+
+frame:Prevarication  skos:closeMatch  wn30instances:synset-make-verb-42 .
+
+frame:Aiming  skos:closeMatch  wn30instances:synset-point-verb-10 .
+
+frame:Topic  skos:closeMatch  wn30instances:synset-lend_oneself-verb-1 , wn30instances:synset-embrace-verb-1 , wn30instances:synset-treat-verb-1 .
+
+frame:Misdeed  skos:closeMatch  wn30instances:synset-fall-verb-17 .
+
+frame:Cause_to_fragment
+        skos:closeMatch  wn30instances:synset-laminate-verb-2 , wn30instances:synset-laminate-verb-3 , wn30instances:synset-dissolve-verb-5 , wn30instances:synset-cleave-verb-2 , wn30instances:synset-break-verb-5 .
+
+frame:Statement  skos:closeMatch  wn30instances:synset-deem-verb-1 , wn30instances:synset-allow-verb-3 , wn30instances:synset-translate-verb-7 , wn30instances:synset-move-verb-15 , wn30instances:synset-quote-verb-3 , wn30instances:synset-attest-verb-4 , wn30instances:synset-admit-verb-8 , wn30instances:synset-publish-verb-3 , wn30instances:synset-suffer-verb-3 , wn30instances:synset-claim-verb-2 , wn30instances:synset-impart-verb-1 .
+
+frame:Inspecting  skos:closeMatch  wn30instances:synset-compare-verb-2 , wn30instances:synset-check-verb-6 .
+
+frame:Regard  skos:closeMatch  wn30instances:synset-call-verb-2 .
+
+frame:Progress  skos:closeMatch  wn30instances:synset-recuperate-verb-3 , wn30instances:synset-grow-verb-4 , wn30instances:synset-reform-verb-2 , wn30instances:synset-build_up-verb-4 , wn30instances:synset-better-verb-2 , wn30instances:synset-develop-verb-9 .
+
+frame:Cause_to_make_noise
+        skos:closeMatch  wn30instances:synset-beat-verb-16 .
+
+frame:Moving_in_place
+        skos:closeMatch  wn30instances:synset-overturn-verb-2 , wn30instances:synset-face-verb-7 , wn30instances:synset-rock-verb-2 , wn30instances:synset-roll-verb-14 , wn30instances:synset-turn-verb-4 .
+
+frame:Earnings_and_losses
+        skos:closeMatch  wn30instances:synset-net-verb-2 .
+
+frame:Capacity  skos:closeMatch  wn30instances:synset-serve-verb-5 .
+
+frame:Ingest_substance
+        skos:closeMatch  wn30instances:synset-drink-verb-5 .
+
+frame:Self_motion  skos:closeMatch  wn30instances:synset-continue-verb-3 , wn30instances:synset-travel-verb-4 , wn30instances:synset-walk-verb-4 , wn30instances:synset-back-verb-4 , wn30instances:synset-drive-verb-16 , wn30instances:synset-walk-verb-9 , wn30instances:synset-run-verb-25 , wn30instances:synset-hop-verb-5 , wn30instances:synset-dance-verb-1 , wn30instances:synset-stray-verb-2 , wn30instances:synset-walk-verb-2 .
+
+frame:Cause_to_resume
+        skos:closeMatch  wn30instances:synset-resurrect-verb-3 .
+
+frame:Respond_to_proposal
+        skos:closeMatch  wn30instances:synset-admit-verb-3 , wn30instances:synset-bounce-verb-4 .
+
+frame:Replacing  skos:closeMatch  wn30instances:synset-sell-verb-2 .
+
+frame:Translating  skos:closeMatch  wn30instances:synset-translate-verb-7 .
+
+frame:Make_noise  skos:closeMatch  wn30instances:synset-palpitate-verb-1 , wn30instances:synset-pop-verb-5 , wn30instances:synset-pulsate-verb-2 , wn30instances:synset-beat-verb-16 .
+
+frame:Experience_bodily_harm
+        skos:closeMatch  wn30instances:synset-fracture-verb-5 , wn30instances:synset-smash-verb-2 , wn30instances:synset-shoot-verb-2 , wn30instances:synset-break-verb-5 .
+
+frame:Experiencer_focus
+        skos:closeMatch  wn30instances:synset-please-verb-3 .
+
+frame:Impact  skos:closeMatch  wn30instances:synset-feel-verb-8 , wn30instances:synset-brush-verb-4 .
+
+frame:Process_start  skos:closeMatch  wn30instances:synset-plunge-verb-3 , wn30instances:synset-begin-verb-10 .
+
+frame:Being_attached  skos:closeMatch  wn30instances:synset-stick-verb-9 .
+
+frame:Halt  skos:closeMatch  wn30instances:synset-draw_up-verb-3 .
+
+frame:Supporting  skos:closeMatch  wn30instances:synset-carry-verb-20 , wn30instances:synset-carry-verb-24 .
+
+frame:Amalgamation  skos:closeMatch  wn30instances:synset-consubstantiate-verb-1 .
+
+frame:Emotion_directed
+        skos:closeMatch  wn30instances:synset-cry-verb-7 .
+
+frame:Compliance  skos:closeMatch  wn30instances:synset-match-verb-5 .
+
+frame:Ride_vehicle  skos:closeMatch  wn30instances:synset-tool-verb-1 , wn30instances:synset-drive-verb-12 , wn30instances:synset-ride-verb-10 .
+
+frame:Cause_change_of_phase
+        skos:closeMatch  wn30instances:synset-condense-verb-3 , wn30instances:synset-condense-verb-6 .
+
+frame:Activity_start  skos:closeMatch  wn30instances:synset-plunge-verb-3 , wn30instances:synset-begin-verb-7 .
+
+frame:Commerce_pay  skos:closeMatch  wn30instances:synset-tithe-verb-3 .
+
+frame:Exercising  skos:closeMatch  wn30instances:synset-coach-verb-1 .
+
+frame:Evidence  skos:closeMatch  wn30instances:synset-control-verb-5 , wn30instances:synset-determine-verb-8 , wn30instances:synset-break-verb-46 .
+
+frame:Possession  skos:closeMatch  wn30instances:synset-keep-verb-15 , wn30instances:synset-keep-verb-18 , wn30instances:synset-keep_open-verb-1 , wn30instances:synset-carry-verb-2 , wn30instances:synset-have-verb-2 .
+
+frame:Being_obligated
+        skos:closeMatch  wn30instances:synset-stipulate-verb-2 .
+
+frame:Proliferating_in_number
+        skos:closeMatch  wn30instances:synset-proliferate-verb-1 .
+
+frame:Motion  skos:closeMatch  wn30instances:synset-surveil-verb-1 , wn30instances:synset-walk-verb-8 , wn30instances:synset-walk-verb-9 , wn30instances:synset-continue-verb-3 , wn30instances:synset-run-verb-31 , wn30instances:synset-back-verb-4 , wn30instances:synset-move-verb-2 , wn30instances:synset-wander-verb-3 , wn30instances:synset-drive-verb-16 , wn30instances:synset-raft-verb-1 , wn30instances:synset-precipitate-verb-3 , wn30instances:synset-walk-verb-4 , wn30instances:synset-walk-verb-2 , wn30instances:synset-carry-verb-35 .
+
+frame:Conquering  skos:closeMatch  wn30instances:synset-fall-verb-7 .
+
+frame:Make_cognitive_connection
+        skos:closeMatch  wn30instances:synset-correlate-verb-1 , wn30instances:synset-relate-verb-4 .
+
+frame:Cause_change_of_position_on_a_scale
+        skos:closeMatch  wn30instances:synset-concatenate-verb-1 , wn30instances:synset-drive-verb-9 , wn30instances:synset-extend-verb-9 , wn30instances:synset-load-verb-5 , wn30instances:synset-depreciate-verb-2 , wn30instances:synset-fly-verb-8 , wn30instances:synset-supplement-verb-2 , wn30instances:synset-push-verb-5 , wn30instances:synset-add-verb-6 .
+
+frame:Agree_or_refuse_to_act
+        skos:closeMatch  wn30instances:synset-bounce-verb-4 .
+
+frame:Expertise  skos:closeMatch  wn30instances:synset-operate-verb-3 .
+
+frame:Light_movement  skos:closeMatch  wn30instances:synset-scintillate-verb-1 .
+
+frame:Manipulate_into_doing
+        skos:closeMatch  wn30instances:synset-seduce-verb-1 , wn30instances:synset-call-verb-10 .
+
+frame:Becoming  skos:closeMatch  wn30instances:synset-change_state-verb-1 .
+
+frame:Evaluative_comparison
+        skos:closeMatch  wn30instances:synset-compare-verb-2 .
+
+frame:Performers_and_roles
+        skos:closeMatch  wn30instances:synset-begin-verb-5 , wn30instances:synset-accommodate-verb-4 , wn30instances:synset-confuse-verb-3 , wn30instances:synset-stagnate-verb-2 , wn30instances:synset-trim-verb-4 , wn30instances:synset-act-verb-10 , wn30instances:synset-play-verb-12 .
+
+frame:Choosing  skos:closeMatch  wn30instances:synset-comply-verb-1 , wn30instances:synset-vote-verb-2 .
+
+frame:Emptying  skos:closeMatch  wn30instances:synset-clear-verb-22 , wn30instances:synset-suction-verb-1 , wn30instances:synset-clear-verb-2 .
+
+frame:Relative_time  skos:closeMatch  wn30instances:synset-follow-verb-6 .
+
+frame:Intentional_traversing
+        skos:closeMatch  wn30instances:synset-drive-verb-1 , wn30instances:synset-drive-verb-3 , wn30instances:synset-hop-verb-2 , wn30instances:synset-cut-verb-15 .
+
+frame:Control  skos:closeMatch  wn30instances:synset-check-verb-22 , wn30instances:synset-control-verb-5 , wn30instances:synset-determine-verb-8 , wn30instances:synset-discover-verb-3 .
+
+frame:Cause_to_be_wet
+        skos:closeMatch  wn30instances:synset-charge-verb-8 , wn30instances:synset-hydrate-verb-1 , wn30instances:synset-hydrate-verb-2 .
+
+frame:Using  skos:closeMatch  wn30instances:synset-give-verb-37 , wn30instances:synset-sacrifice-verb-1 , wn30instances:synset-work-verb-18 , wn30instances:synset-work-verb-2 , wn30instances:synset-play-verb-15 , wn30instances:synset-practice-verb-4 .
+
+frame:Talking_into  skos:closeMatch  wn30instances:synset-bring-verb-10 , wn30instances:synset-suborn-verb-2 .
+
+frame:Rewards_and_punishments
+        skos:closeMatch  wn30instances:synset-execute-verb-2 .
+
+frame:Reshaping  skos:closeMatch  wn30instances:synset-strike-verb-13 , wn30instances:synset-turn-verb-17 , wn30instances:synset-draw-verb-32 .
+
+frame:Telling  skos:closeMatch  wn30instances:synset-break-verb-46 , wn30instances:synset-regret-verb-3 , wn30instances:synset-cover-verb-13 , wn30instances:synset-warn-verb-2 .
+
+frame:Surrendering  skos:closeMatch  wn30instances:synset-betray-verb-2 .
+
+frame:Damaging  skos:closeMatch  wn30instances:synset-fail-verb-4 .
+
+frame:Inclusion  skos:closeMatch  wn30instances:synset-accommodate-verb-4 .
+
+frame:Activity_prepare
+        skos:closeMatch  wn30instances:synset-keep-verb-12 , wn30instances:synset-dress-verb-10 , wn30instances:synset-trim-verb-6 , wn30instances:synset-cram-verb-3 , wn30instances:synset-make-verb-38 .
+
+frame:Process_stop  skos:closeMatch  wn30instances:synset-bow_out-verb-2 , wn30instances:synset-break-verb-25 .
+
+frame:Execution  skos:closeMatch  wn30instances:synset-execute-verb-2 .
+
+frame:Reading  skos:closeMatch  wn30instances:synset-read-verb-2 , wn30instances:synset-read-verb-3 .
+
+frame:Undergoing  skos:closeMatch  wn30instances:synset-take-verb-15 .
+
+frame:Permitting  skos:closeMatch  wn30instances:synset-suffer-verb-3 , wn30instances:synset-second-verb-1 , wn30instances:synset-admit-verb-8 , wn30instances:synset-allow-verb-3 .
+
+frame:Emotion_heat  skos:closeMatch  wn30instances:synset-burn-verb-1 .
+
+frame:Becoming_separated
+        skos:closeMatch  wn30instances:synset-subdivide-verb-1 .
+
+frame:Breathing  skos:closeMatch  wn30instances:synset-hyperventilate-verb-1 , wn30instances:synset-respire-verb-2 .
+
+frame:Change_of_consistency
+        skos:closeMatch  wn30instances:synset-macerate-verb-1 .
+
+frame:Change_tool  skos:closeMatch  wn30instances:synset-sell-verb-2 .
+
+frame:Losing_it  skos:closeMatch  wn30instances:synset-dissolve-verb-5 .
+
+frame:Feeling  skos:closeMatch  wn30instances:synset-find-verb-13 .
+
+frame:Corroding_caused
+        skos:closeMatch  wn30instances:synset-oxidise-verb-2 , wn30instances:synset-rust-verb-3 .
+
+frame:Cause_impact  skos:closeMatch  wn30instances:synset-crop-verb-4 .
+
+frame:Ceasing_to_be  skos:closeMatch  wn30instances:synset-dissolve-verb-7 .
+
+frame:Fleeing  skos:closeMatch  wn30instances:synset-break-verb-7 .
+
+frame:Cause_to_start  skos:closeMatch  wn30instances:synset-build-verb-7 , wn30instances:synset-leave-verb-11 , wn30instances:synset-leave-verb-3 , wn30instances:synset-work-verb-3 , wn30instances:synset-reap-verb-2 , wn30instances:synset-provoke-verb-2 , wn30instances:synset-affect-verb-5 , wn30instances:synset-move-verb-11 .
+
+frame:Making_faces  skos:closeMatch  wn30instances:synset-sneer-verb-1 .
+
+frame:Agriculture  skos:closeMatch  wn30instances:synset-rotate-verb-2 .
+
+frame:Abandonment  skos:closeMatch  wn30instances:synset-chicken_out-verb-1 , wn30instances:synset-exit-verb-1 , wn30instances:synset-leave-verb-8 , wn30instances:synset-leave-verb-2 .
+
+frame:Reveal_secret  skos:closeMatch  wn30instances:synset-spill-verb-5 , wn30instances:synset-break-verb-46 .
+
+frame:Creating  skos:closeMatch  wn30instances:synset-have_a_bun_in_the_oven-verb-1 , wn30instances:synset-work-verb-3 , wn30instances:synset-provoke-verb-2 , wn30instances:synset-build-verb-7 , wn30instances:synset-cut-verb-20 , wn30instances:synset-syndicate-verb-1 .
+
+frame:Absorb_heat  skos:closeMatch  wn30instances:synset-cook-verb-5 .
+
+frame:Cotheme  skos:closeMatch  wn30instances:synset-surveil-verb-1 , wn30instances:synset-walk-verb-4 , wn30instances:synset-walk-verb-8 , wn30instances:synset-walk-verb-9 .
+
+frame:Perception_active
+        skos:closeMatch  wn30instances:synset-instantiate-verb-1 , wn30instances:synset-feel-verb-8 .
+
+frame:Going_back_on_a_commitment
+        skos:closeMatch  wn30instances:synset-withdraw-verb-1 .
+
+frame:Attack  skos:closeMatch  wn30instances:synset-hit-verb-5 , wn30instances:synset-shoot-verb-1 .
+
+frame:Surrendering_possession
+        skos:closeMatch  wn30instances:synset-betray-verb-2 .
+
+frame:Adorning  skos:closeMatch  wn30instances:synset-daub-verb-2 , wn30instances:synset-overlay-verb-1 .
+
+frame:Emitting  skos:closeMatch  wn30instances:synset-suppurate-verb-1 , wn30instances:synset-suction-verb-1 .
+
+frame:Grooming  skos:closeMatch  wn30instances:synset-wash-verb-3 , wn30instances:synset-wash-verb-7 , wn30instances:synset-dress-verb-15 .
+
+frame:Body_movement  skos:closeMatch  wn30instances:synset-turn-verb-4 , wn30instances:synset-beat-verb-16 , wn30instances:synset-beat-verb-8 , wn30instances:synset-fill-verb-4 , wn30instances:synset-drive-verb-1 , wn30instances:synset-drive-verb-3 , wn30instances:synset-close-verb-2 , wn30instances:synset-sink-verb-1 .
+
+frame:Cause_motion  skos:closeMatch  wn30instances:synset-sink-verb-1 , wn30instances:synset-push-verb-9 , wn30instances:synset-draw_off-verb-1 , wn30instances:synset-relocate-verb-1 , wn30instances:synset-sink-verb-4 , wn30instances:synset-float-verb-3 , wn30instances:synset-spill-verb-2 , wn30instances:synset-curl_up-verb-1 , wn30instances:synset-pull-verb-4 .
+
+frame:Forgoing  skos:closeMatch  wn30instances:synset-leave-verb-11 .
+
+frame:Destroying  skos:closeMatch  wn30instances:synset-kill-verb-14 , wn30instances:synset-decimate-verb-1 .
+
+frame:Existence  skos:closeMatch  wn30instances:synset-distribute-verb-7 .
+
+frame:Activity_ongoing
+        skos:closeMatch  wn30instances:synset-continue-verb-7 , wn30instances:synset-continue-verb-6 .
+
+frame:Operate_vehicle
+        skos:closeMatch  wn30instances:synset-drive-verb-16 , wn30instances:synset-drive-verb-13 , wn30instances:synset-drive-verb-12 , wn30instances:synset-ride-verb-10 .
+
+frame:Scrutiny  skos:closeMatch  wn30instances:synset-compare-verb-2 , wn30instances:synset-experiment-verb-2 , wn30instances:synset-check-verb-6 .
+
+frame:Traversing  skos:closeMatch  wn30instances:synset-drop-verb-1 , wn30instances:synset-plunge-verb-6 , wn30instances:synset-hop-verb-2 , wn30instances:synset-work-verb-9 , wn30instances:synset-run-verb-1 , wn30instances:synset-drive-verb-1 , wn30instances:synset-drive-verb-3 , wn30instances:synset-hop-verb-5 .
+
+frame:Cure  skos:closeMatch  wn30instances:synset-resurrect-verb-3 .
+
+frame:Cause_to_amalgamate
+        skos:closeMatch  wn30instances:synset-consubstantiate-verb-1 .
+
+frame:Kinship  skos:closeMatch  wn30instances:synset-hail-verb-2 .
+
+frame:Judgment_communication
+        skos:closeMatch  wn30instances:synset-crusade-verb-1 .
+
+frame:Giving_in  skos:closeMatch  wn30instances:synset-collapse-verb-5 .
+
+frame:Preserving  skos:closeMatch  wn30instances:synset-cure-verb-4 , wn30instances:synset-keep-verb-12 .
+
+frame:Repel  skos:closeMatch  wn30instances:synset-drive-verb-9 , wn30instances:synset-stand-verb-4 .
+
+frame:Research  skos:closeMatch  wn30instances:synset-experiment-verb-2 .
+
+frame:Front_for  skos:closeMatch  wn30instances:synset-face-verb-4 .
+
+frame:Dressing  skos:closeMatch  wn30instances:synset-switch-verb-3 , wn30instances:synset-costume-verb-1 , wn30instances:synset-dress-verb-2 .
+
+frame:Quitting  skos:closeMatch  wn30instances:synset-fall-verb-7 , wn30instances:synset-chicken_out-verb-1 , wn30instances:synset-exit-verb-1 , wn30instances:synset-leave-verb-8 .
+
+frame:Place_weight_on
+        skos:closeMatch  wn30instances:synset-plunge-verb-5 , wn30instances:synset-rivet-verb-3 .
+
+frame:Commutative_process
+        skos:closeMatch  wn30instances:synset-concatenate-verb-1 , wn30instances:synset-supplement-verb-2 , wn30instances:synset-add-verb-6 .
+
+frame:Come_together  skos:closeMatch  wn30instances:synset-call-verb-13 .
+
+frame:Death  skos:closeMatch  wn30instances:synset-smother-verb-2 , wn30instances:synset-die-verb-2 , wn30instances:synset-fail-verb-4 .
+
+frame:Protecting  skos:closeMatch  wn30instances:synset-cover-verb-3 , wn30instances:synset-hold-verb-29 .
+
+frame:Location_of_light
+        skos:closeMatch  wn30instances:synset-scintillate-verb-1 .
+
+frame:Judgment  skos:closeMatch  wn30instances:synset-refuse-verb-2 , wn30instances:synset-reject-verb-6 .
+
+frame:State_of_entity
+        skos:closeMatch  wn30instances:synset-begin-verb-6 .
+
+frame:Motion_noise  skos:closeMatch  wn30instances:synset-ripple-verb-2 .
+
+frame:Reforming_a_system
+        skos:closeMatch  wn30instances:synset-retrofit-verb-2 , wn30instances:synset-reform-verb-5 .
+
+frame:Filling  skos:closeMatch  wn30instances:synset-face-verb-8 , wn30instances:synset-cram-verb-2 , wn30instances:synset-overlay-verb-1 , wn30instances:synset-daub-verb-2 , wn30instances:synset-ornament-verb-2 .
+
+frame:Removing  skos:closeMatch  wn30instances:synset-wash_out-verb-2 , wn30instances:synset-brush-verb-3 , wn30instances:synset-cut-verb-35 , wn30instances:synset-wash-verb-1 , wn30instances:synset-desorb-verb-1 , wn30instances:synset-houseclean-verb-1 , wn30instances:synset-suction-verb-1 , wn30instances:synset-draw-verb-21 , wn30instances:synset-clear-verb-2 , wn30instances:synset-clear-verb-22 , wn30instances:synset-sequester-verb-1 .
+
+frame:Giving  skos:closeMatch  wn30instances:synset-impart-verb-1 .
+
+frame:Process_end  skos:closeMatch  wn30instances:synset-run_out-verb-6 , wn30instances:synset-go-verb-28 , wn30instances:synset-range-verb-1 .
+
+frame:Cause_to_be_included
+        skos:closeMatch  wn30instances:synset-concatenate-verb-1 , wn30instances:synset-supplement-verb-2 , wn30instances:synset-contain-verb-5 , wn30instances:synset-add-verb-6 .
+
+frame:Coming_to_believe
+        skos:closeMatch  wn30instances:synset-break-verb-50 , wn30instances:synset-instantiate-verb-1 , wn30instances:synset-rule-verb-4 , wn30instances:synset-discover-verb-3 , wn30instances:synset-see-verb-17 , wn30instances:synset-visualize-verb-1 .
+
+frame:Estimating  skos:closeMatch  wn30instances:synset-draw-verb-4 , wn30instances:synset-make-verb-43 .
+
+frame:Cause_change  skos:closeMatch  wn30instances:synset-abridge-verb-1 , wn30instances:synset-turn-verb-4 , wn30instances:synset-rust-verb-3 , wn30instances:synset-clear-verb-5 , wn30instances:synset-vascularize-verb-1 , wn30instances:synset-clean-verb-5 , wn30instances:synset-professionalize-verb-1 , wn30instances:synset-reflate-verb-1 , wn30instances:synset-louden-verb-1 , wn30instances:synset-oxidise-verb-2 , wn30instances:synset-condense-verb-5 , wn30instances:synset-normalize-verb-1 , wn30instances:synset-dissolve-verb-10 , wn30instances:synset-tag-verb-1 , wn30instances:synset-vesiculate-verb-1 , wn30instances:synset-break-verb-38 , wn30instances:synset-gelatinize-verb-2 , wn30instances:synset-liberalize-verb-2 , wn30instances:synset-face-verb-7 , wn30instances:synset-overturn-verb-2 , wn30instances:synset-decarboxylate-verb-1 , wn30instances:synset-saponify-verb-1 , wn30instances:synset-decrepitate-verb-1 , wn30instances:synset-roll-verb-14 , wn30instances:synset-houseclean-verb-1 , wn30instances:synset-barbarize-verb-1 , wn30instances:synset-spot-verb-4 , wn30instances:synset-ornament-verb-2 , wn30instances:synset-recombine-verb-1 , wn30instances:synset-equal-verb-2 .
+
+frame:Breaking_off  skos:closeMatch  wn30instances:synset-smash-verb-2 , wn30instances:synset-break-verb-5 .
+
+frame:Growing_food  skos:closeMatch  wn30instances:synset-rotate-verb-2 .
+
+frame:Activity_stop  skos:closeMatch  wn30instances:synset-bow_out-verb-2 , wn30instances:synset-break-verb-25 .
+
+frame:Cause_to_make_progress
+        skos:closeMatch  wn30instances:synset-upgrade-verb-4 , wn30instances:synset-develop-verb-12 , wn30instances:synset-develop-verb-13 , wn30instances:synset-modernize-verb-2 , wn30instances:synset-train-verb-1 .
+
+frame:Questioning  skos:closeMatch  wn30instances:synset-ask-verb-3 , wn30instances:synset-ask-verb-5 .
+
+frame:Withdraw_from_participation
+        skos:closeMatch  wn30instances:synset-withdraw-verb-1 .
+
+frame:Process_continue
+        skos:closeMatch  wn30instances:synset-continue-verb-3 , wn30instances:synset-continue-verb-7 .
+
+frame:Response  skos:closeMatch  wn30instances:synset-treat-verb-1 .
+
+frame:Be_in_agreement_on_assessment
+        skos:closeMatch  wn30instances:synset-agree-verb-7 .
+
+frame:Usefulness  skos:closeMatch  wn30instances:synset-serve-verb-1 , wn30instances:synset-work-verb-16 .
+
+frame:Being_named  skos:closeMatch  wn30instances:synset-address-verb-6 .
+
+frame:Becoming_aware  skos:closeMatch  wn30instances:synset-watch-verb-3 , wn30instances:synset-discover-verb-3 , wn30instances:synset-instantiate-verb-1 , wn30instances:synset-feel-verb-7 , wn30instances:synset-witness-verb-2 .
+
+frame:Labeling  skos:closeMatch  wn30instances:synset-call-verb-8 , wn30instances:synset-address-verb-6 .
+
+frame:Confronting_problem
+        skos:closeMatch  wn30instances:synset-confront-verb-3 .
+
+frame:Launch_process  skos:closeMatch  wn30instances:synset-plunge-verb-3 .
+
+frame:Communication_means
+        skos:closeMatch  wn30instances:synset-call-verb-9 .
+
+frame:Finish_game  skos:closeMatch  wn30instances:synset-carry-verb-23 , wn30instances:synset-carry-verb-37 .
+
+frame:Grant_permission
+        skos:closeMatch  wn30instances:synset-second-verb-1 , wn30instances:synset-suffer-verb-3 , wn30instances:synset-admit-verb-8 , wn30instances:synset-allow-verb-3 .
+
+frame:Closure  skos:closeMatch  wn30instances:synset-cement-verb-2 , wn30instances:synset-hang-verb-13 , wn30instances:synset-hang-verb-1 , wn30instances:synset-close-verb-2 .
+
+frame:Use_firearm  skos:closeMatch  wn30instances:synset-shoot-verb-1 .
+
+frame:Eventive_affecting
+        skos:closeMatch  wn30instances:synset-happen-verb-3 , wn30instances:synset-originate-verb-1 , wn30instances:synset-come-verb-4 , wn30instances:synset-fall-verb-16 .
+
+frame:Compatibility  skos:closeMatch  wn30instances:synset-adhere-verb-6 , wn30instances:synset-stick-verb-9 , wn30instances:synset-check-verb-8 .
+
+frame:Achieving_first
+        skos:closeMatch  wn30instances:synset-detect-verb-1 .
+
+frame:Behind_the_scenes
+        skos:closeMatch  wn30instances:synset-photograph-verb-1 .
+
+frame:Speak_on_topic  skos:closeMatch  wn30instances:synset-embrace-verb-1 , wn30instances:synset-treat-verb-1 .
+
+frame:Hunting  skos:closeMatch  wn30instances:synset-hunt-verb-7 , wn30instances:synset-run-verb-26 .
+
+frame:Education_teaching
+        skos:closeMatch  wn30instances:synset-operate-verb-3 , wn30instances:synset-prepare-verb-5 .
+
+frame:Locale  skos:closeMatch  wn30instances:synset-range-verb-1 .
+
+frame:Expansion  skos:closeMatch  wn30instances:synset-develop-verb-9 , wn30instances:synset-distend-verb-2 , wn30instances:synset-blister-verb-3 , wn30instances:synset-root-verb-6 .
+
+frame:Hear  skos:closeMatch  wn30instances:synset-take-verb-6 .
+
+frame:Tolerating  skos:closeMatch  wn30instances:synset-suffer-verb-3 .
+
+frame:Subjective_influence
+        skos:closeMatch  wn30instances:synset-affect-verb-5 , wn30instances:synset-move-verb-11 , wn30instances:synset-tug-verb-2 , wn30instances:synset-drive-verb-9 .
+
+frame:Birth  skos:closeMatch  wn30instances:synset-expect-verb-5 .
+
+frame:Being_in_operation
+        skos:closeMatch  wn30instances:synset-serve-verb-1 , wn30instances:synset-work-verb-16 .
+
+frame:Create_physical_artwork
+        skos:closeMatch  wn30instances:synset-draw-verb-19 , wn30instances:synset-draw-verb-6 .
+
+frame:Categorization  skos:closeMatch  wn30instances:synset-read-verb-2 , wn30instances:synset-read-verb-3 , wn30instances:synset-read-verb-5 , wn30instances:synset-call-verb-2 .
+
+frame:Origin  skos:closeMatch  wn30instances:synset-come-verb-10 .
+
+frame:Receiving  skos:closeMatch  wn30instances:synset-admit-verb-3 .
+
+frame:Being_employed  skos:closeMatch  wn30instances:synset-bank-verb-4 , wn30instances:synset-work-verb-1 , wn30instances:synset-work-verb-8 .
+
+frame:Differentiation
+        skos:closeMatch  wn30instances:synset-stratify-verb-3 .
+
+frame:Beat_opponent  skos:closeMatch  wn30instances:synset-thrash-verb-1 , wn30instances:synset-outwit-verb-1 .
+
+frame:Awareness  skos:closeMatch  wn30instances:synset-catch-verb-24 , wn30instances:synset-get-verb-21 , wn30instances:synset-take-verb-6 , wn30instances:synset-know-verb-3 .
+
+frame:Grasp  skos:closeMatch  wn30instances:synset-take-verb-6 , wn30instances:synset-see-verb-5 , wn30instances:synset-catch-verb-24 , wn30instances:synset-get-verb-21 .
+
+frame:Shoot_projectiles
+        skos:closeMatch  wn30instances:synset-shoot-verb-1 .
+
+frame:Killing  skos:closeMatch  wn30instances:synset-kill-verb-10 .
+
+frame:Activity_resume
+        skos:closeMatch  wn30instances:synset-supplant-verb-1 .
+
+frame:Being_located  skos:closeMatch  wn30instances:synset-face-verb-4 , wn30instances:synset-seat-verb-1 , wn30instances:synset-sit_down-verb-1 , wn30instances:synset-stand-verb-10 , wn30instances:synset-lie-verb-6 .
+
+frame:Rejuvenation  skos:closeMatch  wn30instances:synset-supplant-verb-1 , wn30instances:synset-resurrect-verb-3 .
+
+frame:Operating_a_system
+        skos:closeMatch  wn30instances:synset-play-verb-18 .
+
+frame:Hit_target  skos:closeMatch  wn30instances:synset-hit-verb-5 , wn30instances:synset-shoot-verb-1 .
+
+frame:Perception_experience
+        skos:closeMatch  wn30instances:synset-feel-verb-7 , wn30instances:synset-instantiate-verb-1 , wn30instances:synset-watch-verb-3 .
+
+frame:Competition  skos:closeMatch  wn30instances:synset-meet-verb-10 .
+
+frame:Causation  skos:closeMatch  wn30instances:synset-work-verb-3 , wn30instances:synset-inseminate-verb-1 , wn30instances:synset-supplant-verb-1 , wn30instances:synset-affect-verb-5 , wn30instances:synset-establish-verb-5 , wn30instances:synset-leave-verb-11 , wn30instances:synset-bring-verb-10 , wn30instances:synset-give-verb-9 , wn30instances:synset-suborn-verb-2 , wn30instances:synset-move-verb-11 .
+
+frame:Encounter  skos:closeMatch  wn30instances:synset-call-verb-13 , wn30instances:synset-meet-verb-7 .
+
+frame:Hindering  skos:closeMatch  wn30instances:synset-obstruct-verb-3 , wn30instances:synset-catch-verb-16 .
+
+frame:Intentionally_act
+        skos:closeMatch  wn30instances:synset-begin-verb-7 , wn30instances:synset-attack-verb-1 , wn30instances:synset-conduct-verb-6 .
+
+frame:Nuclear_process
+        skos:closeMatch  wn30instances:synset-disintegrate-verb-2 .
+
+frame:Manufacturing  skos:closeMatch  wn30instances:synset-establish-verb-5 , wn30instances:synset-give-verb-9 , wn30instances:synset-cut-verb-20 , wn30instances:synset-create-verb-5 , wn30instances:synset-build-verb-7 .
+
+frame:Intentionally_create
+        skos:closeMatch  wn30instances:synset-build-verb-7 , wn30instances:synset-work-verb-3 , wn30instances:synset-provoke-verb-2 , wn30instances:synset-cut-verb-20 .
+
+frame:Getting  skos:closeMatch  wn30instances:synset-buy-verb-3 , wn30instances:synset-catch-verb-25 , wn30instances:synset-net-verb-1 , wn30instances:synset-locate-verb-1 , wn30instances:synset-walk-verb-5 , wn30instances:synset-inherit-verb-2 , wn30instances:synset-inherit-verb-3 .
+
+frame:Contingency  skos:closeMatch  wn30instances:synset-determine-verb-8 , wn30instances:synset-discover-verb-3 .
+
+frame:Text_creation  skos:closeMatch  wn30instances:synset-call_out-verb-2 , wn30instances:synset-shout-verb-2 , wn30instances:synset-impart-verb-1 , wn30instances:synset-publish-verb-3 , wn30instances:synset-say-verb-9 .
+
+frame:Quitting_a_place
+        skos:closeMatch  wn30instances:synset-fall-verb-7 .
+
+frame:Working_on  skos:closeMatch  wn30instances:synset-collaborate-verb-2 .
+
+frame:Attempt_suasion
+        skos:closeMatch  wn30instances:synset-tug-verb-2 , wn30instances:synset-call-verb-10 , wn30instances:synset-seduce-verb-1 .
+
+frame:Setting_out  skos:closeMatch  wn30instances:synset-plunge-verb-3 , wn30instances:synset-begin-verb-10 .
+
+frame:Building  skos:closeMatch  wn30instances:synset-provoke-verb-2 , wn30instances:synset-work-verb-3 , wn30instances:synset-build-verb-7 .
+
+frame:Adopt_selection
+        skos:closeMatch  wn30instances:synset-comply-verb-1 .
+
+frame:Cause_to_continue
+        skos:closeMatch  wn30instances:synset-continue-verb-1 .
+
+frame:Apply_heat  skos:closeMatch  wn30instances:synset-draw-verb-32 , wn30instances:synset-cook-verb-5 .
+
+frame:Contacting  skos:closeMatch  wn30instances:synset-write-verb-4 , wn30instances:synset-connect-verb-8 .
+
+frame:Locative_relation
+        skos:closeMatch  wn30instances:synset-adhere-verb-6 , wn30instances:synset-stick-verb-9 , wn30instances:synset-cover-verb-1 , wn30instances:synset-converge-verb-1 .
+
+frame:Bringing  skos:closeMatch  wn30instances:synset-carry-verb-19 , wn30instances:synset-transit-verb-1 , wn30instances:synset-drive-verb-12 , wn30instances:synset-drive-verb-13 , wn30instances:synset-fly-verb-3 , wn30instances:synset-hold-verb-14 , wn30instances:synset-drive-verb-16 .
+
+frame:Placing  skos:closeMatch  wn30instances:synset-supplant-verb-1 , wn30instances:synset-pair-verb-3 , wn30instances:synset-compact-verb-1 , wn30instances:synset-daub-verb-2 .
+
+frame:Installing  skos:closeMatch  wn30instances:synset-retrofit-verb-1 .
+
+frame:Discussion  skos:closeMatch  wn30instances:synset-write-verb-4 , wn30instances:synset-ask-verb-3 , wn30instances:synset-ask-verb-5 , wn30instances:synset-verbalize-verb-1 , wn30instances:synset-impart-verb-3 , wn30instances:synset-give-verb-35 , wn30instances:synset-study-verb-3 .
+
+frame:Conduct  skos:closeMatch  wn30instances:synset-act-verb-3 , wn30instances:synset-gain-verb-8 , wn30instances:synset-have-verb-17 , wn30instances:synset-dissemble-verb-3 .
+
+frame:Communicate_categorization
+        skos:closeMatch  wn30instances:synset-map-verb-5 , wn30instances:synset-mark-verb-2 , wn30instances:synset-treat-verb-1 .
+
+frame:Departing  skos:closeMatch  wn30instances:synset-chicken_out-verb-1 , wn30instances:synset-leave-verb-8 .
+
+frame:Waking_up  skos:closeMatch  wn30instances:synset-animate-verb-4 , wn30instances:synset-resuscitate-verb-1 .
+
+frame:Cogitation  skos:closeMatch  wn30instances:synset-rivet-verb-3 , wn30instances:synset-sacrifice-verb-1 .
+
+frame:Travel  skos:closeMatch  wn30instances:synset-precipitate-verb-3 , wn30instances:synset-walk-verb-2 , wn30instances:synset-continue-verb-3 , wn30instances:synset-drive-verb-16 , wn30instances:synset-move-verb-2 , wn30instances:synset-run-verb-31 , wn30instances:synset-run-verb-25 , wn30instances:synset-carry-verb-35 , wn30instances:synset-wander-verb-3 , wn30instances:synset-walk-verb-9 , wn30instances:synset-walk-verb-4 , wn30instances:synset-back-verb-4 , wn30instances:synset-walk-verb-8 , wn30instances:synset-surveil-verb-1 , wn30instances:synset-raft-verb-1 .
+
+frame:Perception  skos:closeMatch  wn30instances:synset-see-verb-19 , wn30instances:synset-watch-verb-3 , wn30instances:synset-feel-verb-7 .
+
+frame:Inhibit_movement
+        skos:closeMatch  wn30instances:synset-prevent-verb-2 .
+
+frame:Be_translation_equivalent
+        skos:closeMatch  wn30instances:synset-translate-verb-7 .
+
+frame:Change_of_phase
+        skos:closeMatch  wn30instances:synset-condense-verb-6 , wn30instances:synset-condense-verb-3 .
+
+frame:Complaining  skos:closeMatch  wn30instances:synset-snivel-verb-1 .
+
+frame:Path_shape  skos:closeMatch  wn30instances:synset-drive-verb-1 , wn30instances:synset-drive-verb-3 , wn30instances:synset-list-verb-3 , wn30instances:synset-hop-verb-2 , wn30instances:synset-drop-verb-1 , wn30instances:synset-wander-verb-3 .
+
+frame:Fining  skos:closeMatch  wn30instances:synset-amerce-verb-1 .
+
+frame:Religious_belief
+        skos:closeMatch  wn30instances:synset-convert-verb-5 .
+
+frame:Manipulation  skos:closeMatch  wn30instances:synset-curl_up-verb-1 , wn30instances:synset-draw_in-verb-1 , wn30instances:synset-drive-verb-9 , wn30instances:synset-brush-verb-4 , wn30instances:synset-draw_off-verb-1 , wn30instances:synset-feel-verb-8 , wn30instances:synset-push-verb-5 , wn30instances:synset-pull-verb-4 , wn30instances:synset-pull-verb-9 .
+
+frame:Change_operational_state
+        skos:closeMatch  wn30instances:synset-kill-verb-13 .
+
+frame:Perception_body
+        skos:closeMatch  wn30instances:synset-urticate-verb-1 .
+
+frame:Cooking_creation
+        skos:closeMatch  wn30instances:synset-keep-verb-12 , wn30instances:synset-dress-verb-10 , wn30instances:synset-trim-verb-6 , wn30instances:synset-make-verb-38 .
+
+frame:Experiencer_obj
+        skos:closeMatch  wn30instances:synset-catch-verb-28 , wn30instances:synset-reap-verb-2 , wn30instances:synset-work-verb-18 , wn30instances:synset-hit-verb-9 , wn30instances:synset-chafe-verb-2 , wn30instances:synset-worry-verb-1 .
+
+frame:Carry_goods  skos:closeMatch  wn30instances:synset-hold-verb-14 , wn30instances:synset-fly-verb-3 .
+
+frame:Hunting_success_or_failure
+        skos:closeMatch  wn30instances:synset-hunt-verb-7 , wn30instances:synset-run-verb-26 , wn30instances:synset-catch-verb-25 .
+
+frame:Feigning  skos:closeMatch  wn30instances:synset-make-verb-42 .
+
+frame:Attaching  skos:closeMatch  wn30instances:synset-hang-verb-1 , wn30instances:synset-hang-verb-13 , wn30instances:synset-catch-verb-16 , wn30instances:synset-plaster-verb-2 , wn30instances:synset-cement-verb-2 , wn30instances:synset-concatenate-verb-1 , wn30instances:synset-stick-verb-9 .
+
+frame:Hit_or_miss  skos:closeMatch  wn30instances:synset-hit-verb-5 , wn30instances:synset-shoot-verb-1 .
+
+frame:Communication  skos:closeMatch  wn30instances:synset-give-verb-35 , wn30instances:synset-verbalize-verb-1 , wn30instances:synset-impart-verb-1 , wn30instances:synset-propagate-verb-2 , wn30instances:synset-ask-verb-5 , wn30instances:synset-bring-verb-1 , wn30instances:synset-write-verb-4 , wn30instances:synset-ask-verb-3 , wn30instances:synset-impart-verb-3 , wn30instances:synset-go_around-verb-2 , wn30instances:synset-say-verb-9 .
+
+frame:Grinding  skos:closeMatch  wn30instances:synset-powderize-verb-1 .
+
+frame:Create_representation
+        skos:closeMatch  wn30instances:synset-sculpt-verb-1 .
