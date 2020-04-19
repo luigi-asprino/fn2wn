@@ -16,9 +16,29 @@ This repository contains the Framester's FrameNet 1.5 to WordNet 3.0 mappings or
   - Unmapped siblings of mapped noun or verb synsets.
   - Derivational links between different kinds of synsets.
 
-The directory *w3id* contains the mappings defined following the current Framester's URI schema, while the directory *backwardCompatibiltyVersion* contains the mappings that follows the old Framester's URI schema.
+The directory **w3id** contains the mappings defined following the current Framester's URI schema, while the directory **backwardCompatibiltyVersion** contains the mappings that follows the old Framester's URI schema.
 
 **TODO** Reckless??
+
+
+### Mapping implementation
+
+The mapping between FrameNet's frames and WordNet's synsets is provided using ``skos:closeMatch`` property as follows:
+
+```
+<FRAME_URI> skos:closeMatch <SYNSET_URI>
+```
+
+### Statistics 
+
+||Number of mappings|
+|-|-|
+|Base Profile|9337|
+
+||Number of conservative mappings|Number of reckless mappings|
+|-|-|-|
+|Direct Profile|58250|69824|
+|Transitive Profile|146795|214746|
 
 
 ## License
