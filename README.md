@@ -48,7 +48,7 @@ The mapping between FrameNet's frames and WordNet's synsets is implemented by us
 
 ## License
 
-- This package is distributed under licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+- This datset is distributed under licence [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Authors
 
