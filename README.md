@@ -28,7 +28,7 @@ The directory **w3id** contains the mappings defined following the current Frame
 
 ### Mapping implementation
 
-The mapping between FrameNet's frames and WordNet's synsets is provided using ``skos:closeMatch`` property as follows:
+The mapping between FrameNet's frames and WordNet's synsets is implemented using ``skos:closeMatch`` property as follows:
 
 ```
 <FRAME_URI> skos:closeMatch <SYNSET_URI>
