@@ -54,7 +54,8 @@ In this section we provide the statistics among the mapped synsets (i.e. here we
 |Base|6|1.15|
 |Direct Conservative|11|1.29|
 |Direct Reckless|14|1.55|
-|Transitive Conservative|21|2.23|
+|Transitive Conservative|17|1.52|
+|Transitive Reckless|21|2.23|
 
 To compute the average we used the following query
 
