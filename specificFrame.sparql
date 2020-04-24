@@ -1,0 +1,14 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX frame: <https://w3id.org/framester/framenet/abox/frame/>
+PREFIX wn30instances: <https://w3id.org/framester/wn/wn30/instances/>
+PREFIX fn15schema: <https://w3id.org/framester/framenet/tbox/>
+
+SELECT (COUNT(DISTINCT  *) AS ?c) {
+  GRAPH <https://w3id.org/framester/fn2wn/transitive/conservative> {
+  	?fn  skos:closeMatch ?wn .
+	FILTER NOT EXISTS {
+       ?fn2 skos:closeMatch ?wn .
+       ?fn fn15schema:inheritsFrom+ ?fn2 .
+    }
+  }
+}
