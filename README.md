@@ -23,9 +23,11 @@ This repository contains the Framester's FrameNet 1.5 to WordNet 3.0 mappings or
 
 The directory **w3id** contains the mappings defined following the current Framester's URI schema, while the directory **backwardCompatibiltyVersion** contains the mappings that follows the old Framester's URI schema.
 
-**Reckless extensions**: The reckless extensions use an heuristic in order to extend base mappings with synset's direct hyponym.
+### Additional flavors
 
-**Specific extensions**:
+- **Reckless flavor**: The reckless flavor uses an heuristic in order to extend base mappings with synset's direct hyponym.
+
+- **Specific flavor**: if a synset is associated with two frames of the same hierarchy, only the most specific one is kept.
 
 
 ### Mapping implementation
