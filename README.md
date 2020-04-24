@@ -23,7 +23,9 @@ This repository contains the Framester's FrameNet 1.5 to WordNet 3.0 mappings or
 
 The directory **w3id** contains the mappings defined following the current Framester's URI schema, while the directory **backwardCompatibiltyVersion** contains the mappings that follows the old Framester's URI schema.
 
-**Reckless extension**: The reckless extension uses an heuristic in order to extend base mappings with synset's direct hyponym.
+**Reckless extensions**: The reckless extensions use an heuristic in order to extend base mappings with synset's direct hyponym.
+
+**Specific extensions**:
 
 
 ### Mapping implementation
@@ -41,14 +43,19 @@ In this section we provide the statistics among the mapped synsets (i.e. here we
 |Profile|Number of Mappings|Max mappings per synset|Avg. of mappings per synset|
 |-|-|-|-|
 |Base|9337|6|1.15|
+|Base Specific|9217|5|1.13|
 |Direct Conservative|58250|11|1.29|
+|Direct Conservative Specific|55597|11|1.23|
 |Direct Reckless|69824|14|1.55|
+|Direct Reckless Specific|65537|11|1.45|
 |Transitive Conservative|146795|17|1.52|
+|Transitive Conservative Specific|136097|12|1.41|
 |Transitive Reckless|214746|21|2.23|
+|Transitive Reckless Specific|190756|18|1.98|
 
 To compute the average we used the following query
 
-```[SPARQL]
+```[sparql]
 SELECT (SUM(?c) AS ?sum)  (MAX(?c) AS ?max) (AVG(?c) AS ?avg){
 	SELECT (COUNT(?fn) AS ?c) {
 		?fn  skos:closeMatch ?wn
