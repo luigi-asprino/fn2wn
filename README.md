@@ -45,6 +45,26 @@ The mapping between FrameNet's frames and WordNet's synsets is implemented by us
 |Direct Profile|58250|69824|
 |Transitive Profile|146795|214746|
 
+#### Number of mappings per synset
+
+In this section we provide the statistics among the mapped synsets (i.e. here we do not consider the unmapped synsets).
+
+|Profile|Max mappings per synset|Avg. of mappings per synset|
+|-|-|-|
+|Base|6|1.15|
+|Direct Conservative|11|1.29|
+|Direct Reckless|14|1.55|
+|Transitive Conservative|21|2.23|
+
+To compute the average we used the following query
+
+```[SPARQL]
+SELECT (MAX(?c) AS ?max) (AVG(?c) AS ?avg){
+	SELECT (COUNT(?fn) AS ?c) {
+		?fn  skos:closeMatch ?wn
+	} GROUP BY ?wn
+}
+```
 
 ## License
 
