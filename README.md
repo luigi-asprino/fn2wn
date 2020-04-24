@@ -36,31 +36,20 @@ The mapping between FrameNet's frames and WordNet's synsets is implemented by us
 
 ### Statistics 
 
-||Number of mappings|
-|-|-|
-|Base Profile|9337|
-
-||Number of conservative mappings|Number of reckless mappings|
-|-|-|-|
-|Direct Profile|58250|69824|
-|Transitive Profile|146795|214746|
-
-#### Number of mappings per synset
-
 In this section we provide the statistics among the mapped synsets (i.e. here we do not consider the unmapped synsets).
 
-|Profile|Max mappings per synset|Avg. of mappings per synset|
-|-|-|-|
-|Base|6|1.15|
-|Direct Conservative|11|1.29|
-|Direct Reckless|14|1.55|
-|Transitive Conservative|17|1.52|
-|Transitive Reckless|21|2.23|
+|Profile|Number of Mappings|Max mappings per synset|Avg. of mappings per synset|
+|-|-|-|-|
+|Base|9337|6|1.15|
+|Direct Conservative|58250|11|1.29|
+|Direct Reckless|69824|14|1.55|
+|Transitive Conservative|146795|17|1.52|
+|Transitive Reckless|214746|21|2.23|
 
 To compute the average we used the following query
 
 ```[SPARQL]
-SELECT (MAX(?c) AS ?max) (AVG(?c) AS ?avg){
+SELECT (SUM(?c) AS ?sum)  (MAX(?c) AS ?max) (AVG(?c) AS ?avg){
 	SELECT (COUNT(?fn) AS ?c) {
 		?fn  skos:closeMatch ?wn
 	} GROUP BY ?wn
