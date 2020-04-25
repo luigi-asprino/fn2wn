@@ -27,7 +27,7 @@ The directory **w3id** contains the mappings defined following the current Frame
 
 - **Reckless flavor (R)** : The reckless flavor uses an heuristic in order to extend base mappings with synset's direct hyponym.
 
-- **Specific flavor (S)**: if a synset is associated with two frames of the same hierarchy, only the most specific one is kept.
+- **Specific flavor (S)**: if a synset is associated with two frames of the same hierarchy, only the most specific one is kept (cf. [specificFrame.sparql](specificFrame.sparql)). 
 
 
 ### Mapping implementation
